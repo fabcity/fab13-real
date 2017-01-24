@@ -1,0 +1,105 @@
+<!-- Photo Gallery -->
+<div style="padding-top:0px; padding-bottom: 40px;">
+
+	{% if page.hasgallery1 == true %}
+		<h3 class="section-sub-subheading"> {{ page.gallerytitle }} </h3>
+		<div class="row text-center" style="margin-right: 0px; margin-left: 0px; padding-bottom: 30px;">
+			{% for image in page.images %}
+				<a class="thumb" href="#" data-image-id="" data-toggle="modal" data-title="Image One" data-caption="Dummy text" data-image="{{ image.image_path }}.jpg" data-href="{{ image.image_path }}.jpg" data-target="#image-gallery">
+					<div class="col-md-4" style="background-image: url({{ image.image_path }}-thumb.jpg); background-position: center center; background-attachment: scroll; background-size: cover;">
+					</div>
+           		</a>
+			{% endfor %}
+		</div>
+	{% endif %}	
+	
+
+	{% if page.hasgallery2 == true %}
+		<h3 class="section-sub-subheading"> {{page.gallerytitle2 }} </h3>
+		<div class="row text-center" style="margin-right: 0px; margin-left: 0px; padding-bottom: 30px;">
+			{% for image in page.images2 %}
+				<a class="thumb" href="#" data-image-id="" data-toggle="modal" data-title="Image One" data-caption="Dummy text" data-image="{{ image.image_path2 }}.jpg" data-href="{{ image.image_path2 }}.jpg" data-target="#image-gallery">
+					<div class="col-md-4" style="background-image: url({{ image.image_path2 }}-thumb.jpg); background-position: center center; background-attachment: scroll; background-size: cover;">
+					</div>
+           		</a>
+		    {% endfor %}
+		</div>
+	{% endif %}
+
+
+	{% if page.hasgallery3 == true %}
+		<h3 class="section-sub-subheading"> {{page.gallerytitle3 }} </h3>
+		<div class="row text-center" style="margin-right: 0px; margin-left: 0px; padding-bottom: 30px;">
+			{% for image in page.images3 %}
+				<a class="thumb" href="#" data-image-id="" data-toggle="modal" data-title="Image One" data-caption="Dummy text" data-image="{{ image.image_path3 }}.jpg" data-href="{{ image.image_path3.jpg }}" data-target="#image-gallery">
+					<div class="col-md-4" style="background-image: url({{ image.image_path3 }}-thumb.jpg); background-position: center center; background-attachment: scroll; background-size: cover;">
+					</div>
+           		</a>
+		    {% endfor %}
+		</div>
+	{% endif %}
+
+	{% if page.hasgallery4 == true %}
+		<h3 class="section-sub-subheading"> {{page.gallerytitle4 }} </h3>
+		<div class="row text-center" style="margin-right: 0px; margin-left: 0px; padding-bottom: 30px;">
+			{% for image in page.images4 %}
+				<a class="thumb" href="#" data-image-id="" data-toggle="modal" data-title="Image One" data-caption="Dummy text" data-image="{{ image.image_path4 }}.jpg" data-href="{{ image.image_path4.jpg }}" data-target="#image-gallery">
+					<div class="col-md-4" style="background-image: url({{ image.image_path4 }}-thumb.jpg); background-position: center center; background-attachment: scroll; background-size: cover;">
+					</div>
+           		</a>
+		    {% endfor %}
+		</div>
+	{% endif %}
+
+	{% if page.hasgallery5 == true %}
+		<h3 class="section-sub-subheading"> {{page.gallerytitle5 }} </h3>
+		<div class="row text-center" style="margin-right: 0px; margin-left: 0px; padding-bottom: 30px;">
+			{% for image in page.images5 %}
+				<a class="thumb" href="#" data-image-id="" data-toggle="modal" data-title="Image One" data-caption="Dummy text" data-image="{{ image.image_path5 }}.jpg" data-href="{{ image.image_path5.jpg }}" data-target="#image-gallery">
+					<div class="col-md-4" style="background-image: url({{ image.image_path5 }}-thumb.jpg); background-position: center center; background-attachment: scroll; background-size: cover;">
+					</div>
+           		</a>
+		    {% endfor %}
+		</div>
+	{% endif %}
+
+
+</div>
+
+<!--Modals --> 
+<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" >
+
+	        	<div class="modal-content">
+	            <div class="modal-header"> 
+	                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+	               <!-- <h4 class="modal-title" id="image-gallery-title"></h4>-->
+	            </div>
+	            <div class="modal-body">
+	                <img id="image-gallery-image" class="img-responsive" src="">
+	            </div>
+	            <div class="modal-footer">
+
+	                <div class="col-md-2 pull-left">
+	                    <button type="button" class="btn btn-default" id="show-previous-image"><i class="fa fa-arrow-left"></i></button>
+	                </div>
+	                <div class="col-md-2 pull-right" style="padding-right: 0px;">
+	                    <button type="button" id="show-next-image" class="btn btn-default"><i class="fa fa-arrow-right"></i></button>
+	                </div>
+	                <!--
+	                 <div class="col-md-12" id="image-gallery-caption">
+	                    This text will be overwritten by jQuery
+	                </div>-->
+	                <!--
+	                <div class="col-md-12" id="image-gallery-link">
+	                    <a href="" target="_blank">I'll be changed</a>
+	                </div>
+	            	-->
+	            </div>
+	        </div>
+ 
+	</div>
+</div>
+
+
+

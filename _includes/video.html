@@ -1,0 +1,17 @@
+<!-- Video Frame -->
+<div>
+
+	{% if page.hasvideo == true %}
+		<div class="row text-center" style="margin-right: 0px; margin-left: 0px; padding-bottom: 30px;">
+       		<div class="videoWrapper">
+				<iframe src="{{ page.video_embed }}?vq=hd1080&rel=0&theme=light&color=white&showinfo=0&modestbranding=1&controls=2&autohide=1" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+		</div>
+	{% endif %}	
+	
+
+	
+</div>
+
+
+

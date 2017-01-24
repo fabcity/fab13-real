@@ -1,0 +1,22 @@
+---
+title: 
+description: 
+layout: posts
+date: 2014-07-18
+img: 
+thumbnail: 
+permalink: /post
+hasvideo: false
+video_embed: https://www.youtube.com/embed/AnTObS4TcwM
+hasgallery: false   
+images:  
+  - image_path: /img/ 
+    title: Image
+---
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+ <!-- Contact Section -->
+<section id="contact" style="padding:60px 0px 0px 0px">
+    <div class="container">
+        <div class="row" style="margin-bottom: 80px">
+            <div class="col-lg-12 text-center" style="text-align:left;">
+                <ul class="list-inline">
+                    {% for network in site.social %}
+                    <li style="padding-right:25px;">
+                        <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-3x fa-{{ network.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

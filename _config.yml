@@ -1,0 +1,88 @@
+# Site settings
+
+title: Fab13 Fabricating Society 
+email: info@fabfoundation.org
+description: "Fab 13 is the 13th international Fab Lab Conference in Santiago de Chile, jul 31 - aug 6 2017"
+url: http://127.0.0.1:4000/
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  black: 141414
+  white: ffffff
+  andeanwhite: dce6da
+  andeanceleste: a8dadc
+  andeanblue: 457b9d
+  andeannavy: 1d3557
+  andeanpink: eb5f69
+  andeanred: e63946
+
+fonts: 
+  primary: Karla  
+  secondary:
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/fabfndn
+  - title: facebook
+    url: https://www.facebook.com/fabfndn
+  - title: youtube
+    url: https://www.youtube.com/user/fabfndn
+  - title: envelope
+    url: mailto:info@fabfoundaiton.org 
+
+
+# Team names, titles and social links
+people:
+- name: 
+  pic: 1
+  position: 
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: 
+  pic: 2
+  position: 
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: 
+  pic: 3
+  position: 
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: The Fab Foundat  ion
+  - line: 50 Milk St. 16th Floor
+  - line: Boston MA 02109
+  - line: Tel +1 857 333 7777
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Gems
+gems:
+  - kramdown
+
+
+urlimg: '/img/' 
