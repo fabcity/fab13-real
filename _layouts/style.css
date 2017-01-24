@@ -5,6 +5,7 @@
 {% include additional_css/bootstrap.min.css %}
 {% include additional_css/font-awesome/font-awesome.min.css %}
 {% include additional_css/full-slider.css %}
+{% include additional_css/timetablejs.css %}
 
 
 /*///////TEMPLATE CSS////////*/
@@ -409,7 +410,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    background-color: #{{ site.color.andeanwhite }};
+    background-color: #{{ site.color.white }};
     background-attachment: scroll;
     height:100%;
     /*background-image: url('../img/header-bg.png');*/
@@ -1153,7 +1154,7 @@ ul.social-buttons li a:active {
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.andeanpink }};
 }
 
 img::selection {
@@ -1165,7 +1166,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #{{ site.color.primary }};
+    webkit-tap-highlight-color: #{{ site.color.andeanpink }};
 }
 
 
@@ -1325,18 +1326,6 @@ body {
 .cr-orange    { background-color: #e82; }
 .cr-yellow    { background-color: #ec0; }
 
-
-/* customization for location tags in posts */
-
-.location {
-        position: static;
-    }
-
-@media (min-width: 680px) {
-    .location {
-        position: absolute;
-    } 
-}
 
 
 /*Cookie message css overwrites*/
