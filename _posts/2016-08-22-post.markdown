@@ -7,7 +7,7 @@ img:
 thumbnail: 
 permalink: /post
 hasvideo: false
-video_embed: https://www.youtube.com/embed/AnTObS4TcwM
+video_embed: 
 hasgallery: false   
 images:  
   - image_path: /img/ 

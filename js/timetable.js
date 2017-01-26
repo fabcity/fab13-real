@@ -4,8 +4,8 @@
 
 var Timetable = function() {
 	this.scope = {
-		hourStart: 8,
-		hourEnd: 22
+		hourStart: 9,
+		hourEnd: 2
 	};
 	this.locations = [];
 	this.events = [];
