@@ -409,17 +409,19 @@ fieldset[disabled] .btn-xl.active {
 /*---WEBSITE HEADERS-*/ 
 
 header {
+    /*
     text-align: center;
     background-color: #{{ site.color.white }};
     background-attachment: scroll;
     height:100%;
-    /*background-image: url('../img/header-bg.png');*/
+    /*background-image: url('../img/header-bg.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    */
 }
 
 header .intro-text {
