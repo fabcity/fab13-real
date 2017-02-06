@@ -26,18 +26,14 @@ body {
     overflow-x: hidden;
     font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     background: #{{ site.color.whites }};
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.blacks }};
 }
+
 
 section{
-    padding: 80px 0px 0px 0px;
+    background-color: #f9f9f9;
 }
 
-@media(min-width:767px) {
-    section{
-     padding: 150px 0px 0px 0px;
-    }
-} 
 
 .row {
     margin-right: 0px;
@@ -713,61 +709,33 @@ h4.section-small-highlight{
 }
 
 /*---WHAT SECTION--*/ 
-#what{
-    margin-bottom: 100px;
-}
 
-.left-line {
-    border-left: 0px;
-}
-
-@media(min-width:992px) {
-    .left-line{
-        border-left: 1px solid #{{ site.color.primary}} ;
-    } 
-} 
-
-.right-line {
-    border-right: 0px;
-}
-
-@media(min-width:992px) {
-    .right-line {
-        border-right: 1px solid #{{ site.color.primary}} ;
-    } 
-} 
-
-.manifesto-what{
-    padding-top: 120px;
-}
-
-@media(min-width:767px) {
-    .manifesto-what{
-        padding-top: 250px;
-    }
-} 
-
-.manifesto-svg {
-    padding-bottom: 10px;
-    height: 200px;
-}
 
 /*---CONTENT MOSAIC SECTION--*/ 
 
-section#content-mosaic {
-    padding: 100px 0px 0px 0px;
+section#tracks {
+    padding: 50px 0px 0px 0px;
 }
 
 
-.mosaic {
-  margin: 10px;
+@media(min-width:768px) {
+    section#tracks {
+        padding: 0px 0px 0px 0px;
+    }
 }
-
 
 .mosaic-title{
     font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     font-size: 16px;
+    width:100%;  
+    line-height:300px; 
+    text-align: center;     
+    vertical-align: middle;
+    color: transparent;
+}
+
+.mosaic-icon{
     width:100%;  
     line-height:300px; 
     text-align: center;     
@@ -1747,15 +1715,5 @@ video {
 }
 
 
-
-
-/*Tracks section*/
-
-.track {
-
-    height: 300px;
-
-
-}
 
 
