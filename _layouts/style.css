@@ -1383,3 +1383,53 @@ body {
 
 
 
+/*Expandable boxes*/
+
+@import "compass/css3";
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.expandable-boxes {
+  position: relative;
+}
+
+.expandable-box {
+  /*width: 30%;*/ 
+  height: 130px;
+  float: left;
+ /*margin: 0 3% 20px 0; */
+  border: 1px solid #999;
+  border-radius: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+  
+.expandable-box.open {
+    border-color: #dd0000;
+    width: 96%;
+    height: 180px;
+    margin: 0;
+}
+  
+.expandable-box.out {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+
+
+
+
