@@ -8,8 +8,8 @@ url: http://127.0.0.1:4000/
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  black: 141414
-  white: ffffff
+  blacks: 141414
+  whites: ffffff
   andeanwhite: dce6da
   andeanceleste: a8dadc
   andeanblue: 457b9d
