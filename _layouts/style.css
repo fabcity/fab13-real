@@ -5,8 +5,8 @@
 {% include additional_css/bootstrap.min.css %}
 {% include additional_css/font-awesome/font-awesome.min.css %}
 {% include additional_css/full-slider.css %}
-
 {% include additional_css/timetablejs.css %}
+{% include additional_css/expandables.css %}
 
 
 /*///////TEMPLATE CSS////////*/
@@ -600,7 +600,7 @@ header {
     background-attachment: scroll;
     background-image: url(../img/banner-web-blue.svg);
     background-color: #1c3557;
-    background-position: center center;
+    background-position: center 20px;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
