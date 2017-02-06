@@ -66,25 +66,37 @@ body {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: #F06060;
+	background: #dce6da;
 }
 
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: #FA987D;
+	background: #457b9d;
 }
 
 .bl-main > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background: #72CCA7;
+	background: #1d3557;
 }
 
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: #10A296;
+	background: #e63946;
+}
+
+.bl-main > section:nth-child(5) {
+	top: 50%;
+	left: 50%;
+	background: #eb5f69;
+}
+
+.bl-main > section:nth-child(5) {
+	top: 50%;
+	left: 50%;
+	background: #dce6da;
 }
 
 .bl-box {
