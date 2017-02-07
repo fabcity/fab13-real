@@ -21,10 +21,14 @@
 
  /*---GENERAL TEXT--*/ 
 
+ @font-face {
+    font-family: 'Tstarr'; src: url('/fonts/TSTARRB.ttf');
+}
+
 
 body {
     overflow-x: hidden;
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     background: #{{ site.color.whites }};
     color: #{{ site.color.blacks }};
 }
@@ -46,33 +50,6 @@ section{
         margin-left: 25px;
     }
 }
-
-.title {
-    padding-bottom:50px;
-}
-
-.title-manifesto {
-    padding-bottom:30px;
-}
-
-@media(min-width:767px) {
-    .title {
-        padding-bottom:90px;
-    }
-}
-
-.line {
-    height:6px;
-    margin:16px 0px;
-    background-color: #{{ site.color.primary}};
-}
-
-@media(min-width:767px) {
-    .line {
-        height:10px;
-    }
-}
-
   
 .button {
     padding: 20px 20px 0px 0px;
@@ -95,7 +72,7 @@ section{
 p {
     font-size: 18px;
     line-height: 1.7;
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary }};
     margin-top: 0em;
     margin-bottom: 1.3em;
@@ -142,7 +119,7 @@ a.active {
 }
 
 a {
-    color: #{{ site.color.secondary }};
+    color: #{{ site.color.andeanpink }};
     cursor: pointer;
 }
 
@@ -162,7 +139,6 @@ h6 {
     text-transform: none;
     font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 900;
-    color: #{{ site.color.primary }};;
 }
 
 .oblique {
@@ -196,7 +172,7 @@ filled with th primary color defined in config*/
 .btn-primary { 
     text-transform: uppercase;
     text-align: center;
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-size: 14px;
     padding: 14px 30px; 
@@ -279,7 +255,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 0;
     text-transform: none;
     text-align: right;
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     line-height: 18px;
     font-weight: 300;
@@ -302,7 +278,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 0;
     text-transform: none;
     text-align: right;
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     line-height: 18px;
     font-weight: 300;
@@ -476,7 +452,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -526,8 +502,8 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #FAFAFA;
+        /*padding: 10px 0;*/
+        background-color: #{{ site.color.andeannavy }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -725,14 +701,15 @@ section#tracks {
 }
 
 .mosaic-title{
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    font-size: 16px;
+    font-family: '{{ site.fonts.primary }}','{{ site.fonts.secondary }}', "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
     width:100%;  
     line-height:300px; 
     text-align: center;     
     vertical-align: middle;
-    color: transparent;
+    color: #{{ site.color.whites }};
+    text-transform: uppercase ;
+    display: none;
 }
 
 .mosaic-icon{
@@ -741,6 +718,7 @@ section#tracks {
     text-align: center;     
     vertical-align: middle;
     color: transparent;
+    display:none;
 }
 
 /*Grow link when hover*/
