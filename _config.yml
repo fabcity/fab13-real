@@ -9,7 +9,7 @@ url: http://127.0.0.1:4000/
 # Color settings (hex-codes without the leading hash-tag)
 color:
   blacks: 141414
-  whites: ffffff
+  whites: f9f9f9
   andeanwhite: dce6da
   andeanceleste: a8dadc
   andeanblue: 457b9d
@@ -20,6 +20,7 @@ color:
 fonts: 
   primary: Tstarr 
   secondary: Karla
+  texts: Karla
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -71,7 +72,7 @@ people:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: The Fab Foundat  ion
+  - line: The Fab Foundation
   - line: 50 Milk St. 16th Floor
   - line: Boston MA 02109
   - line: Tel +1 857 333 7777
