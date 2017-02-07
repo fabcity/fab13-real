@@ -1,9 +1,20 @@
 <!--Tracks mosaic-->
 <section id="tracks">
   <div class="container" style="margin:0px; padding:0px; width: 100%;">
+    
+    <!--
+    <div class="row">
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+    </div> -->
+
     <div class ="row" >
 
-      <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-4 track" style="background-color: #dce6da;">
+    <!--
+      <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-12 track-description" style="background-color: #dce6da;">
+      </div>
+    -->
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 track" style="background-color: #dce6da;" data-toggle="modal" data-target="#citiesModal" data="Este es un parrafo con la frase descriptiva del módulo">
         <div class="mosaic-icon center">
           <img src="/img/icons/cities.svg">
         </div>
@@ -60,5 +71,36 @@
     </div>  
   </div>
 </section>
+
+
+
+
+<!--Modal -->
+
+<div class="track-modal modal fade" id="citiesModal">
+    <div class="modal-content" style= "background-color: #{{ site.color.andeanwhite}}; ">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Cities</h2>         
+                        <p>Since the second industrial revolution, our cities have externalized the production of products and goods, decontextualizing creation and territory. It’s estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and solutioning their own needs?</p>
+                        <!--
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 

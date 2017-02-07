@@ -25,14 +25,12 @@
     font-family: 'Tstarr'; src: url('/fonts/TSTARRB.ttf');
 }
 
-
 body {
     overflow-x: hidden;
     font-family: '{{ site.fonts.texts }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     background: #{{ site.color.whites }};
     color: #{{ site.color.blacks }};
 }
-
 
 .row {
     margin-right: 0px;
@@ -60,7 +58,6 @@ p {
     color: #{{ site.color.blacks }};
     margin-top: 0em;
     margin-bottom: 1.3em;
-    padding-right: 20px;
     padding-top: 0px;
 }
 
@@ -95,7 +92,6 @@ h6 {
 }
 
 
-
 /*---GENERAL IMG--*/ 
 
 .img-centered {
@@ -107,6 +103,7 @@ h6 {
 
 
 /*Main Button*/
+
 .btn {
     padding: 15px 38px; 
     border-radius: 0;
@@ -158,7 +155,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
-/*Inverted colors button alternative*/
+/*Inverted colors button */
 
 .btn-inverted {
     background-color: #f9f9f9;
@@ -178,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
-/* Right align button option */
+/* Right align button */
 
 .right-align {
     position: absolute;
@@ -200,6 +197,7 @@ fieldset[disabled] .btn-xl.active {
         margin-bottom:0px;
     }
 }
+
 
 
 /*---NAVIGATION BAR--*/ 
@@ -541,7 +539,7 @@ h4.section-small-highlight{
 /*---WHAT SECTION--*/ 
 
 
-/*---CONTENT MOSAIC SECTION--*/ 
+/*---TRACKS MOSAIC SECTION--*/ 
 
 section#tracks {
     padding: 50px 0px 0px 0px;
@@ -576,6 +574,12 @@ section#tracks {
     display: inline-block;
 }
 
+
+.track-description {
+    height: 600px;
+    display: none;
+
+}
 
 
 
@@ -1034,8 +1038,8 @@ ul.social-buttons li a:active {
 }
 
 
-/*PORTFOLIO  MODALS */  /*NOT IN USE */
-.portfolio-modal .modal-content {
+/*EVENT TRACKS  MODALS */ 
+.track-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -1043,36 +1047,27 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #{{ site.color.whites}}; 
 }
 
-.portfolio-modal .modal-content h2 {
-    margin-bottom: 15px;
+.track-modal .modal-content h2 {
+    margin-bottom: 85px;
     font-size: 3em;
     text-align: center;
+    text-transform: uppercase;
 }
 
-.portfolio-modal .modal-content p {
+.track-modal .modal-content p {
     margin-bottom: 30px;
     text-align: left;
+    color: #{{ site.color.blacks}};
 }
 
-.portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
-}
-
-.portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
+.track-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
-.portfolio-modal .close-modal {
+.track-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -1082,11 +1077,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.track-modal .close-modal:hover {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.track-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -1097,7 +1092,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.track-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
@@ -1106,6 +1101,9 @@ ul.social-buttons li a:active {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+
+/*--- Teams --*/
 
 .team-member {
     margin-bottom: 50px;
