@@ -1,6 +1,7 @@
 ---
 title: Decentralization
 layout: default
+type: tracks
 modal-id: 2
 img: decentralization
 color: 457b9d

@@ -1,6 +1,7 @@
 ---
 title: Housing
 layout: default
+type: tracks
 modal-id: 4
 img: housing
 color: e63946

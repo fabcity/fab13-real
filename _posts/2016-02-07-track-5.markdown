@@ -1,6 +1,7 @@
 ---
 title: Education
 layout: default
+type: tracks
 modal-id: 5
 img: education
 color: eb5f69

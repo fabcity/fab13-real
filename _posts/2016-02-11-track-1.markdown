@@ -1,6 +1,7 @@
 ---
 title: Cities
 layout: default
+type: tracks
 modal-id: 1
 img: cities
 color: dce6da
