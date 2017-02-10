@@ -34,42 +34,6 @@ social:
     url: mailto:info@fabfoundaiton.org 
 
 
-# Team names, titles and social links
-people:
-- name: 
-  pic: 1
-  position: 
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: 
-  pic: 2
-  position: 
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: 
-  pic: 3
-  position: 
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-
 # Postal address (add as many lines as necessary)
 address:
   - line: The Fab Foundation
