@@ -1,0 +1,9 @@
+---
+title: Environment
+layout: default
+modal-id: 3
+img: energy
+color: 1d3557
+summary: Since the second industrial revolution, our cities have externalized the production of products and goods, decontextualizing creation and territory. It’s estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and solutioning their own needs?
+
+---
