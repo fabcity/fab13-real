@@ -5,76 +5,28 @@
   <!-- lineal schedule-->
   <div class = "container">
     <ul class="main">
-      <li class="date">
-        <h3>Jul 31</h3>
-        <p>Schedule of Events</p>
-      </li> 
-      <li class= "events">
-        <ul class="events-detail">
-          {% for activity in site.data.activities.jul31 %}   
-          <li>
-            <a href="#">
-              <span class="event-time">{{ activity.start }} - {{ activity.end }} </span>
-              <span class="event-name">{{ activity.title }}</span>
-              <br/>
-              <span class="event-location">{{ activity.place }}</span>
-            </a>
-          </li>
-          {% endfor %}  
-        </ul>
-      </li>
 
-      <li class="date">
-        <h3>Ago 1</h3>
-        <p>Schedule of Events</p>
-      </li> 
-      <li class= "events">
-        <ul class="events-detail">
-          {% for activity in site.data.activities.ago1 %}   
-          <li>
-            <a href="#">
-              <span class="event-time">{{ activity.start }} - {{ activity.end }} </span>
-              <span class="event-name">{{ activity.title }}</span>
-              <br/>
-              <span class="event-location">{{ activity.place }}</span>
-            </a>
-          </li>
-          {% endfor %}  
-        </ul>
-      </li>
+        <li class="date">
+          <h3>Jul 31</h3>
+          <p>Schedule of Events</p>
+        </li> 
+        <li class= "events">
+          <ul class="events-detail">
+            {% for activity in site.data.activities.jul31 %}   
+            <li>
+              <a href="#">
+                <span class="event-time">{{ activity.start }} - {{ activity.end }} </span>
+                <span class="event-name">{{ activity.title }}</span>
+                <br/>
+                <span class="event-location">{{ activity.place }}</span>
+              </a>
+            </li>
+            {% endfor %}  
+          </ul>
+        </li>
 
     </ul>  
   </div>
-
-
-  <!-- backup copy
-    <div class = "container">
-    <ul class="main">
-      <li class="date">
-        <h3>Dec 18</h3>
-        <p>Schedule of Events</p>
-      </li>
-      <li class= "events">
-        <ul class="events-detail">
-          <li>
-            <a href="#">
-              <span class="event-time">2:00pm - 5:00pm </span>
-              <span class="event-name">Kickoff Ceremony</span>
-              <br />
-              <span class="event-location">Headquarters</span>
-            </a>
-          </li>
-        </ul> 
-
-      </li>
-    </ul>  
-  </div>
--->
-
-
-
-
-
 
 
 
