@@ -2,37 +2,96 @@
 <section style="padding-bottom: 150px;">
 
 
+
   <!-- lineal schedule-->
   <div class = "container">
     <ul class="main">
 
-        <li class="date">
-          <h3>Jul 31</h3>
-          <p>Schedule of Events</p>
-        </li> 
-        <li class= "events">
-          <ul class="events-detail">
-            {% for activity in site.data.activities.jul31 %}   
-            <li>
-              <a href="#">
-                <span class="event-time">{{ activity.start }} - {{ activity.end }} </span>
-                <span class="event-name">{{ activity.title }}</span>
-                <br/>
-                <span class="event-location">{{ activity.place }}</span>
-              </a>
-            </li>
-            {% endfor %}  
-          </ul>
-        </li>
+      <li class="date">
+        <h3>Jul 31</h3>
+        <p>Schedule of Events</p>
+      </li> 
+      <li class= "events">
+        <ul class="events-detail">
+          {% for activity in site.data.activities.jul31 %}   
+          <li>
+            <a href="#">
+              <span class="event-time">{{ activity.start }} - {{ activity.end }} </span>
+              <span class="event-name">{{ activity.title }}</span>
+              <br/>
+              <span class="event-location">{{ activity.place }}</span>
+            </a>
+          </li>
+          {% endfor %}  
+        </ul>
+      </li>
+
+      <li class="date">
+        <h3>Aug 01</h3>
+        <p>Schedule of Events</p>
+      </li> 
+      <li class= "events">
+        <ul class="events-detail">
+          {% for activity in site.data.activities.ago1 %}   
+          <li>
+            <a href="#">
+              <span class="event-time">{{ activity.start }} - {{ activity.end }} </span>
+              <span class="event-name">{{ activity.title }}</span>
+              <br/>
+              <span class="event-location">{{ activity.place }}</span>
+            </a>
+          </li>
+          {% endfor %}  
+        </ul>
+      </li>
+
+
+      <li class="date">
+        <h3>Aug 02</h3>
+        <p>Schedule of Events</p>
+      </li> 
+      <li class= "events">
+        <ul class="events-detail">
+          {% for activity in site.data.activities.ago2 %}   
+          <li>
+            <a href="#">
+              <span class="event-time">{{ activity.start }} - {{ activity.end }} </span>
+              <span class="event-name">{{ activity.title }}</span>
+              <br/>
+              <span class="event-location">{{ activity.place }}</span>
+            </a>
+          </li>
+          {% endfor %}  
+        </ul>
+      </li>
+
+      <li class="date">
+        <h3>Aug 03</h3>
+        <p>Schedule of Events</p>
+      </li> 
+      <li class= "events">
+        <ul class="events-detail">
+          {% for activity in site.data.activities.ago3 %}   
+          <li>
+            <a href="#">
+              <span class="event-time">{{ activity.start }} - {{ activity.end }} </span>
+              <span class="event-name">{{ activity.title }}</span>
+              <br/>
+              <span class="event-location">{{ activity.place }}</span>
+            </a>
+          </li>
+          {% endfor %}  
+        </ul>
+      </li>
 
     </ul>  
   </div>
 
 
 
-<!-- Planner schedule -->
+<!-- Planner schedule 
 
-<div class="container">
+  <div class="container">-->
     <!--<h1> Schedule </h1> 
   </div>
   <div id="exTab1" class="container"> 
