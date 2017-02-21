@@ -1586,7 +1586,6 @@ h3 {padding: 0; margin: 0;}
 }
 
 
-
 @media all and (max-width: 641px) {
     .date {
       width: 100%;
@@ -1610,89 +1609,57 @@ h3 {padding: 0; margin: 0;}
 }
 
 
-/*// HEADER PARALLAX EFFECT //*/
 
-
-/* op1*/
 .parallax {
-    background-image: url(../img/elements/logo1.png);
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
 
-.parallax2 {
-    height:1000px;
-    background-color: transparent;   
-    background-image: url(../img/elements/logo2.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 
-/*opt2*/
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
 
-
-.divider {
-    height:50px;
-}
-
-section {
-    height:500px;
-    padding-top:50px;
-    padding-bottom:50px;
-    overflow:auto;
-}
-
-.bg-1 {
-    background: url(../img/elements/logo1.svg) no-repeat center center fixed;
-    color:#fff;
-    background-size:cover;
-}
-
-  
-.bg-2 {
-    background: url(../img/elements/logo2.png) no-repeat top center fixed;
-    color:#fff;
-    background-size:cover;
-}
-
-.bg-3 {
-    background: url(../img/elements/logo1.png) no-repeat bottom center fixed;
-    color:#fff;
-    background-size:cover;
-}
-
-#footer {
-    height: 60px;
-    background-color:#585858;
-    margin-top:50px;
-    padding-top:20px;
-    padding-bottom:20px;
-}
-
-#footer a {
-  color:#efefef;
-}
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-1px);
+    transform: translateZ(-1px) scale(2);
+  }
 
 
+* {
+    margin:0;
+    padding:0;
+  }
 
-.elem1,
-.elem2 {
 
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.elem2 {
-  z-index: 10;
-  transform: translateY(20px);
-}
+  .parallax {
+    font-size: 200%;
+  }
+
+   /* add some padding to force scrollbars */
+  .parallax__layer {
+    padding: 100vh 0;
+  }
+
+   /* centre the content in the parallax layers */
+  .titled {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 
 
 
