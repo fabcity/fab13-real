@@ -1757,10 +1757,6 @@ h3 {padding: 0; margin: 0;}
     overflow: hidden;
   }
 
-  body {
-    font: 100% / 1.5 Arial;
-  }
-
   * {
     margin:0;
     padding:0;
@@ -1798,7 +1794,7 @@ h3 {padding: 0; margin: 0;}
      color: #ffffff;
   }
   #group2 .parallax__layer--back {
-    background: #457b9d;
+    background: #1d3557;
      color: #ffffff;
   }
 
