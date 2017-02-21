@@ -1653,13 +1653,22 @@ h3 {padding: 0; margin: 0;}
   }
 
    /* centre the content in the parallax layers */
-  .titled {
+  .title1 {
     position: absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+  .title2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-49%, -51%); 
+  }
+
 
 
 
