@@ -7,6 +7,7 @@
 {% include additional_css/full-slider.css %}
 {% include additional_css/timetablejs.css %}
 {% include additional_css/expandables.css %}
+{% include additional_css/codyhouse.css %}
 
 
 /*///////TEMPLATE CSS////////*/
@@ -1608,70 +1609,7 @@ h3 {padding: 0; margin: 0;}
   }
 }
 
-
-
-/* Parallax test ok
-
-.parallax {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 1px;
-    perspective: 1px;
-  }
-
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .parallax__layer--base {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-
-  .parallax__layer--back {
-    -webkit-transform: translateZ(-1px);
-    transform: translateZ(-1px) scale(2);
-  }
-
-
-* {
-    margin:0;
-    padding:0;
-  }
-
-
-  .parallax {
-    font-size: 200%;
-  }
-
-  
-  .parallax__layer {
-    padding: 100vh 0;
-  }
-
-
-  .title1 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
-  .title2 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-49%, -51%); 
-  }
-
-*/
+/*////PARALLAX STRUCTURE///*/
 
 .parallax {
     height: 500px; /* fallback for older browsers */
@@ -1754,7 +1692,7 @@ h3 {padding: 0; margin: 0;}
   --------------------------------------------- */
 
   body, html {
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
 
   * {
@@ -1793,7 +1731,7 @@ h3 {padding: 0; margin: 0;}
      color: #ffffff;
   }
   #group2 .parallax__layer--back {
-    background: #1d3557;
+    background: #f9f9f9;
      color: #ffffff;
   }
 

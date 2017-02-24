@@ -19,8 +19,8 @@ color:
 
 fonts: 
   primary: Tstarr 
-  secondary: Karla
-  texts: Karla
+  secondary: Nunito
+  texts: Nunito
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
