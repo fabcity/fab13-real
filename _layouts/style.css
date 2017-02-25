@@ -62,13 +62,6 @@ p {
     padding-top: 0px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-}
 
 a {
     color: #{{ site.color.andeanpink }};
@@ -79,7 +72,8 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-     color: #{{ site.color.andeanred }};
+    color: #{{ site.color.andeanred }};
+    outline: 0;
 }
 
 h1,
@@ -224,6 +218,10 @@ fieldset[disabled] .btn-xl.active {
 .navbar a:active,
 .navbar a:focus {
     color: #{{ site.color.andeanpink}};
+}
+
+.nav li a:hover, .nav li a:focus {
+    background-color: transparent;
 }
 
 .navbar-brand
