@@ -29,8 +29,8 @@
 body {
     overflow-x: hidden;
     font-family: '{{ site.fonts.texts }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: #{{ site.color.whites }};
-    color: #{{ site.color.blacks }};
+    background: #{{ site.color.andeansand }};
+    color: #{{ site.color.andeannavy }};
 }
 
 .row {
@@ -53,13 +53,17 @@ body {
 }
 
 p {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 1.7;
     font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.color.blacks }};
+    color: #{{ site.color.andeannavy }};
     margin-top: 0em;
     margin-bottom: 1.3em;
     padding-top: 0px;
+}
+
+p.large {
+    font-size: 17px;
 }
 
 
@@ -100,10 +104,18 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 900;
+    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #{{ site.color.andeanred }};
+    text-transform: uppercase;
+    padding-bottom: 50px;
+
 }
 
+
+h3 { 
+    font-size: 22px; 
+}
 
 /*---GENERAL IMG--*/ 
 
@@ -1245,7 +1257,6 @@ ul.main {
   max-width: 75%;
   margin: 20px auto;
 }
-h3 {padding: 0; margin: 0;}
 
 
 .date {
@@ -1426,15 +1437,10 @@ h3 {padding: 0; margin: 0;}
     text-align: center;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
-
-  .header-title {
-    top: 30%; 
-  }
-
 
 
   /* style the groups
@@ -1444,7 +1450,7 @@ h3 {padding: 0; margin: 0;}
     z-index: 5; /* slide over group 2 */
   }
   #group1 .parallax__layer--base {
-    background: #{{ site.color.andeansand }};
+    background: transparent;
   }
 
   #group2 {
@@ -1452,8 +1458,8 @@ h3 {padding: 0; margin: 0;}
      color: #ffffff;
   }
   #group2 .parallax__layer--back {
-    background: #f9f9f9;
-     color: #ffffff;
+    background: #FAFBF9;
+    color: #ffffff;
   }
 
   #group3 {
@@ -1517,4 +1523,9 @@ h3 {padding: 0; margin: 0;}
     position: relative;
     height: 100%;
 }
+
+.intro {
+
 }
+
+
