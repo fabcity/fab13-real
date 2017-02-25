@@ -122,7 +122,6 @@ h6 {
 
 .btn:hover,
 .btn:active,
-.btn.active,
 .btn:focus,
 .open .dropdown-toggle.btn {
     border: 4px solid #e53946; 
@@ -203,203 +202,44 @@ fieldset[disabled] .btn-xl.active {
 
 /*---NAVIGATION BAR--*/ 
 
-.navbar-default {
-    border-color: transparent;
-    background-color: transparent;
-    /*opacity: 0.96; */
-}
-
-@media(min-width:767px) {
-    .navbar-default {
-        padding: 24px 0;
-        border: 0;
-    }
-}    
-
-
-.nav-container {
-    margin: 0px 0px;
-    padding: 0% 0%; 
-    width: 100%;
-}
-
-@media(min-width:767px) {
-    .nav-container {
-        padding: 0% 5%; 
-    }
-}    
-
-.logo-box {
-   position:fixed; 
-   z-index: 2;
-   top: 0px;
-   left: 8%;
-   background-color: #{{ site.color.secondary }};
-   width:120px;
-}
-
-
-.logo-max {
-    height:90px; 
-    margin-left: 30px;
-    margin-top: 90px;
-    margin-bottom: 30px;
-}
-
-.logo-navbar-min {
-    height: 52px; 
-    margin-left: 45px;
-    margin-top:  8px;
-    margin-bottom: 10px;
-}
-
-
-.navbar-default .navbar-brand {
-    text-transform: uppercase ;
-    font-family: '{{ site.fonts.primary }}',"Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.secondary }};
-    font-size: 1.5em ;
-    font-weight: bold;
-
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    text-decoration: underline;
-}
-
-.navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
-}
-
-@media(min-width:768px) {
-    .navbar-default .navbar-collapse {
-        padding-top: 0px;
-    }
-}
-
-@media(min-width: 992px) {
-    .navbar-default .navbar-collapse {
-        padding-top: 0px;
-    }
-}
-
-
-.navbar-default .navbar-toggle {
-    border-color: #{{ site.color.secondary }};
-    background-color: #{{ site.color.secondary }};
-    border-radius: 0px;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.color.primary }};
-}
-
-
-.navbar-default .nav li a {
-    text-transform: uppercase;
-    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 10px 10px; 
-    color: #{{ site.color.whites }};
-    
-}
-
-@media(min-width: 1050px) {
-    .navbar-default .nav li a {
-       padding: 10px 23px; 
-    }
-}
-
-
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
-    outline: 0;
-    text-decoration: none;
-     color: #{{ site.color.andeanpink }};
-}
-
-.navbar-default .navbar-nav>.active>a {
-    border-radius: 0;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-@media(min-width:767px) {
-
-    .navbar-default .navbar-brand {
-        font-size: 1.5em;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-
-    .navbar-default .navbar-nav>.active>a {
-        /*border-radius: 3px; */
-    }
-
-    .navbar-default.navbar-shrink {
-        /*padding: 10px 0;*/
-        background-color: #{{ site.color.andeannavy }};
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
-}
-
-.header-logo {
-        height:0px;
-        margin-top: 0px;
-    }
-
-@media(min-width:768px) {
-    .header-logo {
-        height:40px;
-    }
-}
-
-.logo-mobile {
-        height:29px;
-        margin-top: 12px;
-        padding-left: 15px;
-    }
-
-@media(min-width:768px) {
-    .logo-mobile {
-        height:0px;
-    }
-}
-
-
-/* cnetered test */
- .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
- .navbar-collapse {
-  text-align: center;
-}
-
 .navbar {
-    min-height: 90px;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 700px;
 }
+
+.navbar-nav li a { 
+    font-family: 'Nunito', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #{{ site.color.andeannavy}};
+}
+
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus {
+    color: #{{ site.color.andeanpink}};
+}
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    font-family: 'TSTARR', sans-serif;
+    font-size: 25px;
+}
+
+
+
 
 
 /*---WEBSITE HEADERS-*/ 
@@ -1692,7 +1532,7 @@ h3 {padding: 0; margin: 0;}
   --------------------------------------------- */
 
   body, html {
-    /*overflow: hidden;*/
+    overflow: hidden;
   }
 
   * {
@@ -1723,7 +1563,7 @@ h3 {padding: 0; margin: 0;}
     z-index: 5; /* slide over group 2 */
   }
   #group1 .parallax__layer--base {
-    background: #1d3557;
+    background: #{{ site.color.andeansand }};
   }
 
   #group2 {
@@ -1782,7 +1622,4 @@ h3 {padding: 0; margin: 0;}
     text-align:center;
     width: 100%;
   }
-
-
-
 
