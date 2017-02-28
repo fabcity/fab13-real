@@ -107,15 +107,20 @@ h6 {
     font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #{{ site.color.andeanred }};
-    text-transform: uppercase;
-    padding-bottom: 50px;
-
+    text-transform: uppercase;    
 }
 
 
 h3 { 
-    font-size: 22px; 
+    font-size: 22px;
+    padding-bottom: 50px; 
 }
+
+h4 { 
+    font-size: 18px; 
+    padding-bottom: 10px; 
+}
+
 
 /*---GENERAL IMG--*/ 
 
@@ -1524,4 +1529,8 @@ ul.main {
     height: 100%;
 }
 
+
+.tracks-img {
+    padding-bottom: 20px;
+}
 
