@@ -45,20 +45,22 @@ body {
 .bl-main {
 	position: relative;
 	width: 100%;
-	height: auto;
+	height: 800px;
 	/*overflow: hidden;*/
 	overflow: visible;
+	background-color: #a8dadc;
 }
 
 .bl-main > section {
 	position: relative;
-	width: 100%;
+	width: 50%;
 	height: auto;
 }
 
 .bl-main > section:first-child {
+	/*
 	top: 0;
-	left: 0;
+	left: 0;*/
 	background: #dce6da;
 }
 
@@ -232,7 +234,7 @@ div.bl-panel-items > div > div {
 	max-width: 100%;
 }
 
-/* Panel Items */
+/* Panel Items 
 
 div.bl-panel-items,
 div.bl-panel-items > div {
@@ -342,6 +344,8 @@ div.bl-panel-items > div.bl-hide-current-work {
 	-ms-transform: translateY(-100%) scale(0.5);
 	z-index: 0;
 }
+
+*/
 
 /* Transition classes and properties */
 /* Separated for a better overview and control */
