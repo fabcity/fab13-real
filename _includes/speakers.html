@@ -1,29 +1,19 @@
 <!-- Speakers section -->
-
-<div id="group4" class="parallax__group">
-
-
-   <div class="parallax__layer parallax__layer--base">
+<section id="speakers" style="background:#ffffff">
+  <div class="container">
+    <!--
     <div class="row text-center">
-     <h4>Fab 13 guest speakers</h4>
-    </div> 
-<!--
-    <div class="container">
-      <div class="row text-center">
-        <h4>Speakers</h4>
-       </div>
-
-
-      <div class="row text-center">
-        {% for speaker in site.data.speakers %}
-          <div class="col-xs-12 col-sm-6 col-md-4">
-             <h4>{{ speaker.name }}</h4>
-             <p>{{ speaker.bio }}</p>
-          </div>
-        {% endfor %}
-      </div>  
--->
-    </div>
-
-  </div><!--layer base-->
-</div> <!--group4>
+      <h4>Fab 13 guest speakers</h4>
+    </div> -->
+    <div class="row text-center">
+      {% for speaker in site.data.speakers %}
+        <div class="col-xs-12 col-sm-6 col-md-4 text-center">
+          <div class="imgs-speaker" style= "background-image: url(..{{ speaker.img }});"> </div>
+           <!--<img src="{{ speaker.img }}" class= "img-speaker img-circle">--> 
+           <h4>{{ speaker.name }}</h4>
+           <p>{{ speaker.bio }}</p>
+        </div>
+      {% endfor %}
+    </div>  
+  </div>
+</div>

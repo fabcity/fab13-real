@@ -33,6 +33,16 @@ body {
     color: #{{ site.color.andeannavy }};
 }
 
+section {
+    padding: 100px 0;
+}
+
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+}
+
 .container-text {
     width: 100%;
 }
@@ -141,6 +151,23 @@ h4 {
 
 .img-centered {
     margin: 0 auto;
+}
+
+.img-speaker {
+    width: 250px;
+    padding-bottom:20px;
+}
+
+.imgs-speaker {
+    background-image: url(../img/speakers/nadya.jpg);
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom:20px;
 }
 
 
