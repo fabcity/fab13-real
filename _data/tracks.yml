@@ -4,9 +4,12 @@
   modalid: 1
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
-    - speaker: Nadya Peek
+    - name: Nadya Peek
       img: /img/speakers/nadya.jpg 
       url: www.google.com
+    - name: Sherry Lassiter
+      img: /img/speakers/sherry.png
+      url:
 
 - name: Housing
   short: How can we provide solutions to the housing problem that exists in Latin America?

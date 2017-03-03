@@ -1,4 +1,4 @@
- <!-- Portfolio Modals -->
+ <!-- Tracks Modals -->
 {% for track in site.data.tracks %}
 <div class="track-modal modal fade" id="tracksModal{{ track.modalid }}">
     <div class="modal-content modal-particles" style= "background-color: #{{ site.color.andeannavy }}; ">
@@ -16,17 +16,16 @@
                         <h2>{{ track.name }}</h2>         
                         <p>{{ track.text }}</p>
                         <h4>Speakers</h4>
+                        {% for speaker in track.speakers %}
+                            <a href="/speakers" alt="{{ speaker.name }}">
+                                <div class="modal-speaker" style= "background-image: url(..{{ speaker.img }});"> </div>
+                            </a>
+                            <!--<p>{{ speaker.name }}</p>-->
+                        {% endfor %}
+
                     </div>
                 </div>
             </div>
-
-            <!--
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h4>Speakers</h4>
-                </div>
-            </div>
-            -->
 
         </div>
     </div>

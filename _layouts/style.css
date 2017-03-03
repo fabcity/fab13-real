@@ -957,7 +957,7 @@ ul.social-buttons li a:active {
 }
 
 .track-modal .modal-content p {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     text-align: left;
     font-size: 20px;
     font-weight: 200;
@@ -1008,6 +1008,19 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+
+.modal-speaker {
+    background-image: url(../img/speakers/nadya.jpg);
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 14px 10px 14px 0px;
+    float:left;
 }
 
 /* --- Old modals-- */
