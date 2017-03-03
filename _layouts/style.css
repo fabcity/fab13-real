@@ -212,19 +212,20 @@ h4 {
 /*Inverted colors button */
 
 .btn-inverted {
-    background-color: #f9f9f9;
-    border: 4px solid #dbe5d8; 
-    color: #ea5f69;
+    background-color: transparent;
+    border: 4px solid #{{ site.color.andeanwhite }}; 
+    color: #{{ site.color.andeanwhite}};
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 
 .btn-inverted:hover,
 .btn-inverted:active,
 .btn-inverted:focus {
-    border: 4px solid #dbe5d8; 
-    color: #e53946;
-    background-color: #dbe5d8;
+    border: 4px solid #{{ site.color.andeanpink }}; 
+    color: #{{ site.color.andeanpink }};
+    background-color: transparent;
 
 }
 
@@ -1019,7 +1020,7 @@ ul.social-buttons li a:active {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    margin: 14px 10px 14px 0px;
+    margin: 14px 20px 14px 0px;
     float:left;
 }
 
@@ -1630,3 +1631,44 @@ ul.main {
     padding-bottom: 20px;
 }
 
+
+/*-- TIMETABLE CSS OVERWRITES --*/
+
+
+.nav-pills>li.active>a {
+    color: #{{ site.color.whites }};
+    background-color: #{{ site.color.andeanpink }};
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #{{ site.color.whites }};
+    background-color: #{{ site.color.andeanpink }};
+
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+.timetable aside li {
+    padding: 0 15px;
+    background-color: #EFEFEF;
+    line-height: 46px;
+    font-size: 20px;
+}
+
+.timetable section header {
+    background-color: transparent;
+ }
+
+
+
+.timetable .time-entry small {
+    font-size: 15px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+}
