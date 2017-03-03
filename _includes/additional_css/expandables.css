@@ -1,51 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
-
-@font-face {
-	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot');
-	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.woff') format('woff'),
-		url('../fonts/icomoon.ttf') format('truetype'),
-		url('../fonts/icomoon.svg#icomoon') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
-
-#codrops-ad-wrapper {
-	top: auto !important;
-	bottom: 10px;
-}
-
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #f2ede3;
-    background: #333;
-    font-size: 0.9em;
-    font-weight: 300;
-}
-
-.bl-main a {
-}
-
-.bl-main a:hover {
-}
-
 .container { height: 100%; }
 
 .bl-main {
 	position: relative;
 	width: 100%;
-	height: 800px;
+	height: 500px;
 	/*overflow: hidden;*/
 	overflow: visible;
 	background-color: #a8dadc;
@@ -65,8 +23,8 @@ body {
 }
 
 .bl-main > section:nth-child(2) {
-	top: 0;
-	left: 50%;
+	/*top: 0;
+	left: 0;*/
 	background: #457b9d;
 }
 
@@ -234,7 +192,7 @@ div.bl-panel-items > div > div {
 	max-width: 100%;
 }
 
-/* Panel Items 
+/* Panel Items */
 
 div.bl-panel-items,
 div.bl-panel-items > div {
@@ -344,8 +302,6 @@ div.bl-panel-items > div.bl-hide-current-work {
 	-ms-transform: translateY(-100%) scale(0.5);
 	z-index: 0;
 }
-
-*/
 
 /* Transition classes and properties */
 /* Separated for a better overview and control */

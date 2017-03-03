@@ -26,6 +26,8 @@
     font-family: 'Tstarr'; src: url('/fonts/TSTARRB.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700');
+
 body {
     overflow-x: hidden;
     font-family: '{{ site.fonts.texts }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -131,8 +133,8 @@ h6 {
 }
 
 
-h3 { 
-    font-size: 22px;
+h2 { 
+    font-size: 36px;
     padding-bottom: 50px; 
 }
 
@@ -169,6 +171,7 @@ h4 {
     margin: 0 auto;
     margin-bottom:20px;
 }
+
 
 
 /*---GENERAL BUTTONS--*/ 
@@ -935,25 +938,42 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background-color: #{{ site.color.whites}}; 
+    background-color: #{{ site.color.andeannavy}}; 
+    letter-spacing: 2px;
 }
 
 .track-modal .modal-content h2 {
-    margin-bottom: 85px;
-    font-size: 3em;
+    font-size: 28px;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #{{ site.color.andeanwhite }};
+    font-weight: 600;
+}
+
+.track-modal .modal-content h4 {
+    text-align: left;
+    color: #{{ site.color.andeanwhite }};
 }
 
 .track-modal .modal-content p {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: left;
-    color: #{{ site.color.blacks}};
+    font-size: 20px;
+    font-weight: 200;
+    color: #{{ site.color.andeanwhite }};
+    letter-spacing: 0px;
 }
 
 .track-modal .modal-content img {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+
 }
+
+.track-modal .img-icon {
+    width: 160px;
+}
+
 
 .track-modal .close-modal {
     position: absolute;
@@ -971,10 +991,10 @@ ul.social-buttons li a:active {
 
 .track-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
+    width: 5px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #{{ site.color.andeanwhite }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -982,13 +1002,86 @@ ul.social-buttons li a:active {
 
 .track-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
+    width: 5px;
     height: 75px;
-    background-color: #222;
+    background-color: #{{ site.color.andeanwhite }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+/* --- Old modals-- */
+/*--> EVENT TRACKS MODALS -->*/ 
+
+/*
+
+.modal-content {
+    border-radius: 0px;
+    background-color: #000;
+}
+
+.modal-header {
+    border-bottom: 0px;
+    min-height: 50px;
+}
+
+.modal-body {
+    padding: 0px 30px 0px 30px;
+}
+
+.modal-content button.close {
+    padding: 0px;
+}
+
+
+.modal-content .close {
+    font-size: 28px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 100;
+}
+
+
+.modal-footer {
+    padding-top: 50px;
+    min-height:150px;
+    border-top: 0px;
+    text-align: center;
+}
+
+.modal-footer.col-md-2 {
+    padding-right: 0px;
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+    border-radius: 0px;
+
+}
+
+.modal-body .img-responsive {
+    width: 100%;
+}
+
+
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 900px;
+    }
+}
+
+.modal-header{
+    padding: 25px 30px 0px 30px;
+}
+
+.modal-title {
+    color: #{{ site.color.whites }};
+}
+*/
+
 
 
 /*--- Teams --*/
@@ -1072,64 +1165,14 @@ body {
     color: #fff;
 }
 
-/*--> modal bootstrap defaults overwritten css -->*/ 
-
 @media (min-width: 768px) {
    #image-gallery.modal-dialog {
         width: 600px;
     }
 }
 
-.modal-content {
-    border-radius: 0px;
-    background-color: #000;
-}
-
-.modal-header {
-    border-bottom: 0px;
-    min-height: 50px;
-}
-
-.modal-body {
-    padding: 0px;
-}
 
 
-.modal-content button.close {
-    padding: 0px;
-}
-
-
-.modal-content .close {
-    font-size: 28px;
-    opacity: 1;
-    color: #fff;
-    font-weight: 100;
-}
-
-
-.modal-footer {
-    padding-top: 50px;
-    min-height:150px;
-    border-top: 0px;
-    text-align: center;
-}
-
-.modal-footer.col-md-2 {
-    padding-right: 0px;
-}
-
-.btn-default {
-    color: #fff;
-    background-color: #000;
-    border-color: #fff;
-    border-radius: 0px;
-
-}
-
-.modal-body .img-responsive {
-    width: 100%;
-}
 
 
 /*Video*/
@@ -1205,30 +1248,6 @@ body {
 .carousel-caption {
     font-family: ;
 
-}
-
-/*Price info Modals */
-
-@media (min-width: 768px) {
-    .modal-dialog {
-        width: 900px;
-    }
-}
-
-.modal-header{
-    padding: 25px 30px 0px 30px;
-}
-
-.modal-title {
-    color: #{{ site.color.whites }};
-}
-
-.modal-body {
-    padding: 25px 30px 0px 30px;
-}
-
-.modal-body p {
-    color: #{{ site.color.whites }};
 }
 
 
@@ -1582,6 +1601,17 @@ ul.main {
     height: 100%;
 }
 
+.modal-particles {
+        background-attachment: scroll;
+    background-image: url(../img/backgrounds/particles.svg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
 
 .tracks-img {
     padding-bottom: 20px;
