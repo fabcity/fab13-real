@@ -1634,6 +1634,21 @@ ul.main {
 
 /*-- TIMETABLE CSS OVERWRITES --*/
 
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 0px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+}
+
+.nav-pills>li>a {
+    border-radius: 0px;
+    font-size: 14px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
 
 .nav-pills>li.active>a {
     color: #{{ site.color.whites }};
@@ -1642,28 +1657,30 @@ ul.main {
 
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-    color: #{{ site.color.whites }};
-    background-color: #{{ site.color.andeanpink }};
-
+    color: #{{ site.color.andeannavy }};
+    background-color: transparent;
+    border-bottom: 3px solid #{{ site.color.andeanpink }}
 }
 
-.nav-pills>li>a {
-    border-radius: 0px;
-    font-size: 20px;
+
+.nav-pills>li>a:hover {
+    color: #{{ site.color.andeannavy }};
+    background-color: transparent;
+    border-bottom: 3px solid #{{ site.color.andeanpink }}
 }
 
 .timetable aside li {
     padding: 0 15px;
     background-color: #EFEFEF;
     line-height: 46px;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .timetable section header {
     background-color: transparent;
  }
-
-
 
 .timetable .time-entry small {
     font-size: 15px;
@@ -1672,3 +1689,89 @@ ul.main {
     transform: translateY(-50%);
     display: block;
 }
+
+.timetable aside li:not(:last-of-type) {
+    border-bottom: 3px solid #{{ site.color.andeansand }};
+}
+
+.timetable section header li {
+    font-weight: 700;
+}
+
+.timetable ul {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.timetable .time-entry {
+    background-color: #1d3557;
+    border-bottom: solid 1px #1a2e4d;
+    transition: 200ms background-color;
+    height: 45px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    padding: 0 10px;
+    white-space: normal;
+    overflow: hidden;
+    color: #fff;
+    border: none;
+    transform-style: preserve-3d;
+    text-transform: none;
+}
+
+.timetable .time-entry:hover {
+    background-color: #{{ site.color.andeanpink }};
+    text-decoration: none; 
+}
+
+.timetable .time-entry small {
+    font-size: 12px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.timetable ul.room-timeline li:before {
+    /* background-image: linear-gradient(to right,#E5E5E5 1px,transparent 1px); */
+    background-size: 24px auto;
+    background-image: none;
+}
+
+.timetable ul.room-timeline li {
+    position: relative;
+    background-color: white;
+}
+
+.timetable ul.room-timeline li:nth-of-type(odd) {
+    background-color: white;
+}
+
+.timetable ul.room-timeline li:first-of-type {
+    /*border-top: 1px solid #E5E5E5;*/
+    border-top: none;
+}
+
+.timetable ul.room-timeline li:last-of-type {
+   /*border-bottom: 1px solid #E5E5E5;*/
+   border-bottom: none;
+}
+
+.room-timeline {
+    back
+}
+
+
+.timetable ul.room-timeline li:after {
+    /*background-image: linear-gradient(to right,#E5E5E5,#E5E5E5 1px,#F4F4F4 1px,#F4F4F4 2px,#E5E5E5 2px,#E5E5E5 3px,transparent 3px,transparent);*/
+    background-size: 96px auto;
+    background-position: -2px 0;
+    background-image: none;
+}
+
+.timetable section {
+    overflow-y: hidden;
+    }
