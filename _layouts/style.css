@@ -773,7 +773,7 @@ section#tracks {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
-
+}
 
 @media(min-width:992px) {
 
@@ -922,19 +922,20 @@ section#contact .text-danger {
 /*FOOTER SECTION */ 
 
 footer {
-    padding: 25px 0;
-    text-align: center;
-    background-color: #000000;
+    background-color: #{{ site.color.andeannavy }};
 }
 
 h4.footer-titles {
-    color:#ffffff; 
-    padding-top:20px; 
-    padding-bottom:20px; 
-    font-weight:400;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: 300;
+    color: #{{ site.color.andeansand }};
+    padding-bottom: 30px;
+}
+
+footer li {
+    font-size: 15px;
+    font-weight: 300px ;
+    padding-bottom: 10px;
 }
 
 footer span.copyright {
