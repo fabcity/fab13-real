@@ -1775,3 +1775,20 @@ ul.main {
 .timetable section {
     overflow-y: hidden;
     }
+
+.schedule-icons {
+    padding-top: 40px;
+}
+
+.schedule-icons img {
+    width: 40px;
+    margin-right: 30px;
+}
+
+.schedule-icons ul li {
+    float: left;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
