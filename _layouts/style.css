@@ -19,8 +19,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/*For parallax*/
+body, html {
+    overflow: hidden;
+     transition:all 0.3s ease;
+  }
+
 
  /*---GENERAL TEXT--*/ 
+
 
 @font-face {
     font-family: 'Tstarr'; src: url('/fonts/TSTARRB.ttf');
@@ -92,33 +99,57 @@ p.large {
 a {
     color: #{{ site.color.andeanpink }};
     cursor: pointer;
-    /*hover grow effect 
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+}
+
+
+a:hover,
+a:focus,
+a:active, {
+    color: #{{ site.color.andeanred }};
+    outline: 0;
+}
+
+/*///CSS transitions ////*/
+.bg-fade{
+    -webkit-transition: background-color ease-out 0.5s;
+    -moz-transition: background-color ease-out 0.5s;
+    -o-transition: background-color ease-out 0.5s;
+    transition: background-color 0.5s ease;
+}
+
+
+/* Grow */
+.link-grow {
+/*
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.link-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.box-grow {
     -moz-osx-font-smoothing: grayscale;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-    */
 }
 
-/*Grow link when hover
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: #{{ site.color.andeanred }};
-    outline: 0;
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+.box-grow:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
 }
-*/
+
 
 h1,
 h2,
@@ -444,6 +475,34 @@ section#tracks {
     }
 }
 
+.track-box {
+    background-color: transparent;
+}
+
+
+
+
+.track-box:hover, .track-box:active, .track-box:focus{
+    background-color: white;
+}
+
+.track-box p {
+    padding-bottom: 15px;
+}
+
+.track-description {
+    height: 600px;
+    display: none;
+}
+
+
+.tracks-img {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+
+/*color boxes option
 .mosaic-title{
     font-family: '{{ site.fonts.primary }}','{{ site.fonts.secondary }}', "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 25px;
@@ -465,13 +524,9 @@ section#tracks {
     display:none;
     display: inline-block;
 }
+*/
 
 
-.track-description {
-    height: 600px;
-    display: none;
-
-}
 
 
 
@@ -718,7 +773,7 @@ section#tracks {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
-}
+
 
 @media(min-width:992px) {
 
@@ -1129,7 +1184,7 @@ ul.social-buttons li a:active {
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.andeansand }};
 }
 
 img::selection {
@@ -1318,9 +1373,6 @@ video {
 }
 
 
- /*---CSS ANIMATION OPTIONS---*/
-
-
 
 
 /*Agenda*/
@@ -1506,22 +1558,6 @@ ul.main {
   }
 
 
-/* demo styles
-  --------------------------------------------- */
-
-  body, html {
-    overflow: hidden;
-  }
-
-  * {
-    margin:0;
-    padding:0;
-  }
-
-  .parallax {
-    font-size: 200%;
-  }
-
    /* centre the content in the parallax layers */
  .title {
     text-align: center;
@@ -1627,10 +1663,6 @@ ul.main {
     position: relative;
 }
 
-.tracks-img {
-    padding-bottom: 20px;
-}
-
 
 /*-- TIMETABLE CSS OVERWRITES --*/
 
@@ -1703,6 +1735,7 @@ ul.main {
     text-transform: uppercase;
 }
 
+
 .timetable .time-entry {
     background-color: #1d3557;
     border-bottom: solid 1px #1a2e4d;
@@ -1718,11 +1751,17 @@ ul.main {
     border: none;
     transform-style: preserve-3d;
     text-transform: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
 
 .timetable .time-entry:hover {
     background-color: #{{ site.color.andeanpink }};
     text-decoration: none; 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .timetable .time-entry small {
@@ -1736,7 +1775,6 @@ ul.main {
 }
 
 .timetable ul.room-timeline li:before {
-    /* background-image: linear-gradient(to right,#E5E5E5 1px,transparent 1px); */
     background-size: 24px auto;
     background-image: none;
 }
@@ -1751,22 +1789,18 @@ ul.main {
 }
 
 .timetable ul.room-timeline li:first-of-type {
-    /*border-top: 1px solid #E5E5E5;*/
     border-top: none;
 }
 
 .timetable ul.room-timeline li:last-of-type {
-   /*border-bottom: 1px solid #E5E5E5;*/
    border-bottom: none;
 }
 
 .room-timeline {
-    back
 }
 
 
 .timetable ul.room-timeline li:after {
-    /*background-image: linear-gradient(to right,#E5E5E5,#E5E5E5 1px,#F4F4F4 1px,#F4F4F4 2px,#E5E5E5 2px,#E5E5E5 3px,transparent 3px,transparent);*/
     background-size: 96px auto;
     background-position: -2px 0;
     background-image: none;
