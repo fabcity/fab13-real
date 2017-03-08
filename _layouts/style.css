@@ -52,6 +52,18 @@ section {
     }
 }
 
+@media (min-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (min-width: 1200px){
+.container {
+     width: 75%;
+    }
+}
+
 .container-text {
     width: 100%;
 }
@@ -59,6 +71,13 @@ section {
 @media(min-width: 768px) { 
     .container-text {
     width: 70%;
+    }
+}
+
+
+@media(min-width: 1200px) { 
+    .container-text {
+    width: 50%;
     }
 }
 

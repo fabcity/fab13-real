@@ -1,14 +1,14 @@
 <!-- Speakers section -->
-<section id="speakers">
+<section id="speakers" style="padding-top: 0px">
   <div class="container">
-    <!--
+
     <div class="row text-center">
-      <h4>Fab 13 guest speakers</h4>
-    </div> -->
+      <h4 style="padding-bottom: 50px;">Guest speakers</h4>
+    </div>
     <div class="row text-center">
       {% for speaker in site.data.speakers %}
       
-        <div class="col-xs-12 col-sm-6 col-md-4 text-center box-grow">
+        <div class="col-xs-12 col-sm-4 col-md-4 text-center box-grow">
           <div class="imgs-speaker" style= "background-image: url(..{{ speaker.img }});"> </div>
            <h4>{{ speaker.name }}</h4>
            <p>{{ speaker.bio }}</p>
