@@ -622,8 +622,7 @@ section#tracks {
     }
 }
 
-/*TIMELINE SECTION */ /* NOT IN USE */
-
+/*TIMELINE SECTION
 .timeline {
     position: relative;
     padding: 40px 0px 0px 0px;
@@ -827,6 +826,7 @@ section#tracks {
         padding: 0 100px 20px 20px;
     }
 }
+ */
 
 
 /*TEAM SECTION */ /* NOT IN USE */
@@ -1376,7 +1376,7 @@ video {
 
 
 
-/*Agenda*/
+/*Agenda
 *, *:before, *:after {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
@@ -1470,6 +1470,8 @@ ul.main {
   }
 }
 
+
+*/
 /*////PARALLAX STRUCTURE///*/
 
 .parallax {
@@ -1665,7 +1667,7 @@ ul.main {
 }
 
 
-/*-- TIMETABLE CSS OVERWRITES --*/
+/*-- TIMETABLE CSS OVERWRITES *//
 
 .nav>li>a {
     position: relative;
@@ -1827,5 +1829,6 @@ ul.main {
 #exTab1 .nav {
     margin-bottom: 20px;
 }
+
 
 
