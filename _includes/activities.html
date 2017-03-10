@@ -1,26 +1,33 @@
 <!--Activities mosaic-->
-<section id="activities">
 
-  <div id="bl-main" class="bl-main">
-
-    <section>
-        <div class="bl-box">
-            <h2 class="">Uno</h2>
-        </div>   
-        <div class="bl-content">
-            <h2>About this module</h2>
-            <p>Thi"s responsive layout is based on an initial grid of four boxes. Once a box is clicked, it gets resized to fullscreen and the other boxes scale down and fade out. In the work section we experiment with another transition which is to show a panel by making it appear from the bottom while scaling the current one down. To see it in action, open the work section and click on one of the portfolio items and navigate through them.</p>
-        </div> 
-        <span class="bl-icon bl-icon-close"></span> 
-    </section>
-
-
-  </div> <!--bl-main -->
-
-
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Activities</h2>
+                <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+            </div>
+        </div>
+        <div class="row">
+        {% for post in site.posts %}
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>{{ post.title }}</h4>
+                    <p class="text-muted">{{ post.subtitle }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
 </section>
-
-
 
 
 
