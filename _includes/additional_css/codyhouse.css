@@ -663,7 +663,7 @@ Main Components
 }
 
 
-/* Overwrites */
+/* Overwrites 
 
 @media only screen and (min-width: 800px) {
     .cd-schedule {
@@ -715,7 +715,7 @@ Main Components
     padding: 0;
     background-color: white;
   }
-
+*/
 
   .timeline:before {
     content: "";
