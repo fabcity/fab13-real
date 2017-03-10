@@ -1,6 +1,7 @@
 - name: Cities
   short: Can cities return to producing their own objects and find solutions to their own needs?
   img: img/icons/cities-w.svg
+  imgmodal: cities-modal.svg
   modalid: 1
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
@@ -13,7 +14,8 @@
 
 - name: Housing
   short: How can we provide solutions to the housing problem that exists in Latin America?
-  img: img/icons/housing-w.svg"
+  img: img/icons/housing-w.svg
+  imgmodal: housing-modal.svg
   modalid: 2
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
@@ -26,7 +28,8 @@
 
 - name: Innovation
   short: How can Fab Labs challenge conventional production schemes and be an innovation complement to the industry?
-  img: img/icons/innovation-w.svg"
+  img: img/icons/innovation-w.svg
+  imgmodal: innovation-modal.svg
   modalid: 3
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
@@ -39,7 +42,8 @@
 
 - name: Energy and Environment
   short: Chile is home to two of the most polluted cities in Latin America. How can the country's clean energy resources be positively put to use?
-  img: img/icons/energy-w.svg"
+  img: img/icons/energy-w.svg
+  imgmodal: energy-and-environment-modal.svg
   modalid: 4
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
@@ -52,7 +56,8 @@
 
 - name: Education
   short: This is a sentence about education and also a question to cmplement this sentence?
-  img: img/icons/education-w.svg"
+  img: img/icons/education-w.svg
+  imgmodal: education-modal.svg
   modalid: 5
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
@@ -65,7 +70,8 @@
 
 - name: Decentralization
   short: With the objective of amplifying the impact of Fab13 this year we extend its reach to the regions!
-  img: img/icons/decentralization-w.svg"  
+  img: img/icons/decentralization-w.svg  
+  imgmodal: decentralization-modal.svg
   modalid: 6
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
