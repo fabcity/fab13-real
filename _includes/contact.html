@@ -1,22 +1,31 @@
 <!-- Contact section -->
-<section>
-    <div class="cont-contactBtn">
-        <div class="cont-flip">
-            <div class="front">
-                <a href="#" class="btn btn-white flip">Contact us</a>
-            </div>
-            <div class="back">
-                <a href="#" class="flip close"></a>
-                <form class="contact-form" action="">
-                    <input class="gutter" type="text" placeholder="Name">
-                    <input type="text" placeholder="Company">
-                    <input class="gutter" type="text" placeholder="Telephone">
-                    <input type="text" placeholder="Email">
-                    <textarea name="" id="" placeholder="Leave a message"></textarea>
+<section id="contact">
+    <div class= "container">
+        <div class="row">
+            <div class="col-md-12">
+
+
+                <formaction="https://formspree.io/mariaan@fab.city" method="POST" class="contact-form">
+                  <div class="field-container">
+                    <input type="text" class="input" name="name" placeholder="Name" />
+                  </div>
+                  <div class="field-container">
+                    <input type="text" class="input" name="email" placeholder="Email" />
+                  </div>
+                  <div class="field-container">
+                    <textarea class="input text-area" name="message" placeholder="Your Message"></textarea>
+                  </div>
+                </form>
+
+
+                <!--
+                <form action="https://formspree.io/your@email.com" method="POST">
+                    <input type="text" name="name">
+                    <input type="email" name="_replyto">
                     <input type="submit" value="Send">
                 </form>
+            -->
             </div>
-        </div>
+        </div> 
     </div>
-
 </section>    
