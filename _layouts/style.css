@@ -1677,8 +1677,20 @@ ul.main {
 }
 
 .modal-particles {
-        background-attachment: scroll;
+    background-attachment: scroll;
     background-image: url(../img/backgrounds/particles.svg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+
+.photo-bg {
+    background-attachment: scroll;
+    background-image: url(../img/backgrounds/fab12.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
