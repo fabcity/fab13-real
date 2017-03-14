@@ -46,12 +46,12 @@ body {
 }
 
 section {
-    padding: 0px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 @media (min-width: 768px){
     section {
-        padding: 0px 0px; 
+        padding: 100px 0px 0px 0px; 
     }
 }
 
@@ -349,7 +349,7 @@ h4 {
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
     font-weight: 700px;
-    z-index: 3;
+    z-index: 8;
     position: absolute;
     top: 0;
     width: 100%;
@@ -424,6 +424,7 @@ section#header {
 
 section#intro {
     height:700px;
+    padding-top: 0px;
 }
 
 section#header {
@@ -1591,12 +1592,12 @@ ul.main {
 }
 
 
-  /* style the groups
-  --------------------------------------------- */
+/* style the groups
+--------------------------------------------- */
 
-  /*curtain*/
-  #group1 { 
-    z-index: 5; /* slide over group 2 */ 
+/*curtain*/
+#group1 { 
+    z-index: 10; /* slide over group 2 */ 
 }
 #group1 .parallax__layer--base {
     background: #{{ site.color.andeannavy }};
