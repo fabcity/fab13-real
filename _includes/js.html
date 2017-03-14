@@ -69,18 +69,18 @@
 <script src="{{ "/js/contact.js" | prep
 <!--contact form-->end: site.baseurl }}"></script> 
 
-<!--Show/hide Navbar when scroll
-<script src="{{ "/js/navbar-scroll.js" | prepend: site.baseurl }}"></script>  -->
+<!--Show/hide Navbar when scroll-->
+<script src="{{ "/js/navbar-scroll.js" | prepend: site.baseurl }}"></script>  
 
 
+<script>
+var debugInput = document.querySelector("input");
+function updateDebugState() {
+    document.body.classList.toggle('debug-on', debugInput.checked);
+}
+debugInput.addEventListener("click", updateDebugState);
+updateDebugState();
+</script>
 
-  <script>
-    var debugInput = document.querySelector("input");
-    function updateDebugState() {
-        document.body.classList.toggle('debug-on', debugInput.checked);
-    }
-    debugInput.addEventListener("click", updateDebugState);
-    updateDebugState();
-  </script>
-
+ 
 

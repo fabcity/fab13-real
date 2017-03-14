@@ -1,23 +1,12 @@
-
-(function ($) {
-  $(document).ready(function(){
-    
-    // hide .navbar first
-    $(".navbar").hide();
-    
-    // fade in .navbar
-    $(function () {
-        $(window).scroll(function () {
-            // set distance user needs to scroll before we fadeIn navbar
-            if ($(this).scrollTop() > 100) {
-                $('.navbar').fadeIn();
+/*Navbar scrolling effect */
+(function($) {          
+    $(document).ready(function(){                    
+        $(".parallax").scroll(function(){                          
+            if ($(this).scrollTop() > 200) {
+                $('#menu').fadeIn(500);
             } else {
-                $('.navbar').fadeOut();
+                $('#menu').fadeOut(500);
             }
         });
-
-    
     });
-
-});
-  }(jQuery));
+})(jQuery);
