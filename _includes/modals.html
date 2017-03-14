@@ -1,7 +1,7 @@
  <!-- Tracks Modals -->
 {% for track in site.data.tracks %}
 <div class="track-modal modal fade" id="tracksModal{{ track.modalid }}">
-    <div class="modal-content modal-particles" style= "background-color: #{{ site.color.andeannavy }}; ">
+    <div class="modal-content modal-particles" style= "background-color: #{{ track.color }}; ">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
                 <div class="rl">
