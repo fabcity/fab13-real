@@ -344,7 +344,6 @@ h4 {
 /*---NAVIGATION BAR--*/ 
 
 .navbar {
-    background-color: white;
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
@@ -354,6 +353,13 @@ h4 {
     top: 0;
     width: 100%;
     border-radius: 0px;
+    background-color: #{{ site.color.andeansand}};
+    /*
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    */
 }
 
 .navbar-nav li a { 
