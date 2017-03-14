@@ -46,12 +46,12 @@ body {
 }
 
 section {
-    padding: 0px 0;
+    padding: 0px 0px;
 }
 
 @media (min-width: 768px){
 section {
-    padding: 0px 0; 
+    padding: 0px 0px; 
     }
 }
 
@@ -82,10 +82,6 @@ section {
     .container-text {
     width: 50%;
     }
-}
-
-.container-tracks {
-    padding: 20px 0;
 }
 
 .row {
@@ -407,33 +403,43 @@ h4 {
 
 
 
-
-
-/*---WEBSITE HEADERS-*/ 
-
-
 /*---GENERAL SECTIONS--*/ 
 
-h1.section-title {
-    margin-top:0px;
-    font-size: 28px;
+
+section#header {
+
 }
 
-@media(min-width:768px) {
-    h1.section-title {
-        font-size: 36px;
-    }
+section#intro {
+    height:700px;
+}
+
+section#header {
+    height: 550px;
+}
+
+section#tracks {
+    height: 780px;
+}
+
+section#symposium {
+    height: 1700px;
+}
+
+section#activities {
+    height: 1100px;
+}
+
+section#schedule {
+    height: 1200px;
+}
+
+section#travel {
+    height: 600px;
 }
 
 
-h4.section-small-highlight{
-    font-size: 24px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 18px;
-    text-align: left;
-    text-transform: none;
-}
+
 
 /*---WHAT SECTION--*/ 
 
@@ -1536,6 +1542,7 @@ ul.main {
 
    /* centre the content in the parallax layers */
  .title {
+    width: 100%;
     text-align: center;
     position: absolute;
     left: 50%;
@@ -1572,7 +1579,7 @@ ul.main {
 
   /*tracks*/
   #group4 {
-    z-index: 2; /* slide under group 3 and 5 */
+    z-index: 3; /* slide under group 3 and 5 */
     
   }
   #group4 .parallax__layer--deep {
@@ -1581,14 +1588,19 @@ ul.main {
 
   /*speakers*/
   #group5 {
-    z-index: 3; /* slide over group 4 and 6 */
+    z-index: 2; /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
     
   }
+  #group5 .parallax__layer--back{
+   background-color: #{{ site.color.andeansand }};
+   }
 
+
+  /*festival*/
   #group6 {
-    z-index: 2; /* slide under group 5 and 7 */
+    z-index: 1; /* slide under group 5 and 7 */
   }
   #group6 .parallax__layer--back {
     background-color: #{{ site.color.andeansand }};
@@ -1598,8 +1610,12 @@ ul.main {
     z-index: 3; /* slide over group 7 */
   }
   #group7 .parallax__layer--base {
-
   }
+
+  #group8 {
+    z-index: 5; /* slide over group 7 */
+  }
+
 
   /* misc
   --------------------------------------------- */

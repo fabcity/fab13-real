@@ -1,14 +1,17 @@
-- name: Sherry Lassiter
+- name: Nadya Peek
   bio: This is a short bio of the speaker
   img: /img/speakers/nadya.jpg
+  modalid: 1
+
+- name: Sherry Lassiter
+  bio: This is a short bio of the speaker
+  img: /img/speakers/nadya.jpg 
+  modalid: 2
 
 - name: Nadya Peek
   bio: This is a short bio of the speaker
   img: /img/speakers/nadya.jpg 
-
-- name: Nadya Peek
-  bio: This is a short bio of the speaker
-  img: /img/speakers/nadya.jpg 
+  modalid: 3
 
 - name: Nadya Peek
   bio: This is a short bio of the speaker

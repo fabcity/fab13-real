@@ -39,6 +39,8 @@ body {
 ol, ul {
 	list-style: none;
 }
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -700,6 +702,8 @@ Main Components
 }
 }
 
+
+
 .cd-schedule .event-date {
     font-size: 1.2rem;
     opacity: none;
@@ -715,8 +719,8 @@ Main Components
     padding: 0;
     background-color: white;
   }
-*/
 
+*/
   .timeline:before {
     content: "";
     position: absolute;
@@ -726,6 +730,17 @@ Main Components
     width: 0px;
     margin-left: -1.5px;
     background-color: transparent;
+}
+
+
+@media only screen and (min-width: 800px){
+.cd-schedule .event-name {
+    font-size: 1.7rem;
+  }
+}
+
+.events-group ul {
+  background-color: white;
 }
 
 
