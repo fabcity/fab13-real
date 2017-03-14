@@ -41,17 +41,17 @@ body, html {
 body {
     overflow-x: hidden;
     font-family: '{{ site.fonts.texts }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: #{{ site.color.andeansand }};
+    background: #ffffff;
     color: #{{ site.color.andeannavy }};
 }
 
 section {
-    padding: 100px 0;
+    padding: 0px 0;
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
+@media (min-width: 768px){
+section {
+    padding: 0px 0; 
     }
 }
 
@@ -63,7 +63,7 @@ section {
 
 @media (min-width: 1200px){
 .container {
-     width: 75%;
+     width: 85%;
     }
 }
 
@@ -82,6 +82,10 @@ section {
     .container-text {
     width: 50%;
     }
+}
+
+.container-tracks {
+    padding: 20px 0;
 }
 
 .row {
@@ -104,7 +108,7 @@ section {
 }
 
 p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.7;
     font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.andeannavy }};
@@ -114,7 +118,7 @@ p {
 }
 
 p.large {
-    font-size: 22px;
+    font-size: 19px;
 }
 
 
@@ -225,7 +229,44 @@ h4 {
     margin-bottom:20px;
 }
 
+.bg-img {
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    width:100%;
+    height:100%;
+}
 
+
+/*backgrounds*/
+.particles {
+    background-image: url(../img/backgrounds/particles.svg);
+    height: 100%;
+}
+
+.modal-particles {
+    background-attachment: scroll;
+    background-image: url(../img/backgrounds/particles.svg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+}
+
+
+.cortina {
+     background-image: url(../img/backgrounds/fab13-navy.svg);
+     width: 80%;
+     height: 90%;
+}
 
 /*---GENERAL BUTTONS--*/ 
 
@@ -300,6 +341,10 @@ h4 {
     font-family: 'Nunito', sans-serif;
     font-size: 12px;
     font-weight: 700px;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 .navbar-nav li a { 
@@ -366,97 +411,6 @@ h4 {
 
 /*---WEBSITE HEADERS-*/ 
 
-header {
-    background-color: #1c3557;
-    height: 700px;
-}
-
-
-@media(min-width: 768px) { 
-    header {
-        background-color: #1c3557;
-        height: 100%;
-    }
-}
-
-
-.main-banner {
-    text-align: center;
-    background-attachment: scroll;
-    background-image: url(../img/banner-web-blue.svg);
-    background-color: #1c3557;
-    background-position: center 20px;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-    height: 55%;
-}
-
-.secondary-banner {
-    text-align: center;
-    background-attachment: scroll;
-    /*background-image: url(../img/bg.svg); */
-    background-color: #f9f9f9;
-   /* background-position: center center;*/
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-    height: 45%;
-}
-
-
-
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
-}
-
-@media(min-width:768px) {
-    header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
-    }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-    }
-
-    header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-    }
-}
 
 /*---GENERAL SECTIONS--*/ 
 
@@ -486,26 +440,13 @@ h4.section-small-highlight{
 
 /*---TRACKS MOSAIC SECTION--*/ 
 
-section#tracks {
-    padding: 50px 0px 0px 0px;
-}
-
-
-@media(min-width:768px) {
-    section#tracks {
-        padding: 0px 0px 0px 0px;
-    }
-}
-
 .track-box {
     background-color: transparent;
 }
 
 
-
-
 .track-box:hover, .track-box:active, .track-box:focus{
-    background-color: white;
+    background-color: #{{ site.color.andeansand }};
 }
 
 .track-box p {
@@ -547,6 +488,7 @@ section#tracks {
     display: inline-block;
 }
 */
+
 
 
 
@@ -851,6 +793,7 @@ section#tracks {
  */
 
 
+
 /*TEAM SECTION */ /* NOT IN USE */
 
 .team-member {
@@ -1102,6 +1045,7 @@ ul.social-buttons li a:active {
     float:left;
 }
 
+
 /* --- Old modals-- */
 /*--> EVENT TRACKS MODALS -->*/ 
 
@@ -1335,6 +1279,7 @@ body {
 
 
 
+
 /*Carousel*/
 
 .carousel-caption {
@@ -1496,6 +1441,8 @@ ul.main {
 */
 /*////PARALLAX STRUCTURE///*/
 
+
+
 .parallax {
     height: 500px; /* fallback for older browsers */
     height: 100vh;
@@ -1503,6 +1450,8 @@ ul.main {
     overflow-y: auto;
     -webkit-perspective: 300px;
     perspective: 300px;
+    -webkit-perspective-origin-x: 100%;
+    perspective-origin-x: 100%;
   }
 
   .parallax__group {
@@ -1529,6 +1478,8 @@ ul.main {
     left: 0;
     right: 0;
     bottom: 0;
+    -webkit-transform-origin-x: 100%;
+    transform-origin-x: 100%;
   }
 
   .parallax__layer--fore {
@@ -1596,59 +1547,59 @@ ul.main {
 
   /* style the groups
   --------------------------------------------- */
-
-  #group1 {
-    z-index: 5; /* slide over group 2 */
+    
+  /*curtain*/
+  #group1 { 
+    z-index: 5; /* slide over group 2 */ 
   }
   #group1 .parallax__layer--base {
-    background: transparent;
+    background: #{{ site.color.andeannavy }};
   }
 
-  #group2 {
+
+  /*header*/
+  #group2 { 
     z-index: 3; /* slide under groups 1 and 3 */
-     color: #ffffff;
-  }
-  #group2 .parallax__layer--back {
-    background: #FAFBF9;
-    color: #ffffff;
   }
 
+  /*intro text*/
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
   }
   #group3 .parallax__layer--base {
-    background: transparent;
-  }
-
-  #group4 {
-    z-index: 2; /* slide under group 3 and 5 */
-  }
-  #group4 .parallax__layer--back {
-    background: #ffffff;
    
   }
 
+  /*tracks*/
+  #group4 {
+    z-index: 2; /* slide under group 3 and 5 */
+    
+  }
+  #group4 .parallax__layer--deep {
+  }
+
+
+  /*speakers*/
   #group5 {
     z-index: 3; /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
-    background: #f9f9f9;
+    
   }
 
   #group6 {
     z-index: 2; /* slide under group 5 and 7 */
   }
   #group6 .parallax__layer--back {
-    background: #457b9d;
-  }
+    background-color: #{{ site.color.andeansand }};
+    }
 
   #group7 {
     z-index: 3; /* slide over group 7 */
   }
   #group7 .parallax__layer--base {
-    background: #1d3557;
-  }
 
+  }
 
   /* misc
   --------------------------------------------- */
@@ -1663,42 +1614,10 @@ ul.main {
   }
 
 
-.particles {
-    background-attachment: scroll;
-    background-image: url(../img/backgrounds/particles.svg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-    height: 100%;
-}
 
-.modal-particles {
-    background-attachment: scroll;
-    background-image: url(../img/backgrounds/particles.svg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-}
 
-.photo-bg {
-    background-attachment: scroll;
-    background-image: url(../img/backgrounds/fab12.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    position: relative;
-}
+
+
 
 
 /*-- TIMETABLE CSS OVERWRITES
@@ -1961,3 +1880,12 @@ ul.main {
   color: #bab6b6;
 }
 
+
+.twitter {
+    width: 100%;
+    height: 40px;
+    background-color: #{{ site.color.andeansand }};
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+}
