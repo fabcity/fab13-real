@@ -2,7 +2,12 @@
 <section id="symposium">
   <div id="group5" class="parallax__group">
 
-    <div class="parallax__layer parallax__layer--back">   
+    <div class="parallax__layer parallax__layer--deep">
+      <img class="bg-responsive" src="/img/backgrounds/particles.svg">
+    </div> 
+
+    <div class="parallax__layer parallax__layer--back text-center">
+        <img class="bg-responsive" src="/img/backgrounds/color-top-navy.svg"/>
     </div>
     
     <div class="parallax__layer parallax__layer--base">
@@ -13,7 +18,7 @@
         <div class="row text-center">
             {% for speaker in site.data.speakers %} 
               <a href="#speakersModal{{ speaker.modalid }}" class"=portfolio-link" data-toggle="modal">
-                <div class="col-xs-12 col-sm-4 col-md-4 text-center box-grow">
+                <div class="col-xs-6 col-sm-4 col-md-4 text-center box-grow">
                   <div class="imgs-speaker" style= "background-image: url(..{{ speaker.img }});"> </div>
                   <h4>{{ speaker.name }}</h4>
                   <p>{{ speaker.bio }}</p>

@@ -204,6 +204,10 @@ h4 {
 
 /*---GENERAL IMG--*/ 
 
+.bg-responsive {
+    width:100%;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -218,11 +222,18 @@ h4 {
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom:20px;
+}
+
+@media(min-width: 768px) { 
+    .imgs-speaker {
+        height: 220px;
+        width: 220px;
+    }
 }
 
 .bg-img {
@@ -237,6 +248,7 @@ h4 {
     width:100%;
     height:100%;
 }
+
 
 
 /*backgrounds*/
@@ -418,26 +430,53 @@ section#header {
     height: 550px;
 }
 
+
 section#tracks {
-    height: 780px;
+    height: 1900px;
+}
+
+@media(min-width:767px) {
+    section#tracks {
+        height: 780px;
+    }
 }
 
 section#symposium {
+    height: 1850px;
+}
+
+@media(min-width:767px) {
+    section#symposium {
     height: 1700px;
+    }
 }
 
 section#activities {
-    height: 1100px;
+    height: 2900px;
 }
 
-section#schedule {
-    height: 1200px;
+@media(min-width:767px) {
+    section#activities {
+        height: 1100px;
+    }
+}
+
+section#festival {
+    height: 600px;
 }
 
 section#travel {
     height: 600px;
 }
 
+section#schedule {
+    height: 1300px;
+}
+
+
+section#venues {
+    height: 600px;
+}
 
 
 
@@ -447,7 +486,7 @@ section#travel {
 /*---TRACKS MOSAIC SECTION--*/ 
 
 .track-box {
-    background-color: transparent;
+    background-color: white;
 }
 
 
@@ -1566,35 +1605,32 @@ ul.main {
 
   /*header*/
   #group2 { 
-    z-index: 3; /* slide under groups 1 and 3 */
+    z-index: 1; /* slide under groups 1 and 3 */
   }
 
   /*intro text*/
   #group3 {
-    z-index: 4; /* slide over group 2 and 4 */
+    z-index: 2; /* slide over group 2 and 4 */
   }
   #group3 .parallax__layer--base {
-   
   }
 
   /*tracks*/
   #group4 {
-    z-index: 3; /* slide under group 3 and 5 */
-    
-  }
-  #group4 .parallax__layer--deep {
+    z-index: 4; /* slide under group 3 and 5 */
   }
 
 
-  /*speakers*/
+
+  /*Symposium*/
   #group5 {
-    z-index: 2; /* slide over group 4 and 6 */
+    z-index: 3; /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
     
   }
   #group5 .parallax__layer--back{
-   background-color: #{{ site.color.andeansand }};
+
    }
 
 
