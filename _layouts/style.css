@@ -353,6 +353,7 @@ h4 {
     position: absolute;
     top: 0;
     width: 100%;
+    border-radius: 0px;
 }
 
 .navbar-nav li a { 
