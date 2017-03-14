@@ -3,6 +3,7 @@
   img: img/icons/cities-w.svg
   imgmodal: cities-modal.svg
   modalid: 1
+  color: 1d3557
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
     - name: Nadya Peek
@@ -17,6 +18,7 @@
   img: img/icons/housing-w.svg
   imgmodal: housing-modal.svg
   modalid: 2
+  color: e63946
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
     - name: Nadya Peek
@@ -31,6 +33,7 @@
   img: img/icons/innovation-w.svg
   imgmodal: innovation-modal.svg
   modalid: 3
+  color: a8dadc
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
     - name: Nadya Peek
@@ -45,6 +48,7 @@
   img: img/icons/energy-w.svg
   imgmodal: energy-and-environment-modal.svg
   modalid: 4
+  color: 457b9d
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
     - name: Nadya Peek
@@ -59,6 +63,7 @@
   img: img/icons/education-w.svg
   imgmodal: education-modal.svg
   modalid: 5
+  color: eb5f69
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
     - name: Nadya Peek
@@ -73,6 +78,7 @@
   img: img/icons/decentralization-w.svg  
   imgmodal: decentralization-modal.svg
   modalid: 6
+  color: dce6da
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
   speakers:
     - name: Nadya Peek
