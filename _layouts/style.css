@@ -533,6 +533,10 @@ section#venues {
     height: 900px;
 }
 
+section#tickets {
+    height: 500px;
+}
+
 section#footer {
     height: 400px;
 }
@@ -1785,8 +1789,13 @@ ul.main {
     z-index: 4; /* slide over group 7 */
 }
 
-/*Footer*/
+/*welcu*/
 #group10 {
+    z-index: 4; /* slide over group 7 */
+}
+
+/*Footer*/
+#group11 {
     z-index: 5; /* slide over group 7 */
     background-color: #{{ site.color.andeannavy }};
     height: 400px;
