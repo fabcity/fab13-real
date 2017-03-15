@@ -1135,6 +1135,89 @@ ul.social-buttons li a:active {
 }
 
 
+/*SPEAKER MODALS */ 
+.speakers-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #{{ site.color.andeansand }}; 
+    letter-spacing: 2px;
+}
+
+.speakers-modal .modal-content h2 {
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #{{ site.color.andeannavy }};
+    font-weight: 600;
+}
+
+.speakers-modal .modal-content h4 {
+    text-align: left;
+    color: #{{ site.color.andeannavy }};
+}
+
+.speakers-modal .modal-content p {
+    margin-bottom: 60px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200;
+    color: #{{ site.color.andeannavy }};
+    letter-spacing: 0px;
+}
+
+.speakers-modal .modal-content img {
+    margin-bottom: 50px;
+
+}
+
+.speakers-modal .img-icon {
+    width: 160px;
+}
+
+
+.speakers-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.speakers-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.speakers-modal .close-modal .lr {
+    z-index: 1051;
+    width: 5px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #{{ site.color.andeanpink }};
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.speakers-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 5px;
+    height: 75px;
+    background-color: #{{ site.color.andeanpink }};
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
 /* --- Old modals-- */
 /*--> EVENT TRACKS MODALS -->*/ 
 
