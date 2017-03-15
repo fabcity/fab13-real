@@ -22,9 +22,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
- /*For parallax*/
+
+
  body, html {
-    overflow: hidden;
+    overflow: hidden; /*for Parallax effect */
     transition:all 0.3s ease;
 }
 
@@ -76,7 +77,6 @@ section {
         width: 70%;
     }
 }
-
 
 @media(min-width: 1200px) { 
     .container-text {
@@ -133,7 +133,38 @@ a:active {
     color: #{{ site.color.andeanred }};
 }
 
-/*///CSS transitions ////*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #{{ site.color.andeanred }};
+    text-transform: uppercase;    
+}
+
+
+h2 { 
+    font-size: 36px;
+    padding-bottom: 50px; 
+}
+
+h3 { 
+    font-size: 25px;
+    padding-bottom: 50px; 
+}
+
+h4 { 
+    font-size: 18px; 
+    padding-bottom: 10px; 
+}
+
+
+/*---CSS TRANSITIONS---*/
+
 .bg-fade{
     -webkit-transition: background-color ease-out 0.5s;
     -moz-transition: background-color ease-out 0.5s;
@@ -176,33 +207,7 @@ a:active {
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: '{{ site.fonts.secondary }}',"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #{{ site.color.andeanred }};
-    text-transform: uppercase;    
-}
 
-
-h2 { 
-    font-size: 36px;
-    padding-bottom: 50px; 
-}
-
-h3 { 
-    font-size: 25px;
-    padding-bottom: 50px; 
-}
-
-h4 { 
-    font-size: 18px; 
-    padding-bottom: 10px; 
-}
 
 
 /*---GENERAL IMG--*/ 
@@ -254,7 +259,7 @@ h4 {
 
 
 
-/*backgrounds*/
+/*---BACKGROUNDS---*/
 .particles {
     background-image: url(../img/backgrounds/particles.svg);
     height: 100%;
@@ -353,9 +358,6 @@ h4 {
 
 }
 
-
-
-
 /* Right align button */
 
 .right-align {
@@ -446,7 +448,7 @@ h4 {
 
 
 
-/*---GENERAL SECTIONS--*/ 
+/*---GENERAL SECTIONS---*/ 
 
 
 section#header { 
