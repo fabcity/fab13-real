@@ -523,9 +523,6 @@ section#footer {
 }
 
 
-/*---WHAT SECTION--*/ 
-
-
 /*---TRACKS MOSAIC SECTION--*/ 
 
 .track-box {
@@ -580,15 +577,7 @@ section#footer {
 
 
 
-
-
-
-/*---WHAT-FULL SECTION--*/ 
-
-
-
-/*PORTFOLIO SECTION --*/ /* NOT IN USE*/
-
+/*---TRACKS MODALS---*/
 
 
 #portfolio .portfolio-item {
@@ -674,7 +663,8 @@ section#footer {
     }
 }
 
-/*TIMELINE SECTION
+/*---TIMELINE SECTION---*/
+
 .timeline {
     position: relative;
     padding: 40px 0px 0px 0px;
@@ -882,7 +872,7 @@ section#footer {
 
 
 
-/*TEAM SECTION */ /* NOT IN USE */
+/*---TEAM SECTION---*/ /* NOT IN USE */
 
 .team-member {
     margin-bottom: 50px;
@@ -972,7 +962,7 @@ section#contact .text-danger {
 }
 
 
-/*FOOTER SECTION */ 
+/*---FOOTER SECTION---*/ 
 
 footer {
     background-color: #{{ site.color.andeannavy }};
