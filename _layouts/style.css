@@ -1699,6 +1699,7 @@ ul.main {
 #group10 {
     z-index: 5; /* slide over group 7 */
     background-color: #{{ site.color.andeannavy }};
+    height: 400px;
 }
 
 
