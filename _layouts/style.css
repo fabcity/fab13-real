@@ -331,6 +331,27 @@ h4 {
 
 }
 
+/*Inverted pink alternative colors button */
+.btn-inverted.alt {
+    background-color: transparent;
+    border: 4px solid #{{ site.color.andeanpink }}; 
+    color: #{{ site.color.andeanpink}};
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+.btn-inverted.alt:hover,
+.btn-inverted.alt:active,
+.btn-inverted.alt:focus {
+    border: 4px solid #{{ site.color.andeanpink }}; 
+    color: #{{ site.color.whites }};
+    background-color: #{{ site.color.andeanpink }};
+
+}
+
+
+
 
 /* Right align button */
 
@@ -1959,4 +1980,8 @@ ul.main {
 #menu {
     position:fixed;
     display:none;
+}
+
+.travel-info {
+    background-color: #{{ site.color.andeannavy }}; 
 }
