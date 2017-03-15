@@ -388,6 +388,7 @@ h4 {
     width: 100%;
     border-radius: 0px;
     background-color: #{{ site.color.andeansand}};
+    border-bottom: solid 8px white;
     /*
     background-color: white;
     -webkit-box-shadow: 0 8px 6px -6px #999;
