@@ -505,6 +505,12 @@ section#activities {
 
 @media(min-width:767px) {
     section#activities {
+        height: 1900px;
+    }
+}
+
+@media(min-width:992px) {
+    section#activities {
         height: 1100px;
     }
 }
