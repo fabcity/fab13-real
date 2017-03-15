@@ -19,7 +19,7 @@
   imgmodal: housing-modal.svg
   modalid: 2
   color: e63946
-  text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
+  text: "There is a need to provide a solution to the housing problem that exists in Latin America. Housing for families at social risk is, for the most part, self-built and constructed on land that’s segregated from the city."
   speakers:
     - name: Nadya Peek
       img: /img/speakers/nadya.jpg 
@@ -34,7 +34,7 @@
   imgmodal: innovation-modal.svg
   modalid: 3
   color: a8dadc
-  text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
+  text: "Fab Labs are manufacturing platforms that allow conventional production schemes to be challenged. In this sense, Fab Labs can be a complement to the industry, which in turn can be strengthened by their capacity to produce innovative objects using digital language. In the same way, Fab Labs can also support entrepreneurs as they turn prototypes into products."
   speakers:
     - name: Nadya Peek
       img: /img/speakers/nadya.jpg 
@@ -49,7 +49,7 @@
   imgmodal: energy-and-environment-modal.svg
   modalid: 4
   color: 457b9d
-  text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
+  text: "According to the OMS, Chile is home to two of the most polluted cities in Latin America, Coyhaique and Santiago de Chile. However, Chile is a country rich in hydraulic, geothermic and solar energy, amongst others. So how can these resources be positively put to use to resolve direct needs concerning inhabitants?"
   speakers:
     - name: Nadya Peek
       img: /img/speakers/nadya.jpg 
@@ -64,7 +64,7 @@
   imgmodal: education-modal.svg
   modalid: 5
   color: eb5f69
-  text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
+  text: "Fab Labs are learning environments in which anyone can manufacture (almost) anything. Empowering people to find their own solutions to challenges they have is achieved thanks to learning methods based on projects that are transferrable to children, students, profesionals, entrepreneurs, senior citizens and people without formal education."
   speakers:
     - name: Nadya Peek
       img: /img/speakers/nadya.jpg 
@@ -79,7 +79,7 @@
   imgmodal: decentralization-modal.svg
   modalid: 6
   color: dce6da
-  text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
+  text: "Given Chile’s geographic extension and the gradual growth of each of its regions, Santiago, the capital, concentrates practically 40% of the total population. As this will be an event of tremendous public interest, on both a national and international level, and with the objective of amplifying the impact of this meeting, we have decided to extend its reach to the regions, creating the Off Lab, in which various members of Fab Labs’ world network will travel to some of the country’s regions to develop activities, workshops, talks and to participate in regional festivals."
   speakers:
     - name: Nadya Peek
       img: /img/speakers/nadya.jpg 
