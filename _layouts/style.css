@@ -1975,15 +1975,6 @@ ul.main {
 }
 
 
-.twitter {
-    width: 100%;
-    height: 40px;
-    background-color: #{{ site.color.andeansand }};
-    position: absolute;
-    z-index: 5;
-    bottom: 0;
-}
-
 
 #menu {
     position:fixed;
@@ -2004,5 +1995,34 @@ ul.main {
 
 
 
+
+.twitter {
+    width: 100%;
+    height: auto;
+    background-color: #{{ site.color.andeansand }};
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+}
+
+.tweet {
+    width: 60%;
+    padding: 8px 0px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    display: inline;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: none;
+}
+
+@media (min-width: 490px) {
+    .tweet {
+        display: inline;
+    }
+
+}
 
 
