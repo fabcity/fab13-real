@@ -1560,6 +1560,7 @@ ul.main {
     overflow-y: auto;
     -webkit-perspective: 300px;
     perspective: 300px;
+    -moz-perspective: 300px;
     -webkit-perspective-origin-x: 100%;
     perspective-origin-x: 100%;
 }
@@ -1570,6 +1571,7 @@ ul.main {
     height: 100vh;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
 }
 
 .parallax__layer {
@@ -1585,13 +1587,14 @@ ul.main {
 .parallax__layer--fore {
     -webkit-transform: translateZ(90px) scale(.7);
     transform: translateZ(90px) scale(.7);
-    -moz-transform: perspective(300px) translateZ(90px) scale(.7);;
+    -moz-transform: perspective(300px) translateZ(90px) scale(.7);
     z-index: 1;
 }
 
 .parallax__layer--base {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
+    -moz-transform: perspective(300px) translateZ(0px);
     z-index: 4;
 }
 
