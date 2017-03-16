@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
   //set your google maps parameters
   var $latitude = -33.449495,
     $longitude = -70.627864,
-    $map_zoom = 10;
+    $map_zoom = 8;
 
   //google map custom marker icon - .png fallback for IE11
   var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
@@ -205,6 +205,8 @@ jQuery(document).ready(function($){
       visible: true,
     icon: $marker_url,
   });
+
+
 
   //add custom buttons for the zoom-in/zoom-out on the map
   function CustomZoomControl(controlDiv, map) {
