@@ -1822,8 +1822,17 @@ section#schedule {
 }
 
 section#venues {
+    height: 680px;
+}
+
+@media(min-width:767px) {
+    section#venues {
     height: 900px;
 }
+
+}
+
+
 
 section#tickets {
     height: 500px;
@@ -1832,6 +1841,16 @@ section#tickets {
 section#faq {
     height: 200px;
 }
+
+section#partners {
+    height: 270px;
+}
+
+@media(min-width:767px) {
+    section#partners {
+        height: 150px;
+    }
+}    
 
 section#footer {
     height: 400px;
