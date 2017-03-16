@@ -743,19 +743,26 @@ Main Components
   background-color: white;
 }
 
-
-@media only screen and (min-width: 800px){}
+@media only screen and (min-width: 800px){
   .cd-schedule .events .single-event a {
-      padding: 0.7em 1.2em;
+      padding: 0.7em 0.7em;
   }
 }
+
 
 
 @media only screen and (min-width: 800px){
   .cd-schedule .event-name {
+      font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 991px){
+  .cd-schedule .event-name {
       font-size: 1.5rem;
   }
 }
+
 
 
 @media only screen and (min-width: 800px){
@@ -768,17 +775,12 @@ Main Components
   }
 }
 
-@media only screen and (min-width: 800px){
-.cd-schedule .event-name {
-    font-size: 1.5rem;
-}
-}
 
 @media only screen and (min-width: 800px){
 .cd-schedule .events .top-info > span {
     display: table-cell;
     vertical-align: middle;
-    padding: 0 .5em;
+    padding: 0.5em;
     text-align: center;
     font-weight: normal;
     margin-bottom: 0;
