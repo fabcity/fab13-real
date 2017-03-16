@@ -1744,8 +1744,15 @@ section#header {
     }
 
 section#intro {
-    height:700px;
+    height:710px;
     padding-top: 0px;
+}
+
+@media(min-width:400px) {
+    section#intro {
+        height:560px;
+        padding-top: 0px;
+    }
 }
 
 section#header {
