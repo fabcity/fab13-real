@@ -103,6 +103,10 @@ section {
     font-style: oblique; 
 }
 
+.bold {
+    font-weight: 700;
+}
+
 p {
     font-size: 14px;
     line-height: 1.7;
@@ -455,91 +459,6 @@ h4 {
     border: 1px solid #{{ site.color.andeannavy }};
 }
 
-
-
-/*---GENERAL SECTIONS---*/ 
-
-
-section#header { 
-    padding-top:0px;
-}
-
-@media(min-width:767px) {
-    section#header { 
-    padding-top:0px;
-}
-    }
-
-section#intro {
-    height:700px;
-    padding-top: 0px;
-}
-
-section#header {
-    height: 550px;
-}
-
-
-section#tracks {
-    height: 1900px;
-}
-
-@media(min-width:767px) {
-    section#tracks {
-        height: 780px;
-    }
-}
-
-section#symposium {
-    height: 1850px;
-}
-
-@media(min-width:767px) {
-    section#symposium {
-        height: 1700px;
-    }
-}
-
-section#activities {
-    height: 2900px;
-}
-
-@media(min-width:767px) {
-    section#activities {
-        height: 1900px;
-    }
-}
-
-@media(min-width:992px) {
-    section#activities {
-        height: 1100px;
-    }
-}
-
-section#festival {
-    height: 900px;
-}
-
-section#travel {
-    height: 1100px;
-}
-
-section#schedule {
-    height: 1300px;
-}
-
-
-section#venues {
-    height: 900px;
-}
-
-section#tickets {
-    height: 500px;
-}
-
-section#footer {
-    height: 400px;
-}
 
 
 /*---TRACKS MOSAIC SECTION--*/ 
@@ -1627,6 +1546,9 @@ ul.main {
 
 
 */
+
+
+
 /*////PARALLAX STRUCTURE///*/
 
 
@@ -1794,12 +1716,110 @@ ul.main {
     z-index: 4; /* slide over group 7 */
 }
 
-/*Footer*/
+/*FAQ*/
 #group11 {
+    z-index: 4; /* slide over group 7 */
+}
+
+/*Footer*/
+#group12 {
     z-index: 5; /* slide over group 7 */
     background-color: #{{ site.color.andeannavy }};
     height: 400px;
 }
+
+
+
+/*---GENERAL SECTIONS---*/ 
+
+
+section#header { 
+    padding-top:0px;
+}
+
+@media(min-width:767px) {
+    section#header { 
+    padding-top:0px;
+}
+    }
+
+section#intro {
+    height:700px;
+    padding-top: 0px;
+}
+
+section#header {
+    height: 550px;
+}
+
+
+section#tracks {
+    height: 1900px;
+}
+
+@media(min-width:767px) {
+    section#tracks {
+        height: 780px;
+    }
+}
+
+section#symposium {
+    height: 1850px;
+}
+
+@media(min-width:767px) {
+    section#symposium {
+        height: 1700px;
+    }
+}
+
+section#activities {
+    height: 2900px;
+}
+
+@media(min-width:767px) {
+    section#activities {
+        height: 1900px;
+    }
+}
+
+@media(min-width:992px) {
+    section#activities {
+        height: 1100px;
+    }
+}
+
+section#festival {
+    height: 900px;
+}
+
+section#travel {
+    height: 1100px;
+}
+
+section#schedule {
+    height: 1300px;
+}
+
+section#venues {
+    height: 900px;
+}
+
+section#tickets {
+    height: 500px;
+}
+
+section#faq {
+    height: 200px;
+}
+
+section#footer {
+    height: 400px;
+}
+
+
+
+
 
 
   /* misc
