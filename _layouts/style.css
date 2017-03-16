@@ -1585,6 +1585,7 @@ ul.main {
 .parallax__layer--fore {
     -webkit-transform: translateZ(90px) scale(.7);
     transform: translateZ(90px) scale(.7);
+    -moz-transform: perspective(300px) translateZ(90px) scale(.7);;
     z-index: 1;
 }
 
@@ -1597,12 +1598,14 @@ ul.main {
 .parallax__layer--back {
     -webkit-transform: translateZ(-300px) scale(2);
     transform: translateZ(-300px) scale(2);
+    -moz-transform: perspective(300px) translateZ(-300px) scale(2);
     z-index: 3;
 }
 
 .parallax__layer--deep {
     -webkit-transform: translateZ(-600px) scale(3);
     transform: translateZ(-600px) scale(3);
+    -moz-transform: perspective(300px) translateZ(-600px) scale(3);
     z-index: 2;
 }
 
