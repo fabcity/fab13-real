@@ -601,7 +601,7 @@ h4 {
     }
 }
 
-/*---TIMELINE SECTION---*/
+/*---TIMELINE SECTION---
 
 .timeline {
     position: relative;
@@ -617,7 +617,7 @@ h4 {
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: transparent;
 }
 
 .timeline>li {
@@ -1804,8 +1804,15 @@ section#travel {
     height: 1100px;
 }
 
+
 section#schedule {
-    height: 1300px;
+    height: 1900px;
+}
+
+@media(min-width:767px) {
+    section#schedule {
+        height: 1300px;
+    }
 }
 
 section#venues {

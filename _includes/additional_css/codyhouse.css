@@ -721,13 +721,13 @@ Main Components
   }
 
 */
-  .timeline:before {
+.timeline:before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     left: 40px;
-    width: 0px;
+    width: 2px;
     margin-left: -1.5px;
     background-color: transparent;
 }
@@ -744,3 +744,44 @@ Main Components
 }
 
 
+@media only screen and (min-width: 800px){}
+  .cd-schedule .events .single-event a {
+      padding: 0.7em 1.2em;
+  }
+}
+
+
+@media only screen and (min-width: 800px){
+  .cd-schedule .event-name {
+      font-size: 1.5rem;
+  }
+}
+
+
+@media only screen and (min-width: 800px){
+  .cd-schedule .events .events-group {
+      width: 14.2857143%;
+      float: left;
+      /* border: 1px solid #EAEAEA; */
+      border: 1px solid transparent;
+      margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 800px){
+.cd-schedule .event-name {
+    font-size: 1.5rem;
+}
+}
+
+@media only screen and (min-width: 800px){
+.cd-schedule .events .top-info > span {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 .5em;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-weight: 900;
+}
+}
