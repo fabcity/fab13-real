@@ -459,7 +459,11 @@ h4 {
     border: 1px solid #{{ site.color.andeannavy }};
 }
 
-
+@media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+}
 
 /*---TRACKS MOSAIC SECTION--*/ 
 
@@ -2202,4 +2206,3 @@ section#footer {
    cursor: default;
 }
 
-}
