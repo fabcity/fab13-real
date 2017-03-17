@@ -2210,3 +2210,6 @@ section#footer {
    cursor: default;
 }
 
+.welcu_embed #wlc-table-tickets {
+    background: white;
+}
