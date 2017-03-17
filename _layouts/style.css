@@ -465,6 +465,7 @@ h4 {
 
 .track-box {
     background-color: white;
+    height: 330px;
 }
 
 
@@ -473,7 +474,12 @@ h4 {
 }
 
 .track-box p {
-    padding-bottom: 15px;
+    padding-bottom: 0px;
+    margin-bottom
+}
+
+.track-box span {
+   
 }
 
 .track-description {
@@ -1754,9 +1760,9 @@ section#intro {
     padding-top: 0px;
 }
 
-@media(min-width:400px) {
+@media(min-width:500px) {
     section#intro {
-        height:560px;
+        height:650px;
         padding-top: 0px;
     }
 }
