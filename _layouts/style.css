@@ -1857,12 +1857,12 @@ section#faq {
 }
 
 section#partners {
-    height: 690px;
+    height: 730px;
 }
 
 @media(min-width:767px) {
     section#partners {
-        height: 380px;
+        height: 480px;
     }
 }    
 
