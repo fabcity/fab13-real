@@ -27,14 +27,14 @@ fonts:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/fabfndn
+    url: https://twitter.com/fab13santiago
   - title: facebook
-    url: https://www.facebook.com/fabfndn
-  - title: youtube
-    url: https://www.youtube.com/user/fabfndn
+    url: https://www.facebook.com/fab13santiago
+  - title: instagram
+    url: https://www.instagram.com/user/fab13santiago
   - title: envelope
-    url: mailto:info@fabfoundation.org 
-
+    url: mailto:ab13@fablabsantiago.org
+f
 
 # Postal address (add as many lines as necessary)
 address:
