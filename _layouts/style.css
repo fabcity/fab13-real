@@ -1669,7 +1669,7 @@ ul.main {
 #group1 { 
     z-index: 10; /* slide over group 2 */ 
 }
-#group1 .parallax__layer--fore {
+#group1 .parallax__layer--base {
     background: #{{ site.color.andeannavy }};
 }
 
