@@ -34,7 +34,7 @@
 
 
 @font-face {
-    font-family: 'Tstarr'; src: url('/fonts/TSTARRB.TTF');
+    font-family: 'Tstarr'; src: url('/fonts/TSTARRB.ttf');
 }
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700');
