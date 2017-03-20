@@ -1727,7 +1727,7 @@ ul.main {
 
 /*venues*/
 #group9 {
-    z-index: 4; /* slide over group 7 */
+    z-index: 5; /* slide over group 7 */
 }
 
 /*welcu*/
@@ -1758,9 +1758,13 @@ section#header {
 
 @media(min-width:767px) {
     section#header { 
-    padding-top:0px;
-}
+        padding-top:0px;
     }
+}
+
+section#header {
+    height: 550px;
+}
 
 section#intro {
     height:710px;
@@ -1771,10 +1775,6 @@ section#intro {
         height:650px;
         padding-top: 0px;
     }
-}
-
-section#header {
-    height: 550px;
 }
 
 
@@ -1796,12 +1796,16 @@ section#newsletter {
 
 
 section#symposium {
+    /*
     height: 1850px;
+    */
+    height: 950px;
 }
 
 @media(min-width:767px) {
     section#symposium {
-        height: 1700px;
+        /*height: 1700px;*/
+        height: 1100;
     }
 }
 
@@ -1830,7 +1834,14 @@ section#apply {
 }
 
 section#travel {
-    height: 1100px;
+    height: 950px;
+}
+
+@media(min-width:767px) {
+    section#travel {
+    height: 950px;
+}
+
 }
 
 
@@ -1856,15 +1867,22 @@ section#venues {
 }
 
 section#tickets {
+    height: 600px;
+}
+
+@media(min-width:767px) {
+    section#tickets {
     height: 500px;
 }
+
+}    
 
 section#faq {
     height: 200px;
 }
 
 section#partners {
-    height: 730px;
+    height: 780px;
 }
 
 @media(min-width:767px) {
@@ -2176,11 +2194,17 @@ section#footer {
 .list-inline>li {
     text-align: center;
     display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 0px;
+    padding-left: 3px;
 }
 
+@media (min-width: 767px) {
 
+.list-inline>li {
+    padding-right: 5px;
+    padding-left: 5px;
+    }
+}
 
 
 .twitter {
