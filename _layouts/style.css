@@ -1453,8 +1453,10 @@ video {
 }
 
 
+
+/*Mailchimp Modal*/
 .modal-title {
-    color: #ffffff;
+    color: #{{ site.color.andeannavy }};
 }
 
 
@@ -1667,7 +1669,7 @@ ul.main {
 
 /*curtain*/
 #group1 { 
-    z-index: 10; /* slide over group 2 */ 
+    z-index: 10; 
 }
 #group1 .parallax__layer--base {
     background: #{{ site.color.andeannavy }};
@@ -1676,13 +1678,14 @@ ul.main {
 
 /*header*/
 #group2 { 
-    z-index: 1; /* slide under groups 1 and 3 */
+    z-index: 1; 
 }
 
 /*intro text*/
 #group3 {
     z-index: 2; /* slide over group 2 and 4 */
 }
+
 #group3 .parallax__layer--base {
 }
 
@@ -1786,6 +1789,12 @@ section#tracks {
     }
 }
 
+
+section#newsletter {
+    height: 200px;
+}
+
+
 section#symposium {
     height: 1850px;
 }
@@ -1845,8 +1854,6 @@ section#venues {
 }
 
 }
-
-
 
 section#tickets {
     height: 500px;
