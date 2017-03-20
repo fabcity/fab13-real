@@ -399,22 +399,35 @@ h4 {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
-    */
+    */  
+}
+
+.navbar-init {
+    font-weight: 400px;
+    background-color: transparent;
+    border-bottom: solid 0px transparent;
+    background-color: #1d3557;
 }
 
 .navbar-nav li a { 
     font-family: 'Nunito', sans-serif;
     font-size: 11px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .navbar a {
-    color: #{{ site.color.andeannavy}};
+    color: white;
 }
 
 .navbar a:hover,
 .navbar a:active,
 .navbar a:focus {
+    color: #{{ site.color.andeanpink}};
+}
+
+.navbar a.nav-link:hover,
+.navbar a.nav-link:active,
+.navbar a.nav-link:focus{
     color: #{{ site.color.andeanpink}};
 }
 
@@ -457,13 +470,26 @@ h4 {
     width: 22px;
     height: 2px;
     border-radius: 1px;
-    border: 1px solid #{{ site.color.andeannavy }};
+    border: 1px solid white;
 }
 
 @media (min-width: 768px){
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left: 0px;
 }
+}
+
+
+.navbar-collapse.in {
+    overflow-x: hidden;
+    padding-left: 33px;
+}
+
+
+
+#menu {
+    position:fixed;
+    /*display:none;*/
 }
 
 /*---TRACKS MOSAIC SECTION--*/ 
@@ -1576,6 +1602,7 @@ ul.main {
     -moz-perspective: 300px;
     -webkit-perspective-origin-x: 100%;
     perspective-origin-x: 100%;
+    margin-top:50px;
 }
 
 .parallax__group {
@@ -1670,7 +1697,7 @@ ul.main {
 
 /*curtain*/
 #group1 { 
-    z-index: 10; 
+    z-index: 5; 
 }
 #group1 .parallax__layer--base {
     background: #{{ site.color.andeannavy }};
@@ -2179,13 +2206,7 @@ section#footer {
 :-ms-placeholder {
   color: #bab6b6;
 }
-
-
-
-#menu {
-    position:fixed;
-    display:none;
-}
+navnarnavbar
 
 .travel-info {
     background-color: #{{ site.color.andeannavy }}; 
