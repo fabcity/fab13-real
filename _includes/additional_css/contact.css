@@ -3,10 +3,6 @@ body {
   background-color: #f6ede5;
 }
 
-a, p {
-  font-family: 'Raleway', sans-serif;
-}
-
 .cont-contactInfo {
   float: left;
   padding-right: 5%;

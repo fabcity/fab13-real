@@ -123,6 +123,7 @@ p.large {
 
 
 a {
+    font-size: 14px;
     color: #{{ site.color.andeanpink }};
     cursor: pointer;
     text-decoration: none;
