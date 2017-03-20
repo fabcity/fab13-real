@@ -1724,7 +1724,7 @@ ul.main {
 
 /*symposium/activities*/
 #group5 {
-    z-index: 3; /* slide over group 4 and 6 */
+    z-index: 2; /* slide over group 4 and 6 */
 }
 #group5 .parallax__layer--base {
 
@@ -1735,7 +1735,7 @@ ul.main {
 
 /*festival*/
 #group6 {
-    z-index: 1; /* slide under group 5 and 7 */
+    z-index: 3; /* slide under group 5 and 7 */
 }
 #group6 .parallax__layer--back {
     background-color: #{{ site.color.andeansand }};
