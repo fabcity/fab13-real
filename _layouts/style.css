@@ -1858,7 +1858,13 @@ section#festival {
 }
 
 section#apply {
-    height: 900px;
+    height: 1030px;
+}
+
+@media(min-width:767px) {
+    section#apply {
+        height: 830px;
+    }
 }
 
 section#travel {
