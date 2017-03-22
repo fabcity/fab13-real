@@ -453,9 +453,9 @@ h4 {
     background-color: transparent;
     border-bottom: solid 0px transparent;
     background-color: #1d3557;
-    -webkit-box-shadow: 0 8px 34px -2px #172a46;
-    -moz-box-shadow: 0 8px 34px -2px #172a46;
-    box-shadow: 0 8px 34px -2px #172a46;
+    -webkit-box-shadow: 0 3px 34px -2px #172a46;
+    -moz-box-shadow: 0 3px 34px -2px #172a46;
+    box-shadow: 0 3px 34px -2px #172a46;
 }
 
 
@@ -547,6 +547,7 @@ h4 {
 .track-box {
     background-color: white;
     height: 330px;
+    margin: 10px auto;
 }
 
 
