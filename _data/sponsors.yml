@@ -1,0 +1,95 @@
+- organization: "DiD Diseño Distribuido"
+  role: organizer
+  url: 
+  img: did.jpg
+
+- organization: "Fab Lab Santiago"
+  role: organizer
+  url: http://fablabsantiago.org/
+  img: flabstgo.jpg
+
+- organization: "Diseño UC"
+  role: organizer
+  url: http://diseno.uc.cl/
+  img: diseno_uc_web.jpg
+
+- organization: "CBA MIT"
+  role: organizer
+  url: http://cba.mit.edu/
+  img: CBAlogo.png
+
+- organization: "Fab Foundation"
+  role: organizer
+  url: http://www.fabfoundation.org/
+  img: fabfoundation.png
+
+- organization: "Corfo"
+  role: sponsor
+  url: https://www.corfo.cl/sites/cpp/home
+  img: logo_corfo.png
+
+- organization: "Consejo Nacional de la Cultura y las Artes"
+  role: government
+  url: http://www.cultura.gob.cl/
+  img: consejo_artes.png
+
+- organization: "Intendencia Región Metropolitana de Santiago"
+  role: government
+  url: http://www.intendenciametropolitana.gov.cl/
+  img: intendencia-footer.png
+
+- organization: "Ministerio de Economía, Fomento y Turismo"
+  role: government 
+  url: http://www.economia.gob.cl/
+  img: logo_ministerio_economia.png
+
+- organization: "Secretaría General de la Presidencia"
+  role: government
+  url: http://www.minsegpres.gob.cl/
+  img: secretaria-presidencia.png
+
+- organization: "Laboratorio de Gobierno"
+  role: government
+  url: http://www.lab.gob.cl/
+  img: laboratorio-gobierno.jpg
+
+- organization: "Red Chilena de Plataformas de Fabricación Digital"
+  role: supporter
+  url: http://www.fablabchile.org/
+  img: red-chilena.png
+
+- organization: "Fab Lat"
+  role: supporter
+  url: https://www.facebook.com/fablatam/
+  img: fab-lat.jpg
+
+- organization: "Fab City Global Initiative"
+  role: supporter
+  url: http://fab.city
+  img: fabcity.png
+
+- organization: "Socialab"
+  role: supporter
+  url: http://cl.socialab.com/
+  img: SOCIALAB.png
+
+- organization: "Fundación Vivienda"
+  role: supporter
+  url: http://fundacionvivienda.cl/
+  img: FV.png
+
+- organization: "Arch Daily"
+  role: media
+  url: http://www.archdaily.com/
+  img: archdaily.jpg
+
+- organization: "Plataforma Arquitectura"
+  role: media
+  url: http://www.plataformaarquitectura.cl/cl
+  img: plataforma-arquitectura.png
+
+- organization: "Fayer Wayer"
+  role: media
+  url: https://www.fayerwayer.com/
+  img: fayer-wayer.png
+
