@@ -1945,7 +1945,7 @@ section#venues {
 
 @media(min-width:767px) {
     section#venues {
-    height: 900px;
+    height: 750px;
 }
 
 }
@@ -2290,7 +2290,7 @@ section#footer {
     position: absolute;
     z-index: 5;
     bottom: 0;
-    
+
 }
 
 .twitter-init {
