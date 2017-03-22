@@ -28,6 +28,11 @@
   url: https://www.corfo.cl/sites/cpp/home
   img: logo_corfo.png
 
+- organization: "Chevron"
+  role: sponsor
+  url: https://www.chevron.com/
+  img: chevron.png
+
 - organization: "Consejo Nacional de la Cultura y las Artes"
   role: government
   url: http://www.cultura.gob.cl/

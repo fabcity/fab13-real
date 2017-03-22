@@ -298,6 +298,32 @@ h4 {
     }
 }
 
+.become-sponsor {
+    height: 130px;
+    border: dashed 3px #eaeaea;
+    background-color: transparent;
+}
+
+.become-sponsor:hover, 
+.become-sponsor:active, 
+.become-sponsor:focus {
+    color: #eaeaea; 
+    background-color: #{{ site.color.andeannavy }};
+    border: dashed 0px #eaeaea;
+    }
+
+.sponsor-input {
+    color: #eaeaea; 
+
+    font-size: 20px;
+    text-transform: none;
+    width:100%;  
+    line-height:130px; 
+    text-align: center;     
+    vertical-align: middle;
+}
+
+
 /*---BACKGROUNDS---*/
 .particles {
     background-image: url(../img/backgrounds/particles.svg);
@@ -420,12 +446,6 @@ h4 {
     border-radius: 0px;
     background-color: #{{ site.color.andeansand}};
     border-bottom: solid 8px white;
-    /*
-    background-color: white;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
-    */  
 }
 
 .navbar-init {
@@ -433,7 +453,11 @@ h4 {
     background-color: transparent;
     border-bottom: solid 0px transparent;
     background-color: #1d3557;
+    -webkit-box-shadow: 0 8px 34px -2px #172a46;
+    -moz-box-shadow: 0 8px 34px -2px #172a46;
+    box-shadow: 0 8px 34px -2px #172a46;
 }
+
 
 .navbar-nav li a { 
     font-family: 'Nunito', sans-serif;
@@ -1763,8 +1787,8 @@ ul.main {
 #group6 {
     z-index: 3; /* slide under group 5 and 7 */
 }
-#group6 .parallax__layer--back {
-    background-color: #{{ site.color.andeansand }};
+#group6 .parallax__layer--bac {k
+    background-color: #FAFBF9;
 }
 
 /*travel*/
@@ -1942,12 +1966,12 @@ section#faq {
 }
 
 section#sponsors {
-    height: 2400px;
+    height: 2600px;
 }
 
 @media(min-width:767px) {
     section#sponsors {
-        height: 1800px;
+        height: 2000px;
     }
 }    
 
@@ -2238,7 +2262,6 @@ section#footer {
 :-ms-placeholder {
   color: #bab6b6;
 }
-navnarnavbar
 
 .travel-info {
     background-color: #{{ site.color.andeannavy }}; 
@@ -2260,7 +2283,6 @@ navnarnavbar
     }
 }
 
-
 .twitter {
     width: 100%;
     height: auto;
@@ -2268,7 +2290,17 @@ navnarnavbar
     position: absolute;
     z-index: 5;
     bottom: 0;
+    
 }
+
+.twitter-init {
+    -webkit-box-shadow: -16 -4px 27px -2px #172a46;
+    -moz-box-shadow: -16 -4px 27px -2px #172a46;
+    box-shadow: -16px -4px 27px -2px #172a46;
+    background-color: #{{ site.color.andeannavy }};
+    color: #d8d8d8;
+}
+
 
 .tweet {
     width: 60%;
@@ -2281,6 +2313,7 @@ navnarnavbar
     white-space: nowrap;
     overflow: hidden;
     display: none;
+    color: #d8d8d8;
 }
 
 @media (min-width: 490px) {
@@ -2288,6 +2321,16 @@ navnarnavbar
         display: inline;
     }
 
+}
+
+.tweet-link {
+    font-size:13px; 
+    margin-bottom:0px; 
+    padding-top:8px; 
+    padding-left:10px; 
+    font-weight: 900; 
+    float: right; display:inline;
+    color: #d8d8d8;
 }
 
 .single-event a {
