@@ -1871,7 +1871,7 @@ section#tracks {
 
 @media(min-width:767px) {
     section#tracks {
-        height: 780px;
+        height: 880px;
         padding-top: 0px;
     }
 }
