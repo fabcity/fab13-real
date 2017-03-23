@@ -121,6 +121,10 @@ p.large {
     font-size: 19px;
 }
 
+p.inverted {
+     color: #{{ site.color.andeansand }};
+}
+
 
 a {
     font-size: 14px;
@@ -1981,7 +1985,7 @@ section#sponsors {
 }    
 
 section#footer {
-    height: 400px;
+    height: 500px;
 }
 
 
@@ -2345,4 +2349,8 @@ section#footer {
 
 .welcu_embed #wlc-table-tickets {
     background: white;
+}
+
+.license {
+    border-top: solid 2px white;
 }
