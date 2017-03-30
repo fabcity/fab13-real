@@ -9,7 +9,7 @@
                 </div>
             </div>
                 <div class="row text-center sponsor-row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 sponsor-row">
                        <p class="text-muted bold">Hosted by</p>
                     </div>
                     {% for sponsor in site.data.sponsors %}
@@ -24,9 +24,9 @@
                 </div>
 
 
-                <div class="row">
-                    <div class="col-md-12 text-center sponsor-row">
-                       <p class="text-muted bold">Sponsored by</p>
+                <div class="row sponsor-row">
+                    <div class="col-md-12 text-center">
+                       <p class="text-muted bold sponsor-row">Sponsored by</p>
                     </div>
                     {% for sponsor in site.data.sponsors %}
                         {% if sponsor.role == 'sponsor' %}
@@ -42,7 +42,7 @@
 
                 <div class="row text-center sponsor-row">
                     <div class="col-md-12">
-                       <p class="text-muted bold">Government</p>
+                       <p class="text-muted bold sponsor-row">Government</p>
                     </div>
                     {% for sponsor in site.data.sponsors %}
                         {% if sponsor.role == 'government' %}
@@ -57,7 +57,7 @@
 
                 <div class="row text-center sponsor-row">
                     <div class="col-md-12">
-                       <p class="text-muted bold">Supported by</p>
+                       <p class="text-muted bold sponsor-row">Supported by</p>
                     </div>
                     {% for sponsor in site.data.sponsors %}
                         {% if sponsor.role == 'supporter' %}
@@ -72,7 +72,7 @@
 
                 <div class="row text-center sponsor-row">
                     <div class="col-md-12">
-                       <p class="text-muted bold">Media partners</p>
+                       <p class="text-muted bold sponsor-row">Media partners</p>
                     </div>
                     {% for sponsor in site.data.sponsors %}
                         {% if sponsor.role == 'media' %}

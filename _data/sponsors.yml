@@ -38,26 +38,6 @@
   url: http://www.cultura.gob.cl/
   img: consejo_artes.png
 
-- organization: "Intendencia Región Metropolitana de Santiago"
-  role: government
-  url: http://www.intendenciametropolitana.gov.cl/
-  img: intendencia-footer.png
-
-- organization: "Ministerio de Economía, Fomento y Turismo"
-  role: government 
-  url: http://www.economia.gob.cl/
-  img: logo_ministerio_economia.png
-
-- organization: "Secretaría General de la Presidencia"
-  role: government
-  url: http://www.minsegpres.gob.cl/
-  img: secretaria-presidencia.png
-
-- organization: "Laboratorio de Gobierno"
-  role: government
-  url: http://www.lab.gob.cl/
-  img: laboratorio-gobierno.jpg
-
 - organization: "Red Chilena de Plataformas de Fabricación Digital"
   role: supporter
   url: http://www.fablabchile.org/
@@ -72,11 +52,6 @@
   role: supporter
   url: http://fab.city
   img: fabcity.png
-
-- organization: "Socialab"
-  role: supporter
-  url: http://cl.socialab.com/
-  img: SOCIALAB.png
 
 - organization: "Fundación Vivienda"
   role: supporter

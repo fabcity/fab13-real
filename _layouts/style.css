@@ -1707,16 +1707,14 @@ ul.main {
     transform: translateZ(-100px) scale(1.3);
     -moz-transform: translateZ(-100px) scale(1.3);
     z-index: 3;
-    padding-top: 1%;
 }
 
 @media(min-width:767px) {
     .parallax__layer--back {
-        -webkit-transform: translateZ(-300px) scale(2);
-        transform: translateZ(-300px) scale(2);
-        -moz-transform: translateZ(-300px) scale(2);
+        -webkit-transform: translateZ(-150px) scale(1.5);
+        transform: translateZ(-150px) scale(1.5);
+        -moz-transform: translateZ(-150px) scale(1.5);
         z-index: 3;
-        padding-top: 1%;
     }
 }
 
@@ -1877,7 +1875,7 @@ ul.main {
 
 /*venues*/
 #group9 {
-    z-index: 2; 
+    z-index: 4; 
     height: 680px;
 }
 
