@@ -78,7 +78,7 @@
   img: img/icons/decentralization-w.svg  
   imgmodal: decentralization-modal.svg
   modalid: 6
-  color: dce6da
+  color: c5d4c2
   text: "Given Chile’s geographic extension and the gradual growth of each of its regions, Santiago, the capital, concentrates practically 40% of the total population. As this will be an event of tremendous public interest, on both a national and international level, and with the objective of amplifying the impact of this meeting, we have decided to extend its reach to the regions, creating the Off Lab, in which various members of Fab Labs’ world network will travel to some of the country’s regions to develop activities, workshops, talks and to participate in regional festivals."
   speakers:
     - name: Nadya Peek

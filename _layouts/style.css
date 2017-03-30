@@ -46,6 +46,7 @@ body {
     color: #{{ site.color.andeannavy }};
 }
 
+
 section {
     padding: 100px 0px 0px 0px;
 }
@@ -1673,6 +1674,8 @@ ul.main {
     -moz-transform-style: preserve-3d;
 }
 
+
+
 .parallax__layer {
     position: absolute;
     top: 0;
@@ -1686,29 +1689,35 @@ ul.main {
 .parallax__layer--fore {
     -webkit-transform: translateZ(90px) scale(.7);
     transform: translateZ(90px) scale(.7);
-    -moz-transform: perspective(300px) translateZ(90px) scale(.7);
+    -moz-transform: translateZ(90px) scale(.7);
     z-index: 1;
 }
 
 .parallax__layer--base {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    -moz-transform: perspective(300px) translateZ(0px);
+    -moz-transform: translateZ(0px);
     z-index: 4;
 }
+
 
 .parallax__layer--back {
     -webkit-transform: translateZ(-300px) scale(2);
     transform: translateZ(-300px) scale(2);
-    -moz-transform: perspective(300px) translateZ(-300px) scale(2);
+    -moz-transform: translateZ(-300px) scale(2);
     z-index: 3;
+    padding-top: 80px;
 }
 
 .parallax__layer--deep {
     -webkit-transform: translateZ(-600px) scale(3);
     transform: translateZ(-600px) scale(3);
-    -moz-transform: perspective(300px) translateZ(-600px) scale(3);
+    -moz-transform: translateZ(-600px) scale(3);
     z-index: 2;
+}
+
+.group-top {
+     /*padding-top:100px;*/
 }
 
 
@@ -1758,6 +1767,11 @@ ul.main {
 #group1 { 
     z-index: 5; 
 }
+
+.cortina {
+    top: 45%;
+}
+
 #group1 .parallax__layer--base {
     background: #{{ site.color.andeannavy }};
 }
@@ -1766,11 +1780,21 @@ ul.main {
 /*header*/
 #group2 { 
     z-index: 1; 
+    padding-top:0px;
+    height: 550px;
 }
 
-/*intro text*/
+/*intro*/
 #group3 {
-    z-index: 2; /* slide over group 2 and 4 */
+    z-index: 2; 
+    height:710px;
+}
+
+@media(min-width:500px) {
+    #group3 {
+        height:900px;
+        padding-top: 0px;
+    }
 }
 
 #group3 .parallax__layer--base {
@@ -1778,54 +1802,104 @@ ul.main {
 
 /*tracks*/
 #group4 {
-    z-index: 4; /* slide under group 3 and 5 */
+    z-index: 4; 
+    height: 2400px;
 }
 
-/*symposium/activities*/
+@media(min-width:767px) {
+    #group4 {
+        height: 1000px;
+    }
+}
+
+/*speakers*/
 #group5 {
-    z-index: 2; /* slide over group 4 and 6 */
-}
-#group5 .parallax__layer--base {
-
-}
-#group5 .parallax__layer--back{
-
+    z-index: 2; ;
+    height: 950px;
 }
 
-/*festival*/
+@media(min-width:767px) {
+    #group5 {
+        height: 1100px;
+    }
+}
+
+/*apply*/
 #group6 {
-    z-index: 3; /* slide under group 5 and 7 */
+    z-index: 3; 
+    height: 1030px;
 }
-#group6 .parallax__layer--bac {k
-    background-color: #FAFBF9;
+
+@media(min-width:767px) {
+    #group6{
+        height: 1100px;
+    }
 }
+
 
 /*travel*/
 #group7 {
-    z-index: 4; /* slide over group 7 */
+    z-index: 4; 
+    height: 950px;
 }
+
+@media(min-width:767px) {
+    #group7 {
+    height: 1250px;
+    }
+}
+
 #group7 .parallax__layer--base {
 }
 
 /*schedule*/
 #group8 {
-    z-index: 3; /* slide over group 7 */
+    z-index: 3; 
+    height: 1900px;
+}
+
+@media(min-width:767px) {
+    #group8 {
+        height: 1300px;
+    }
 }
 
 /*venues*/
 #group9 {
-    z-index: 5; /* slide over group 7 */
+    z-index: 2; 
+    height: 680px;
 }
 
-/*welcu*/
+@media(min-width:767px) {
+        #group9 {
+        height: 750px;
+    }
+}
+
+/*Tickets*/
 #group10 {
-    z-index: 4; /* slide over group 7 */
+    z-index: 1; 
+    height: 600px;
 }
 
-/*FAQ*/
+@media(min-width:767px) {
+    #group10 {
+    height: 500px;
+    }
+}  
+
+
+/*Sponsors*/
 #group11 {
-    z-index: 4; /* slide over group 7 */
+    z-index: 4; 
+    height: 2600px;
 }
+
+@media(min-width:767px) {
+    #group11 {
+        height: 2000px;
+    }
+}   
 
 /*Footer*/
 #group12 {
@@ -1834,67 +1908,28 @@ ul.main {
     height: 400px;
 }
 
+/*Newsletter*/
+#group13 {
+    z-index: 4; 
+    height: 200px;
+}
+
+/*FAQ*/
+
+#group14 {
+    z-index: 4;
+    height: 200px;
+}
+
+/*Footer*/
+#group15 {
+     z-index: 5; /* slide over group 7 */
+}
+
 
 
 /*---GENERAL SECTIONS---*/ 
 
-
-section#header { 
-    padding-top:0px;
-}
-
-@media(min-width:767px) {
-    section#header { 
-        padding-top:0px;
-    }
-}
-
-section#header {
-    height: 550px;
-}
-
-section#intro {
-    height:710px;
-}
-
-@media(min-width:500px) {
-    section#intro {
-        height:650px;
-        padding-top: 0px;
-    }
-}
-
-
-section#tracks {
-    height: 2400px;
-}
-
-@media(min-width:767px) {
-    section#tracks {
-        height: 880px;
-        padding-top: 0px;
-    }
-}
-
-
-section#newsletter {
-    height: 200px;
-}
-
-
-section#symposium {
-    /*
-    height: 1850px;
-    */
-    height: 950px;
-}
-
-@media(min-width:767px) {
-    section#symposium {
-        /*height: 1700px;*/
-        height: 1100;
-    }
-}
 
 section#activities {
     height: 2900px;
@@ -1916,81 +1951,6 @@ section#festival {
     height: 900px;
 }
 
-section#apply {
-    height: 1030px;
-}
-
-@media(min-width:767px) {
-    section#apply {
-        height: 830px;
-    }
-}
-
-section#travel {
-    height: 950px;
-}
-
-@media(min-width:767px) {
-    section#travel {
-    height: 950px;
-}
-
-}
-
-
-section#schedule {
-    height: 1900px;
-}
-
-@media(min-width:767px) {
-    section#schedule {
-        height: 1300px;
-    }
-}
-
-section#venues {
-    height: 680px;
-}
-
-@media(min-width:767px) {
-    section#venues {
-    height: 750px;
-}
-
-}
-
-section#tickets {
-    height: 600px;
-}
-
-@media(min-width:767px) {
-    section#tickets {
-    height: 500px;
-}
-
-}    
-
-section#faq {
-    height: 200px;
-}
-
-section#sponsors {
-    height: 2600px;
-}
-
-@media(min-width:767px) {
-    section#sponsors {
-        height: 2000px;
-    }
-}    
-
-section#footer {
-    height: 500px;
-}
-
-
-
-
 
 
   /* misc
@@ -2004,11 +1964,6 @@ section#footer {
     text-align:center;
     width: 100%;
 }
-
-
-
-
-
 
 
 
@@ -2292,6 +2247,8 @@ section#footer {
     }
 }
 
+/*----TWITTER BAND---*/
+
 .twitter {
     width: 100%;
     height: auto;
@@ -2299,7 +2256,6 @@ section#footer {
     position: absolute;
     z-index: 5;
     bottom: 0;
-
 }
 
 .twitter-init {
@@ -2342,6 +2298,10 @@ section#footer {
     color: #d8d8d8;
 }
 
+
+
+
+
 .single-event a {
     pointer-events: none;
    cursor: default;
@@ -2354,3 +2314,4 @@ section#footer {
 .license {
     border-top: solid 2px white;
 }
+
