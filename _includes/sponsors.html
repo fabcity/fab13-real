@@ -1,94 +1,98 @@
 <!-- Sponsor Logos  -->
 <div id="group11" class="parallax__group">
-    <aside class="">  
-        <div class="container">
-
-            <div class="row text-center sponsor-row">
-                <div class="col-md-12">
-                   <p class="text-muted bold">Hosted by</p>
+    <div class="parallax__layer parallax__layer--base">
+        <aside class="">  
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-title">Sponsors</h3>
                 </div>
-                {% for sponsor in site.data.sponsors %}
-                    {% if sponsor.role == 'organizer' %}
-                       <a href="{{ sponsor.url }}" target="_blank">
-                           <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
-                                <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
-                            </div>
-                        </a>
-                    {% endif %}
-                {% endfor %}
             </div>
-
-
-            <div class="row">
-                <div class="col-md-12 text-center sponsor-row">
-                   <p class="text-muted bold">Sponsored by</p>
+                <div class="row text-center sponsor-row">
+                    <div class="col-md-12">
+                       <p class="text-muted bold">Hosted by</p>
+                    </div>
+                    {% for sponsor in site.data.sponsors %}
+                        {% if sponsor.role == 'organizer' %}
+                           <a href="{{ sponsor.url }}" target="_blank">
+                               <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
+                                    <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
+                                </div>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
-                {% for sponsor in site.data.sponsors %}
-                    {% if sponsor.role == 'sponsor' %}
-                       <a href="{{ sponsor.url }}" target="_blank">
-                           <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
-                                <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
-                            </div>
-                        </a>
-                    {% endif %}
-                {% endfor %}
-            </div><!--row-->
 
 
-            <div class="row text-center sponsor-row">
-                <div class="col-md-12">
-                   <p class="text-muted bold">Government</p>
+                <div class="row">
+                    <div class="col-md-12 text-center sponsor-row">
+                       <p class="text-muted bold">Sponsored by</p>
+                    </div>
+                    {% for sponsor in site.data.sponsors %}
+                        {% if sponsor.role == 'sponsor' %}
+                           <a href="{{ sponsor.url }}" target="_blank">
+                               <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
+                                    <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
+                                </div>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                </div><!--row-->
+
+
+                <div class="row text-center sponsor-row">
+                    <div class="col-md-12">
+                       <p class="text-muted bold">Government</p>
+                    </div>
+                    {% for sponsor in site.data.sponsors %}
+                        {% if sponsor.role == 'government' %}
+                           <a href="{{ sponsor.url }}" target="_blank">
+                                <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
+                                    <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
+                                </div>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
-                {% for sponsor in site.data.sponsors %}
-                    {% if sponsor.role == 'government' %}
-                       <a href="{{ sponsor.url }}" target="_blank">
-                            <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
-                                <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
-                            </div>
-                        </a>
-                    {% endif %}
-                {% endfor %}
-            </div>
 
-            <div class="row text-center sponsor-row">
-                <div class="col-md-12">
-                   <p class="text-muted bold">Supported by</p>
+                <div class="row text-center sponsor-row">
+                    <div class="col-md-12">
+                       <p class="text-muted bold">Supported by</p>
+                    </div>
+                    {% for sponsor in site.data.sponsors %}
+                        {% if sponsor.role == 'supporter' %}
+                            <a href="{{ sponsor.url }}" target="_blank">
+                                <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
+                                    <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
+                                </div>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
-                {% for sponsor in site.data.sponsors %}
-                    {% if sponsor.role == 'supporter' %}
-                        <a href="{{ sponsor.url }}" target="_blank">
-                            <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
-                                <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
-                            </div>
-                        </a>
-                    {% endif %}
-                {% endfor %}
-            </div>
 
-            <div class="row text-center sponsor-row">
-                <div class="col-md-12">
-                   <p class="text-muted bold">Media partners</p>
+                <div class="row text-center sponsor-row">
+                    <div class="col-md-12">
+                       <p class="text-muted bold">Media partners</p>
+                    </div>
+                    {% for sponsor in site.data.sponsors %}
+                        {% if sponsor.role == 'media' %}
+                           <a href="{{ sponsor.url }}" target="_blank">
+                                <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
+                                    <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
+                                </div>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
-                {% for sponsor in site.data.sponsors %}
-                    {% if sponsor.role == 'media' %}
-                       <a href="{{ sponsor.url }}" target="_blank">
-                            <div class="col-xs-6 col-sm-4 col-md-4 sponsor-div">
-                                <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
-                            </div>
-                        </a>
-                    {% endif %}
-                {% endfor %}
-            </div>
 
-            <div class="row text-center sponsor-row">  
-                <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfSokJSskc3ddNnA7hXbrn3YVjlp27I6R0WAh8JSRqm7LRqkw/viewform" target="_blank"> 
-                    <div class="col-md-12 become-sponsor box-grow">
-                        <h4 class="sponsor-input">&#43; become a sponsor </h4>
-                    </div> 
-                </a>
-            </div>
-
-
-        </div><!--container-->   
-    </aside>
+                <div class="row text-center sponsor-row">  
+                    <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfSokJSskc3ddNnA7hXbrn3YVjlp27I6R0WAh8JSRqm7LRqkw/viewform" target="_blank"> 
+                        <div class="col-md-12 become-sponsor box-grow">
+                            <h4 class="sponsor-input">&#43; become a sponsor </h4>
+                        </div> 
+                    </a>
+                </div>
+            </div><!--container-->   
+        </aside>
+    </div> <!-- layer base -->
 </div><!--parallax-group-->
