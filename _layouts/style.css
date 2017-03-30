@@ -1701,12 +1701,23 @@ ul.main {
 }
 
 
+
 .parallax__layer--back {
-    -webkit-transform: translateZ(-300px) scale(2);
-    transform: translateZ(-300px) scale(2);
-    -moz-transform: translateZ(-300px) scale(2);
+    -webkit-transform: translateZ(-100px) scale(1.3);
+    transform: translateZ(-100px) scale(1.3);
+    -moz-transform: translateZ(-100px) scale(1.3);
     z-index: 3;
     padding-top: 1%;
+}
+
+@media(min-width:767px) {
+    .parallax__layer--back {
+        -webkit-transform: translateZ(-300px) scale(2);
+        transform: translateZ(-300px) scale(2);
+        -moz-transform: translateZ(-300px) scale(2);
+        z-index: 3;
+        padding-top: 1%;
+    }
 }
 
 .parallax__layer--deep {
@@ -1815,12 +1826,12 @@ ul.main {
 /*speakers*/
 #group5 {
     z-index: 3 ;
-    height: 950px;
+    height: 1850px;
 }
 
 @media(min-width:767px) {
     #group5 {
-        height: 1100px;
+        height: 1200px;
     }
 }
 
