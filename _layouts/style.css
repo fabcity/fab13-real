@@ -1706,7 +1706,7 @@ ul.main {
     transform: translateZ(-300px) scale(2);
     -moz-transform: translateZ(-300px) scale(2);
     z-index: 3;
-    padding-top: 80px;
+    padding-top: 1%;
 }
 
 .parallax__layer--deep {
@@ -1717,7 +1717,7 @@ ul.main {
 }
 
 .group-top {
-     /*padding-top:100px;*/
+     padding-top:100px;
 }
 
 
@@ -1786,8 +1786,8 @@ ul.main {
 
 /*intro*/
 #group3 {
-    z-index: 2; 
-    height:710px;
+    z-index: 3; 
+    height:910px;
 }
 
 @media(min-width:500px) {
@@ -1802,7 +1802,7 @@ ul.main {
 
 /*tracks*/
 #group4 {
-    z-index: 4; 
+    z-index: 5; 
     height: 2400px;
 }
 
@@ -1814,7 +1814,7 @@ ul.main {
 
 /*speakers*/
 #group5 {
-    z-index: 2; ;
+    z-index: 3 ;
     height: 950px;
 }
 
@@ -1826,7 +1826,7 @@ ul.main {
 
 /*apply*/
 #group6 {
-    z-index: 3; 
+    z-index: 4; 
     height: 1030px;
 }
 
@@ -1839,7 +1839,7 @@ ul.main {
 
 /*travel*/
 #group7 {
-    z-index: 4; 
+    z-index: 2; 
     height: 950px;
 }
 

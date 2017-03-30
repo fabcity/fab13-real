@@ -1,26 +1,26 @@
 - name: Nadya Peek
-  bio: This is a short bio of the speaker
+  bio: "Research assistant and phd student at MIT’s CBA."
   img: nadya.jpg
   modalid: 1
 
-- name: Sherry Lassiter
-  bio: This is a short bio of the speaker
-  img: nadya.jpg 
+- name: Jean Michel Molennar
+  bio: "Fab Connections, HTGAA and Professor at Tufts University."
+  img: jean_michel_molenaar.jpg 
   modalid: 2
 
-- name: Nadya Peek
-  bio: This is a short bio of the speaker
-  img: nadya.jpg 
+- name: Bunnie Huang
+  bio: "Xbox hacker, founder of bunniestudios, PhD in EE from MIT."
+  img: bunnie_huang.jpg 
   modalid: 3
 
-- name: Nadya Peek
-  bio: This is a short bio of the speaker
-  img: nadya.jpg 
+- name: Mitchell Baker
+  bio: "Chair of the Mozilla Foundation"
+  img: mitchell_baker.jpg
 
-- name: Nadya Peek
-  bio: This is a short bio of the speaker
-  img: nadya.jpg 
+- name: Melissa Franklin
+  bio: "Department Chair and Mallinckrodt Professor of Physics, Harvard University"
+  img: melissa_franklin.jpg
 
-- name: Nadya Peek
-  bio: This is a short bio of the speaker
-  img: nadya.jpg  
+- name: Andrew McAfee
+  bio: "Co-Director, MIT Initiative on the Digital Economy; Associate Director, Center for Digital Business"
+  img: andrew_mcAfee.jpg
