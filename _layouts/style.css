@@ -1667,6 +1667,7 @@ ul.main {
 .parallax {
     height: 500px; /* fallback for older browsers */
     height: 100vh;
+    height:100%;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-perspective: 300px;
@@ -1675,6 +1676,7 @@ ul.main {
     -webkit-perspective-origin-x: 100%;
     perspective-origin-x: 100%;
     margin-top:50px;
+    scroll-behavior: smooth;
 }
 
 .parallax__group {
