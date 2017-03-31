@@ -2047,6 +2047,11 @@ ul.main {
 }
 
 
+#group17 {
+     z-index: 3; 
+     height: 300px;
+}
+
 
 /*---GENERAL SECTIONS---*/ 
 
@@ -2473,4 +2478,32 @@ section#festival {
 
 .country-bullets{
     padding-bottom: 20px;
+}
+
+.event-div {
+    height:200px;
+}
+
+
+.org-div {
+    height: 300px;
+}
+
+
+
+#wrapper {
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#wrapper td {
+   vertical-align: middle;
+   text-align: center;
+}
+
+.event-img {
+    width: 80%;
 }

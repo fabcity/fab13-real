@@ -1,0 +1,19 @@
+<!--Previous-events -->
+<div id="group17" class="parallax__group">
+	<div class="parallax__layer parallax__layer--base">
+		<div class="container">
+			<div class="row">
+				{% for event in site.data.events %} 
+				<div class="col-xs-6 col-sm-4 col-md-4 box-grow">
+					<table id="wrapper">
+						<tr>
+							<td><a href="{{ event.url }}" target="_blank"><img class="event-img" src="/img/logos/{{ event.img }}"></td> </a>
+						</tr>
+					</table>
+				</div>
+				{% endfor %}
+
+			</div><!--row-->
+		</div> <!--container-->
+	</div><!--layer-base-->
+</div><!--group-->	
