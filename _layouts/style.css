@@ -499,6 +499,7 @@ h3.section-title {
     background-color: transparent;
 }
 
+
 .navbar-brand {
     position: absolute;
     width: auto;
@@ -1937,8 +1938,23 @@ ul.main {
 
 /*Footer*/
 #group15 {
-     z-index: 5; /* slide over group 7 */
+     z-index: 5; 
 }
+
+
+/*travel-info-page*/
+#group16 {
+     z-index: 3; 
+     height: 2250px;
+}
+
+@media(min-width:767px) {
+    #group16 {
+         z-index: 3; 
+         height: 2050px;
+    }
+}
+
 
 
 
@@ -2331,4 +2347,31 @@ section#festival {
 
 .oldspeakers {
     padding: 30px 0px 80px 0px;
+}
+
+.row-page {
+    padding-bottom: 80px;
+}
+
+.row-page .section-title {
+    padding-bottom: 40px;
+}
+
+.hotel-img {
+    height: 200px;
+    margin-top: 20px;
+}
+
+.hotel-description {
+    padding-top: 40px;
+}
+
+.travel-header {
+    width:100%;
+}
+
+@media (min-width: 767px) {
+    .travel-header {
+        width:60%;
+    }
 }

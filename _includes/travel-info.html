@@ -1,5 +1,5 @@
 <!--Travel-->
-<div id="group7" class="parallax__group">
+<div id="group16" class="parallax__group">
 
   <div class="parallax__layer parallax__layer--deep">
     <div class="col-sm-12 col-md-12 text-right">
@@ -7,7 +7,7 @@
         </div>
   </div>
 
-  <div class="parallax__layer parallax__layer--back" style="">
+  <div class="parallax__layer parallax__layer--back" style="margin-top: -20px;">
     <img class="bg-responsive group-top" src="/img/backgrounds/color-top-navy.svg"/>
   </div>
 
@@ -16,20 +16,77 @@
         
   </div>-->
 
-
   <div class="parallax__layer parallax__layer--base top">
-    <div class="container group-top text-center">
-      <div class="row">
+    <div class="container group-top text-center" style="padding-top: 60px;">
+      <div class="row row-page">
         <div class="col-lg-12 text-center">
           <h3 class="section-title">Travel</h3>
         </div>
-       <div class="col-md-6 col-sm-6 text-center">
-         <img src="/img/backgrounds/santiago.jpg" style="width:90%;">
+        <div class="col-sm-12 col-md-12 text-center">
+         <img src="/img/backgrounds/santiago.jpg" class="travel-header" style="">
         </div>
+      </div><!--row-->
+
+
+      <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Hotels</h4>
+        </div>
+
+        {% for hotel in site.data.hotels %}
+          <a href="{{ hotel.url }}">
+          <div class="col-xs-12 col-md-6 col-sm-6 track-box bg-fade box-grow" style="height:auto;">
+            <div class="hotel-img bg-img" style="background-image: url(../img/travel/{{ hotel.img }});">
+            </div>
+            <div class="hotel-description">
+              <h4>{{ hotel.name }}</h4>
+              <div class="text-center" style="margin:0% 5%">
+                <p>{{ hotel.short }}<span class="bold"></br>+make reservation </span></p>
+              </div>  
+            </div>
+          </div>  
+          </a>
+        {% endfor %}
+      </div>
+
+      <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Transport</h4>
+        </div>
+      </div>
+
+      <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Discover Chile</h4>
+        </div>
+
+        <div class="col-sm-6" style="height: 300px;">
+           <div class="bg-img" style="background-image: url(../img/travel/magazine.png); background-position: top center;">
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 text-center">
+          <a class="btn btn-inverted alt" style="margin-top: 55px;" href="/fab_13_chile_magazine.pdf"target="_blank" >Download the Magazine</a>
+        </div>
+
+      </div>
+
+      <div class="row row-page">
+        <div class="col-lg-12 text-center">
+          <h4 class="section-title">Visas and Invitation Letters</h4>
+        </div>
+      </div>
+
+      
+
+
+      <!--
+       <div class="row">
         <div class="col-sm-12 col-md-12 text-center">
           <a class="btn btn-inverted alt" style="margin-top: 55px;" href="/fab_13_chile_magazine.pdf"target="_blank" >Download the Guide</a>
-        </div> <!--col-->
-      </div><!--row-->
+        </div>
+      </div>-->
+
     </div><!--container-->
   </div><!--layer base-->
 
