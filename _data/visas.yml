@@ -1,0 +1,51 @@
+- initial: A
+  countries:
+    - name: Afganistan
+    - name: Angola
+    - name: Saudi Arabia
+    - name: Argelia
+    - name: Armenia
+    - name: Azerbaiyan
+
+- initial: B
+  countries:
+    - name: Bahrein
+    - name: Bangladesh
+    - name: Belarus
+    - name: Benin
+    - name: Bhutan
+    - name: Botswana
+    - name: Brunei
+    - name: Burkina Faso
+    - name: Burundi
+
+- initial: C
+  countries:
+    - name: Cabo Verde
+    - name: Cambodia
+    - name: Camerun
+    - name: Chad
+    - name: China
+    - name: Congo
+    - name: North Korea
+    - name: Cuba
+
+- initial: D
+  countries:
+    - name: Cote D'Ivoire
+    - name: Djibouti
+    - name: Dominican Republic
+
+- initial: E
+  countries:
+    - name: Egypt
+    - name: United Arab Emirates
+    - name: Eritrea
+    - name: Ethiopia
+    
+- initial: E
+  countries:
+    - name: Egypt
+
+
+
