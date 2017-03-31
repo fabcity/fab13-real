@@ -1957,7 +1957,6 @@ ul.main {
 
 
 
-
 /*---GENERAL SECTIONS---*/ 
 
 
@@ -2374,4 +2373,8 @@ section#festival {
     .travel-header {
         width:60%;
     }
+}
+
+.visa-list>.country-list>li {
+    padding-bottom: 3px ;
 }
