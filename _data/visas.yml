@@ -1,15 +1,15 @@
 - initial: A
   countries:
-    - name: Afganistan
+    - name: Afghanistan
     - name: Angola
     - name: Saudi Arabia
-    - name: Argelia
+    - name: Algeria
     - name: Armenia
-    - name: Azerbaiyan
+    - name: Azerbaijan
 
 - initial: B
   countries:
-    - name: Bahrein
+    - name: Bahrain
     - name: Bangladesh
     - name: Belarus
     - name: Benin
@@ -21,31 +21,147 @@
 
 - initial: C
   countries:
-    - name: Cabo Verde
+    - name: Cape Verde
     - name: Cambodia
-    - name: Camerun
+    - name: Cameroon
     - name: Chad
     - name: China
-    - name: Congo
+    - name: "Congo, Democratic Republic"
     - name: North Korea
     - name: Cuba
+    - name: Comoro Islands
 
 - initial: D
   countries:
-    - name: Cote D'Ivoire
     - name: Djibouti
     - name: Dominican Republic
 
 - initial: E
   countries:
     - name: Egypt
-    - name: United Arab Emirates
+    - name: "Emirates, United Arab"
     - name: Eritrea
     - name: Ethiopia
-    
-- initial: E
+
+- initial: G
   countries:
-    - name: Egypt
+    - name: Gabon
+    - name: Gambia
+    - name: Georgia
+    - name: Ghana
+    - name: Guinea
+    - name: Guinea Bissau
+    - name: Equatorial Guinea
+    - name: Guyana
+
+- initial: I
+  countries:
+    - name: Ivory Coast
+    - name: India
+    - name: Iran
+    - name: Irak
+
+- initial: J
+  countries:
+    - name: Jordan
+
+- initial: K
+  countries:
+    - name: Kazakhstan
+    - name: Kenia
+    - name: Kyrgyzstan
+    - name: Kiribati
+    - name: Kuwait
+
+- initial: L
+  countries: 
+    - name: Laos
+    - name: Lesotho
+    - name: Lebanon
+    - name: Liberia
+
+- initial: M
+  countries: 
+    - name: Madagascar
+    - name: Malawi
+    - name: Maldives
+    - name: Mali
+    - name: Morocco
+    - name: Mauritania
+    - name: Micronesia
+    - name: Mongolia
+    - name: Mozambique
+    - name: Myanmar
+    - name: Marshall Islands
+
+- initial: N
+  countries: 
+    - name: Namibia
+    - name: Nauru
+    - name: Nepal
+    - name: Niger
+    - name: Nigeria
+
+- initial: O
+  countries: 
+    - name: Oman
+
+- initial: P
+  countries: 
+    - name: Pakistan
+    - name: Palau
+    - name: Papua New Guinea
+    - name: Philippines
+
+- initial: Q
+  countries:
+    - name: Qatar 
+
+- initial: R
+  countries:
+    - name: Rwanda
 
 
+- initial: S
+  countries:
+    - name: Samoa
+    - name: São Tomé and Príncipe
+    - name: Seychelles
+    - name: Sierra Leone
+    - name: Syria
+    - name: Somalia
+    - name: Sri Lanka
+    - name: Sudan
+    - name: Suriname
+    - name: Swaziland
+    - name: Solomon Islands
+
+- initial: T
+  countries:
+    - name: Tajikistan
+    - name: Tanzania
+    - name: Togo
+    - name: Tunisia
+    - name: Turkmenistan
+    - name: Tuvalu
+
+- initial: U
+  countries:
+    - name: Ukraine
+    - name: Uganda
+    - name: Uzbekistan
+
+- initial: V
+  countries:
+    - name: Vanuatu
+    - name: Vietnam
+
+- initial: Y
+  countries:
+    - name: Yemen
+
+- initial: Z
+  countries:
+    - name: Zambia
+    - name: Zimbabwe
 

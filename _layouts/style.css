@@ -1945,13 +1945,13 @@ ul.main {
 /*travel-info-page*/
 #group16 {
      z-index: 3; 
-     height: 2750px;
+     height: 4500px;
 }
 
 @media(min-width:767px) {
     #group16 {
          z-index: 3; 
-         height: 3500px;
+         height: 4500px;
     }
 }
 
@@ -2377,4 +2377,9 @@ section#festival {
 
 .visa-list>.country-list>li {
     padding-bottom: 3px ;
+}
+
+
+.country-bullets{
+    padding-bottom: 20px;
 }

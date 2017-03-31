@@ -1,7 +1,7 @@
 <!--Travel-->
 <div id="group16" class="parallax__group">
 
-  <div class="parallax__layer parallax__layer--back" style="margin-top: 290px;">
+  <div class="parallax__layer parallax__layer--back" style="height: 1900px;">
     <img class="bg-responsive group-top" src="/img/backgrounds/color-top-navy.svg"/>
   </div>
 
@@ -53,7 +53,7 @@
           <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
         </div>
         <div class="col-sm-12 col-md-12 text-center">
-          <a class="btn btn-inverted alt" style="margin-top: 55px;" href="/fab_13_chile_magazine.pdf"target="_blank" >Download the Magazine</a>
+          <a class="btn btn-inverted alt" style="margin-top:55px;" href="/fab_13_chile_magazine.pdf"target="_blank" >Download the Magazine</a>
         </div>
       </div>
 
@@ -64,9 +64,8 @@
         <div class="col-lg-12 row-page text-center">
           <p class="bold">If you plan on travelling to FAB13 you may require a visa to enter Chile. Please check the list below.</p>
         </div>
-        <div class="col-lg-12 text-center">
         {% for letter in site.data.visas %}
-          <div class="col-xs-4 col-md-4 col-sm-4" style="height:240px;">
+          <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
             <h4 style="color: #1d3557;">{{ letter.initial }} </h4>
             <div class="visa-list">
               <ul class="country-list">
@@ -77,7 +76,6 @@
             </div>
           </div>  
         {% endfor %}
-        </div>
       </div>
 
     </div><!--container-->
