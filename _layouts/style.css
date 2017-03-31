@@ -303,6 +303,10 @@ h3.section-title {
     filter: grayscale(100%);
 }
 
+.sponsor-img:hover, .sponsor-img:active, .sponsor-img:hover:focus {
+    filter: grayscale(0%);
+}
+
 .sponsor-row {
     padding-bottom: 30px;
 }
