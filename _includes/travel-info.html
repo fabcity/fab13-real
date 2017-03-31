@@ -1,20 +1,10 @@
 <!--Travel-->
 <div id="group16" class="parallax__group">
 
-  <div class="parallax__layer parallax__layer--deep">
-    <div class="col-sm-12 col-md-12 text-right">
-          <!--<img class="" src="/img/icons/plane.svg" style="margin-top:490px; width:200px;">-->
-        </div>
-  </div>
-
   <div class="parallax__layer parallax__layer--back" style="margin-top: 90px;">
     <img class="bg-responsive group-top" src="/img/backgrounds/color-top-navy.svg"/>
   </div>
 
-
-  <!--<div class="parallax__layer parallax__layer--fore">
-        
-  </div>-->
 
   <div class="parallax__layer parallax__layer--base top">
     <div class="container group-top text-center" style="padding-top: 60px;">
@@ -23,16 +13,15 @@
           <h3 class="section-title">Travel</h3>
         </div>
         <div class="col-sm-12 col-md-12 text-center">
-         <img src="/img/backgrounds/santiago.jpg" class="travel-header" style="">
+           {% include travel-carousel.html %}
         </div>
-      </div><!--row-->
+      </div>
 
 
       <div class="row row-page">
         <div class="col-sm-12 text-center">
           <h4 class="section-title">Hotels</h4>
         </div>
-
         {% for hotel in site.data.hotels %}
           <a href="{{ hotel.url }}">
           <div class="col-xs-12 col-md-6 col-sm-6 track-box bg-fade box-grow" style="height:auto;">
@@ -59,19 +48,13 @@
         <div class="col-sm-12 text-center">
           <h4 class="section-title">Discover Chile</h4>
         </div>
-
         <div class="col-sm-12 text-center" style="height: 700px;">
           <div data-configid="27087082/46609787" style="width:100%; height:700px;" class="issuuembed"></div>
           <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
-           
-           <!--<div class="bg-img" style="background-image: url(../img/travel/magazine.png); background-position: top center;">
-          </div>-->
         </div>
-
         <div class="col-sm-12 col-md-12 text-center">
           <a class="btn btn-inverted alt" style="margin-top: 55px;" href="/fab_13_chile_magazine.pdf"target="_blank" >Download the Magazine</a>
         </div>
-
       </div>
 
       <div class="row row-page">
@@ -80,19 +63,8 @@
         </div>
       </div>
 
-      
-
-
-      <!--
-       <div class="row">
-        <div class="col-sm-12 col-md-12 text-center">
-          <a class="btn btn-inverted alt" style="margin-top: 55px;" href="/fab_13_chile_magazine.pdf"target="_blank" >Download the Guide</a>
-        </div>
-      </div>-->
-
     </div><!--container-->
   </div><!--layer base-->
-
 </div><!--parallax-group-->
 
 
