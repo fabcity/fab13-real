@@ -300,6 +300,7 @@ h3.section-title {
     right: 0;
     bottom: 0;
     width:80%;
+    filter: grayscale(100%);
 }
 
 .sponsor-row {
