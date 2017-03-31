@@ -1025,6 +1025,7 @@ h4.footer-titles {
     font-size: 15px;
     font-weight: 300px ;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 footer span.copyright {
@@ -1929,7 +1930,7 @@ ul.main {
 #group12 {
     z-index: 5; /* slide over group 7 */
     background-color: #{{ site.color.andeannavy }};
-    height: 400px;
+    height: 470px;
 }
 
 /*Newsletter*/
