@@ -1824,12 +1824,12 @@ ul.main {
 /*speakers*/
 #group5 {
     z-index: 3 ;
-    height: 1850px;
+    height: 2500px;
 }
 
 @media(min-width:767px) {
     #group5 {
-        height: 1200px;
+        height: 1400px;
     }
 }
 
