@@ -420,7 +420,7 @@ h3.section-title {
 
 /*Inverted pink alternative colors button */
 .btn-inverted.alt {
-    background-color: transparent;
+    background-color: white;
     border: 4px solid #{{ site.color.andeanpink }}; 
     color: #{{ site.color.andeanpink}};
     font-weight: 900;
