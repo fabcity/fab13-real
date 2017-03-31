@@ -172,6 +172,11 @@ h4 {
     padding-bottom: 10px; 
 }
 
+h5 { 
+    font-size: 14px; 
+    padding-bottom: 10px; 
+}
+
 h3.section-title {
      padding-bottom: 70px; 
      text-align: center;
@@ -1824,12 +1829,12 @@ ul.main {
 /*speakers*/
 #group5 {
     z-index: 3 ;
-    height: 2500px;
+    height: 2800px;
 }
 
 @media(min-width:767px) {
     #group5 {
-        height: 1400px;
+        height: 1800px;
     }
 }
 
@@ -2324,3 +2329,6 @@ section#festival {
     border-top: solid 2px white;
 }
 
+.oldspeakers {
+    padding: 30px 0px 80px 0px;
+}
