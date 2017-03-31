@@ -1936,9 +1936,17 @@ ul.main {
 }
 
 /*Newsletter*/
+
 #group13 {
     z-index: 4; 
-    height: 200px;
+    height: 280px;
+}
+
+@media(min-width:767px) {
+    #group13 {
+        z-index: 4; 
+        height: 200px;
+    }
 }
 
 /*FAQ*/
