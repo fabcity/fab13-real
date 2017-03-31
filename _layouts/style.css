@@ -1802,7 +1802,7 @@ ul.main {
 /*intro*/
 #group3 {
     z-index: 3; 
-    height:910px;
+    height:990px;
 }
 
 @media(min-width:500px) {
