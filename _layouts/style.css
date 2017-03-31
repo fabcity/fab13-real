@@ -1945,13 +1945,13 @@ ul.main {
 /*travel-info-page*/
 #group16 {
      z-index: 3; 
-     height: 2250px;
+     height: 2750px;
 }
 
 @media(min-width:767px) {
     #group16 {
          z-index: 3; 
-         height: 2050px;
+         height: 2500px;
     }
 }
 
