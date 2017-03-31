@@ -1839,6 +1839,10 @@ ul.main {
     }
 }
 
+.speakers-back {
+    height: 1400px;
+}
+
 /*apply*/
 #group6 {
     z-index: 4; 
