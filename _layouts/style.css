@@ -1910,7 +1910,7 @@ ul.main {
 /*speakers*/
 #group5 {
     z-index: 1 ;
-    height: 2800px;
+    height: 3300px;
 }
 
 @media(min-width:767px) {
@@ -1959,7 +1959,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group8 {
-        height: 1300px;
+        height: 1600px;
     }
 }
 
