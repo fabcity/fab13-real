@@ -16,6 +16,12 @@
   modalid: 3
   event: Fab12
 
+- name: Neil Gershenfeld
+  bio: "Director of MIT's Center for Bits and Atoms"
+  img: neil.jpg 
+  modalid: 3
+  event: Fab12
+
 - name: Mitchell Baker
   bio: "Chair of the Mozilla Foundation"
   img: mitchell_baker.jpg
@@ -31,6 +37,11 @@
   img: andrew_mcAfee.jpg
   event: Fab11
 
+- name: Rich DeVaul
+  bio: "Leader, Google [x] Rapid Evaluation Team"
+  img: rich_devaul.jpg
+  event: Fab11
+
 - name: Alastair Parvin
   bio: "Co-founder WikiHouse, Architectural & strategic designer with 00 London."
   img: alastair_parvin.jpg
@@ -44,4 +55,9 @@
 - name: Hannah Jones
   bio: "Chief Sustainability Officer & VP of the Innovation Accelerator at Nike"
   img: hannah_jones.jpg
+  event: Fab10
+
+- name: Tomas Diez
+  bio: "Director at Fab Lab Barcelona and Fab City Research Laboratory"
+  img: tomas-diez.png
   event: Fab10
