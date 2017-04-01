@@ -1876,7 +1876,7 @@ ul.main {
 #group2 { 
     z-index: 5; 
     padding-top:0px;
-    height: 550px;
+    height: 700px;
 }
 
 /*intro*/
@@ -1920,7 +1920,7 @@ ul.main {
 }
 
 .speakers-back {
-    height: 1400px;
+    height: 1200px;
 }
 
 /*apply*/
