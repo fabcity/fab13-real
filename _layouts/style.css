@@ -276,7 +276,7 @@ h3.section-title {
 }
 
 .sponsor-div {
-    height: 150px;
+    height: 110px;
     /*background-color: yellow;*/
     margin-bottom: 10px;
     /*
@@ -315,7 +315,7 @@ h3.section-title {
 .become-sponsor {
     height: 130px;
     border: dashed 3px #eaeaea;
-    background-color: transparent;
+    background-color: white;
 }
 
 .become-sponsor:hover, 
@@ -1990,13 +1990,13 @@ ul.main {
 
 /*Sponsors*/
 #group11 {
-    z-index: 4; 
-    height: 2200px;
+    z-index: 3; 
+    height: 1850px;
 }
 
 @media(min-width:767px) {
     #group11 {
-        height: 2000px;
+        height: 1550px;
     }
 }   
 
