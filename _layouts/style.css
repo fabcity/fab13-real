@@ -402,8 +402,8 @@ h3.section-title {
 
 .btn-inverted {
     background-color: transparent;
-    border: 4px solid #{{ site.color.andeanwhite }}; 
-    color: #{{ sitrace.color.andeanwhite}};
+    border: 4px solid white; 
+    color: white;
     font-weight: 900;
     text-transform: uppercase;
 }
