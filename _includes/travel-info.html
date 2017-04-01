@@ -8,14 +8,15 @@
 
   <div class="parallax__layer parallax__layer--base top">
     <div class="container group-top text-center" style="padding-top: 60px;">
+      
       <div class="row row-page">
         <div class="col-lg-12 text-center">
           <h3 class="section-title">Travel</h3>
         </div>
         <div class="col-sm-12 col-md-12 text-center">
-           {% include travel-carousel.html %}
+         {% include travel-carousel.html %}
         </div>
-      </div>
+      </div><!--row-->
 
 
       <div class="row row-page">
@@ -23,20 +24,38 @@
           <h4 class="section-title">Hotels</h4>
         </div>
         {% for hotel in site.data.hotels %}
-          <a href="{{ hotel.url }}" target="_blank">
-          <div class="col-xs-12 col-md-6 col-sm-6 track-box bg-fade box-grow" style="height:auto;">
-            <div class="hotel-img bg-img" style="background-image: url(../img/travel/{{ hotel.img }});">
-            </div>
-            <div class="hotel-description">
-              <h4>{{ hotel.name }}</h4>
-              <div class="text-center" style="margin:0% 5%">
-                <p>{{ hotel.short }}<span class="bold"></br>+make reservation </span></p>
-              </div>  
-            </div>
-          </div>  
+        <a href="{{ hotel.url }}" target="_blank">
+        <div class="col-xs-12 col-md-6 col-sm-6 track-box bg-fade box-grow" style="height:auto;">
+          <div class="hotel-img bg-img" style="background-image: url(../img/travel/{{ hotel.img }});">
+          </div>
+          <div class="hotel-description">
+            <h4>{{ hotel.name }}</h4>
+            <div class="text-center" style="margin:0% 5%">
+              <p>{{ hotel.short }}<span class="bold"></br>+make reservation </span></p>
+            </div>  
+          </div>
+        </div>  
+        </a>
+       {% endfor %}
+      </div><!--row-->
+
+      <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Transport</h4>
+        </div>
+        <div class="col-md-6 col-sm-6 text-center">
+          <img src="/img/travel/traffic.jpg" style="width:100%; padding-bottom: 40px;">
+        </div>
+        <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
+          <p style="padding-left: 0px;">Santiago City has a wonderful transportation system with METRO and BUSES (called MICROS in Santiago) available in all its perimeter. For maps and info check the following links: </p> 
+          <a href="https://www.metrosantiago.cl/" target="_blank">
+          <h4 class="applications-link link-grow">+ Metro</h4>
           </a>
-        {% endfor %}
-      </div>
+          <a href="https://www.transantiago.cl/" target="_blank">
+          <h4 class="applications-link link-grow">+ Buses</h4>
+          </a>
+        </div>
+      </div><!--row-->
 
       <div class="row row-page">
         <div class="col-sm-12 text-center">
@@ -49,7 +68,8 @@
         <div class="col-sm-12 col-md-12 text-center">
           <a class="btn btn-inverted alt link-grow" style="margin-top:55px;" href="/fab_13_chile_magazine.pdf"target="_blank" >Download the Magazine</a>
         </div>
-      </div>
+      </div><!--row-->
+
 
       <div class="row row-page">
         <div class="col-md-12 text-center">
@@ -59,18 +79,18 @@
           <p class="bold">If you plan on travelling to FAB13 you may require a visa to enter Chile. Please check the list below.</p>
         </div>
         {% for letter in site.data.visas %}
-          <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
-            <h4 style="color: #1d3557;">{{ letter.initial }} </h4>
-            <div class="visa-list">
-              <ul class="country-list">
+        <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
+          <h4 style="color: #1d3557;">{{ letter.initial }} </h4>
+          <div class="visa-list">
+            <ul class="country-list">
               {% for country in letter.countries %}
-                <li> {{ country.name }} </li>
+              <li> {{ country.name }} </li>
               {% endfor %}
-              </ul>
-            </div>
-          </div>  
+            </ul>
+          </div>
+        </div>  
         {% endfor %}
-      </div>
+      </div> <!--row-->
 
       <div class="row row-page">
         <div class="col-md-12 text-left">
@@ -78,24 +98,16 @@
         </div>
       </div>
 
-        <div class="row row-page">
-          <div class="col-md-12 text-left">
-            <h5>Invitation Letters </h5>
-          </div>
-          <div class="col-md-12 text-left">
-            <p>We have a system to manage Invitation letters for people who need them on the following link: <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1" target="_blank">  FAB13 Invitation letters.</a> But if you need a letter right now, please contact us <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"> fab13@fablabsantiago.org </a> and we will do what we can to help.</p>
-          </div>
-      </div>
-
-    <!--
       <div class="row row-page">
-        <div class="col-sm-12 text-center">
-          <h4 class="section-title">Transport</h4>
+        <div class="col-md-12 text-left">
+          <h5>Invitation Letters </h5>
         </div>
-      </div>
-    -->
+        <div class="col-md-12 text-left">
+          <p>We have a system to manage Invitation letters for people who need them on the following link: <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1" target="_blank">  FAB13 Invitation letters.</a> But if you need a letter right now, please contact us <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"> fab13@fablabsantiago.org </a> and we will do what we can to help.</p>
+        </div>
+      </div><!--row-->
 
-
+    
     </div><!--container-->
   </div><!--layer base-->
 </div><!--parallax-group-->
