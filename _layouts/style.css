@@ -477,6 +477,12 @@ h3.section-title {
     box-shadow: 0 3px 34px -2px #172a46;
 }
 
+.navbar-page {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+}
 
 .navbar-nav li a { 
     font-family: 'Nunito', sans-serif;
