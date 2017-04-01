@@ -75,7 +75,7 @@ section {
 
 @media(min-width: 768px) { 
     .container-text {
-        width: 70%;
+        width: 75%;
     }
 }
 
@@ -2558,3 +2558,10 @@ section#festival {
     padding-bottom: 8px;
 }
 
+.header-titles {
+    font-family: TSTARR; 
+    font-size: 24px; 
+    color: white; 
+    line-height: 1.2;
+    text-transform: uppercase;
+}
