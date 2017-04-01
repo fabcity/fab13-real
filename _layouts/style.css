@@ -65,8 +65,8 @@ section {
 
 @media (min-width: 1200px){
     .container {
-       width: 85%;
-   }
+     width: 85%;
+ }
 }
 
 .container-text {
@@ -123,7 +123,7 @@ p.large {
 }
 
 p.inverted {
-     color: #{{ site.color.andeansand }};
+   color: #{{ site.color.andeansand }};
 }
 
 
@@ -178,8 +178,8 @@ h5 {
 }
 
 h3.section-title {
-     padding-bottom: 70px; 
-     text-align: center;
+   padding-bottom: 70px; 
+   text-align: center;
 }
 
 /*---CSS TRANSITIONS---*/
@@ -324,7 +324,7 @@ h3.section-title {
     color: #eaeaea; 
     background-color: #{{ site.color.andeannavy }};
     border: dashed 0px #eaeaea;
-    }
+}
 
 .sponsor-input {
     color: #eaeaea; 
@@ -358,9 +358,9 @@ h3.section-title {
 
 
 .cortina {
-   background-image: url(../img/backgrounds/fab13-navy.svg);
-   width: 80%;
-   height: 90%;
+ background-image: url(../img/backgrounds/fab13-navy.svg);
+ width: 80%;
+ height: 90%;
 }
 
 /*---GENERAL BUTTONS--*/ 
@@ -545,9 +545,9 @@ h3.section-title {
 }
 
 @media (min-width: 768px){
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: 0px;
-}
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
 }
 
 
@@ -582,7 +582,7 @@ h3.section-title {
 }
 
 .track-box span {
-   
+
 }
 
 .track-description {
@@ -1414,7 +1414,7 @@ body {
 }
 
 @media (min-width: 768px) {
- #image-gallery.modal-dialog {
+   #image-gallery.modal-dialog {
     width: 600px;
 }
 }
@@ -1719,7 +1719,7 @@ ul.main {
 }
 
 .group-top {
-     padding-top:100px;
+   padding-top:100px;
 }
 
 
@@ -1727,12 +1727,12 @@ ul.main {
 @media screen and (min-width: 45em) {
   @supports ((perspective: 1px) and (not (-webkit-overflow-scrolling: touch))) {
     /* ... parallax styles ... */
-      html, body {
+    html, body {
         overflow: hidden;
         height:100%;
-      }
+    }
 
-      .parallax {
+    .parallax {
         height: 500px; /* fallback for older browsers */
         height: 100vh;
         height:100%;
@@ -1806,10 +1806,10 @@ ul.main {
     }
 
     .group-top {
-         padding-top:100px;
-    }
-    
-  }
+       padding-top:100px;
+   }
+
+}
 }
 
 
@@ -1817,7 +1817,7 @@ ul.main {
   /* Debugger styles - used to show the effect
   --------------------------------------------- */
 
-.debug {
+  .debug {
     position: fixed;
     top: 0;
     left: .5em;
@@ -1944,11 +1944,18 @@ ul.main {
 
 @media(min-width:767px) {
     #group7 {
-    height: 1250px;
+        height: 1250px;
     }
 }
 
-#group7 .parallax__layer--base {
+.travel-back {
+    margin-top: -60px;
+}
+
+@media(min-width:767px) {
+    .travel-back {
+        margin-top: 0px;
+    }
 }
 
 /*schedule*/
@@ -1965,6 +1972,14 @@ ul.main {
 
 .schedule-back {
     height: 600px;
+    margin-top: 30px;
+}
+
+@media(min-width:767px) {
+    .schedule-back {
+        height: 600px;
+        margin-top: -60px;
+    }
 }
 
 /*venues*/
@@ -1974,8 +1989,18 @@ ul.main {
 }
 
 @media(min-width:767px) {
-        #group9 {
+    #group9 {
         height: 750px;
+    }
+}
+
+.venues-back {
+    margin-top: 30px;
+}
+
+@media(min-width:767px) {
+    .venues-back {
+        margin-top: 0px;
     }
 }
 
@@ -1987,7 +2012,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group10 {
-    height: 500px;
+        height: 500px;
     }
 }  
 
@@ -2034,27 +2059,27 @@ ul.main {
 
 /*Footer*/
 #group15 {
-     z-index: 5; 
+   z-index: 5; 
 }
 
 
 /*travel-info-page*/
 #group16 {
-     z-index: 3; 
-     height: 4900px;
+   z-index: 3; 
+   height: 4900px;
 }
 
 @media(min-width:767px) {
     #group16 {
-         z-index: 3; 
-         height: 4500px;
-    }
+       z-index: 3; 
+       height: 4500px;
+   }
 }
 
 
 #group17 {
-     z-index: 3; 
-     height: 300px;
+   z-index: 3; 
+   height: 300px;
 }
 
 
@@ -2371,9 +2396,9 @@ section#festival {
 
 @media (min-width: 767px) {
 
-.list-inline>li {
-    padding-right: 5px;
-    padding-left: 5px;
+    .list-inline>li {
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }
 
@@ -2434,7 +2459,7 @@ section#festival {
 
 .single-event a {
     pointer-events: none;
-   cursor: default;
+    cursor: default;
 }
 
 .welcu_embed #wlc-table-tickets {
@@ -2505,8 +2530,8 @@ section#festival {
 }
 
 #wrapper td {
-   vertical-align: middle;
-   text-align: center;
+ vertical-align: middle;
+ text-align: center;
 }
 
 .event-img {
