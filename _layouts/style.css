@@ -1985,12 +1985,12 @@ ul.main {
 /*venues*/
 #group9 {
     z-index: 4; 
-    height: 800px;
+    height: 900px;
 }
 
 @media(min-width:767px) {
     #group9 {
-        height: 950px;
+        height: 1000px;
     }
 }
 
