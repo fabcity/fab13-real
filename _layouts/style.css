@@ -1920,7 +1920,7 @@ ul.main {
 }
 
 .speakers-back {
-    height: 1300px;
+    height: 1200px;
 }
 
 /*apply*/
@@ -1961,6 +1961,10 @@ ul.main {
     #group8 {
         height: 1600px;
     }
+}
+
+.schedule-back {
+    height: 600px;
 }
 
 /*venues*/
