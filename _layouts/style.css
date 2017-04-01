@@ -1898,7 +1898,7 @@ ul.main {
 /*tracks*/
 #group4 {
     z-index: 5; 
-    height: 2400px;
+    height: 2200px;
 }
 
 @media(min-width:767px) {
@@ -1926,7 +1926,7 @@ ul.main {
 /*apply*/
 #group6 {
     z-index: 4; 
-    height: 1030px;
+    height: 800px;
 }
 
 @media(min-width:767px) {
@@ -1939,7 +1939,7 @@ ul.main {
 /*travel*/
 #group7 {
     z-index: 2; 
-    height: 950px;
+    height: 850px;
 }
 
 @media(min-width:767px) {
@@ -2016,6 +2016,11 @@ ul.main {
     }
 }  
 
+.tickets-back {
+    height: 800px;
+    margin-top: 20px;
+}
+
 
 /*Sponsors*/
 #group11 {
@@ -2028,6 +2033,11 @@ ul.main {
         height: 1550px;
     }
 }   
+
+.sponsors-back{
+    height: 800px;
+    margin-top: 20px;
+}
 
 /*Footer*/
 #group12 {
