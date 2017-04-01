@@ -16,13 +16,14 @@
                     <img src="/img/backgrounds/fab12.jpg" style="width:90%; padding-bottom: 40px;">
                 </div>
                 <div class="col-md-6 col-sm-6 text-left" style="padding-top: 0%;">
-                    <div class="">
-                        <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSc-N0y0LnZjRfHVKl9HPOsYZn0XI3V76G5CmP_pUQMbAuEOkA/viewform" target="_blank" ><h4 class="link-grow" style="padding-bottom: 7px; font-size: 16px;">+ Apply to give a Workshop </h4></a>
-                        <p style="padding-left: 13px; padding-bottom: 8px;">Apply to give a workshop during the Fab13 Event on one of our 6 tracks!</p> 
-                        <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSd0O_8fJbKci9UKt7VOxKcLRZo5SUAAWxVw3Zkx7tQCLxQqFA/viewform" target="_blank"><h4 class="link-grow" style="padding-bottom: 7px; font-size: 16px;">+ Apply to present your Lab </h4></a>
-                        <p style="padding-left: 13px;padding-bottom: 8px;">Apply to present your Lab on the Fab13 Conference!</p> 
-                        <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSeKWl31p9fOxAetyjoDfe1p7Aejb3E_hTNgj3GYaiDz7AsMzQ/viewform" target="_blank"><h4 class="link-grow" style="padding-bottom: 7px; font-size: 16px;">+ Apply to volunteer </h4></a>
-                         <p style="padding-left: 13px; padding-bottom: 8px;">Apply to volunteer at the biggest Digital Fabrication event in the world!</p> 
+                    <div>
+                    {% for application in site.data.applications %}
+                        <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
+                        <a href="{{ application.url }} " target="_blank">
+                            <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
+                            <p class="applications-text" >{{ application.short }}</p> 
+                        </a>
+                    {% endfor %}
                     </div>
                 </div>
             </div>

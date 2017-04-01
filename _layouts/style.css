@@ -2547,3 +2547,14 @@ section#festival {
 .event-img {
     width: 80%;
 }
+
+.applications-link {
+    padding-bottom: 7px; 
+    font-size: 16px;
+}
+
+.applications-text {
+    padding-left: 13px; 
+    padding-bottom: 8px;
+}
+
