@@ -1,14 +1,14 @@
-- name: Nadya Peek
-  bio: "Research assistant and phd student at MIT’s CBA."
-  img: nadya.jpg
+- name: Ellen MacArthur
+  bio: "Founder & Chair of Trustees, Ellen MacArthur Foundation"
+  img: ellen_macarthur.png
   modalid: 1
-  event: Fab12
+  event: Fab10
 
-- name: Jean Michel Molennar
-  bio: "Fab Connections, HTGAA and Professor at Tufts University."
-  img: jean_michel_molenaar.jpg 
+- name: Jeremy Rifkin 
+  bio: "Economic and social theorist, writer, political advisor and activist"
+  img: jeremy_rifkin.png
   modalid: 2
-  event: Fab12
+  event: Fab10
 
 - name: Bunnie Huang
   bio: "Xbox hacker, founder of bunniestudios, PhD in EE from MIT."
@@ -19,45 +19,53 @@
 - name: Neil Gershenfeld
   bio: "Director of MIT's Center for Bits and Atoms"
   img: neil.jpg 
-  modalid: 3
+  modalid: 4
   event: Fab12
 
 - name: Mitchell Baker
   bio: "Chair of the Mozilla Foundation"
   img: mitchell_baker.jpg
   event: Fab11
+  modalid: 5
 
 - name: Melissa Franklin
   bio: "Department Chair and Mallinckrodt Professor of Physics, Harvard University"
   img: melissa_franklin.jpg
   event: Fab11
+  modalid: 6
 
 - name: Andrew McAfee
-  bio: "Co-Director, MIT Initiative on the Digital Economy; Associate Director, Center for Digital Business"
+  bio: "Co-Director MIT Initiative on the Digital Economy; Associate Director Center for Digital Business"
   img: andrew_mcAfee.jpg
   event: Fab11
+  modalid: 7
 
 - name: Rich DeVaul
   bio: "Leader, Google [x] Rapid Evaluation Team"
   img: rich_devaul.jpg
   event: Fab11
+  modalid: 8
 
 - name: Alastair Parvin
   bio: "Co-founder WikiHouse, Architectural & strategic designer with 00 London."
   img: alastair_parvin.jpg
   event: Fab10
+  modalid: 9
 
 - name: Paul Eremenko
   bio: "Director, Project Ara, Advanced Technology & Projects from Google"
   img: paul_eremenko.jpg
   event: Fab10
+  modalid: 10
 
 - name: Hannah Jones
   bio: "Chief Sustainability Officer & VP of the Innovation Accelerator at Nike"
   img: hannah_jones.jpg
   event: Fab10
+  modalid: 11
 
 - name: Tomas Diez
   bio: "Director at Fab Lab Barcelona and Fab City Research Laboratory"
   img: tomas-diez.png
   event: Fab10
+  modalid: 12

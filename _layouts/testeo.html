@@ -5,9 +5,36 @@
 
     <body id="page-top" class="index">
 
-    {% include tickets.html %}
 
-    {% include footer.html %}
+  	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<form id="input-form" action="" method="POST" target="no-target">
+		  <input id="input-q1" placeholder="q1" name="q1">
+		  <input id="input-q2" placeholder="q2" name="q2">
+		  <button id="form-submit" type="submit">SUBMIT</button>
+		</form>
+
+		<p id="input-feedback"></p>
+
+		<iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
+
+		<script>
+		    $('#input-form').one('submit',function(){
+		        var inputq1 = encodeURIComponent($('#input-q1').val());
+		        var inputq2 = encodeURIComponent($('#input-q2').val());
+		        var q1ID = "entry.953325516";
+		        var q2ID = "entry.1625371267";
+
+		        var baseURL = 'https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfH420J8WGsOZE0r9ldPoR5IcLiR_KAAmYMgBiVjGhYIFHNGA/formResponse?';
+		        var submitRef = '&submit=838214198832195662';
+		        var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + submitRef);
+		        console.log(submitURL);
+		        $(this)[0].action=submitURL;
+		        $('#input-feedback').text('Thank You!');
+		    });
+		</script>
+
+
+
     {% include js.html %}
     </body>
 
