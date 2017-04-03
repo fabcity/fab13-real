@@ -2418,8 +2418,8 @@ section#festival {
     width: 100%;
     height: auto;
     background-color: #{{ site.color.andeansand }};
-    position: absolute;
-    z-index: 5;
+    position: fixed;
+    z-index: 10;
     bottom: 0;
 }
 
