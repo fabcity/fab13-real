@@ -1,8 +1,17 @@
 $(".parallax").on("load resize scroll",function(e){     
     var scroll = $(".parallax").scrollTop();
+    scrollAction(scroll);
+});
+
+$(window).on("load resize scroll",function(e){     
+    var scroll = $(window).scrollTop();
+    scrollAction(scroll);
+});
 
 
-    if (scroll >= 300) {
+function scrollAction(yScroll) {
+
+      if (yScroll >= 300) {
        $('#menu').removeClass('navbar-init');
        $('.nav-link').css({ 'color': '#1d3557', 'font-weight': '700' });
        $('.nav-link:hover').css({ 'color': '#eb5f69' });
@@ -13,7 +22,7 @@ $(".parallax").on("load resize scroll",function(e){
        
     } else {
 
-       	$('#menu').addClass('navbar-init');
+        $('#menu').addClass('navbar-init');
         $('.nav-link').css({ 'color': 'white', 'font-weight': '400' });
         $('.nav-link:hover').css({ 'color': '#eb5f69', });
         $('.icon-bar').css({ 'border': '1px solid white' });
@@ -22,5 +31,4 @@ $(".parallax").on("load resize scroll",function(e){
         $('.tweet-link').css({ 'color': '#d8d8d8'});
     }
 
-
-});
+}
