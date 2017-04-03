@@ -1,14 +1,14 @@
-- name: Nadya Peek
-  bio: "Research assistant and phd student at MIT’s CBA."
-  img: nadya.jpg
+- name: Ellen MacArthur
+  bio: "Founder & Chair of Trustees, Ellen MacArthur Foundation"
+  img: ellen_macarthur.png
   modalid: 1
-  event: Fab12
+  event: Fab10
 
-- name: Jean Michel Molennar
-  bio: "Fab Connections, HTGAA and Professor at Tufts University."
-  img: jean_michel_molenaar.jpg 
+- name: Jeremy Rifkin 
+  bio: "Economic and social theorist, writer, political advisor and activist"
+  img: jeremy_rifkin.png
   modalid: 2
-  event: Fab12
+  event: Fab10
 
 - name: Bunnie Huang
   bio: "Xbox hacker, founder of bunniestudios, PhD in EE from MIT."

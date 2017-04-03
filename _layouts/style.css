@@ -1910,12 +1910,12 @@ ul.main {
 /*speakers*/
 #group5 {
     z-index: 1 ;
-    height: 3300px;
+    height: 3280px;
 }
 
 @media(min-width:767px) {
     #group5 {
-        height: 2100px;
+        height: 1600px;
     }
 }
 
@@ -1931,7 +1931,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group6{
-        height: 1100px;
+        height: 760px;
     }
 }
 
@@ -1944,29 +1944,30 @@ ul.main {
 
 @media(min-width:767px) {
     #group7 {
-        height: 900px;
+        height: 850px;
     }
 }
 
 .travel-back {
     margin-top: -60px;
+
 }
 
 @media(min-width:767px) {
     .travel-back {
-        margin-top: 0px;
+        /*margin-top: 0px;*/
     }
 }
 
 /*schedule*/
 #group8 {
     z-index: 3; 
-    height: 1900px;
+    height: 1760px;
 }
 
 @media(min-width:767px) {
     #group8 {
-        height: 1600px;
+        height: 1500px;
     }
 }
 
@@ -2025,7 +2026,7 @@ ul.main {
 /*Sponsors*/
 #group11 {
     z-index: 3; 
-    height: 1850px;
+    height: 1950px;
 }
 
 @media(min-width:767px) {
@@ -2064,7 +2065,15 @@ ul.main {
 
 #group14 {
     z-index: 5;
-    height: 400px;
+    height: 190px;
+}
+
+@media(min-width:767px) {
+    #group14 {
+        z-index: 5;
+        height: 400px;
+    }
+
 }
 
 /*Footer*/
@@ -2586,4 +2595,25 @@ section#festival {
 .venue-titles {
     font-size:14px; 
     text-transform: none;
+}
+
+.speaker-box {
+    height: 250px;
+}
+
+@media (min-width: 767px) {
+    .speaker-box {
+        height: 360px;
+    }
+} 
+
+.apply-ribbon {
+        padding-top: 100px;
+}
+
+
+@media (min-width: 767px) {
+.apply-ribbon {
+        padding-top: 40px;
+}
 }
