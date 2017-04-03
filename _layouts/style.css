@@ -2031,7 +2031,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group11 {
-        height: 1550px;
+        height: 1690px;
     }
 }   
 
@@ -2085,7 +2085,7 @@ ul.main {
 /*travel-info-page*/
 #group16 {
    z-index: 3; 
-   height: 4900px;
+   height: 5500px;
 }
 
 @media(min-width:767px) {
