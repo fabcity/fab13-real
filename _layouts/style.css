@@ -1939,12 +1939,12 @@ ul.main {
 /*travel*/
 #group7 {
     z-index: 2; 
-    height: 850px;
+    height: 750px;
 }
 
 @media(min-width:767px) {
     #group7 {
-        height: 1250px;
+        height: 900px;
     }
 }
 
