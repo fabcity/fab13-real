@@ -8,6 +8,11 @@ jQuery(function($) {
 function initialize() {
   var map;
   var bounds = new google.maps.LatLngBounds();
+
+  //google map custom marker icon - .png fallback for IE11
+  var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
+  var marker_url = ( is_internetExplorer11 ) ? 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.png' : 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location_1.svg';
+    
   var styledMapType = new google.maps.StyledMapType(
     [
     {
@@ -138,6 +143,8 @@ var mapOptions = {
       marker = new google.maps.Marker({
         position: position,
         map: map,
+        visible: true,
+        icon: marker_url,
         title: markers[i][0]
       });
 

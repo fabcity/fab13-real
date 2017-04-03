@@ -2582,3 +2582,8 @@ section#festival {
     height: 400px;
     width: 100%;
    }
+
+.venue-titles {
+    font-size:14px; 
+    text-transform: none;
+}
