@@ -77,12 +77,6 @@ section {
     }
 }
 
-@media(min-width: 1200px) { 
-    .container-text {
-        width: 50%;
-    }
-}
-
 .row {
     margin-right: 0px;
     margin-left: 0px;
@@ -1880,12 +1874,12 @@ ul.main {
 /*intro*/
 #group3 {
     z-index: 3; 
-    height:990px;
+    height:690px;
 }
 
 @media(min-width:500px) {
     #group3 {
-        height:1170px;
+        height:460px;
         padding-top: 0px;
     }
 }
@@ -1896,12 +1890,12 @@ ul.main {
 /*tracks*/
 #group4 {
     z-index: 5; 
-    height: 2200px;
+    height: 2150px;
 }
 
 @media(min-width:767px) {
     #group4 {
-        height: 950px;
+        height: 700px;
     }
 }
 
@@ -2099,6 +2093,27 @@ ul.main {
    height: 300px;
 }
 
+
+/*video*/
+
+#group18 {
+    z-index: 3; 
+   height: 340px;
+}
+
+@media(min-width:767px) {
+    #group18 {
+        z-index: 3; 
+       height: 890px;
+    }
+}
+
+@media(min-width:1200px) {
+    #group18 {
+        z-index: 3; 
+       height: 1000px;
+    }
+}
 
 /*---GENERAL SECTIONS---*/ 
 
@@ -2617,4 +2632,30 @@ section#festival {
 }
 
 
-.container { height: auto; }
+.container { 
+    height:
+     auto; 
+ }
+
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; overflow: hidden;
+     max-width: 100%; 
+     margin-top: 0px; 
+} 
+
+@media (min-width: 767px) {
+.embed-container { 
+     margin-top: 100px; 
+} 
+}
+
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
