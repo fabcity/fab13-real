@@ -5,8 +5,6 @@
 {% include additional_css/bootstrap.min.css %}
 {% include additional_css/font-awesome/font-awesome.min.css %}
 {% include additional_css/full-slider.css %}
-{% include additional_css/timetablejs.css %}
-{% include additional_css/expandables.css %}
 {% include additional_css/codyhouse.css %}
 {% include additional_css/contact.css %}
 {% include additional_css/map.css %}
@@ -1887,7 +1885,7 @@ ul.main {
 
 @media(min-width:500px) {
     #group3 {
-        height:900px;
+        height:1000px;
         padding-top: 0px;
     }
 }
@@ -1903,7 +1901,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group4 {
-        height: 1000px;
+        height: 950px;
     }
 }
 
@@ -1915,7 +1913,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group5 {
-        height: 1600px;
+        height: 1500px;
     }
 }
 
@@ -1931,7 +1929,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group6{
-        height: 760px;
+        height: 700px;
     }
 }
 
@@ -1944,7 +1942,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group7 {
-        height: 850px;
+        height: 800px;
     }
 }
 
@@ -1967,7 +1965,7 @@ ul.main {
 
 @media(min-width:767px) {
     #group8 {
-        height: 1500px;
+        height: 1400px;
     }
 }
 
@@ -2071,7 +2069,7 @@ ul.main {
 @media(min-width:767px) {
     #group14 {
         z-index: 5;
-        height: 400px;
+        height: 300px;
     }
 
 }
@@ -2617,3 +2615,6 @@ section#festival {
         padding-top: 40px;
 }
 }
+
+
+.container { height: auto; }
