@@ -1855,10 +1855,6 @@ ul.main {
     z-index: 8; 
 }
 
-.cortina {
-    top: 45%;
-}
-
 #group1 .parallax__layer--base {
     background: #{{ site.color.andeannavy }};
 }
