@@ -1,11 +1,47 @@
-- name: HOTEL CUMBRES DE LASTARRIA
-  description: "Nestled in Santiago de Chile's Lastarria District."
-  address: 
+- name: "Centro de Extensión Universidad Católica" 
+  address: "Avenida Libertador Bernardo O'Higgins 390"
+  description: 
   latitude:
   longitude:
-  url: http://www.cumbreslastarria.com/default-en.html
+  url: "http://extension.uc.cl/"
+  category: Fab Conference
 
+- name: "Centro Cultural Gabriela Mistral"
+  address: "Avenida Libertador Bernardo O'Higgins 227"
+  description: 
+  latitude:
+  longitude:
+  url: "http://www.gam.cl/"
+  category: Fab Festival
 
+- name: "Fab Lab Santiago"
+  address: "Seminario 642, Providencia" 
+  description: 
+  latitude:
+  longitude:
+  url: "http://fablabsantiago.org/"
+  category: Headquarters
 
+- name: "Fab Lab UC"
+  address: "Vicuña Mackenna 4860, 3er piso Centro de Innovación UC" 
+  description: 
+  latitude:
+  longitude:
+  url: "http://fablabuc.cl/"
+  category: Hosting Labs
 
+- name: Fab Lab UAI
+  address: "Av. Diagonal Las Torres 2640, Penalolen, Santiago"
+  description: 
+  latitude:
+  longitude:
+  url: "http://www.designlab.uai.cl/fablab"
+  category: Hosting Labs
 
+- name: "Fab Lab U. de Chile"
+  address: "Avenida Almirante Beauchef 851, 3er Piso Torre Poniente" 
+  description: 
+  latitude:
+  longitude:
+  url: "http://www.fablab.uchile.cl/"
+  category: Hosting Labs
