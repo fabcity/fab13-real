@@ -15,18 +15,29 @@
                 <div class="col-md-6 col-sm-6 text-center">
                     <img src="/img/backgrounds/fab12.jpg" class="section-pic" >
                 </div>
-                <div class="col-md-6 col-sm-6 text-left" style="padding-top:0%;">
+                <div class="col-md-6 col-sm-6 text-left">
                     <div>
-                    {% for application in site.data.applications %}
-                        <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
-                        <a href="{{ application.url }} " target="_blank">
-                            <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
-                            <p class="applications-text" >{{ application.short }}</p> 
-                        </a>
-                    {% endfor %}
+                        {% for application in site.data.applications %}
+                            <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
+                            <a href="{{ application.url }} " target="_blank">
+                                <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
+                                <p class="applications-text" >{{ application.short }}</p> 
+                            </a>
+                        {% endfor %}
+                    </div>
+                    
+                    <div>
+                        <p class="text-muted" style="padding-left:13px;">Applications close on 1 June 2017. Internship applications close on May 31.</p>
                     </div>
                 </div>
             </div>
+            
+            <!--
+            <div class="row" style="padding-top: 50px;">
+                <div class="col-md-12 col-sm-12 text-center">
+                    <p class="text-muted" style="">All applications close on 1 June 2017</p>
+                </div>
+            </div>-->
         </div><!--container-->
     </div> <!--layer base-->
 
