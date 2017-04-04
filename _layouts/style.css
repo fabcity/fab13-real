@@ -1974,7 +1974,7 @@ ul.main {
 /*venues*/
 #group9 {
     z-index: 4; 
-    height: 900px;
+    height: 1050px;
 }
 
 @media(min-width:767px) {
@@ -2599,6 +2599,15 @@ section#festival {
 .venue-titles {
     font-size:14px; 
     text-transform: none;
+    padding-bottom: 0px;
+}
+
+.venue-category {
+    padding-bottom:18px;
+}
+
+.venue-address {
+    margin-bottom: 8px;
 }
 
 .speaker-box {
@@ -2664,3 +2673,6 @@ section#festival {
 }
 
 }
+
+
+

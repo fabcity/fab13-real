@@ -6,27 +6,37 @@
 	<div class="parallax__layer parallax__layer--base">
 		<div class="container group-top text-center">
 			<div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-title">FAB13MAP</h3>
-                </div>
-            </div>
-        </div><!--container-->
+				<div class="col-lg-12 text-center">
+					<h3 class="section-title">FAB13MAP</h3>
+				</div>
+			</div>
+		</div><!--container-->
 
 		<div id="map_wrapper">
-			  <div id="map_canvas" class="mapping"></div>
+			<div id="map_canvas" class="mapping"></div>
 		</div>
 		<div class="container text-center">
-           	<div class="row">
+			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-6 text-left">
-					<h4>Fab Conference </h4>
+					<h4 class="venue-category">Fab Conference </h4>
 					<a href="https://goo.gl/maps/yShuxhPoXnm" target="_blank"><h4 class="venue-titles link-grow">Centro de Extensión Universidad Católica </h4>
-                    <p> Avenida Libertador Bernardo O'Higgins 390</p>
-                    </a>
-                    <h4>Fab Festival  </h4>
-                    <a href="https://goo.gl/maps/tDHZofpTVEt" target="_blank">
-                    <h4 class="venue-titles link-grow">Centro Cultural Gabriela Mistral </h4>
-                    <p> Avenida Libertador Bernardo O'Higgins 227</p>
-                    </a>
+						<p class="venue-address" style="margin-bottom: 24px;"> Avenida Libertador Bernardo O'Higgins 390</p>
+					</a>
+					<h4 class="venue-category">Fab Festival  </h4>
+					<a href="https://goo.gl/maps/tDHZofpTVEt" target="_blank">
+						<h4 class="venue-titles link-grow">Centro Cultural Gabriela Mistral </h4>
+						<p class="venue-address"  style="margin-bottom: 24px;"> Avenida Libertador Bernardo O'Higgins 227</p>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 text-left">
+					<h4 class="venue-category">Hosting Fab Labs </h4>
+					{% for venue in site.data.venues %} 
+					{% if venue.category == "Hosting Labs" %} 
+					<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
+						<p class="venue-address"> {{ venue.address }}</p>
+					</a>
+					{% endif %}
+					{% endfor %} 
 				</div>
 			</div> <!--row-->
 		</div> <!--container-->
@@ -34,6 +44,6 @@
 </div> <!--parallax group-->
 
 <!--
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSfrpLDLApxgyEAf-zyiHfH5AHOdWj3nU"></script>-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSfrpLDLApxgyEAf-zyiHfH5AHOdWj3nU"></script>-->
 
 

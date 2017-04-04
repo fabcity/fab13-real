@@ -12,7 +12,7 @@ function initialize() {
   //google map custom marker icon - .png fallback for IE11
   var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
   var marker_url = ( is_internetExplorer11 ) ? 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location.png' : 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-location_1.svg';
-    
+  
   var styledMapType = new google.maps.StyledMapType(
     [
     {
@@ -106,11 +106,11 @@ var mapOptions = {
 
     // Display a map on the page
     map = new google.maps.Map(document.getElementById("map_canvas"), {
-          mapTypeControlOptions: {
-            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
-                    'styled_map']
-          }
-        }, mapOptions);
+      mapTypeControlOptions: {
+        mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+        'styled_map']
+      }
+    }, mapOptions);
     map.setTilt(45);
 
     map.mapTypes.set('styled_map', styledMapType);
@@ -119,7 +119,10 @@ var mapOptions = {
     // Multiple Markers
     var markers = [
     ['Centro de Extensión Universidad Católica', -33.440701,-70.641212],
-    ['Centro Cultural Gabriela Mistral', -33.438402, -70.638149]
+    ['Centro Cultural Gabriela Mistral', -33.438402, -70.638149],
+    ['Fab Lab UC', -33.497856, -70.615294],
+    ['Fab Lab UAI', -33.499243, -70.614854],
+    ['Fab Lab U. de Chile', -33.457914, -70.664698],
     ];
 
     // Info Window Content
@@ -130,6 +133,18 @@ var mapOptions = {
     ['<div class="info_content">' +
     '<h5>Centro Cultural Gabriela Mistral</h5>' +
     '<p>Fab Festival Venue</p>' +
+    '</div>'],
+    ['<div class="info_content">' +
+    '<h5>Fab Lab UC</h5>' +
+    '<p>Hosting Lab</p>' +
+    '</div>'],
+    ['<div class="info_content">' +
+    '<h5>Fab lab UAI</h5>' +
+    '<p>Hosting Lab</p>' +
+    '</div>'],
+    ['<div class="info_content">' +
+    '<h5>Fab Lab U. de Chile</h5>' +
+    '<p>Hosting Lab</p>' +
     '</div>']
     ];
 
@@ -162,7 +177,7 @@ var mapOptions = {
 
     // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
     var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-      this.setZoom(14);
+      this.setZoom(12);
       google.maps.event.removeListener(boundsListener);
     });
     
