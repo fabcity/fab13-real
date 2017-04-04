@@ -85,7 +85,7 @@ section {
 }
 
 .text-muted {
-    color: #{{ site.color.andeanwhite }};
+    color: #cbd2ca;
 }
 
 .text-highlight {
@@ -1918,12 +1918,12 @@ ul.main {
 /*apply*/
 #group6 {
     z-index: 4; 
-    height: 900px;
+    height: 950px;
 }
 
 @media(min-width:767px) {
     #group6{
-        height: 800px;
+        height: 770px;
     }
 }
 
