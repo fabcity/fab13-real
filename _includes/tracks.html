@@ -6,7 +6,7 @@
           {% for track in site.data.tracks %}
           <a href="#tracksModal{{ track.modalid }}" class="portfolio-link" data-toggle="modal">
           <div class="col-xs-12 col-md-4 col-sm-4 track-box bg-fade box-grow">
-            <img src="{{ track.img }}" class="tracks-img" alt="">
+            <img src="/img/icons/{{ track.img }}.svg" class="tracks-img" data-fallback="/img/icons/{{ track.img }}.png" >
             <h4>{{ track.name }}</h4>
             <div class="text-center" style="margin:0% 5%">
             <p>{{ track.short }}<span class="bold"></br>+more </span></p>

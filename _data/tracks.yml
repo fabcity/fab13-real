@@ -1,7 +1,7 @@
 - name: Cities
   short: Can cities return to producing their own objects and find solutions to their own needs?
-  img: img/icons/cities-w.svg
-  imgmodal: cities-modal.svg
+  img: cities-w
+  imgmodal: cities-modal
   modalid: 1
   color: 1d3557
   text: "Since the start of the second industrial revolution, our cities have externalized the production of products and goods decontextualizing creation and territory. It is estimated that by 2050, 75% of the world’s population will live in cities. Can cities return to producing their own objects and find solutions to their own needs?"
@@ -15,8 +15,8 @@
 
 - name: Housing
   short: How can we provide solutions to the housing problem that exists in Latin America?
-  img: img/icons/housing-w.svg
-  imgmodal: housing-modal.svg
+  img: housing-w
+  imgmodal: housing-modal
   modalid: 2
   color: e63946
   text: "There is a need to provide a solution to the housing problem that exists in Latin America. Housing for families at social risk is, for the most part, self-built and constructed on land that’s segregated from the city."
@@ -30,8 +30,8 @@
 
 - name: Innovation
   short: How can Fab Labs challenge conventional production schemes and be an innovation complement to the industry?
-  img: img/icons/innovation-w.svg
-  imgmodal: innovation-modal.svg
+  img: innovation-w
+  imgmodal: innovation-modal
   modalid: 3
   color: a8dadc
   text: "Fab Labs are manufacturing platforms that allow conventional production schemes to be challenged. In this sense, Fab Labs can be a complement to the industry, which in turn can be strengthened by their capacity to produce innovative objects using digital language. In the same way, Fab Labs can also support entrepreneurs as they turn prototypes into products."
@@ -45,8 +45,8 @@
 
 - name: Energy and Environment
   short: Chile is home to two of the most polluted cities in Latin America. How can the country's clean energy resources be positively put to use?
-  img: img/icons/energy-w.svg
-  imgmodal: energy-and-environment-modal.svg
+  img: energy-w
+  imgmodal: energy-and-environment-modal
   modalid: 4
   color: 457b9d
   text: "According to the OMS, Chile is home to two of the most polluted cities in Latin America, Coyhaique and Santiago de Chile. However, Chile is a country rich in hydraulic, geothermic and solar energy, amongst others. So how can these resources be positively put to use to resolve direct needs concerning inhabitants?"
@@ -60,8 +60,8 @@
 
 - name: Education
   short: This is a sentence about education and also a question to cmplement this sentence?
-  img: img/icons/education-w.svg
-  imgmodal: education-modal.svg
+  img: education-w
+  imgmodal: education-modal
   modalid: 5
   color: eb5f69
   text: "Fab Labs are learning environments in which anyone can manufacture (almost) anything. Empowering people to find their own solutions to challenges they have is achieved thanks to learning methods based on projects that are transferrable to children, students, profesionals, entrepreneurs, senior citizens and people without formal education."
@@ -75,8 +75,8 @@
 
 - name: Decentralization
   short: With the objective of amplifying the impact of Fab13 this year we extend its reach to the regions!
-  img: img/icons/decentralization-w.svg  
-  imgmodal: decentralization-modal.svg
+  img: decentralization-w
+  imgmodal: decentralization-modal
   modalid: 6
   color: c5d4c2
   text: "Given Chile’s geographic extension and the gradual growth of each of its regions, Santiago, the capital, concentrates practically 40% of the total population. As this will be an event of tremendous public interest, on both a national and international level, and with the objective of amplifying the impact of this meeting, we have decided to extend its reach to the regions, creating the Off Lab, in which various members of Fab Labs’ world network will travel to some of the country’s regions to develop activities, workshops, talks and to participate in regional festivals."
