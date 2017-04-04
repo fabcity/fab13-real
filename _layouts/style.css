@@ -1918,12 +1918,12 @@ ul.main {
 /*apply*/
 #group6 {
     z-index: 4; 
-    height: 800px;
+    height: 900px;
 }
 
 @media(min-width:767px) {
     #group6{
-        height: 700px;
+        height: 800px;
     }
 }
 
@@ -2653,4 +2653,18 @@ section#festival {
     left: 0; 
     width: 100%; 
     height: 100%; 
+}
+
+
+.section-pic {
+    width:100%; 
+    padding-bottom: 40px;
+}
+
+@media (min-width: 767px) { 
+    .section-pic {
+    width:90%; 
+    padding-bottom: 40px;
+}
+
 }

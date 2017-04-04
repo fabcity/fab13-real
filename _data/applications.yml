@@ -1,20 +1,27 @@
+- name: Apply to do your internship with us
+  short: "Internships for young entrepreneurs and students, 2 or 3 months!"
+  modalid: 1
+  color: 1d3557
+  embed: ""
+  url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSf9GMGs40UtybRJU-7RehlNkJ0t6bYhBmO5p3xz9smqrSX9wg/viewform"
+
 - name: Apply to volunteer
   short: "Apply to volunteer at the biggest Digital Fabrication event in the world!"
-  modalid: 1
+  modalid: 2
   color: 1d3557
   embed: "https://docs.google.com/forms/d/e/1FAIpQLSeKWl31p9fOxAetyjoDfe1p7Aejb3E_hTNgj3GYaiDz7AsMzQ/viewform?embedded=true"
   url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSeKWl31p9fOxAetyjoDfe1p7Aejb3E_hTNgj3GYaiDz7AsMzQ/viewform"
 
 - name: Apply to present your lab
   short: "Apply to present your Lab on the Fab13 Conference!"
-  modalid: 2
+  modalid: 3
   color: 1d3557
   embed: "https://docs.google.com/forms/d/e/1FAIpQLSd0O_8fJbKci9UKt7VOxKcLRZo5SUAAWxVw3Zkx7tQCLxQqFA/viewform?embedded=true"
   url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSd0O_8fJbKci9UKt7VOxKcLRZo5SUAAWxVw3Zkx7tQCLxQqFA/viewform"
 
 - name: Apply to give a workshop
   short: "Apply to give a workshop during the Fab13 Event on one of our 6 tracks!"
-  modalid: 3
+  modalid: 4
   color: 1d3557
   embed: "https://docs.google.com/forms/d/e/1FAIpQLSc-N0y0LnZjRfHVKl9HPOsYZn0XI3V76G5CmP_pUQMbAuEOkA/viewform?embedded=true"
   url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSc-N0y0LnZjRfHVKl9HPOsYZn0XI3V76G5CmP_pUQMbAuEOkA/viewform"
