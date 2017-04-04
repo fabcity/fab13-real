@@ -1,12 +1,12 @@
 - name: HOTEL CUMBRES DE LASTARRIA
   short: "Nestled in Santiago de Chile's Lastarria District."
   img: cumbres_lastarria.jpg
-  url: http://www.cumbreslastarria.com/default-en.html
+  url: "http://bookings.ihotelier.com/bookings.jsp?groupID=1806949&hotelID=99289"
 
-- name: HOTEL ATTON VITACURA
+- name: HOTEL CUMBRES VITACURA
   short: "Located in the Vitacura region of Santiago."
-  img: atton_vitacura.jpg
-  url: http://www.atton.com/vitacura
+  img: cumbres_vitacura.png
+  url: "http://bookings.ihotelier.com/bookings.jsp?groupID=1806949&hotelID=99289"
 
 
 
