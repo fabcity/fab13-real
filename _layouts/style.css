@@ -268,7 +268,7 @@ h3.section-title {
 }
 
 .sponsor-div {
-    height: 110px;
+    height: 70px;
     /*background-color: yellow;*/
     margin-bottom: 10px;
     /*
@@ -286,7 +286,7 @@ h3.section-title {
     left: 0;
     right: 0;
     bottom: 0;
-    width:80%;
+    width: 60%;
     filter: grayscale(100%);
 }
 
@@ -2009,12 +2009,12 @@ ul.main {
 /*Sponsors*/
 #group11 {
     z-index: 3; 
-    height: 1950px;
+    height: 1490px;
 }
 
 @media(min-width:767px) {
     #group11 {
-        height: 1690px;
+        height: 1390px;
     }
 }   
 
