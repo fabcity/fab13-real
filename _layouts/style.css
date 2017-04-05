@@ -1974,12 +1974,12 @@ ul.main {
 /*venues*/
 #group9 {
     z-index: 4; 
-    height: 1050px;
+    height: 1200px;
 }
 
 @media(min-width:767px) {
     #group9 {
-        height: 1000px;
+        height: 1150px;
     }
 }
 
@@ -2607,6 +2607,8 @@ section#festival {
 }
 
 .venue-address {
+    margin-top: 3px;
+    line-height: 1.4;
     margin-bottom: 8px;
 }
 

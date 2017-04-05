@@ -20,28 +20,44 @@
   latitude:
   longitude:
   url: "http://fablabsantiago.org/"
-  category: Headquarters
+  category: Organizing Lab
+
+- name: "FabHaus FADEU UC"
+  address: "El Comendador 1916, Providencia, Santiago" 
+  description: 
+  latitude:
+  longitude:
+  url: 
+  category: Hosting Labs
 
 - name: "Fab Lab UC"
-  address: "Vicuña Mackenna 4860, 3er piso Centro de Innovación UC" 
+  address: "Vicuña Mackenna 4860, Macul, Santiago" 
   description: 
   latitude:
   longitude:
   url: "http://fablabuc.cl/"
   category: Hosting Labs
 
-- name: Fab Lab UAI
-  address: "Av. Diagonal Las Torres 2640, Penalolen, Santiago"
+- name: "Fab Lab U. de Chile"
+  address: "Av. Beaucheff 851, Santiago"
   description: 
   latitude:
   longitude:
-  url: "http://www.designlab.uai.cl/fablab"
+  url: "https://goo.gl/maps/FbbmMTEt4Xp"
   category: Hosting Labs
 
-- name: "Fab Lab U. de Chile"
-  address: "Avenida Almirante Beauchef 851, 3er Piso Torre Poniente" 
+- name: "Fab Lab UAI"
+  address: "Diagonal Las Torres 2640, Peñalolén, Santiago"
   description: 
   latitude:
   longitude:
-  url: "http://www.fablab.uchile.cl/"
+  url: "https://goo.gl/maps/UsWTyY1arKs"
+  category: Hosting Labs
+
+- name: "Aconcagua Fab Lab"
+  address: "Mobile Fab Lab!"
+  description: 
+  latitude:
+  longitude:
+  url: 
   category: Hosting Labs
