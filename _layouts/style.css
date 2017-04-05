@@ -1926,7 +1926,7 @@ ul.main {
 
 /*travel*/
 #group7 {
-    z-index: 2; 
+    z-index: 3; 
     height: 750px;
 }
 
@@ -1949,7 +1949,7 @@ ul.main {
 
 /*schedule*/
 #group8 {
-    z-index: 3; 
+    z-index: 2; 
     height: 1760px;
 }
 
