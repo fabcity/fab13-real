@@ -1,56 +1,56 @@
 - name: "Centro de Extensión Universidad Católica" 
   address: "Avenida Libertador Bernardo O'Higgins 390"
   description: 
-  latitude:
-  longitude:
+  latitude: -33.440701
+  longitude: -70.641212
   url: "http://extension.uc.cl/"
   category: Fab Conference
 
 - name: "Centro Cultural Gabriela Mistral"
   address: "Avenida Libertador Bernardo O'Higgins 227"
   description: 
-  latitude:
-  longitude:
+  latitude: -33.438402
+  longitude: -70.638149
   url: "http://www.gam.cl/"
   category: Fab Festival
 
 - name: "Fab Lab Santiago"
   address: "Seminario 642, Providencia" 
   description: 
-  latitude:
-  longitude:
+  latitude: -33.449806
+  longitude: -70.627767
   url: "http://fablabsantiago.org/"
   category: Organizing Lab
 
 - name: "FabHaus FADEU UC"
   address: "El Comendador 1916, Providencia, Santiago" 
   description: 
-  latitude:
-  longitude:
-  url: 
+  latitude: -33.420252
+  longitude: -70.618093
+  url: "https://goo.gl/maps/AahJit9APh42"
   category: Hosting Labs
 
 - name: "Fab Lab UC"
   address: "Vicuña Mackenna 4860, Macul, Santiago" 
   description: 
-  latitude:
-  longitude:
+  latitude: -33.497856
+  longitude: -70.615294
   url: "http://fablabuc.cl/"
   category: Hosting Labs
 
 - name: "Fab Lab U. de Chile"
   address: "Av. Beaucheff 851, Santiago"
   description: 
-  latitude:
-  longitude:
+  latitude: -33.457914
+  longitude: -70.664698
   url: "https://goo.gl/maps/FbbmMTEt4Xp"
   category: Hosting Labs
 
 - name: "Fab Lab UAI"
   address: "Diagonal Las Torres 2640, Peñalolén, Santiago"
   description: 
-  latitude:
-  longitude:
+  latitude: -33.499243
+  longitude: -70.614854
   url: "https://goo.gl/maps/UsWTyY1arKs"
   category: Hosting Labs
 

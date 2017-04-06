@@ -120,32 +120,42 @@ var mapOptions = {
     var markers = [
     ['Centro de Extensión Universidad Católica', -33.440701,-70.641212],
     ['Centro Cultural Gabriela Mistral', -33.438402, -70.638149],
+    ['Fab Lab Santiago', -33.449806 , -70.627767],
+    ['FabHaus FADEU UC', -33.420252 , -70.618093],
     ['Fab Lab UC', -33.497856, -70.615294],
-    ['Fab Lab UAI', -33.499243, -70.614854],
     ['Fab Lab U. de Chile', -33.457914, -70.664698],
+    ['Fab Lab UAI', -33.499243, -70.614854]
     ];
 
     // Info Window Content
     var infoWindowContent = [
     ['<div class="info_content">' +
     '<h5>Centro de Extensión Universidad Católica</h5>' +
-    '<p>Fab Conference Venue</p>' +        '</div>'],
+    '<p>Fab Conference Venue</p>' + '</div>'],
     ['<div class="info_content">' +
     '<h5>Centro Cultural Gabriela Mistral</h5>' +
     '<p>Fab Festival Venue</p>' +
+    '</div>'],
+    ['<div class="info_content">' +
+    '<h5>Fab Lab Santiago</h5>' +
+    '<p>Hosting Lab Venue</p>' +
+    '</div>'],
+    ['<div class="info_content">' +
+    '<h5>FabHaus FADEU UC</h5>' +
+    '<p>Hosting Lab Venue</p>' +
     '</div>'],
     ['<div class="info_content">' +
     '<h5>Fab Lab UC</h5>' +
     '<p>Hosting Lab</p>' +
     '</div>'],
     ['<div class="info_content">' +
-    '<h5>Fab lab UAI</h5>' +
+    '<h5>Fab Lab U. de Chile</h5>' +
     '<p>Hosting Lab</p>' +
     '</div>'],
     ['<div class="info_content">' +
-    '<h5>Fab Lab U. de Chile</h5>' +
+    '<h5>Fab lab UAI</h5>' +
     '<p>Hosting Lab</p>' +
-    '</div>']
+    '</div>'],
     ];
 
     // Display multiple markers on a map
