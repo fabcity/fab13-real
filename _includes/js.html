@@ -27,7 +27,7 @@
 <script src="{{ "/js/twitter-call.js" | prepend: site.baseurl }}"></script>
 
 <!--Cookie consent script 
-<script src="{{ "/js/bootstrap-cookie-consent.js" | prepend: site.baseurl }}"></script>  -->
+  <script src="{{ "/js/bootstrap-cookie-consent.js" | prepend: site.baseurl }}"></script>  -->
 
 
 <!--Processing.js 
@@ -48,22 +48,25 @@
 <script src="{{ "/js/codyhouse.js" | prepend: site.baseurl }}"></script> 
 
 <!--Timetable.js schedule
-<script src="{{ "/js/timetable.js" | prepend: site.baseurl }}"></script>  -->
+  <script src="{{ "/js/timetable.js" | prepend: site.baseurl }}"></script>  -->
 
 
 
-<!-- Contact-->
-<script src="{{ "/js/contact-form.js" | prepend: site.baseurl }}"></script> 
+  <!-- Contact-->
+  <script src="{{ "/js/contact-form.js" | prepend: site.baseurl }}"></script> 
 
-<!--Flip card contact form-->
-<script src="{{ "/js/contact.js" | prepend: site.baseurl }}"></script> 
+  <!--Flip card contact form-->
+  <script src="{{ "/js/contact.js" | prepend: site.baseurl }}"></script> 
 
-<!--Show/hide Navbar when scroll-->
-<script src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="{{ "/js/navbar-scrolling.js" | prepend: site.baseurl }}"></script>  
+  <!--Show/hide Navbar when scroll-->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="{{ "/js/navbar-scrolling.js" | prepend: site.baseurl }}"></script>  
 
-<!--Map js-->
-<script src="{{ "/js/map.js" | prepend: site.baseurl }}"></script> 
+  <!--Map js-->
+  <script src="{{ "/js/map.js" | prepend: site.baseurl }}"></script> 
+
+  <!--Csv to Jquery Parser-->
+  <script src="{{ "/js/jquery.csv.min.js" | prepend: site.baseurl }}"></script> 
 
 <!--
 <script>
@@ -75,7 +78,7 @@ debugInput.addEventListener("click", updateDebugState);
 updateDebugState();
 </script>
 -->
- 
+
 <!-- svg fallback -->
 <script>
 function svgasimg() {
@@ -90,13 +93,15 @@ if (!svgasimg()){
   }
   for (var i=0, n=e.length; i<n; i++){
     var img = e[i],
-        src = img.getAttribute("src");
+    src = img.getAttribute("src");
     if (src.match(/svgz?$/)) {
       /* URL ends in svg or svgz */
       img.setAttribute("src", 
-             img.getAttribute("data-fallback"));
+       img.getAttribute("data-fallback"));
     }
   }    
 }
 </script>
+
+
 
