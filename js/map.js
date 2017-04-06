@@ -116,15 +116,19 @@ var mapOptions = {
     map.mapTypes.set('styled_map', styledMapType);
     map.setMapTypeId('styled_map');
 
+    var conference = "/img/map/conference.png";
+    var festival = "/img/map/festival.png";
+    var labs = "/img/map/labs.png";
+
     // Multiple Markers
     var markers = [
-    ['Centro de Extensión Universidad Católica', -33.440701,-70.641212],
-    ['Centro Cultural Gabriela Mistral', -33.438402, -70.638149],
-    ['Fab Lab Santiago', -33.449806 , -70.627767],
-    ['FabHaus FADEU UC', -33.420252 , -70.618093],
-    ['Fab Lab UC', -33.497856, -70.615294],
-    ['Fab Lab U. de Chile', -33.457914, -70.664698],
-    ['Fab Lab UAI', -33.499243, -70.614854]
+    ['Centro de Extensión Universidad Católica', -33.440701,-70.641212, conference], 
+    ['Centro Cultural Gabriela Mistral', -33.438402, -70.638149, festival], 
+    ['Fab Lab Santiago', -33.449806 , -70.627767, labs],
+    ['FabHaus FADEU UC', -33.420252 , -70.618093, labs],
+    ['Fab Lab UC', -33.497856, -70.615294, labs],
+    ['Fab Lab U. de Chile', -33.457914, -70.664698, labs], 
+    ['Fab Lab UAI', -33.499243, -70.614854, labs]
     ];
 
     // Info Window Content
@@ -169,7 +173,7 @@ var mapOptions = {
         position: position,
         map: map,
         visible: true,
-        icon: marker_url,
+        icon: markers[i][3],
         title: markers[i][0]
       });
 
