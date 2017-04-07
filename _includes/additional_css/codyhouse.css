@@ -361,36 +361,44 @@ Main Components
   background: #1d3557; /*navy*/
 }
 
+/*
 .cd-schedule .single-event[data-event="event-1"]:hover {
   background: #618da1;
-}
+}*/
 
 .cd-schedule .single-event[data-event="event-2"],
 .cd-schedule [data-event="event-2"] .header-bg {
   background: #eb5f69; /*pink*/
 }
 
+/*
+
 .cd-schedule .single-event[data-event="event-2"]:hover {
   background: #e63946;
 }
+
+*/
 
 .cd-schedule .single-event[data-event="event-3"],
 .cd-schedule [data-event="event-3"] .header-bg {
   background: #457b9d; /* blue*/
 }
 
+/*
 .cd-schedule .single-event[data-event="event-3"]:hover {
   background: #b1c4be;
 }
+*/
 
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
   background: #e63946 ;/*red*/
 }
 
+/*
 .cd-schedule .single-event[data-event="event-4"]:hover {
   background: #f7bd7f;
-}
+}*/
 
 .cd-schedule .event-modal {
   position: fixed;
