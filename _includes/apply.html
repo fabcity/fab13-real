@@ -20,22 +20,40 @@
                     <div>
                         {% for application in site.data.applications %}
                             <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
+                            {% if application.placement == "right" %}
                             <a href="{{ application.url }} " target="_blank">
                                 <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
                                 <p class="applications-text" >{{ application.short }}</p> 
                             </a>
+                            {% endif %}
                         {% endfor %}
                     </div>
-                    <!--
-                    <div>
-                        <p class="text-muted" style="padding-left:13px;">Applications close on 1 June 2017. Internship applications close on May 31.</p>
-                    </div>-->
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6 text-left">
+                    <div>
+                        {% for application in site.data.applications %}
+                            <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
+                            {% if application.placement == "left" %}
+                            <a href="{{ application.url }} " target="_blank">
+                                <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
+                                <p class="applications-text" >{{ application.short }}</p> 
+                            </a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 text-center">
+                    <img src="/img/backgrounds/fab12_5.jpg" class="section-pic" >
+                </div>
+            </div>
+
             
             <div class="row" style="padding-top: 10px;">
                 <div class="col-md-12 col-sm-12 text-center">
-                    <p class="text-muted" style="">Applications close on 1 June 2017. Internship applications close on May 1.</p>
+                    <p style="color: #e63946;">Applications close on 1 June 2017. Internship applications close on May 1.</p>
                 </div>
             </div>
         </div><!--container-->
