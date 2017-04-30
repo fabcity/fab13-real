@@ -1661,21 +1661,27 @@ ul.main {
 }
 
 .parallax__group {
-    position: relative;
-    height: 500px; /* fallback for older browsers */
-    height: 100vh;
-    height: 100%;
+    /*position: relative;
+    height: 500px;*/ /* fallback for older browsers */
+    /*height: 100vh;
+    height: 100%;*/
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
+.parallax__group.no-padding {
+ padding-top: 0px;
+ padding-bottom: 0px;
+}
 
 .parallax__layer {
-    position: absolute;
+    /*position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0;100%;*/
     -webkit-transform-origin-x: 100%;
-    transform-origin-x: 100%;
+    transform-origin-x: 
 }
 
 .parallax__layer--fore {
@@ -1691,7 +1697,6 @@ ul.main {
     -moz-transform: translateZ(0px);
     z-index: 4;
 }
-
 
 
 .parallax__layer--back {
@@ -1710,9 +1715,6 @@ ul.main {
     z-index: 2;
 }
 
-.group-top {
-   padding-top:100px;
-}
 
 
 
@@ -1725,9 +1727,9 @@ ul.main {
     }
 
     .parallax {
-        height: 500px; /* fallback for older browsers */
-        height: 100vh;
-        height:100%;
+        /*height: 500px; *//* fallback for older browsers */
+        /*height: 100vh;
+        height:100%;*/
         overflow-x: hidden;
         overflow-y: auto;
         -webkit-perspective: 300px;
@@ -1741,19 +1743,19 @@ ul.main {
 
     .parallax__group {
         position: relative;
-        height: 500px; /* fallback for older browsers */
-        height: 100vh;
+        /*height: 500px; *//* fallback for older browsers */
+        /*height: 100vh;*/
         -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
         -moz-transform-style: preserve-3d;
     }
 
     .parallax__layer {
-        position: absolute;
+       /* position: absolute;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0;
+        bottom: 0;*/
         -webkit-transform-origin-x: 100%;
         transform-origin-x: 100%;
     }
@@ -1797,7 +1799,7 @@ ul.main {
         z-index: 2;
     }
 
-    .group-top {
+    .section-content {
        padding-top:100px;
    }
 
@@ -1851,282 +1853,124 @@ ul.main {
 --------------------------------------------- */
 
 /*curtain*/
-#group1 { 
-    z-index: 8; 
-}
-
-#group1 .parallax__layer--base {
+#curtain {
+    z-index: 1;
+    height: 100%;
     background: #{{ site.color.andeannavy }};
+
 }
 
-
-/*header*/
-#group2 { 
-    z-index: 5; 
-    padding-top:0px;
-    height: 700px;
+#curtain .parallax__layer--base {
+    height:100%;
 }
 
 /*intro*/
-#group3 {
-    z-index: 3; 
-    height:690px;
+#intro { 
+    z-index: 5; 
 }
 
-@media(min-width:500px) {
-    #group3 {
-        height:460px;
-        padding-top: 0px;
-    }
-}
-
-#group3 .parallax__layer--base {
+#about {
+    padding-top:100px;
 }
 
 /*tracks*/
-#group4 {
+#tracks {
     z-index: 5; 
-    height: 2150px;
+    padding-top: 100px;
 }
 
-@media(min-width:767px) {
-    #group4 {
-        height: 700px;
-    }
+/*video*/
+#video {
+    z-index: 3; 
 }
 
 /*speakers*/
-#group5 {
+#speakers {
     z-index: 1 ;
-    height: 3280px;
-}
-
-@media(min-width:767px) {
-    #group5 {
-        height: 1500px;
-    }
-}
-
-.speakers-back {
-    height: 1200px;
 }
 
 /*apply*/
-#group6 {
+#apply {
     z-index: 4; 
-    height: 950px;
 }
-
-@media(min-width:767px) {
-    #group6{
-        height: 790px;
-    }
-}
-
 
 /*travel*/
-#group7 {
+#travel {
     z-index: 3; 
-    height: 750px;
 }
 
-@media(min-width:767px) {
-    #group7 {
-        height: 800px;
-    }
-}
-
-.travel-back {
-    margin-top: -60px;
-
-}
-
-@media(min-width:767px) {
-    .travel-back {
-        margin-top: -100px;
-    }
+#travel .plane{
+    position: absolute;
+    margin-top: 200px;
 }
 
 /*schedule*/
-#group8 {
-    z-index: 2; 
-    height: 1760px;
-}
-
-@media(min-width:767px) {
-    #group8 {
-        height: 1400px;
-    }
-}
-
-.schedule-back {
-    height: 600px;
-    margin-top: 30px;
-}
-
-@media(min-width:767px) {
-    .schedule-back {
-        height: 600px;
-        margin-top: -60px;
-    }
+#schedule {
+    z-index: 4; 
 }
 
 /*venues*/
-#group9 {
+#venues {
     z-index: 4; 
-    height: 1200px;
 }
-
-@media(min-width:767px) {
-    #group9 {
-        height: 1150px;
-    }
-}
-
-.venues-back {
-    margin-top: 30px;
-}
-
 
 /*Tickets*/
-#group10 {
+#tickets {
     z-index: 5; 
-    height: 600px;
 }
 
-@media(min-width:767px) {
-    #group10 {
-        height: 500px;
-    }
-}  
-
-.tickets-back {
-    height: 800px;
-    margin-top: 20px;
+/*FAQ*/
+#faq {
+    z-index: 5;
 }
-
 
 /*Sponsors*/
-#group11 {
+#sponsors {
     z-index: 3; 
-    height: 1490px;
-}
+    /*height: 1490px;*/
+} 
 
-@media(min-width:767px) {
-    #group11 {
-        height: 1390px;
-    }
-}   
-
-.sponsors-back{
-    height: 800px;
-    margin-top: 20px;
+/*Newsletter*/
+#subscribe {
+    z-index: 4; 
 }
 
 /*Footer*/
-#group12 {
+#footer {
     z-index: 5; /* slide over group 7 */
     background-color: #{{ site.color.andeannavy }};
     height: 470px;
 }
 
-/*Newsletter*/
-
-#group13 {
-    z-index: 4; 
-    height: 280px;
-}
-
-@media(min-width:767px) {
-    #group13 {
-        z-index: 4; 
-        height: 200px;
-    }
-}
-
-/*FAQ*/
-
-#group14 {
-    z-index: 5;
-    height: 190px;
-}
-
-@media(min-width:767px) {
-    #group14 {
-        z-index: 5;
-        height: 300px;
-    }
-
-}
-
-/*Footer*/
-#group15 {
-   z-index: 5; 
-}
-
-
 /*travel-info-page*/
-#group16 {
+#travel-full {
    z-index: 3; 
-   height: 5500px;
-}
-
-@media(min-width:767px) {
-    #group16 {
-       z-index: 3; 
-       height: 4500px;
-   }
 }
 
 
-#group17 {
-   z-index: 3; 
-   height: 300px;
-}
 
-
-/*video*/
-
-#group18 {
-    z-index: 3; 
-   height: 340px;
-}
-
-@media(min-width:767px) {
-    #group18 {
-        z-index: 3; 
-       height: 890px;
-    }
-}
-
-@media(min-width:1200px) {
-    #group18 {
-        z-index: 3; 
-       height: 1000px;
-    }
-}
 
 /*---GENERAL SECTIONS---*/ 
 
 
 section#activities {
-    height: 2900px;
+    /*height: 2900px;*/
 }
 
 @media(min-width:767px) {
     section#activities {
-        height: 1900px;
+        /*height: 1900px;*/
     }
 }
 
 @media(min-width:992px) {
     section#activities {
-        height: 1100px;
+        /*height: 1100px;*/
     }
 }
 
 section#festival {
-    height: 900px;
+    /*height: 900px;*/
 }
 
 

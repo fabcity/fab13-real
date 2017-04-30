@@ -13,6 +13,7 @@ body {
 .item,
 .active {
     height: 100%;
+    background: #{{ site.color.andeannavy }};
 }
 
 .carousel-inner {
