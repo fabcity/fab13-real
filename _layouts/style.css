@@ -2514,7 +2514,7 @@ section#festival {
 
 @media (min-width: 767px) { 
     .section-pic {
-    width:90%; 
+    width:100%; 
     padding-bottom: 40px;
 }
 
