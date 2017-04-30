@@ -2411,9 +2411,17 @@ section#festival {
 }
 
 .applications-text {
-    padding-left: 13px; 
+    padding-left: 0px; 
     padding-bottom: 8px;
 }
+
+@media (min-width: 767px) { 
+    .applications-text {
+        padding-left: 13px; 
+    }
+}
+
+
 
 .header-titles {
     font-family: TSTARR; 
