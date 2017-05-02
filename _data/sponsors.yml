@@ -33,10 +33,30 @@
   url: https://www.chevron.com/
   img: chevron.png
 
+- organization: "Solidworks"
+  role: sponsor
+  url: http://www.solidworks.com/
+  img: solidworks.png
+
+- organization: "Trotec"
+  role: sponsor
+  url: https://www.troteclaser.com/
+  img: trotec.png
+
 - organization: "Consejo Nacional de la Cultura y las Artes"
   role: government
   url: http://www.cultura.gob.cl/
   img: consejo_artes.png
+
+- organization: "Prochile"
+  role: government
+  url: http://www.prochile.gob.cl/
+  img: prochile.png
+
+- organization: "Ministerio de Economía, Fomento y Turismo"
+  role: government
+  url: http://www.economia.gob.cl/
+  img: ministerio_economia.png
 
 - organization: "Red Chilena de Plataformas de Fabricación Digital"
   role: supporter
@@ -72,4 +92,9 @@
   role: media
   url: https://www.fayerwayer.com/
   img: fayer-wayer.png
+
+- organization: "La Tercera"
+  role: media
+  url: http://www.latercera.com/
+  img: la_tercera.png
 
