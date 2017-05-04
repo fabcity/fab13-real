@@ -26,22 +26,27 @@
 - organization: "Corfo"
   role: sponsor
   url: https://www.corfo.cl/sites/cpp/home
-  img: logo_corfo.png
+  img: corfo.png
 
 - organization: "Chevron"
   role: sponsor
   url: https://www.chevron.com/
   img: chevron.png
 
-- organization: "Solidworks"
-  role: sponsor
-  url: http://www.solidworks.com/
-  img: solidworks.png
-
 - organization: "Trotec"
   role: sponsor
   url: https://www.troteclaser.com/
   img: trotec.png
+
+- organization: "Epilog"
+  role: sponsor
+  url: https://www.epiloglaser.com/
+  img: epilog-logo.png
+
+- organization: "Solidworks"
+  role: sponsor
+  url: http://www.solidworks.com/
+  img: solidworks.png
 
 - organization: "Consejo Nacional de la Cultura y las Artes"
   role: government
