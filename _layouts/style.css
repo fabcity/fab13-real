@@ -1665,8 +1665,8 @@ ul.main {
     height: 500px;*/ /* fallback for older browsers */
     /*height: 100vh;
     height: 100%;*/
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .parallax__group.no-padding {
