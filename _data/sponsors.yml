@@ -28,15 +28,15 @@
   url: https://www.corfo.cl/sites/cpp/home
   img: corfo.png
 
-- organization: "Chevron"
-  role: sponsor
-  url: https://www.chevron.com/
-  img: chevron.png
-
 - organization: "Trotec"
   role: sponsor
   url: https://www.troteclaser.com/
   img: trotec.png
+
+- organization: "Chevron"
+  role: sponsor
+  url: https://www.chevron.com/
+  img: chevron.png
 
 - organization: "Epilog"
   role: sponsor
@@ -53,15 +53,15 @@
   url: http://www.cultura.gob.cl/
   img: consejo_artes.png
 
-- organization: "Prochile"
-  role: government
-  url: http://www.prochile.gob.cl/
-  img: prochile.png
-
 - organization: "Ministerio de Economía, Fomento y Turismo"
   role: government
   url: http://www.economia.gob.cl/
   img: ministerio_economia.png
+
+- organization: "Prochile"
+  role: government
+  url: http://www.prochile.gob.cl/
+  img: prochile.png
 
 - organization: "Red Chilena de Plataformas de Fabricación Digital"
   role: supporter
