@@ -1,0 +1,29 @@
+<!-- Speakers section -->
+
+  <div id="speakers" class="parallax__group" style="padding-bottom:0px;">
+
+    <div class="parallax__layer parallax__layer--back text-center">
+        <img class="bg-responsive" src="/img/backgrounds/color-top-short.svg"/>
+    </div>
+    
+    <div class="parallax__layer parallax__layer--base">
+      <div class="container section-content">
+        <div class="row text-center">
+          <h3 class="section-title" style="padding-bottom: 18px; padding-bottom: 25px; ">Ponentes</h3>
+           <h3 class="section-title" style="font-size: 40px; padding-bottom: 18px; padding-bottom: 25px;">POR ANUNCIAR!</h3>
+          <p style="padding-bottom: 30px; font-size: 17px;">Estos son algunos de los ponentes de nuestros eventos pasados: </p>
+        </div>
+        <div class="row text-center">
+            {% for speaker in site.data.speakers %} 
+              <!--<a href="#speakersModal{{ speaker.modalid }}" class"=portfolio-link" data-toggle="modal">-->
+                <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
+                  <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>
+                  <h4>{{ speaker.name }}</h4>
+                  <p>{{ speaker.bio }}</p>
+                </div>
+            {% endfor %}
+        </div>  <!--row-->
+      </div> <!--container-->
+
+    </div> <!--layer base-->
+  </div>  <!--parallax__group-->

@@ -1,0 +1,81 @@
+<!--Applications -->
+
+<div id="apply" class="parallax__group">
+
+    <div class="parallax__layer parallax__layer--back text-center">
+        <img class="bg-responsive" src="/img/backgrounds/color-top-gray-short.svg">
+    </div>
+    <div class="parallax__layer parallax__layer--base">
+        <div class="container section-content text-center">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-title">APLICACIONES</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 text-center">
+                    <img src="/img/backgrounds/fab12.jpg" class="section-pic" >
+                </div>
+                <div class="col-md-6 col-sm-6 text-left">
+                    <div>
+                        {% for application in site.data.applications-cast %}
+                            <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
+                            {% if application.placement == "right" %}
+                            <a href="{{ application.url }} " target="_blank">
+                                <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
+                                <p class="applications-text" >{{ application.short }}</p> 
+                            </a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6 text-left">
+                    <div>
+                        {% for application in site.data.applications-cast %}
+                            <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
+                            {% if application.placement == "left" %}
+                            <a href="{{ application.url }} " target="_blank">
+                                <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
+                                <p class="applications-text" >{{ application.short }}</p> 
+                            </a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 text-center">
+                    <img src="/img/backgrounds/fab12_5.jpg" class="section-pic" >
+                </div>
+            </div>
+
+            
+            <div class="row" style="padding-top: 10px;">
+                <div class="col-md-12 col-sm-12 text-center">
+                    <p style="color: #e63946;">Las aplicaciones cierran el 1 de junio 2017. Las aplicaciones para pasantías cierran el 15 de mayo.</p>
+                </div>
+            </div>
+        </div><!--container-->
+
+    </div> <!--layer base-->
+</div><!--parallax__group-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

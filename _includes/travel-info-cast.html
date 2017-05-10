@@ -1,0 +1,146 @@
+<!--Travel Individual Page-->
+
+<div id="travel-full" class="parallax__group no-padding" style="margin-top: -100px;">
+
+  <div class="parallax__layer parallax__layer--back">
+    <img class="bg-responsive" src="/img/backgrounds/color-top-navy.svg"/>
+  </div>
+
+
+  <div class="parallax__layer parallax__layer--base">
+    <div class="container section-content text-center">
+      
+      <div class="row row-page">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-title">Viaje</h3>
+        </div>
+        <div class="col-sm-12 col-md-12 text-center">
+         {% include travel-carousel.html %}
+        </div>
+      </div><!--row-->
+
+
+      <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Hoteles</h4>
+        </div>
+        {% for hotel in site.data.hotels %}
+        <a href="{{ hotel.url }}" target="_blank">
+        <div class="col-xs-12 col-md-6 col-sm-6 track-box bg-fade box-grow" style="height:auto;">
+          <div class="hotel-img bg-img" style="background-image: url(../img/travel/{{ hotel.img }});">
+          </div>
+          <div class="hotel-description">
+            <h4>{{ hotel.name }}</h4>
+            <div class="text-center" style="margin:0% 5%">
+              <p>{{ hotel.short }}<span class="bold"></br>+hacer reserva</span></p>
+            </div>  
+          </div>
+        </div>  
+        </a>
+       {% endfor %}
+      </div><!--row-->
+
+      <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Transporte</h4>
+        </div>
+        <div class="col-md-6 col-sm-6 text-center">
+          <img src="/img/travel/traffic.jpg" title="Photo by Alexander Fns on Flickr, CC by 2.0 License" style="width:100%; padding-bottom: 40px;">
+        </div>
+        <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
+          <p style="padding-left: 0px;">La ciudad de Santiago tiene un magnífico sistema público de transporte con metro y buses (llamados MICROS) en todo su perímetro. Para mapas e información revisa los siguientes links: </p> 
+          <a href="https://www.metrosantiago.cl/" target="_blank">
+          <h4 class="applications-link link-grow">+ Metro</h4>
+          </a>
+          <a href="https://www.transantiago.cl/" target="_blank">
+          <h4 class="applications-link link-grow">+ Buses</h4>
+          </a>
+        </div>
+      </div><!--row-->
+
+      <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Lo que puedes y no puedes entrar en Chile</h4>
+        </div>
+        <div class="col-md-6 col-sm-6 text-center">
+          <img src="/img/travel/customs.png" style="width:100%; padding-bottom: 40px;">
+        </div>
+        <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
+          <p style="padding-left: 0px;">Si estás planeando traer a Chile productos de origen animal o vegetal, artesanías o productos exóticos, debes declararlos a la llegada. Aquí puedes encontrar toda la información importante acerca de qué y cómo declarar.</p> 
+          <a href="http://www.sag.cl/ambitos-de-accion/productos-de-origen-vegetal-yo-animal-artesanias-y-otros" target="_blank">
+          <h4 class="applications-link link-grow">+ Español</h4>
+          </a>
+          <a href="http://english.sag.gob.cl/" target="_blank">
+          <h4 class="applications-link link-grow">+ Inglés</h4>
+          </a>
+        </div>
+      </div><!--row-->
+
+      <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Descubre Chile</h4>
+        </div>
+        <div class="col-sm-12 text-center" style="height: 700px;">
+          <div data-configid="27087082/46609787" style="width:100%; height:700px;" class="issuuembed"></div>
+          <script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+        </div>
+        <div class="col-sm-12 col-md-12 text-center">
+          <a class="btn btn-inverted alt link-grow" style="margin-top:55px;" href="/fab_13_chile_magazine.pdf"target="_blank" >Descarga la revista!</a>
+        </div>
+      </div><!--row-->
+
+
+      <div class="row row-page">
+        <div class="col-md-12 text-center">
+          <h4 class="section-title">Visas y Cartas de Invitación</h4>
+        </div>
+        <div class="col-lg-12 row-page text-center" style="padding-bottom:30px;">
+          <p class="bold">Si estás planeando viajar a Fab13 puedes requerir una visa para entrar a Chile. Por favor revisa la lista debajo.</p>
+        </div>
+        {% for letter in site.data.visas %}
+        <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
+          <h4 style="color: #1d3557;">{{ letter.initial }} </h4>
+          <div class="visa-list">
+            <ul class="country-list">
+              {% for country in letter.countries %}
+              <li> {{ country.name }} </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>  
+        {% endfor %}
+      </div> <!--row-->
+
+      <div class="row row-page">
+        <div class="col-md-12 text-left">
+          <p>No podemos listar aquí todas las reglas para cada país, pero un sitio web útil para revisar es <a href="http://www.minrel.gob.cl/" target="_blank">http://www.minrel.gob.cl/</a>. Aunque resulta muy útil, no podemos garantizar la precisión de la información de este sitio. Si quieres estar seguro que estás recibiendo la información correcta por favor contacta a tu oficina de asuntos exteriores o institución gubernamental relevante. </p>
+        </div>
+      </div>
+
+      <div class="row row-page">
+        <div class="col-md-12 text-left">
+          <h5>Cartas de invitación </h5>
+        </div>
+        <div class="col-md-12 text-left">
+          <p>Tenemos un sistema para manejar las Cartas de Invitación para aquellos que las necesiten en el siguiente enlace: <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1" target="_blank"> Cartas de invitación para Fab13</a> Sin embargo, si necesitas una carta de inmediato, por favor contáctanos en<a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"> fab13@fablabsantiago.org </a> y haremos lo posible para ayudarte.</p>
+        </div>
+      </div><!--row-->
+    </div><!--container-->
+  </div><!--layer base-->
+</div><!--parallax-group-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

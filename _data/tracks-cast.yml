@@ -1,0 +1,89 @@
+- name: Ciudades
+  short: ¿Pueden las ciudades volver a producir las cosas que necesitan y encontrar soluciones a sus propias necesidades?
+  img: cities-w
+  imgmodal: cities-modal
+  modalid: 7
+  color: 1d3557
+  text: "Desde el inicio de la segunda revolución industrial, nuestras ciudades han externalizado la producción de bienes y productos, descontextualizando la creación y el territorio. Está estimado que para 2050, 75% the la población mundial vivirá en ciudades. Pueden las ciudades volver a producir sus propios objetos y encontrar soluciones a sus propias necesidades?"
+  speakers:
+    - name: Nadya Peek
+      img: /img/speakers/nadya.jpg 
+      url: www.google.com
+    - name: Sherry Lassiter
+      img: /img/speakers/sherry.png
+      url:
+
+- name: Vivienda
+  short: ¿Podemos proveer soluciones al problema de vivienda que existe en América Latina?
+  img: housing-w
+  imgmodal: housing-modal
+  modalid: 8
+  color: e63946
+  text: "Es necesario proveer una solución a la crisis de vivienda que existe en América Latina. La vivienda para familias en riesgo social es, en su mayor parte, auto-construida y ubicada en terrenos segregados de la ciudad."
+  speakers:
+    - name: Nadya Peek
+      img: /img/speakers/nadya.jpg 
+      url: www.google.com
+    - name: Sherry Lassiter
+      img: /img/speakers/sherry.png
+      url:
+
+- name: Innovación
+  short: ¿Cómo pueden los fab labs retar a los esquemas de producción convencionales y ser un complemento de innovación para la industria?
+  img: innovation-w
+  imgmodal: innovation-modal
+  modalid: 9
+  color: a8dadc
+  text: "Los fab labs son plataformas de manufactura que permiten retar a los sistemas de producción convencionales. En este sentido pueden ser un complemento a la industria, la cual a su vez puede ser fortalecida por su capacidad de producir objetos innovadores utilizando lenguaje digital. Del mismo modo, los fab labs pueden apoyar a los emprendedores en el proceso de convertir sus prototipos en productos."
+  speakers:
+    - name: Nadya Peek
+      img: /img/speakers/nadya.jpg 
+      url: www.google.com
+    - name: Sherry Lassiter
+      img: /img/speakers/sherry.png
+      url:  
+
+- name: Energía y Ambiente
+  short: En Chile están dos de las ciudades más contaminadas de América Latina. ¿Cómo pueden aprovecharse positivamente los recursos de energía limpia del país?
+  img: energy-w
+  imgmodal: energy-and-environment-modal
+  modalid: 10
+  color: 457b9d
+  text: "De acuerdo a la OMS Chile tiene dos de las ciudades más poluídas de América Latina, Coyhaique y Santiago de Chile. Sin embargo, Chile es un país rico en energía hidráulica, geotérmica y solar, entre otras. Entonces, cómo pueden ser usados estos recursos positivamente para resolver las necesidades directas de sus habitantes?"
+  speakers:
+    - name: Nadya Peek
+      img: /img/speakers/nadya.jpg 
+      url: www.google.com
+    - name: Sherry Lassiter
+      img: /img/speakers/sherry.png
+      url:
+
+- name: Educación
+  short: "Cómo pueden los fab labs empoderar a los ciudadanos de América Latina a encontrar soluciones locales a sus restos locales?"
+  img: education-w
+  imgmodal: education-modal
+  modalid: 11
+  color: eb5f69
+  text: "Los fab labs son entornos de aprendizaje en los cuales cualquiera puede producir (casi) cualquier cosa. Empoderar a los ciudadanos a encontrar sus propias soluciones a retos que tienen localmente se logra gracias a métodos de aprendizaje basados en proyectos que son transferibles a niños, estudiantes, profesionales, emprendedores, ciudadanos de tercera edad y personas sin educación formal."
+  speakers:
+    - name: Nadya Peek
+      img: /img/speakers/nadya.jpg 
+      url: www.google.com
+    - name: Sherry Lassiter
+      img: /img/speakers/sherry.png
+      url:
+
+- name: Descentralización
+  short: Con el objetivo de amplificar el impacto de Fab13 este año extendemos su alcance a las regiones!
+  img: decentralization-w
+  imgmodal: decentralization-modal
+  modalid: 12
+  color: c5d4c2
+  text: "Debido a la extensión geográfica de Chile y el crecimiento gradual de cada una de sus regiones, Santiago, la capital, concentra prácticamente el 40% de la población total del país. Gracias a que Fab13 será un evento de gran interés público, tanto nacional como internacionalmente, y con el objetivo de amplificar el impacto de este encuentro, hemos decidido extender su alcance a las regiones creando el ‘Off Lab’, en el cual varios miembros de la red global de Fab Labs viajarán a algunas de las regiones del país para desarrollar actividades, workshops, charlas y participar en festivales regionales."
+  speakers:
+    - name: Nadya Peek
+      img: /img/speakers/nadya.jpg 
+      url: www.google.com
+    - name: Sherry Lassiter
+      img: /img/speakers/sherry.png
+      url:

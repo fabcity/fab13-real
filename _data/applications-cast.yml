@@ -1,0 +1,55 @@
+- name: Aplcia para hacer tu pasantía con nosotros
+  short: "Pasantías para jóvenes emprendedores y estudiantes, 2 o tres meses!"
+  modalid: 1
+  color: 1d3557
+  embed: ""
+  url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSf9GMGs40UtybRJU-7RehlNkJ0t6bYhBmO5p3xz9smqrSX9wg/viewform"
+  placement: right
+
+- name: Aplica para ser voluntario
+  short: "Aplica para ser voluntario en el evento de fabricación digital más grande del mundo!"
+  modalid: 2
+  color: 1d3557
+  embed: "https://docs.google.com/forms/d/e/1FAIpQLSeKWl31p9fOxAetyjoDfe1p7Aejb3E_hTNgj3GYaiDz7AsMzQ/viewform?embedded=true"
+  url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSeKWl31p9fOxAetyjoDfe1p7Aejb3E_hTNgj3GYaiDz7AsMzQ/viewform"
+  placement: right
+
+- name: Aplica para presentar tu lab
+  short: "Aplica para presentar tu lab en la Fab13 Conference."
+  modalid: 3
+  color: 1d3557
+  embed: "https://docs.google.com/forms/d/e/1FAIpQLSd0O_8fJbKci9UKt7VOxKcLRZo5SUAAWxVw3Zkx7tQCLxQqFA/viewform?embedded=true"
+  url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSd0O_8fJbKci9UKt7VOxKcLRZo5SUAAWxVw3Zkx7tQCLxQqFA/viewform"
+  placement: right
+
+- name: Aplica para dar un workshop
+  short: "Aplica para dicatr un workshop durante Fab13 en uno de nuestras 6 temáticas!"
+  modalid: 4
+  color: 1d3557
+  embed: "https://docs.google.com/forms/d/e/1FAIpQLSc-N0y0LnZjRfHVKl9HPOsYZn0XI3V76G5CmP_pUQMbAuEOkA/viewform?embedded=true"
+  url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSc-N0y0LnZjRfHVKl9HPOsYZn0XI3V76G5CmP_pUQMbAuEOkA/viewform"
+  placement: right
+
+- name: Aplica para dar una charla FABX
+  short: "Las charlas Fabx siguen el formato de las charlas TEDX y tendrán lugar en el Fab13 Festival."
+  modalid: 5
+  color: 1d3557
+  embed: 
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSfPLj_SPq53Zshc-uviEqXxvO0C3sSIvDF52TQZM4kKIbBdrg/viewform?c=0&w=1"
+  placement: left
+
+- name: Propón una actividad para el Fab Festival
+  short: "Actividades culturales, shows, danza, música y cualquier cosa que no sea un demo/workshop/presentaciónn de lab/charlas!"
+  modalid: 6
+  color: 1d3557
+  embed: 
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSffW6lWSuusSnStgYWc7fMQEywF493eLtDQCbYzj5ghv2dyhA/viewform?c=0&w=1"
+  placement: left
+
+- name: Presenta un paper
+  short: "Presenta un paper original de investigación en torno al tema de fab labs y sociedad"
+  modalid: 7
+  color: 1d3557
+  embed: 
+  url: "https://easychair.org/cfp/fab13"
+  placement: left

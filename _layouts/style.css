@@ -2528,5 +2528,8 @@ section#festival {
 
 }
 
-
+.flag {
+    height: 12px;
+    margin-top: 3px;
+}
 
