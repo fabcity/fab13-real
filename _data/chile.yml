@@ -1,26 +1,35 @@
-- img: 0.jpg
-  credit: "Photo by alobos Life on Flickr, CC BY-NC-ND 2.0 License"
+img0: 0.jpg
 
-- img: 1.jpg
-  credit: "Photo by Mariano Mantel on Flickr, CC BY-NC 2.0 License"
-  url: "https://www.flickr.com/photos/mariano-mantel/14946785378/"
+img1: 1.jpg
 
-- img: 2.jpg
-  credit: "Photo by Difusa on Flickr, CC BY-NC-ND 2.0 License"
-  url: "https://www.flickr.com/photos/difusa/352470821/"
+img2: 2.jpg
 
-- img: 3.jpg
-  credit: "Photo by Ade Rusell on Flickr, CC BY-NC-ND 2.0) License"
-  url: https://www.flickr.com/photos/aderussell/18034593925/
+img3: 3.jpg
 
-- img: 4.jpg
-  credit: "Photo by Mariusz Kluzniak on Flickr, CC BY-NC-ND 2.0 License"
-  url: "https://www.flickr.com/photos/39997856@N03/11398105296/"
+img4: 4.jpg
 
-- img: 5.jpg
-  credit: "Photo by Mariusz Kluzniak on Flickr, CC BY-NC-ND 2.0 License"
-  url: "https://www.flickr.com/photos/39997856@N03/8629818561/"
+img5: 5.jpg
 
-- img: 6.jpg
-  credit: "Photo by Luis Alejandro Bernal on Flickr, CC BY-SA 2.0 License"
-  url: "https://www.flickr.com/photos/aztlek/5944235353/"
+img6: 6.jpg
+
+img7: 7.jpg
+
+img8: 8.jpg
+
+img9: 9.jpg
+
+img10: 10.jpg
+
+img11: 11.jpg
+
+img12: 12.jpg
+
+img13: 13.jpg
+
+img14: 14.jpg
+
+img15: 15.jpg
+
+img16: 16.jpg
+
+img17: 17.jpg
