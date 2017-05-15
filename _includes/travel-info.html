@@ -40,6 +40,52 @@
        {% endfor %}
       </div><!--row-->
 
+          <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Visa Invitation Letters</h4>
+        </div>
+        <div class="col-md-6 col-sm-6 text-center">
+          <img src="/img/travel/visas.jpg" title="Photo by Vinicius Depizzol on Flickr, CC by 2.0 License" style="width:100%; padding-bottom: 40px;">
+        </div>
+        <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
+          <p style="padding-left: 0px;">We have a system to manage Invitation letters for people who need them on the following link, but if you need a letter right now, please contact us <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"> fab13@fablabsantiago.org </a> and we will do what we can to help.</p> 
+        <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1" target="_blank">
+          <h4 class="applications-link link-grow">+ Get an invitation letter</h4>
+        </a>
+        <a href="/travel/#visas" target="_blank">
+          <h4 class="applications-link link-grow">+ Check if you need a visa</h4>
+        </a>
+        </div>
+      </div><!--row-->
+
+      <div class="row row-page" id="visas">
+        <div class="col-md-12 text-center">
+          <h4 class="section-title">Visa Requirements</h4>
+        </div>
+        <div class="col-lg-12 row-page text-center" style="padding-bottom:30px;">
+          <p class="bold">If you plan on travelling to FAB13 you may require a visa to enter Chile. Please check the list below.</p>
+        </div>
+        {% for letter in site.data.visas %}
+        <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
+          <h4 style="color: #1d3557;">{{ letter.initial }} </h4>
+          <div class="visa-list">
+            <ul class="country-list">
+              {% for country in letter.countries %}
+              <li> {{ country.name }} </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>  
+        {% endfor %}
+      </div> <!--row-->
+
+      <div class="row row-page">
+        <div class="col-md-12 text-left">
+          <p>We can't list all of the rules for each country here but a useful site to check is <a href="http://www.minrel.gob.cl/" target="_blank">http://www.minrel.gob.cl/</a>. Although it's helpful, we cannot vouch for the accuracy of the information on this site. If you want to be absolutely sure that you are receiving the correct information please contact your Foreign Office or relevant government institution.</p>
+        </div>
+      </div>
+
+
       <div class="row row-page">
         <div class="col-sm-12 text-center">
           <h4 class="section-title">Transport</h4>
@@ -89,42 +135,6 @@
         </div>
       </div><!--row-->
 
-
-      <div class="row row-page">
-        <div class="col-md-12 text-center">
-          <h4 class="section-title">Visas and Invitation Letters</h4>
-        </div>
-        <div class="col-lg-12 row-page text-center" style="padding-bottom:30px;">
-          <p class="bold">If you plan on travelling to FAB13 you may require a visa to enter Chile. Please check the list below.</p>
-        </div>
-        {% for letter in site.data.visas %}
-        <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
-          <h4 style="color: #1d3557;">{{ letter.initial }} </h4>
-          <div class="visa-list">
-            <ul class="country-list">
-              {% for country in letter.countries %}
-              <li> {{ country.name }} </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>  
-        {% endfor %}
-      </div> <!--row-->
-
-      <div class="row row-page">
-        <div class="col-md-12 text-left">
-          <p>We can't list all of the rules for each country here but a useful site to check is <a href="http://www.minrel.gob.cl/" target="_blank">http://www.minrel.gob.cl/</a>. Although it's helpful, we cannot vouch for the accuracy of the information on this site. If you want to be absolutely sure that you are receiving the correct information please contact your Foreign Office or relevant government institution.</p>
-        </div>
-      </div>
-
-      <div class="row row-page">
-        <div class="col-md-12 text-left">
-          <h5>Invitation Letters </h5>
-        </div>
-        <div class="col-md-12 text-left">
-          <p>We have a system to manage Invitation letters for people who need them on the following link: <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1" target="_blank">  FAB13 Invitation letters.</a> But if you need a letter right now, please contact us <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"> fab13@fablabsantiago.org </a> and we will do what we can to help.</p>
-        </div>
-      </div><!--row-->
     </div><!--container-->
   </div><!--layer base-->
 </div><!--parallax-group-->

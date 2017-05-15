@@ -40,6 +40,53 @@
        {% endfor %}
       </div><!--row-->
 
+           <div class="row row-page">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Cartas de invitación para visas</h4>
+        </div>
+        <div class="col-md-6 col-sm-6 text-center">
+          <img src="/img/travel/visas.jpg" title="Photo by Vinicius Depizzol on Flickr, CC by 2.0 License" style="width:100%; padding-bottom: 40px;">
+        </div>
+        <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
+          <p style="padding-left: 0px;">Contamos con un sistema para proveer de Cartas de Invitación para personas que las necesiten en el siguiente link, pero si necesitas una carta justo ahora, por favor contáctanos en <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"> fab13@fablabsantiago.org </a> y haremos lo posible por ayudarte.</p> 
+        <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1" target="_blank">
+          <h4 class="applications-link link-grow">+ Solicitar una carta de invitación</h4>
+        </a>
+        <a href="/travel/#visas" target="_blank">
+          <h4 class="applications-link link-grow">+ Revisar si requiero de una visa</h4>
+        </a>
+        </div>
+      </div><!--row-->
+
+      <div class="row row-page">
+        <div class="col-md-12 text-center">
+          <h4 class="section-title">Requerimiento de visa</h4>
+        </div>
+        <div class="col-lg-12 row-page text-center" style="padding-bottom:30px;">
+          <p class="bold">Si estás planeando viajar a Fab13 puedes requerir una visa para entrar a Chile. Por favor revisa la lista debajo.</p>
+        </div>
+        {% for letter in site.data.visas %}
+        <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
+          <h4 style="color: #1d3557;">{{ letter.initial }} </h4>
+          <div class="visa-list">
+            <ul class="country-list">
+              {% for country in letter.countries %}
+              <li> {{ country.name }} </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>  
+        {% endfor %}
+      </div> <!--row-->
+
+      
+      <div class="row row-page">
+        <div class="col-md-12 text-left">
+          <p>No podemos listar aquí todas las reglas para cada país, pero un sitio web útil para revisar es <a href="http://www.minrel.gob.cl/" target="_blank">http://www.minrel.gob.cl/</a>. Aunque resulta muy útil, no podemos garantizar la precisión de la información de este sitio. Si quieres estar seguro que estás recibiendo la información correcta por favor contacta a tu oficina de asuntos exteriores o institución gubernamental relevante. </p>
+        </div>
+      </div>
+
+
       <div class="row row-page">
         <div class="col-sm-12 text-center">
           <h4 class="section-title">Transporte</h4>
@@ -57,6 +104,7 @@
           </a>
         </div>
       </div><!--row-->
+
 
       <div class="row row-page">
         <div class="col-sm-12 text-center">
@@ -89,42 +137,6 @@
         </div>
       </div><!--row-->
 
-
-      <div class="row row-page">
-        <div class="col-md-12 text-center">
-          <h4 class="section-title">Visas y Cartas de Invitación</h4>
-        </div>
-        <div class="col-lg-12 row-page text-center" style="padding-bottom:30px;">
-          <p class="bold">Si estás planeando viajar a Fab13 puedes requerir una visa para entrar a Chile. Por favor revisa la lista debajo.</p>
-        </div>
-        {% for letter in site.data.visas %}
-        <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
-          <h4 style="color: #1d3557;">{{ letter.initial }} </h4>
-          <div class="visa-list">
-            <ul class="country-list">
-              {% for country in letter.countries %}
-              <li> {{ country.name }} </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>  
-        {% endfor %}
-      </div> <!--row-->
-
-      <div class="row row-page">
-        <div class="col-md-12 text-left">
-          <p>No podemos listar aquí todas las reglas para cada país, pero un sitio web útil para revisar es <a href="http://www.minrel.gob.cl/" target="_blank">http://www.minrel.gob.cl/</a>. Aunque resulta muy útil, no podemos garantizar la precisión de la información de este sitio. Si quieres estar seguro que estás recibiendo la información correcta por favor contacta a tu oficina de asuntos exteriores o institución gubernamental relevante. </p>
-        </div>
-      </div>
-
-      <div class="row row-page">
-        <div class="col-md-12 text-left">
-          <h5>Cartas de invitación </h5>
-        </div>
-        <div class="col-md-12 text-left">
-          <p>Tenemos un sistema para manejar las Cartas de Invitación para aquellos que las necesiten en el siguiente enlace: <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1" target="_blank"> Cartas de invitación para Fab13</a> Sin embargo, si necesitas una carta de inmediato, por favor contáctanos en<a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"> fab13@fablabsantiago.org </a> y haremos lo posible para ayudarte.</p>
-        </div>
-      </div><!--row-->
     </div><!--container-->
   </div><!--layer base-->
 </div><!--parallax-group-->
