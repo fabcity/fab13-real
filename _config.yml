@@ -1,7 +1,7 @@
 # Site settings
 
 title: Fab13 Fabricating Society 
-email: info@fabfoundation.org
+email: fab13@fablabsantiago.org
 description: "Fab 13 is the 13th international Fab Lab Conference in Santiago de Chile, jul 31 - aug 6 2017"
 
 
@@ -32,7 +32,7 @@ social:
   - title: instagram
     url: https://www.instagram.com/fab13santiago/
   - title: envelope
-    url: mailto:ab13@fablabsantiago.org
+    url: mailto:fab13@fablabsantiago.org
 
 
 # Postal address (add as many lines as necessary)
