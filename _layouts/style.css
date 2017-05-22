@@ -8,6 +8,7 @@
 {% include additional_css/codyhouse.css %}
 {% include additional_css/contact.css %}
 {% include additional_css/map.css %}
+{% include additional_css/timetablejs.css %}
 
 
 
@@ -1989,7 +1990,7 @@ section#festival {
 
 
 
-/*-- TIMETABLE CSS OVERWRITES
+/*-- TIMETABLE CSS OVERWRITES*/
 
 .nav>li>a {
     position: relative;
@@ -2152,7 +2153,7 @@ section#festival {
     margin-bottom: 20px;
 }
 
-*/
+
 
 
 /***CONTACT FORM****/
