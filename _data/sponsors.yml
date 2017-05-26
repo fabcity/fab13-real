@@ -48,6 +48,11 @@
   url: http://www.solidworks.com/
   img: solidworks.png
 
+- organization: "Espacio Nacional de Diseño"
+  role: sponsor
+  url: http://www.endchile.org/
+  img: espacio_nacional_dis
+
 - organization: "Consejo Nacional de la Cultura y las Artes"
   role: government
   url: http://www.cultura.gob.cl/
