@@ -48,10 +48,15 @@
   url: http://www.solidworks.com/
   img: solidworks.png
 
+- organization: "Fundación Vivienda"
+  role: sponsor
+  url: http://fundacionvivienda.cl/
+  img: FV.png
+
 - organization: "Espacio Nacional de Diseño"
   role: sponsor
   url: http://www.endchile.org/
-  img: espacio_nacional_dis
+  img: espacio_nacional_dis.png
 
 - organization: "Consejo Nacional de la Cultura y las Artes"
   role: government
@@ -82,11 +87,6 @@
   role: supporter
   url: http://fab.city
   img: fabcity.png
-
-- organization: "Fundación Vivienda"
-  role: sponsor
-  url: http://fundacionvivienda.cl/
-  img: FV.png
 
 - organization: "Arch Daily"
   role: media
