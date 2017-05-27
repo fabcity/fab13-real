@@ -6,7 +6,6 @@
 {% include additional_css/font-awesome/font-awesome.min.css %}
 {% include additional_css/full-slider.css %}
 {% include additional_css/codyhouse.css %}
-{% include additional_css/contact.css %}
 {% include additional_css/map.css %}
 
 
@@ -1248,79 +1247,6 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
-
-
-/* --- Old modals-- */
-/*--> EVENT TRACKS MODALS -->*/ 
-
-/*
-
-.modal-content {
-    border-radius: 0px;
-    background-color: #000;
-}
-
-.modal-header {
-    border-bottom: 0px;
-    min-height: 50px;
-}
-
-.modal-body {
-    padding: 0px 30px 0px 30px;
-}
-
-.modal-content button.close {
-    padding: 0px;
-}
-
-
-.modal-content .close {
-    font-size: 28px;
-    opacity: 1;
-    color: #fff;
-    font-weight: 100;
-}
-
-
-.modal-footer {
-    padding-top: 50px;
-    min-height:150px;
-    border-top: 0px;
-    text-align: center;
-}
-
-.modal-footer.col-md-2 {
-    padding-right: 0px;
-}
-
-.btn-default {
-    color: #fff;
-    background-color: #000;
-    border-color: #fff;
-    border-radius: 0px;
-
-}
-
-.modal-body .img-responsive {
-    width: 100%;
-}
-
-
-
-@media (min-width: 768px) {
-    .modal-dialog {
-        width: 900px;
-    }
-}
-
-.modal-header{
-    padding: 25px 30px 0px 30px;
-}
-
-.modal-title {
-    color: #{{ site.color.whites }};
-}
-*/
 
 
 
