@@ -1,4 +1,4 @@
-- name: Aplcia para hacer tu pasantía con nosotros
+- name: Aplica para hacer tu pasantía con nosotros
   short: "Pasantías para jóvenes emprendedores y estudiantes, 2 o tres meses!"
   modalid: 1
   color: 1d3557
@@ -23,7 +23,7 @@
   placement: right
 
 - name: Aplica para dar un workshop
-  short: "Aplica para dicatr un workshop durante Fab13 en uno de nuestras 6 temáticas!"
+  short: "Aplica para dictar un workshop durante Fab13 en una de nuestras 6 temáticas!"
   modalid: 4
   color: 1d3557
   embed: "https://docs.google.com/forms/d/e/1FAIpQLSc-N0y0LnZjRfHVKl9HPOsYZn0XI3V76G5CmP_pUQMbAuEOkA/viewform?embedded=true"
@@ -38,8 +38,8 @@
   url: "https://docs.google.com/forms/d/e/1FAIpQLSfPLj_SPq53Zshc-uviEqXxvO0C3sSIvDF52TQZM4kKIbBdrg/viewform?c=0&w=1"
   placement: left
 
-- name: Propón una actividad para el Fab Festival
-  short: "Actividades culturales, shows, danza, música y cualquier cosa que no sea un demo/workshop/presentaciónn de lab/charlas!"
+- name: Postula una actividad para el Fab Festival
+  short: "Actividades culturales, shows, danza, música y cualquier cosa que no sea un demo/workshop/presentación de lab/charlas!"
   modalid: 6
   color: 1d3557
   embed: 
