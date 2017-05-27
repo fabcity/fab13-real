@@ -1,3 +1,5 @@
+# Remember to put image files inside /img/icons/
+
 - name: Ciudades
   short: ¿Pueden las ciudades volver a producir las cosas que necesitan y encontrar soluciones a sus propias necesidades?
   img: cities-w
