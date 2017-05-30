@@ -1105,6 +1105,26 @@ ul.social-buttons li a:active {
     transform: rotate(90deg);
 }
 
+.track-modal .close-modal .lrmicro {
+    z-index: 1051;
+    width: 5px;
+    height: 60px;
+    margin-left: 35px;
+    background-color: white;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.track-modal .close-modal .lrmicro .rlmicro {
+    z-index: 1052;
+    width: 5px;
+    height: 60px;
+    background-color: white;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 
 .modal-speaker {
     background-image: url(../img/speakers/nadya.jpg);
@@ -2241,4 +2261,3 @@ video {
     height: 12px;
     margin-top: 3px;
 }
-

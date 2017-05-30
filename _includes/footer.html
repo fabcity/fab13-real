@@ -12,6 +12,12 @@
                             </a>
                             </li>
                         {% endfor %}
+                        {% for address in site.contact %}
+                            <li><a class="link-grow" data-toggle="modal" data-target="{{ address.url }}">
+                                <i class="fa fa-2x fa-{{ address.title }}"></i>
+                            </a>
+                            </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

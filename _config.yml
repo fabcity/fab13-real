@@ -31,8 +31,11 @@ social:
     url: https://www.facebook.com/fab13santiago
   - title: instagram
     url: https://www.instagram.com/fab13santiago/
+
+contact:
   - title: envelope
-    url: mailto:fab13@fablabsantiago.org
+    url: "#contactmail"
+    email: "fab13@fablabsantiago.org"
 
 
 # Postal address (add as many lines as necessary)
