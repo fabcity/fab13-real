@@ -26,20 +26,16 @@ fonts:
   secondary: Nunito
   texts: Nunito
 social:
-  - title: twitter
-    url: https://twitter.com/fab13santiago
-  - title: facebook
-    url: https://www.facebook.com/fab13santiago
-  - title: instagram
-    url: https://www.instagram.com/fab13santiago/
-
+- title: twitter
+  url: https://twitter.com/fab13santiago
+- title: facebook
+  url: https://www.facebook.com/fab13santiago
+- title: instagram
+  url: https://www.instagram.com/fab13santiago/
 contact:
-  - title: envelope
-    url: "#contactmail"
-    email: "fab13@fablabsantiago.org"
-
-
-# Postal address (add as many lines as necessary)
+- title: envelope
+  url: "#contactmail"
+  email: fab13@fablabsantiago.org
 address:
 - line: The Fab Foundation
 - line: 50 Milk St. 16th Floor
