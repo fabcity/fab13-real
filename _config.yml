@@ -1,12 +1,16 @@
-# Site settings
-
-title: Fab13 Fabricating Society 
+---
+title: Fab13 Fabricating Society
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: fab13@fablabsantiago.org
-description: "Fab 13 is the 13th international Fab Lab Conference in Santiago de Chile, jul 31 - aug 6 2017"
-
-
-
-# Color settings (hex-codes without the leading hash-tag)
+description: Fab 13 is the 13th international Fab Lab Conference in Santiago de Chile,
+  jul 31 - aug 6 2017
 color:
   blacks: 141414
   whites: f9f9f9
@@ -17,38 +21,26 @@ color:
   andeanpink: eb5f69
   andeanred: e63946
   andeansand: FAFBF9
-
-fonts: 
-  primary: Tstarr 
+fonts:
+  primary: Tstarr
   secondary: Nunito
   texts: Nunito
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/fab13santiago
-  - title: facebook
-    url: https://www.facebook.com/fab13santiago
-  - title: instagram
-    url: https://www.instagram.com/fab13santiago/
-  - title: envelope
-    url: mailto:fab13@fablabsantiago.org
-
-
-# Postal address (add as many lines as necessary)
+- title: twitter
+  url: https://twitter.com/fab13santiago
+- title: facebook
+  url: https://www.facebook.com/fab13santiago
+- title: instagram
+  url: https://www.instagram.com/fab13santiago/
+- title: envelope
+  url: mailto:fab13@fablabsantiago.org
 address:
-  - line: The Fab Foundation
-  - line: 50 Milk St. 16th Floor
-  - line: Boston MA 02109
-  - line: Tel +1 857 333 7777
-
-# Build settings
+- line: The Fab Foundation
+- line: 50 Milk St. 16th Floor
+- line: Boston MA 02109
+- line: Tel +1 857 333 7777
 markdown: kramdown
 permalink: pretty
-
-# Gems
 gems:
-  - kramdown
-
-
-urlimg: '/img/' 
+- kramdown
+urlimg: "/img/"
