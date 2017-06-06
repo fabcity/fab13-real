@@ -10,17 +10,18 @@
       <div class="container section-content">
         <div class="row text-center">
           <h3 class="section-title" style="padding-bottom: 18px; padding-bottom: 25px; ">Expositores</h3>
-           <h3 class="section-title" style="font-size: 40px; padding-bottom: 18px; padding-bottom: 25px;">POR ANUNCIAR!</h3>
-          <p style="padding-bottom: 30px; font-size: 17px;">Estos son algunos de los expositores de nuestros eventos pasados: </p>
+           <!--<h3 class="section-title" style="font-size: 40px; padding-bottom: 18px; padding-bottom: 25px;">TO BE ANNOUNCED!</h3>-->
+          <p style="padding-bottom: 30px; font-size: 17px;">Estos serán los invitados a Fab13: </p>
         </div>
         <div class="row text-center">
             {% for speaker in site.data.speakers %} 
-              <!--<a href="#speakersModal{{ speaker.modalid }}" class"=portfolio-link" data-toggle="modal">-->
+             <!-- <a href="#speakersModal{{ speaker.modalid }}" class"=portfolio-link" data-toggle="modal">-->
                 <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
                   <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>
                   <h4>{{ speaker.name }}</h4>
                   <p>{{ speaker.bio }}</p>
                 </div>
+             <!-- </a>-->
             {% endfor %}
         </div>  <!--row-->
       </div> <!--container-->

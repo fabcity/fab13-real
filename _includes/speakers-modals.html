@@ -1,18 +1,23 @@
  <!-- Speakers Modals -->
+
 {% for speaker in site.data.speakers %}
-<div class="speakers-modal modal fade" id="speakersModal{{ speaker.modalid }}">
-    <div class="modal-content modal-particles" style= "background-color:#{{ site.color.andeansand}}; ">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
+ <div class="track-modal modal fade" id="speakersModal{{ speaker.modalid }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content modal-particles" style="padding: 100px 30px;">
+        <div class="modal-header" style="border-bottom: 0px;">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lrmicro">
+                <div class="rlmicro">
                 </div>
             </div>
+          </div>
         </div>
-        <div class="container">
+        <div class="modal-body">
+          <div class="container">
             <div class="row" style="padding-bottom:50px;">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body text-center">
-                        <img class="imgs-speaker" src="{{ speaker.img}}">
+                        <img class="imgs-speaker" src="/img/speakers/{{ speaker.img }}">
                         <h2>{{ speaker.name }}</h2>         
                         <p>{{ speaker.bio }}</p>
                     </div>
@@ -23,6 +28,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="modal-body text-center">
                          <h4>Activities</h4>
+                         <p style="padding-top: 30px;">To be announced!</p>
                     </div>
                 </div>
             </div>
@@ -31,7 +37,8 @@
                 <a class="page-scroll btn btn-inverted" data-dismiss="modal">Close</a>
             </div>
          </div> <!--container -->
+        </div>
+      </div>
     </div>
-</div>
-{% endfor %}
-
+  </div>
+  {% endfor %}
