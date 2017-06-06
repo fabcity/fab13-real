@@ -132,7 +132,35 @@
   longbio:
   url: http://fundacionvivienda.cl/
   img: felipe-arteaga.jpg
-  modalid: 19
+  modalid: 20
+
+- name: Alan Gershenfeld
+  bio: "Co-founder and President, E-Line Media"
+  longbio:
+  url: http://elinemedia.com/staff/alan-gershenfeld/
+  img: alan.jpg
+  modalid: 21
+
+- name: Jean-Michel Molenaar
+  bio: "Academany,Bioacademy and Fab Connections, Professor at Tufts University, Department of Biomedical Engineering"
+  longbio:
+  url: http://engineering.tufts.edu/bme/people/molenaar/index.htm
+  img: jean-michel.jpg
+  modalid: 22
+
+- name: Inti Nuñez
+  bio: "Former Manager at CORFO Chile, Professor at Universidad de Concepción"
+  longbio:
+  url: http://engineering.tufts.edu/bme/people/molenaar/index.htm
+  img: inti.jpg
+  modalid: 23
+
+- name: Sofia Lobos
+  bio: "Executive Secretary of the Intergovernmental Creative Economy Committee at the Consejo Nacional de la Cultura y las Artes CNCA Chile"
+  longbio:
+  url: http://engineering.tufts.edu/bme/people/molenaar/index.htm
+  img: sofia.jpg
+  modalid: 24
 
 - name: Tomás Vivanco
   bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
