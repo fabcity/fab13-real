@@ -170,9 +170,29 @@
   modalid: 23
 
 - name: Sofia Lobos
-  bio: "Executive Secretary of the Intergovernmental Creative Economy Committee at the Consejo Nacional de la Cultura y las Artes CNCA Chile"
+  bio: "Executive Secretary of the Intergovernmental Creative Economy Committee at CNCA Chile"
   longbio:
   url: https://cl.linkedin.com/in/sofia-lobos-804a5326
   img: sofia.jpg
   modalid: 24
 
+- name: Joel Cutcher-Gershenfeld
+  bio: "Professor at the Heller School for Social Policy and Management, Brandeis University"
+  longbio:
+  url: http://www.brandeis.edu/facultyguide/person.html?emplid=39367aa9b387b4d46a95956f614c8a82139d774d
+  img: joel.jpg
+  modalid: 25
+
+- name: Patricia Manns
+  bio: "Designer and Researcher, Founder at MAFA"
+  longbio:
+  url: https://www.mafa.cl/
+  img: patricia-manns.png
+  modalid: 26
+
+- name: Mariana Costa
+  bio: "Co-founder and CEO at Laboratoria Peru"
+  longbio:
+  url: http://laboratoria.la/
+  img: mariana_costa.jpg
+  modalid: 27
