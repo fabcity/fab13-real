@@ -1,14 +1,14 @@
 # Remember to put image files inside /img/speakers/
 
 - name: Kate Adamala
-  bio: "Protobiology, University of Minnesota"
+  bio: "Protobiology. Biochemist, Assistant Professor in the Department of Genetics, Cell Biology and Development at the University of Minnesota."
   longbio: "Kate received a MSc in chemistry from the University of Warsaw, Poland, studying synthetic organic chemistry. In grad school, she worked with professor Pier Luigi Luisi from University Roma Tre and Jack Szostak from Harvard University. She studied RNA biophysics, small peptide catalysis and liposome dynamics, in an effort to build a chemical system capable of Darwinian evolution. Kate's postdoctoral work in Ed Boyden's Synthetic Neurobiology group at MIT focused on developing novel methods for multiplex control and readout of mammalian cells. Her full first name spells Katarzyna; she goes by Kate for the benefit of friends speaking less consonant-enriched languages. Contact: kadamala@umn.edu. Mailing address: 420 Washington Ave SE, 5-128 MCB, Minneapolis, MN 55455"
   url: http://www.protobiology.org/
   img: kate_adamala.jpg
   modalid: 1
 
 - name: Ben Laurie
-  bio: "Head of Security and Transparency, Google DeepMind"
+  bio: "Head of Security and Transparency, Google DeepMind. ‎Programmer, Protocol Designer, Cryptographer "
   longbio: "Ben Laurie is a software engineer, protocol designer and cryptographer. He is a founding director of The Apache Software Foundation, a core team member of OpenSSL, a member of the Shmoo Group, a director of the Open Rights Group, Director of Security at The Bunker Secure Hosting, Trustee and Founder-member of FreeBMD, Visiting Fellow at Cambridge University's Computer Laboratory, a committer at FreeBSD and Advisory Board member of WikiLeaks.org. Laurie works for Google in London on various projects, currently focused on Certificate transparency. Ben wrote Apache-SSL, the basis of most SSL-enabled versions of the Apache HTTP Server and is a co-author of OpenPGP:SDK. He developed the MUD Gods, which was innovative in including online creation in its endgame. Ben also has written several articles, papers and books, many of which can be found on his home page or his blog and is interested in ideal knots and their applications."
   url: http://www.businessinsider.com/google-deepmind-has-a-new-head-of-security-2016-7
   img: ben-laurie.jpg
@@ -22,7 +22,7 @@
   modalid: 3
 
 - name: Primavera de Filippi
-  bio: "Blockchain researcher at Harvard"
+  bio: "Blockchain researcher at Berkman Center for Internet & Society - ‎Harvard University"
   longbio:
   url: https://cyber.harvard.edu/people/pdefilip
   img: primavera.jpg
@@ -35,9 +35,8 @@
   img: neil.jpg
   modalid: 5
 
-
 - name: Sherry Lassiter
-  bio: "Fab Foundation President"
+  bio: "President & CEO, The Fab Foundation"
   longbio: "Sherry Lassiter is one of the architects of the MIT global Fab Lab program.  As President of the Fab Foundation Lassiter works at the intellectual boundary where transfer of enabling, empowering, technical knowledge allows an idea to come into physical being–where bits become atoms.  It’s an interdisciplinary landscape that requires a commitment to creating educational tools and exploring intellectual and economic frontiers. After a two decade career in science journalism as producer, writer and director for television series such as Scientific American Frontiers, Discover the World of Science, and The Science Times, she became a protagonist in science and technology, becoming part of the story, rather that just telling the story.  As Program Manager  for the NSF-funded Center for Bits & Atoms at MIT she has seen and enabled the personal fabrication movement as it has grown and evolved.  In her time at MIT, Lassiter has become a passionate fab labber and firm believer in the idea of personal fabrication and the empowerment that comes from making things for yourself.  To make powerful, useful things in the world you have to learn deep content in science, mathematics and engineering – fab labs provide new inspiration for STEM education, motivation for much of Lassiter’s current work. Lassiter is Director of The Fab Foundation, engaged in the deployment and growth of Fab Labs around the world, enabling grassroots technology development by, for and of the community."
   url: http://www.fabfoundation.org/
   img: sherry.png
@@ -51,7 +50,7 @@
   modalid: 7
 
 - name: Alastair Parvin
-  bio: "Co-founder WikiHouse, Architectural & strategic designer with 00 London."
+  bio: "Co-founder at WikiHouse Foundation, Architectural & strategic designer with 00 London."
   longbio:
   url: https://wikihouse.cc/
   img: alastair_parvin.jpg
@@ -142,7 +141,7 @@
   modalid: 21
 
 - name: Jean-Michel Molenaar
-  bio: "Academany,Bioacademy and Fab Connections, Professor at Tufts University, Department of Biomedical Engineering"
+  bio: "Academany, Bioacademy and Fab Connections, Professor at Tufts University, Department of Biomedical Engineering"
   longbio:
   url: http://engineering.tufts.edu/bme/people/molenaar/index.htm
   img: jean-michel.jpg
