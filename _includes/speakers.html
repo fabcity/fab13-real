@@ -15,13 +15,13 @@
         </div>
         <div class="row text-center">
             {% for speaker in site.data.speakers %} 
-             <!-- <a href="#speakersModal{{ speaker.modalid }}" class"=portfolio-link" data-toggle="modal">-->
+            <a href="{{ speaker.url }}" target="_blank">
                 <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
                   <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>
                   <h4>{{ speaker.name }}</h4>
                   <p>{{ speaker.bio }}</p>
                 </div>
-             <!-- </a>-->
+             </a>
             {% endfor %}
         </div>  <!--row-->
       </div> <!--container-->

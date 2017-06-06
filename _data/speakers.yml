@@ -41,34 +41,55 @@
   longbio: "Sherry Lassiter is one of the architects of the MIT global Fab Lab program.  As President of the Fab Foundation Lassiter works at the intellectual boundary where transfer of enabling, empowering, technical knowledge allows an idea to come into physical being–where bits become atoms.  It’s an interdisciplinary landscape that requires a commitment to creating educational tools and exploring intellectual and economic frontiers. After a two decade career in science journalism as producer, writer and director for television series such as Scientific American Frontiers, Discover the World of Science, and The Science Times, she became a protagonist in science and technology, becoming part of the story, rather that just telling the story.  As Program Manager  for the NSF-funded Center for Bits & Atoms at MIT she has seen and enabled the personal fabrication movement as it has grown and evolved.  In her time at MIT, Lassiter has become a passionate fab labber and firm believer in the idea of personal fabrication and the empowerment that comes from making things for yourself.  To make powerful, useful things in the world you have to learn deep content in science, mathematics and engineering – fab labs provide new inspiration for STEM education, motivation for much of Lassiter’s current work. Lassiter is Director of The Fab Foundation, engaged in the deployment and growth of Fab Labs around the world, enabling grassroots technology development by, for and of the community."
   url: http://www.fabfoundation.org/
   img: sherry.png
-  modalid: 7
+  modalid: 6
 
 - name: Patricio Feres
   bio: "CEO Innova Chile"
   longbio: 
   url: https://www.linkedin.com/in/patricio-feres-b1977a4?ppe=1
   img: patricio.jpg
-  modalid: 9
+  modalid: 7
 
 - name: Alastair Parvin
   bio: "Co-founder WikiHouse, Architectural & strategic designer with 00 London."
   longbio:
   url: https://wikihouse.cc/
   img: alastair_parvin.jpg
-  modalid: 10
+  modalid: 8
 
 - name: Gonzalo Rey 
   bio: "Chief Technology Officer, Moog Inc."
   longbio:
   url: http://www.moog.com/
   img: gonzalo-rey.jpg
-  modalid: 11
+  modalid: 9
 
 - name: James Tooze 
   bio: "Distributed Lab, Royal Collegue of Arts"
   longbio: "James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College of Art. He is a designer and researcher, with his research, both commercial and academic, focusing on three interwoven areas: open design, open fabrication and digital manufacturing. A graduate of the Design Products programme, he also trained as a furniture designer and cabinetmaker, and continues to practice."
   url: https://www.rca.ac.uk/more/staff/james-tooze/
   img: james-tooze.jpg
+  modalid: 10
+
+- name: Robert Garita 
+  bio: "Fab Lab Veritas Director"
+  longbio:
+  url: http://www.veritas.cr/staff/robert-garita
+  img: robert-garita.png
+  modalid: 11
+
+- name: Alysia Garmulewicz 
+  bio: "Materiome"
+  longbio:
+  url: http://www.insis.ox.ac.uk/alysia-garmulewicz
+  img: alysia.jpg
+  modalid: 12
+
+- name: Juan Felipe Lopez
+  bio: "Director Laboratorio de Gobierno"
+  longbio:
+  url: http://www.insis.ox.ac.uk/alysia-garmulewicz
+  img: juan-felipe.jpg
   modalid: 12
 
 - name: Tomás Vivanco
@@ -76,11 +97,11 @@
   longbio: 
   url: "http://diseno.uc.cl/persona/tomas-vivanco/"
   img: tomas-vivanco.png
-  modalid: 8
+  modalid: 
 
 - name: Andrés Briceño
   bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
   longbio: 
   url: ""
   img: andres-briceno.png
-  modalid: 6
+  modalid: 
