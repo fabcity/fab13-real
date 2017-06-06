@@ -1642,17 +1642,17 @@ video {
 
 /*speakers*/
 #speakers {
-    z-index: 1 ;
+    z-index: 3 ;
 }
 
 /*apply*/
 #apply {
-    z-index: 4; 
+    z-index: 2; 
 }
 
 /*travel*/
 #travel {
-    z-index: 3; 
+    z-index: 1; 
 }
 
 #travel .plane{
@@ -2199,9 +2199,17 @@ video {
 
 @media (min-width: 767px) {
     .speaker-box {
-        height: 360px;
+        height: 320px;
     }
 } 
+
+
+.speakerbio {
+    font-size: 12px; 
+    line-height: 1.2;
+    font-weight: 600;
+}
+
 
 .apply-ribbon {
         padding-top: 100px;

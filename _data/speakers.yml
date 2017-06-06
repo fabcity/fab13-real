@@ -148,6 +148,20 @@
   img: jean-michel.jpg
   modalid: 22
 
+- name: Tomás Vivanco
+  bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
+  longbio: 
+  url: "http://diseno.uc.cl/persona/tomas-vivanco/"
+  img: tomas-vivanco.png
+  modalid: 
+
+- name: Andrés Briceño
+  bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
+  longbio: 
+  url: ""
+  img: andres-briceno.png
+  modalid: 
+
 - name: Inti Nuñez
   bio: "Former Manager at CORFO Chile, Professor at Universidad de Concepción"
   longbio:
@@ -162,16 +176,3 @@
   img: sofia.jpg
   modalid: 24
 
-- name: Tomás Vivanco
-  bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
-  longbio: 
-  url: "http://diseno.uc.cl/persona/tomas-vivanco/"
-  img: tomas-vivanco.png
-  modalid: 
-
-- name: Andrés Briceño
-  bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
-  longbio: 
-  url: ""
-  img: andres-briceno.png
-  modalid: 
