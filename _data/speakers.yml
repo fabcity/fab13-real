@@ -43,7 +43,7 @@
   modalid: 6
 
 - name: Patricio Feres
-  bio: "CEO Innova Chile"
+  bio: "Head of Innovation / CEO InnovaChile at Corfo"
   longbio: 
   url: https://www.linkedin.com/in/patricio-feres-b1977a4?ppe=1
   img: patricio.jpg
@@ -64,14 +64,14 @@
   modalid: 9
 
 - name: James Tooze 
-  bio: "Distributed Lab, Royal Collegue of Arts"
+  bio: "Designer / Maker / Researcher / Tutor at ‎Royal College of Art"
   longbio: "James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College of Art. He is a designer and researcher, with his research, both commercial and academic, focusing on three interwoven areas: open design, open fabrication and digital manufacturing. A graduate of the Design Products programme, he also trained as a furniture designer and cabinetmaker, and continues to practice."
   url: https://www.rca.ac.uk/more/staff/james-tooze/
   img: james-tooze.jpg
   modalid: 10
 
 - name: Robert Garita 
-  bio: "Fab Lab Veritas Director"
+  bio: "Architect, Designer - Fab Lab Veritas Director"
   longbio:
   url: http://www.veritas.cr/staff/robert-garita
   img: robert-garita.png
@@ -85,7 +85,7 @@
   modalid: 12
 
 - name: Juan Felipe Lopez
-  bio: "Director Laboratorio de Gobierno"
+  bio:  ‎"Executive Director at Laboratorio de Gobierno, Chile"
   longbio:
   url: http://www.lab.gob.cl/
   img: juan-felipe.jpg
@@ -99,7 +99,7 @@
   modalid: 14
 
 - name: Liz Corbin
-  bio: "Institute of Making, UCL, London"
+  bio: "Researcher of Materials and Process, Institute of Making, UCL, London"
   longbio:
   url: http://www.instituteofmaking.org.uk/about/people
   img: liz_corbin.jpeg
