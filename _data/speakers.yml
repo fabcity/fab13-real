@@ -202,3 +202,10 @@
   url: http://laboratoria.la/
   img: mariana_costa.jpg
   modalid: 27
+
+- name: Peter Troxler
+  bio: "Researcher at Rotterdam University of Applied Sciences"
+  longbio:
+  url: http://petertroxler.net/about/
+  img: peter-troxler.jpg
+  modalid: 28
