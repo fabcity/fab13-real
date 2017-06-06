@@ -106,6 +106,27 @@
   img: liz_corbin.jpeg
   modalid: 15
 
+- name: Jens Dyvik
+  bio: "Machines that Make Machines"
+  longbio:
+  url: http://www.dyvikdesign.com/site/jens-dyvik
+  img: jens.jpg
+  modalid: 16
+
+- name: Alberto Gonzalez
+  bio: "Design Director, Freshwater Chile"
+  longbio:
+  url: http://www.freshwatersolutions.org/
+  img: alberto.png
+  modalid: 17
+
+- name: Tomas Diez
+  bio: "Urbanist, Fab City Research Lab Director"
+  longbio:
+  url: https://iaac.net/people/tomas-diez/
+  img: tomas-diez.png
+  modalid: 
+
 - name: Tomás Vivanco
   bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
   longbio: 
