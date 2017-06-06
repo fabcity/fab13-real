@@ -209,3 +209,10 @@
   url: http://petertroxler.net/about/
   img: peter-troxler.jpg
   modalid: 28
+
+- name: Pedro Vidal
+  bio: "Manager at Se.Santiago: Programa Santiago Ciudad Inteligente"
+  longbio:
+  url: http://sesantiago.cl/se/
+  img: pedro-vidal.jpg
+  modalid: 29
