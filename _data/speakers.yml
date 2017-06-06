@@ -70,6 +70,13 @@
   img: james-tooze.jpg
   modalid: 10
 
+- name: Tomas Diez
+  bio: "Urbanist. Fab City Research Lab Director. Fab Lab Barcelona Director"
+  longbio:
+  url: https://iaac.net/people/tomas-diez/
+  img: tomas-diez.png
+  modalid: 10
+
 - name: Robert Garita 
   bio: "Architect, Designer - Fab Lab Veritas Director"
   longbio:
