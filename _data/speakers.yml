@@ -117,15 +117,29 @@
   bio: "Design Director, Freshwater Chile"
   longbio:
   url: http://www.freshwatersolutions.org/
-  img: alberto.png
+  img: alberto.PNG
   modalid: 17
 
-- name: Tomas Diez
-  bio: "Urbanist, Fab City Research Lab Director"
+- name: Alberto Gonzalez
+  bio: "Design Director, Freshwater Chile"
   longbio:
-  url: https://iaac.net/people/tomas-diez/
-  img: tomas-diez.png
-  modalid: 
+  url: http://www.freshwatersolutions.org/
+  img: alberto.PNG
+  modalid: 18
+
+- name: Virgilio Martínez Véliz
+  bio: "Chef and Entrepeneur"
+  longbio:
+  url: https://es.wikipedia.org/wiki/Virgilio_Mart%C3%ADnez_V%C3%A9liz
+  img: virgilio.JPG
+  modalid: 19
+
+- name: Felipe Arteaga
+  bio: "Executive Director, Fundación Vivienda Chile"
+  longbio:
+  url: http://fundacionvivienda.cl/
+  img: felipe-arteaga.jpg
+  modalid: 19
 
 - name: Tomás Vivanco
   bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
