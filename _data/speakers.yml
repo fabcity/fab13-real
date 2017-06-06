@@ -90,7 +90,21 @@
   longbio:
   url: http://www.lab.gob.cl/
   img: juan-felipe.jpg
-  modalid: 12
+  modalid: 13
+
+- name: Mara Balestrini
+  bio: "HCI researcher and technology strategist. Making Sense EU project"
+  longbio:
+  url: https://marabales.com/contact/
+  img: mara.jpg
+  modalid: 14
+
+- name: Liz Corbin
+  bio: "Institute of Making, UCL, London"
+  longbio:
+  url: http://www.instituteofmaking.org.uk/about/people
+  img: liz_corbin.jpeg
+  modalid: 15
 
 - name: Tomás Vivanco
   bio: "Co-Director Fab Lab Santiago | Director Distributed Design Foundation"
