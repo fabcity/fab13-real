@@ -1,116 +1,92 @@
-# Remember to put image files inside /img/logos/
-
-- organization: "DiD Diseño Distribuido"
+- organization: DiD Diseño Distribuido
   role: organizer
-  url: 
+  url: 'http://fablabsantiago.org/'
   img: did.jpg
-
-- organization: "Fab Lab Santiago"
+- organization: Fab Lab Santiago
   role: organizer
-  url: http://fablabsantiago.org/
+  url: 'http://fablabsantiago.org/'
   img: flabstgo.jpg
-
-- organization: "Diseño UC"
+- organization: Diseño UC
   role: organizer
-  url: http://diseno.uc.cl/
+  url: 'http://diseno.uc.cl/'
   img: diseno_uc_web.jpg
-
-- organization: "CBA MIT"
+- organization: CBA MIT
   role: organizer
-  url: http://cba.mit.edu/
+  url: 'http://cba.mit.edu/'
   img: CBAlogo.png
-
-- organization: "Fab Foundation"
+- organization: Fab Foundation
   role: organizer
-  url: http://www.fabfoundation.org/
+  url: 'http://www.fabfoundation.org/'
   img: fabfoundation.png
-
-- organization: "Corfo"
+- organization: Corfo
   role: sponsor
-  url: https://www.corfo.cl/sites/cpp/home
+  url: 'https://www.corfo.cl/sites/cpp/home'
   img: corfo.png
-
-- organization: "Trotec"
+- organization: Trotec
   role: sponsor
-  url: https://www.troteclaser.com/
+  url: 'https://www.troteclaser.com/'
   img: trotec.png
-
-- organization: "Chevron"
+- organization: Chevron
   role: sponsor
-  url: https://www.chevron.com/
+  url: 'https://www.chevron.com/'
   img: chevron.png
-
-- organization: "Epilog"
+- organization: Epilog
   role: sponsor
-  url: https://www.epiloglaser.com/
+  url: 'https://www.epiloglaser.com/'
   img: epilog-logo.png
-
-- organization: "Solidworks"
+- organization: Solidworks
   role: sponsor
-  url: http://www.solidworks.com/
+  url: 'http://www.solidworks.com/'
   img: solidworks.png
-
-- organization: "Fundación Vivienda"
+- organization: Fundación Vivienda
   role: sponsor
-  url: http://fundacionvivienda.cl/
+  url: 'http://fundacionvivienda.cl/'
   img: FV.png
-
-- organization: "Espacio Nacional de Diseño"
+- organization: Espacio Nacional de Diseño
   role: sponsor
-  url: http://www.endchile.org/
+  url: 'http://www.endchile.org/'
   img: end.png
-
-- organization: "Consejo Nacional de la Cultura y las Artes"
+- organization: Consejo Nacional de la Cultura y las Artes
   role: government
-  url: http://www.cultura.gob.cl/
+  url: 'http://www.cultura.gob.cl/'
   img: consejo_artes.png
-
-- organization: "Ministerio de Economía, Fomento y Turismo"
+- organization: 'Ministerio de Economía, Fomento y Turismo'
   role: government
-  url: http://www.economia.gob.cl/
+  url: 'http://www.economia.gob.cl/'
   img: ministerio_economia.png
-
-- organization: "Prochile"
+- organization: Prochile
   role: government
-  url: http://www.prochile.gob.cl/
+  url: 'http://www.prochile.gob.cl/'
   img: prochile.png
-
-- organization: "Red Chilena de Plataformas de Fabricación Digital"
+- organization: Red Chilena de Plataformas de Fabricación Digital
   role: supporter
-  url: http://www.fablabchile.org/
+  url: 'http://www.fablabchile.org/'
   img: red-chilena.png
-
-- organization: "Fab Lat"
+- organization: Fab Lat
   role: supporter
-  url: https://www.facebook.com/fablatam/
+  url: 'https://www.facebook.com/fablatam/'
   img: fab-lat.jpg
-
-- organization: "Fab City Global Initiative"
+- organization: Fab City Global Initiative
   role: supporter
-  url: http://fab.city
+  url: 'http://fab.city'
   img: fabcity.png
-
-- organization: "Arch Daily"
+- organization: Arch Daily
   role: media
-  url: http://www.archdaily.com/
+  url: 'http://www.archdaily.com/'
   img: archdaily.jpg
-
-- organization: "Plataforma Arquitectura"
+- organization: Plataforma Arquitectura
   role: media
-  url: http://www.plataformaarquitectura.cl/cl
+  url: 'http://www.plataformaarquitectura.cl/cl'
   img: plataforma-arquitectura.png
-
-- organization: "Fayer Wayer"
+- organization: Fayer Wayer
   role: media
-  url: https://www.fayerwayer.com/
+  url: 'https://www.fayerwayer.com/'
   img: fayer-wayer.png
-
-- organization: "Santiago Adicto"
+- organization: Santiago Adicto
   role: media
-  url: https://www.facebook.com/Santiagoadicto-361557133914785/
+  url: 'https://www.facebook.com/Santiagoadicto-361557133914785/'
   img: santiago-adicto.png
-
-- organization: "La Tercera"
+- organization: La Tercera
   role: media
-  url: http://www.latercera.com/
+  url: 'http://www.latercera.com/'
   img: la_tercera.png
