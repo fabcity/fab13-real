@@ -1,63 +1,56 @@
-- name: "Centro de Extensión Universidad Católica" 
+- name: Centro de Extensión Universidad Católica
   address: "Avenida Libertador Bernardo O'Higgins 390"
-  description: 
+  description:
   latitude: -33.440701
   longitude: -70.641212
-  url: "http://extension.uc.cl/"
+  url: 'http://extension.uc.cl/'
   category: Fab Conference
-
-- name: "Centro Cultural Gabriela Mistral"
+- name: Centro Cultural Gabriela Mistral
   address: "Avenida Libertador Bernardo O'Higgins 227"
-  description: 
+  description:
   latitude: -33.438402
   longitude: -70.638149
-  url: "http://www.gam.cl/"
+  url: 'http://www.gam.cl/'
   category: Fab Festival
-
-- name: "Fab Lab Santiago"
-  address: "Seminario 642, Providencia" 
-  description: 
+- name: Fab Lab Santiago
+  address: 'Seminario 642, Providencia'
+  description:
   latitude: -33.449806
   longitude: -70.627767
-  url: "http://fablabsantiago.org/"
+  url: 'http://fablabsantiago.org/'
   category: Organizing Lab
-
-- name: "FabHaus FADEU UC"
-  address: "El Comendador 1916, Providencia, Santiago" 
-  description: 
+- name: FabHaus FADEU UC
+  address: 'El Comendador 1916, Providencia, Santiago'
+  description:
   latitude: -33.420252
   longitude: -70.618093
-  url: "https://goo.gl/maps/AahJit9APh42"
+  url: 'https://goo.gl/maps/AahJit9APh42'
   category: Hosting Labs
-
-- name: "Fab Lab UC"
-  address: "Vicuña Mackenna 4860, Macul, Santiago" 
-  description: 
+- name: Fab Lab UC
+  address: 'Vicuña Mackenna 4860, Macul, Santiago'
+  description:
   latitude: -33.497856
   longitude: -70.615294
-  url: "http://fablabuc.cl/"
+  url: 'http://fablabuc.cl/'
   category: Hosting Labs
-
-- name: "Fab Lab U. de Chile"
-  address: "Av. Beaucheff 851, Santiago"
-  description: 
+- name: Fab Lab U. de Chile
+  address: 'Av. Beaucheff 851, Santiago'
+  description:
   latitude: -33.457914
   longitude: -70.664698
-  url: "https://goo.gl/maps/FbbmMTEt4Xp"
+  url: 'https://goo.gl/maps/FbbmMTEt4Xp'
   category: Hosting Labs
-
-- name: "Fab Lab UAI"
-  address: "Diagonal Las Torres 2640, Peñalolén, Santiago"
-  description: 
-  latitude: -33.499243
-  longitude: -70.614854
-  url: "https://goo.gl/maps/UsWTyY1arKs"
+- name: Campus Creativo UNAB
+  address: Purísima 235-243 Recoleta
+  description:
+  latitude: -33.431446
+  longitude: -70.638321
+  url: 'https://www.google.com.co/maps/place/Campus+Creativo+UNAB/@-33.4316224,-70.6404594,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c590c1042ebd:0xbd90e5a9199b372e!8m2!3d-33.4316224!4d-70.6382707'
   category: Hosting Labs
-
-- name: "Aconcagua Fab Lab"
-  address: "Mobile Fab Lab!"
-  description: 
+- name: Aconcagua Fab Lab
+  address: 'Mobile Fab Lab!'
+  description:
   latitude:
   longitude:
-  url: "https://www.facebook.com/Aconcagua-FabLab-1845111535713373/"
+  url: 'https://www.facebook.com/Aconcagua-FabLab-1845111535713373/'
   category: Hosting Labs
