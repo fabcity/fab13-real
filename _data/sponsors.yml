@@ -54,10 +54,6 @@
   role: sponsor
   url: 'http://www.sodimac.cl/sodimac-cl/'
   img: homecenter.png
-- organization: Siemens
-  role: sponsor
-  url: 'http://www.siemens-home.bsh-group.com/uk/'
-  img: siemens.png
 - organization: Consejo Nacional de la Cultura y las Artes
   role: government
   url: 'http://www.cultura.gob.cl/'
@@ -90,10 +86,6 @@
   role: media
   url: 'http://www.plataformaarquitectura.cl/cl'
   img: plataforma-arquitectura.png
-- organization: Fayer Wayer
-  role: media
-  url: 'https://www.fayerwayer.com/'
-  img: fayer-wayer.png
 - organization: Santiago Adicto
   role: media
   url: 'https://www.facebook.com/Santiagoadicto-361557133914785/'
