@@ -46,6 +46,18 @@
   role: sponsor
   url: 'http://www.endchile.org/'
   img: end.png
+- organization: Roland
+  role: sponsor
+  url: 'https://www.rolanddg.com/'
+  img: roland.png
+- organization: Homecenter
+  role: sponsor
+  url: 'http://www.sodimac.cl/sodimac-cl/'
+  img: homecenter.png
+- organization: Siemens
+  role: sponsor
+  url: 'http://www.siemens-home.bsh-group.com/uk/'
+  img: siemens.png
 - organization: Consejo Nacional de la Cultura y las Artes
   role: government
   url: 'http://www.cultura.gob.cl/'
