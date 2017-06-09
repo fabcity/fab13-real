@@ -22,6 +22,12 @@
   url: 'http://ng.cba.mit.edu/neil/bio/'
   img: neil.jpg
   modalid: 5
+- name: Tomás Vivanco
+  bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation | Professor Design School Pontifical Catholic University of Chile'
+  longbio:
+  url: 'http://diseno.uc.cl/persona/tomas-vivanco/'
+  img: tomasvv.jpg
+  modalid:
 - name: Sherry Lassiter
   bio: 'President & CEO, The Fab Foundation'
   longbio: 'Sherry Lassiter is one of the architects of the MIT global Fab Lab program.  As President of the Fab Foundation Lassiter works at the intellectual boundary where transfer of enabling, empowering, technical knowledge allows an idea to come into physical being–where bits become atoms.  It’s an interdisciplinary landscape that requires a commitment to creating educational tools and exploring intellectual and economic frontiers. After a two decade career in science journalism as producer, writer and director for television series such as Scientific American Frontiers, Discover the World of Science, and The Science Times, she became a protagonist in science and technology, becoming part of the story, rather that just telling the story.  As Program Manager  for the NSF-funded Center for Bits & Atoms at MIT she has seen and enabled the personal fabrication movement as it has grown and evolved.  In her time at MIT, Lassiter has become a passionate fab labber and firm believer in the idea of personal fabrication and the empowerment that comes from making things for yourself.  To make powerful, useful things in the world you have to learn deep content in science, mathematics and engineering – fab labs provide new inspiration for STEM education, motivation for much of Lassiter’s current work. Lassiter is Director of The Fab Foundation, engaged in the deployment and growth of Fab Labs around the world, enabling grassroots technology development by, for and of the community.'
@@ -33,12 +39,6 @@
   longbio:
   url: 'http://fablabsantiago.org/'
   img: andres.jpg
-  modalid:
-- name: Tomás Vivanco
-  bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation | Professor Design School Pontifical Catholic University of Chile'
-  longbio:
-  url: 'http://diseno.uc.cl/persona/tomas-vivanco/'
-  img: tomasvv.jpg
   modalid:
 - name: Primavera de Filippi
   bio: 'Blockchain researcher at Berkman Center for Internet & Society - ‎Harvard University'
