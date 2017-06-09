@@ -1640,6 +1640,7 @@ video {
     z-index: 3; 
 }
 
+
 /*speakers*/
 #speakers {
     z-index: 3 ;
@@ -1658,7 +1659,11 @@ video {
 #travel .plane{
     position: absolute;
     margin-top: 200px;
+    display: none;
 }
+
+
+
 
 /*schedule*/
 #schedule {
@@ -2268,4 +2273,14 @@ video {
 .flag {
     height: 12px;
     margin-top: 3px;
+}
+
+.download-module { 
+    padding: 60px 0px 60px 0px;
+}
+
+@media (min-width: 768px) {
+    .download-module { 
+        padding-top: 0px;
+    }
 }
