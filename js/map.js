@@ -128,7 +128,7 @@ var mapOptions = {
     ['FabHaus FADEU UC', -33.420252 , -70.618093, labs],
     ['Fab Lab UC', -33.497856, -70.615294, labs],
     ['Fab Lab U. de Chile', -33.457914, -70.664698, labs], 
-    ['Fab Lab UAI', -33.499243, -70.614854, labs]
+    ['Campus Creativo UNAB', -33.431548, -70.638249, labs]
     ];
 
     // Info Window Content
@@ -157,7 +157,7 @@ var mapOptions = {
     '<p>Hosting Lab</p>' +
     '</div>'],
     ['<div class="info_content">' +
-    '<h5>Fab lab UAI</h5>' +
+    '<h5>Campus Creativo UNAB</h5>' +
     '<p>Hosting Lab</p>' +
     '</div>'],
     ];
