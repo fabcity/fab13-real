@@ -94,3 +94,7 @@
   role: media
   url: 'http://www.latercera.com/'
   img: la_tercera.png
+- organization: Fabhaus
+  role: lab
+  url: 'https://fabhaus.wordpress.com/'
+  img: fabhaus.png
