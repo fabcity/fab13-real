@@ -98,3 +98,7 @@
   role: lab
   url: 'https://fabhaus.wordpress.com/'
   img: fabhaus.png
+- organization: Fablab UC
+  role: lab
+  url: 'http://fablabuc.cl/'
+  img: fablabuc.png
