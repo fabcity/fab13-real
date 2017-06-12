@@ -19,3 +19,8 @@
   short: "4-star accomodation located in downtown Santiago´s traditional Paris-London district."
   img: fundador.jpg
   url: "http://www.novapark.cl/congreso_fablab_hf/reservar.html"
+
+- name: HOTEL NOVAPARK
+  short: "Located in the historical centre of the city, close to shops and restaurants."
+  img: nova.jpg
+  url: "http://www.novapark.cl/congreso_fablab_hn/reservar.html"
