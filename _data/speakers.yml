@@ -3,142 +3,136 @@
   longbio: "Prof. Neil Gershenfeld is the Director of MIT's Center for Bits and Atoms. His unique laboratory is breaking down boundaries between the digital and physical worlds, from creating molecular quantum computers to virtuosic musical instruments. Technology from his lab has been seen and used in settings including New York's Museum of Modern Art and rural Indian villages, the White House and the World Economic Forum, inner-city community centers and automobile safety systems, Las Vegas shows and Sami herds. He is the author of numerous technical publications, patents, and books including Fab, When Things Start To Think, The Nature of Mathematical Modeling, and The Physics of Information Technology, and has been featured in media such as The New York Times, The Economist, NPR, CNN, and PBS. He is a Fellow of the American Physical Society, has been named one of Scientific American's 50 leaders in science and technology, as one of 40 Modern-Day Leonardos by the Museum of Science and Industry, one of Popular Mechanic's 25 Makers, has been selected as a CNN/Time/Fortune Principal Voice, and by Prospect/Foreign Policy as one of the top 100 public intellectuals. Dr. Gershenfeld has a BA in Physics with High Honors from Swarthmore College, a Ph.D. in Applied Physics from Cornell University, honorary doctorates from Swarthmore College, Strathclyde University and the University of Antwerp, was a Junior Fellow of the Harvard University Society of Fellows, and a member of the research staff at Bell Labs."
   url: 'http://ng.cba.mit.edu/neil/bio/'
   img: neil.jpg
-  modalid: 5
+  category: moderator
 - name: Kate Adamala
   bio: 'Protobiology. Biochemist, Assistant Professor in the Department of Genetics, Cell Biology and Development at the University of Minnesota.'
   longbio: "Kate received a MSc in chemistry from the University of Warsaw, Poland, studying synthetic organic chemistry. In grad school, she worked with professor Pier Luigi Luisi from University Roma Tre and Jack Szostak from Harvard University. She studied RNA biophysics, small peptide catalysis and liposome dynamics, in an effort to build a chemical system capable of Darwinian evolution. Kate's postdoctoral work in Ed Boyden's Synthetic Neurobiology group at MIT focused on developing novel methods for multiplex control and readout of mammalian cells. Her full first name spells Katarzyna; she goes by Kate for the benefit of friends speaking less consonant-enriched languages. Contact: kadamala@umn.edu. Mailing address: 420 Washington Ave SE, 5-128 MCB, Minneapolis, MN 55455"
   url: 'http://www.protobiology.org/'
   img: kate_adamala.jpg
-  modalid: 1
+  category: speaker
 - name: Ben Laurie
   bio: 'Head of Security and Transparency, Google DeepMind. ‎Programmer, Protocol Designer, Cryptographer'
   longbio: "Ben Laurie is a software engineer, protocol designer and cryptographer. He is a founding director of The Apache Software Foundation, a core team member of OpenSSL, a member of the Shmoo Group, a director of the Open Rights Group, Director of Security at The Bunker Secure Hosting, Trustee and Founder-member of FreeBMD, Visiting Fellow at Cambridge University's Computer Laboratory, a committer at FreeBSD and Advisory Board member of WikiLeaks.org. Laurie works for Google in London on various projects, currently focused on Certificate transparency. Ben wrote Apache-SSL, the basis of most SSL-enabled versions of the Apache HTTP Server and is a co-author of OpenPGP:SDK. He developed the MUD Gods, which was innovative in including online creation in its endgame. Ben also has written several articles, papers and books, many of which can be found on his home page or his blog and is interested in ideal knots and their applications."
   url: 'http://www.businessinsider.com/google-deepmind-has-a-new-head-of-security-2016-7'
   img: ben-laurie.jpg
-  modalid: 2
+  category: speaker
 - name: Primavera de Filippi
   bio: 'Blockchain researcher at Berkman Center for Internet & Society - ‎Harvard University'
   longbio:
   url: 'https://cyber.harvard.edu/people/pdefilip'
   img: primavera.jpg
-  modalid: 4
+  category: speaker
 - name: Jose Sanchez
   bio: 'Architect / Programmer / Game Designer, Principal at the Plethora Project'
   longbio: "Jose Sanchez is an Architect / Programmer / Game Designer based in Los Angeles, California. He is partner at Bloom Games, start-up built upon the BLOOM project, winner of the WONDER SERIES hosted by the City of London for the London 2012 Olympics. He is the director of the Plethora Project (www.plethora-project.com), a research and learning project investing in the future of on-line open-source knowledge and the creator of Block’hood, a city simulator video game exploring notions of crowdsourced urbanism. He has taught and guest lectured in several renowned institutions across the world, including the Architectural Association in London, the University of Applied Arts (Angewandte) in Vienna, ETH Zurich, The Bartlett School of Architecture, University College London, and the Ecole Nationale Supérieure D'Architecture in Paris. Today, he is an Assistant Professor at USC School of Architecture in Los Angeles. His research ‘Gamescapes’, explores generative interfaces in the form of video games, speculating in modes of intelligence augmentation, combinatorics and open systems as a design medium."
   url: 'https://www.plethora-project.com/'
   img: jose-sanchez.png
-  modalid: 3
+  category: speaker
 - name: Alastair Parvin
   bio: 'Co-founder at WikiHouse Foundation, Architectural & strategic designer with 00 London.'
   longbio:
   url: 'https://wikihouse.cc/'
   img: alastair_parvin.jpg
-  modalid: 8
+  category: speaker
 - name: Gonzalo Rey
   bio: 'Chief Technology Officer, Moog Inc.'
   longbio:
   url: 'http://www.moog.com/'
   img: gonzalo-rey.jpg
-  modalid: 9
+  category: speaker
 - name: Tomás Vivanco
   bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation | Professor Design School Pontifical Catholic University of Chile'
   longbio:
   url: 'http://diseno.uc.cl/persona/tomas-vivanco/'
   img: tomasvv.jpg
-  modalid:
+  category: moderator
 - name: Sherry Lassiter
   bio: 'President & CEO, The Fab Foundation'
   longbio: 'Sherry Lassiter is one of the architects of the MIT global Fab Lab program.  As President of the Fab Foundation Lassiter works at the intellectual boundary where transfer of enabling, empowering, technical knowledge allows an idea to come into physical being–where bits become atoms.  It’s an interdisciplinary landscape that requires a commitment to creating educational tools and exploring intellectual and economic frontiers. After a two decade career in science journalism as producer, writer and director for television series such as Scientific American Frontiers, Discover the World of Science, and The Science Times, she became a protagonist in science and technology, becoming part of the story, rather that just telling the story.  As Program Manager  for the NSF-funded Center for Bits & Atoms at MIT she has seen and enabled the personal fabrication movement as it has grown and evolved.  In her time at MIT, Lassiter has become a passionate fab labber and firm believer in the idea of personal fabrication and the empowerment that comes from making things for yourself.  To make powerful, useful things in the world you have to learn deep content in science, mathematics and engineering – fab labs provide new inspiration for STEM education, motivation for much of Lassiter’s current work. Lassiter is Director of The Fab Foundation, engaged in the deployment and growth of Fab Labs around the world, enabling grassroots technology development by, for and of the community.'
   url: 'http://www.fabfoundation.org/'
   img: sherry.png
-  modalid: 6
+  category: moderator
 - name: James Tooze
   bio: Designer / Maker / Researcher / Tutor at ‎Royal College of Art
   longbio: 'James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College of Art. He is a designer and researcher, with his research, both commercial and academic, focusing on three interwoven areas: open design, open fabrication and digital manufacturing. A graduate of the Design Products programme, he also trained as a furniture designer and cabinetmaker, and continues to practice.'
   url: 'https://www.rca.ac.uk/more/staff/james-tooze/'
   img: tooze.JPG
-  modalid: 10
+  category: panelist
 - name: Andrés Briceño
   bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation'
   longbio:
   url: 'http://fablabsantiago.org/'
   img: andres.jpg
-  modalid:
+  category: panelist
 - name: Alysia Garmulewicz
   bio: 'Professor, Universidad de Santiago de Chile, Materiome'
   longbio:
   url: 'http://www.insis.ox.ac.uk/alysia-garmulewicz'
   img: alysia.jpg
-  modalid: 12
+  category: speaker
 - name: Tomas Diez
   bio: Urbanist. Fab City Research Lab Director. Fab Lab Barcelona Director
   longbio:
   url: 'https://iaac.net/people/tomas-diez/'
   img: tomas-diez.png
-  modalid: 10
+  category: moderator
 - name: Patricio Feres
   bio: Head of Innovation / CEO InnovaChile at Corfo
   longbio:
   url: 'https://www.linkedin.com/in/patricio-feres-b1977a4?ppe=1'
   img: patricio.jpg
-  modalid: 7
+  category: panelist
 - name: Jens Dyvik
   bio: Designer. Specialized in global collaboration and local manufacturing. Machines that Make Machines
   longbio:
   url: 'http://www.dyvikdesign.com/site/jens-dyvik'
   img: jens.jpg
-  modalid: 16
+  category: speaker
 - name: Juan Felipe Lopez
   bio: '‎"Executive Director at Laboratorio de Gobierno, Chile"'
   longbio:
   url: 'http://www.lab.gob.cl/'
   img: juan-felipe.jpg
-  modalid: 13
+  category: panelist
 - name: Alberto Gonzalez
   bio: 'Design Director, Freshwater Chile'
   longbio:
   url: 'http://www.freshwatersolutions.org/'
   img: alberto.PNG
-  modalid: 17
+  category: panelist
 - name: Felipe Arteaga
   bio: 'Executive Director, Fundación Vivienda Chile'
   longbio:
   url: 'http://fundacionvivienda.cl/'
   img: felipe-arteaga.jpg
-  modalid: 20
+  category: panelist
 - name: Alan Gershenfeld
   bio: 'Co-founder and President, E-Line Media'
   longbio:
   url: 'http://elinemedia.com/staff/alan-gershenfeld/'
   img: alan.jpg
-  modalid: 21
+  category: moderator
 - name: Jean-Michel Molenaar
   bio: 'Academany, Bioacademy and Fab Connections, Professor at Tufts University, Department of Biomedical Engineering'
   longbio:
   url: 'http://engineering.tufts.edu/bme/people/molenaar/index.htm'
   img: jean.jpg
-  modalid: 22
+  category: panelist
 - name: Sofia Lobos
   bio: Executive Secretary of the Intergovernmental Creative Economy Committee at CNCA Chile
   longbio:
   url: 'https://cl.linkedin.com/in/sofia-lobos-804a5326'
   img: sofia1.jpg
-  modalid: 24
+  category: panelist
 - name: Joel Cutcher-Gershenfeld
   bio: 'Professor at the Heller School for Social Policy and Management, Brandeis University'
   longbio:
   url: 'http://www.brandeis.edu/facultyguide/person.html?emplid=39367aa9b387b4d46a95956f614c8a82139d774d'
   img: joel.jpg
-  modalid: 25
-- name: Peter Troxler
-  bio: Researcher at Rotterdam University of Applied Sciences
-  longbio:
-  url: 'http://petertroxler.net/about/'
-  img: peter-troxler.jpg
-  modalid: 28
+  category: moderator
 - name: Pedro Vidal
   bio: 'Manager at Se.Santiago: Programa Santiago Ciudad Inteligente'
   longbio:
   url: 'http://sesantiago.cl/se/'
   img: pedro-vidal.jpg
-  modalid: 29
+  category: panelist
