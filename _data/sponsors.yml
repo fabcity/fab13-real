@@ -110,3 +110,11 @@
   role: lab
   url: 'https://campuscreativo.cl/'
   img: campuscreativo.png
+- organization: Campus Creativo Universidad Andrés Bello
+  role: lab
+  url: 'https://campuscreativo.cl/'
+  img: campuscreativo.png
+- organization: Design Lab UAI
+  role: lab
+  url: 'http://designlab.uai.cl/'
+  img: designlabuai.png
