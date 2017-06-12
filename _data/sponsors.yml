@@ -106,3 +106,7 @@
   role: lab
   url: 'http://www.fablab.uchile.cl/'
   img: udechile.png
+- organization: Campus Creativo Universidad Andrés Bello
+  role: lab
+  url: 'https://campuscreativo.cl/'
+  img: campuscreativo.png
