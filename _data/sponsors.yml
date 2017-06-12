@@ -102,3 +102,7 @@
   role: lab
   url: 'http://fablabuc.cl/'
   img: fablabuc.png
+- organization: Fab Lab U. de Chile
+  role: lab
+  url: 'http://www.fablab.uchile.cl/'
+  img: udechile.png
