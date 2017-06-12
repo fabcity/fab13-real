@@ -99,13 +99,14 @@ function initialize() {
     }
     ],
     {name: 'Styled Map'});
-var mapOptions = {
-  mapTypeId: 'roadmap'
-};
+  var mapOptions = {
+    mapTypeId: 'roadmap'
+  };
 
 
     // Display a map on the page
     map = new google.maps.Map(document.getElementById("map_canvas"), {
+      scrollwheel:  false,
       mapTypeControlOptions: {
         mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
         'styled_map']
