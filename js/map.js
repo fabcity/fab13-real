@@ -106,7 +106,7 @@ function initialize() {
 
     // Display a map on the page
     map = new google.maps.Map(document.getElementById("map_canvas"), {
-      scrollwheel:  false,
+      scrollwheel: false,
       mapTypeControlOptions: {
         mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
         'styled_map']
@@ -123,9 +123,9 @@ function initialize() {
 
     // Multiple Markers
     var markers = [
-    ['Centro de Extensión Universidad Católica', -33.440701,-70.641212, conference], 
+    ['Centro de Extensión Universidad Católica', -33.440701,-70.641212, conference],
     ['Centro Cultural Gabriela Mistral', -33.438402, -70.638149, festival], 
-    ['Fab Lab Santiago', -33.449806 , -70.627767, labs],
+    ['Fab Lab Santiago', -33.449806 , -70.627767, labs], 
     ['FabHaus FADEU UC', -33.420252 , -70.618093, labs],
     ['Fab Lab UC', -33.497856, -70.615294, labs],
     ['Fab Lab U. de Chile', -33.457914, -70.664698, labs], 
