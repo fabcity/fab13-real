@@ -160,7 +160,7 @@ function initialize() {
     ['<div class="info_content">' +
     '<h5>Campus Creativo UNAB</h5>' +
     '<p>Hosting Lab</p>' +
-    '</div>'],
+    '</div>']
     ];
 
     // Display multiple markers on a map
