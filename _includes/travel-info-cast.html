@@ -46,15 +46,15 @@
           <h4 class="section-title">Cartas de invitación para visas</h4>
         </div>
         <div class="col-md-6 col-sm-6 text-center">
-          <img src="/img/travel/visas.jpg" title="Photo by Vinicius Depizzol on Flickr, CC by 2.0 License" style="width:100%; padding-bottom: 40px;">
+          <img class="section-img" src="/img/travel/{{ site.data.travel.invitationletters.img }}" title="{{ site.data.travel.invitationletters.license }}">
         </div>
         <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
-          <p style="padding-left: 0px;">Contamos con un sistema para proveer de Cartas de Invitación para personas que las necesiten en el siguiente link, pero si necesitas una carta justo ahora, por favor contáctanos en <a href="mailto:someone@example.com?Subject=Hello%20again" target="_blank"> fab13@fablabsantiago.org </a> y haremos lo posible por ayudarte.</p> 
-        <a href="https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1" target="_blank">
-          <h4 class="applications-link link-grow">+ Solicitar una carta de invitación</h4>
+          <p style="padding-left: 0px;">{{ site.data.travel.invitationletters.cast }}</p> 
+        <a href="{{ site.data.travel.invitationletters.link1.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.invitationletters.link1.cast }}</h4>
         </a>
-        <a href="/travel/#visas" target="_blank">
-          <h4 class="applications-link link-grow">+ Revisar si requiero de una visa</h4>
+        <a href="{{ site.data.travel.invitationletters.link2.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.invitationletters.link2.cast }}</h4>
         </a>
         </div>
       </div><!--row-->
@@ -64,7 +64,7 @@
           <h4 class="section-title">Requerimiento de visa</h4>
         </div>
         <div class="col-lg-12 text-center" style="padding-bottom:30px;">
-          <p class="bold">Si estás planeando viajar a Fab13 puedes requerir una visa para entrar a Chile. Por favor revisa la lista debajo.</p>
+          <p class="bold">{{ site.data.travel.visas.cast }}</p>
         </div>
         {% for letter in site.data.visas %}
         <div class="col-xs-4 col-md-4 col-sm-4 country-bullets">
@@ -93,15 +93,15 @@
           <h4 class="section-title">Transporte</h4>
         </div>
         <div class="col-md-6 col-sm-6 text-center">
-          <img src="/img/travel/traffic.jpg" title="Photo by Alexander Fns on Flickr, CC by 2.0 License" style="width:100%; padding-bottom: 40px;">
+          <img src="/img/travel/{{ site.data.travel.transport.img }}" title="" style="width:100%; padding-bottom: 40px;">
         </div>
         <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
-          <p style="padding-left: 0px;">La ciudad de Santiago tiene un magnífico sistema público de transporte con metro y buses (llamados MICROS) en todo su perímetro. Para mapas e información revisa los siguientes links: </p> 
-          <a href="https://www.metrosantiago.cl/" target="_blank">
-          <h4 class="applications-link link-grow">+ Metro</h4>
+          <p style="padding-left: 0px;"> {{ site.data.travel.transport.cast }} </p> 
+          <a href="{{ site.data.travel.transport.link1.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.transport.link1.cast }}</h4>
           </a>
-          <a href="https://www.transantiago.cl/" target="_blank">
-          <h4 class="applications-link link-grow">+ Buses</h4>
+          <a href="{{ site.data.travel.transport.link2.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.transport.link2.cast }}</h4>
           </a>
         </div>
       </div><!--row-->
@@ -112,15 +112,15 @@
           <h4 class="section-title">Lo que puedes y no puedes entrar en Chile</h4>
         </div>
         <div class="col-md-6 col-sm-6 text-center">
-          <img src="/img/travel/customs.png" style="width:100%; padding-bottom: 40px;">
+          <img class="section-pic" src="/img/travel/{{ site.data.travel.customs.img }}">
         </div>
         <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
-          <p style="padding-left: 0px;">Si estás planeando traer a Chile productos de origen animal o vegetal, artesanías o productos exóticos, debes declararlos a la llegada. Aquí puedes encontrar toda la información importante acerca de qué y cómo declarar.</p> 
-          <a href="http://www.sag.cl/ambitos-de-accion/productos-de-origen-vegetal-yo-animal-artesanias-y-otros" target="_blank">
-          <h4 class="applications-link link-grow">+ Español</h4>
+          <p style="padding-left: 0px;">{{ site.data.travel.customs.cast }}</p> 
+          <a href="{{ site.data.travel.customs.link1.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.customs.link1.cast }}</h4>
           </a>
-          <a href="http://english.sag.gob.cl/" target="_blank">
-          <h4 class="applications-link link-grow">+ Inglés</h4>
+          <a href="{{ site.data.travel.customs.link2.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.customs.link2.cast }}</h4>
           </a>
         </div>
       </div><!--row-->
@@ -138,23 +138,23 @@
         </div>
       </div><!--row-->
 
-      <div class="row row-page" id="other-links">
+      <div class="row row-page" id="other-links" style="padding-bottom: 130px;">
         <div class="col-sm-12 text-center">
           <h4 class="section-title">Enlaces útiles</h4>
         </div>
         <div class="col-md-6 col-sm-6 text-center">
-          <img src="/img/travel/airport.jpg" title="Photo by M. Constanza Rebolledo on Flickr, CC BY-NC-ND 2.0 License" style="width:100%; padding-bottom: 40px;">
+          <img class="section-img" src="/img/travel/{{ site.data.travel.otherlinks.img }}" title="{{ site.data.travel.otherlinks.license }}">
         </div>
         <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
-          <p style="padding-left: 0px;">Otros enlaces oficiales que pueden resultar útiles mientras planeas tu viaje. </p> 
-        <a href="http://www.extranjeria.gob.cl/" target="_blank">
-          <h4 class="applications-link link-grow">+ Departamento de Extranjería y Migración</h4>
+          <p style="padding-left: 0px;">{{ site.data.travel.otherlinks.cast }}</p> 
+        <a href="{{ site.data.travel.otherlinks.link1.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.otherlinks.link1.cast }}</h4>
         </a>
-        <a href="http://www.aduana.cl/aduana/site/edic/base/port/inicio.html" target="_blank">
-          <h4 class="applications-link link-grow">+ Aduanas de Chile</h4>
+        <a href="{{ site.data.travel.otherlinks.link2.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.otherlinks.link2.cast }}</h4>
         </a>
-        <a href="http://www.minrel.gov.cl/minrel/site/artic/20080619/pags/20080619154047.html" target="_blank">
-          <h4 class="applications-link link-grow">+ Recomendaciones para ingresar a Chile</h4>
+        <a href="{{ site.data.travel.otherlinks.link3.url }}" target="_blank">
+          <h4 class="applications-link link-grow">{{ site.data.travel.otherlinks.link3.cast }}</h4>
         </a>
         </div>
       </div><!--row-->

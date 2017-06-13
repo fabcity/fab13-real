@@ -273,6 +273,11 @@ h4.section-subtitle {
     }
 }
 
+.section-img {
+    width:100%; 
+    padding-bottom: 40px;
+}
+
 .sponsor-div {
     height: 70px;
     margin-bottom: 10px;
@@ -313,7 +318,6 @@ h4.section-subtitle {
 
 .sponsor-input {
     color: #eaeaea; 
-
     font-size: 20px;
     text-transform: none;
     width:100%;  
@@ -2275,20 +2279,6 @@ video {
     left: 0; 
     width: 100%; 
     height: 100%; 
-}
-
-
-.section-pic {
-    width:100%; 
-    padding-bottom: 40px;
-}
-
-@media (min-width: 767px) { 
-    .section-pic {
-    width:100%; 
-    padding-bottom: 40px;
-}
-
 }
 
 .flag {
