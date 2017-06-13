@@ -26,7 +26,7 @@ invitationletters:
   cast: "Contamos con un sistema para proveer de Cartas de Invitación para personas que las necesiten en el siguiente link, pero si necesitas una carta justo ahora, por favor contáctanos en fab13@fablabsantiago.org y haremos lo posible por ayudarte."
   link1: 
     eng: "+ Get an invitation letter"
-    cast:
+    cast: "+ Solicitar una carta de invitación
     url: https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1
   link2:
     eng: "+ Check if you need a visa"
