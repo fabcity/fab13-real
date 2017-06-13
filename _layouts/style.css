@@ -489,7 +489,6 @@ h4.section-subtitle {
     background-color: transparent;
 }
 
-
 .navbar-brand {
     position: absolute;
     width: auto;
@@ -538,7 +537,6 @@ h4.section-subtitle {
     overflow-x: hidden;
     padding-left: 33px;
 }
-
 
 #menu {
     position:fixed;
@@ -2311,5 +2309,3 @@ video {
 .hotel {
     height: 400px;
 }
-
-
