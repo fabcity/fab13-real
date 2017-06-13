@@ -24,11 +24,11 @@ invitationletters:
   eng: 'We have a system to manage Invitation letters for people who need them on the following link, but if you need a letter right now, please contact us at fab13@fablabsantiago.org and we will do what we can to help.'
   cast: 'Contamos con un sistema para proveer de Cartas de Invitación para personas que las necesiten en el siguiente link, pero si necesitas una carta justo ahora, por favor contáctanos en fab13@fablabsantiago.org y haremos lo posible por ayudarte.'
   links:
-    - eng: + Get an invitation letter
-      cast: + Solicitar una carta de invitación
+    - eng: Get an invitation letter
+      cast: Solicitar una carta de invitación
       url: 'https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSfCj5Td9JTT-75ZP-n1_UBhluCe3cE5i1acuKdQAED5BLgbVA/viewform?c=0&w=1'
-    - eng: + Check if you need a visa
-      cast: + Revisar si requiero de una visa
+    - eng: Check if you need a visa
+      cast: Revisar si requiero de una visa
       url: '/travel/#visas'
 visas:
   eng: If you plan on travelling to FAB13 you may require a visa to enter Chile. Please check the list below.
@@ -39,11 +39,11 @@ transport:
   eng: 'Santiago City has a wonderful transportation system with METRO and BUSES (called MICROS in Santiago) available in all its perimeter. For maps and info check the following links:'
   cast: 'La ciudad de Santiago tiene un magnífico sistema público de transporte con metro y buses (llamados MICROS) en todo su perímetro. Para mapas e información revisa los siguientes links:'
   links:
-    - eng: + Metro
-      cast: + Metro
+    - eng: Metro
+      cast: Metro
       url: 'https://www.metrosantiago.cl/'
-    - eng: + Buses
-      cast: + Buses
+    - eng: Buses
+      cast: Buses
       url: 'https://www.transantiago.cl/'
 customs:
   img: customs.png
@@ -51,11 +51,11 @@ customs:
   eng: 'If you plan on bringing animal or plant origin products, handicrafts or exotic products you must declare them upon arrival. Here you can find the important information on declaring these items:'
   cast: 'Si estás planeando traer a Chile productos de origen animal o vegetal, artesanías o productos exóticos, debes declararlos a la llegada. Aquí puedes encontrar toda la información importante acerca de qué y cómo declarar.'
   links:
-    - eng: + Spanish
-      cast: + Español
+    - eng: Spanish
+      cast: Español
       url: 'http://www.sag.cl/ambitos-de-accion/productos-de-origen-vegetal-yo-animal-artesanias-y-otros'
-    - eng: + English
-      cast: + Inglés
+    - eng: English
+      cast: Inglés
       url: 'http://english.sag.gob.cl/'
 otherlinks:
   img: airport.jpg
@@ -63,15 +63,15 @@ otherlinks:
   eng: Other official links you may find helpful while planning your trip.
   cast: Otros enlaces oficiales que pueden resultar útiles mientras planeas tu viaje.
   links:
-    - eng: + Departamento de Extranjería y Migración
-      cast: + Departamento de Extranjería y Migración
+    - eng: Departamento de Extranjería y Migración
+      cast: Departamento de Extranjería y Migración
       url: 'http://www.extranjeria.gob.cl/'
-    - eng: + Aduanas de Chile
-      cast: + Aduanas de Chile
+    - eng: Aduanas de Chile
+      cast: Aduanas de Chile
       url: 'http://www.aduana.cl/aduana/site/edic/base/port/inicio.html'
-    - eng: + Recommendations to enter chile (spanish)
-      cast: + Recomendaciones para ingresar a Chile
+    - eng: Recommendations to enter chile (spanish)
+      cast: Recomendaciones para ingresar a Chile
       url: 'http://www.minrel.gov.cl/minrel/site/artic/20080619/pags/20080619154047.html'
-    - eng: + Chilean Embassies in the world
-      cast: + Embajadas chilenas en el mundo
+    - eng: Chilean Embassies in the world
+      cast: Embajadas chilenas en el mundo
       url: 'https://embassy.goabroad.com/embassies-of/chile'
