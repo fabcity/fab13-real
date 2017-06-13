@@ -14,12 +14,11 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6 text-center">
-                    <img src="/img/backgrounds/fab12.jpg" class="section-pic" >
+                    <img src="/img/backgrounds/fab12.jpg" class="section-img" >
                 </div>
                 <div class="col-md-6 col-sm-6 text-left">
                     <div>
-                        {% for application in site.data.applications-cast %}
-                            <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
+                        {% for application in site.data.applications-cast %}->
                             {% if application.placement == "right" %}
                             <a href="{{ application.url }} " target="_blank">
                                 <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
@@ -35,7 +34,6 @@
                 <div class="col-md-6 col-sm-6 text-left">
                     <div>
                         {% for application in site.data.applications-cast %}
-                            <!--<a href="#applicationModal{{ application.modalid }}" class="portfolio-link" data-toggle="modal">-->
                             {% if application.placement == "left" %}
                             <a href="{{ application.url }} " target="_blank">
                                 <h4 class="applications-link link-grow">+ {{ application.name }}</h4>
@@ -46,7 +44,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 text-center">
-                    <img src="/img/backgrounds/fab12_5.jpg" class="section-pic" >
+                    <img src="/img/backgrounds/fab12_5.jpg" class="section-img" >
                 </div>
             </div>
 
