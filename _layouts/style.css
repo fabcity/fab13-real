@@ -544,6 +544,20 @@ h4.section-subtitle {
     position:fixed;
 }
 
+.dropdown-menu>li>a { 
+    color: #{{ site.color.andeannavy }};
+    font-weight: 800;
+    padding: 6px 20px;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+    color: #{{ site.color.andeanpink }};
+    font-weight: 800;
+
+}
+
+
+
 /*---TRACKS MOSAIC SECTION--*/ 
 
 .track-box {
@@ -2083,7 +2097,7 @@ video {
 }
 
 .row-page {
-    padding-bottom: 150px;
+    padding-top: 130px;
 }
 
 .row-page .section-title {
@@ -2297,3 +2311,5 @@ video {
 .hotel {
     height: 400px;
 }
+
+
