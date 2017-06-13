@@ -8,9 +8,32 @@
     
     <div class="parallax__layer parallax__layer--base">
       <div class="container section-content">
+
+      <!--MODERATORS-->
         <div class="row text-center">
           <h3 class="section-title" style="padding-bottom: 18px; padding-bottom: 25px; ">SPEAKERS</h3>
-          <p style="padding-bottom: 30px; font-size: 17px;">Check out this year's guest speakers: </p>
+          <p style="padding-bottom: 30px; font-size: 17px;">Check out this year's participants: </p>
+        </div>
+        <div class="row text-center">
+          <h4 class="section-subtitle">Moderators </h4>
+        </div>
+        <div class="row text-center">
+            {% for speaker in site.data.speakers %} 
+              {% if speaker.category == "moderator" %}
+                  <a href="{{ speaker.url }}" target="_blank">
+                    <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
+                      <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>  
+                      <h4>{{ speaker.name }}</h4>
+                      <p class="speakerbio">{{ speaker.bio }}</p>
+                    </div>
+                 </a>
+              {% endif %}
+            {% endfor %}
+        </div>  <!--row-->
+
+        <!--sPEAKERS-->
+        <div class="row text-center">
+          <h4 class="section-subtitle">Speakers </h4>
         </div>
         <div class="row text-center">
             {% for speaker in site.data.speakers %} 
@@ -44,23 +67,6 @@
             {% endfor %}
         </div>  <!--row-->
 
-        <!--MODERATORS-->
-        <div class="row text-center">
-          <h4 class="section-subtitle">Moderators </h4>
-        </div>
-        <div class="row text-center">
-            {% for speaker in site.data.speakers %} 
-              {% if speaker.category == "moderator" %}
-                  <a href="{{ speaker.url }}" target="_blank">
-                    <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
-                      <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>  
-                      <h4>{{ speaker.name }}</h4>
-                      <p class="speakerbio">{{ speaker.bio }}</p>
-                    </div>
-                 </a>
-              {% endif %}
-            {% endfor %}
-        </div>  <!--row-->
 
       </div> <!--container-->
     </div> <!--layer base-->
