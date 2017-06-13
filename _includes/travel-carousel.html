@@ -2,6 +2,7 @@
 
 <div id="travelCarousel" class="carousel slide" data-ride="carousel" style="height: 380px;">
   <!-- Indicators -->
+
   <ol class="carousel-indicators">
     <li data-target="#travelCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#travelCarousel" data-slide-to="1"></li>
@@ -26,59 +27,14 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <div class="fill" style="background-image:url('/img/travel/0.jpg');"></div>
+      <div class="fill" style="background-image:url('/img/travel/carousel/{{ site.data.travel.carousel.cover }}');"></div>
     </div>
+
+    {% for image in site.data.travel.carousel.imgs %}
     <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/1.jpg');"></div>
+      <div class="fill" style="background-image:url('/img/travel/carousel/{{ image }}');"></div>
     </div>
-    <div class="item">
-     <div class="fill" style="background-image:url('/img/travel/2.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/3.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/4.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/5.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/6.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/7.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/8.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/9.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/10.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/11.jpg');"></div>
-    </div>
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/12.jpg');"></div>
-    </div>   
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/13.jpg');"></div>
-    </div>  
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/14.jpg');"></div>
-    </div>  
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/15.png');"></div>
-    </div>  
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/16.jpg');"></div>
-    </div>   
-    <div class="item">
-      <div class="fill" style="background-image:url('/img/travel/17.jpg');"></div>
-    </div>      
+    {% endfor %}
   </div>
 
   <!-- Left and right controls -->
