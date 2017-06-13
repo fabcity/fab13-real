@@ -50,12 +50,11 @@
         </div>
         <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
           <p style="padding-left: 0px;">{{ site.data.travel.invitationletters.cast }}</p> 
-        <a href="{{ site.data.travel.invitationletters.link1.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.invitationletters.link1.cast }}</h4>
-        </a>
-        <a href="{{ site.data.travel.invitationletters.link2.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.invitationletters.link2.cast }}</h4>
-        </a>
+          {% for link in site.data.travel.invitationletters.links %}
+            <a href="{{ link.url }}" target="_blank">
+              <h4 class="applications-link link-grow">{{ link.cast }}</h4>
+            </a>
+          {% endfor %}
         </div>
       </div><!--row-->
 
@@ -97,31 +96,29 @@
         </div>
         <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
           <p style="padding-left: 0px;"> {{ site.data.travel.transport.cast }} </p> 
-          <a href="{{ site.data.travel.transport.link1.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.transport.link1.cast }}</h4>
-          </a>
-          <a href="{{ site.data.travel.transport.link2.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.transport.link2.cast }}</h4>
-          </a>
+          {% for link in site.data.travel.transport.links %}
+            <a href="{{ link.url }}" target="_blank">
+              <h4 class="applications-link link-grow">{{ link.cast }}</h4>
+            </a>
+          {% endfor %}
         </div>
       </div><!--row-->
 
 
       <div class="row row-page" id="customs">
         <div class="col-sm-12 text-center">
-          <h4 class="section-title">Lo que puedes y no puedes entrar en Chile</h4>
+          <h4 class="section-title">Lo que puedes y no puedes entrar a Chile</h4>
         </div>
         <div class="col-md-6 col-sm-6 text-center">
-          <img class="section-pic" src="/img/travel/{{ site.data.travel.customs.img }}">
+          <img class="section-img" src="/img/travel/{{ site.data.travel.customs.img }}">
         </div>
         <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
-          <p style="padding-left: 0px;">{{ site.data.travel.customs.cast }}</p> 
-          <a href="{{ site.data.travel.customs.link1.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.customs.link1.cast }}</h4>
-          </a>
-          <a href="{{ site.data.travel.customs.link2.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.customs.link2.cast }}</h4>
-          </a>
+          <p style="padding-left: 0px;">{{ site.data.travel.customs.eng }}</p> 
+          {% for link in site.data.travel.customs.links %}
+            <a href="{{ link.url }}" target="_blank">
+              <h4 class="applications-link link-grow">{{ link.cast }}</h4>
+            </a>
+          {% endfor %}
         </div>
       </div><!--row-->
 
@@ -147,15 +144,11 @@
         </div>
         <div class="col-md-6 col-sm-6 text-left" style="padding-bottom: 10px;">
           <p style="padding-left: 0px;">{{ site.data.travel.otherlinks.cast }}</p> 
-        <a href="{{ site.data.travel.otherlinks.link1.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.otherlinks.link1.cast }}</h4>
-        </a>
-        <a href="{{ site.data.travel.otherlinks.link2.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.otherlinks.link2.cast }}</h4>
-        </a>
-        <a href="{{ site.data.travel.otherlinks.link3.url }}" target="_blank">
-          <h4 class="applications-link link-grow">{{ site.data.travel.otherlinks.link3.cast }}</h4>
-        </a>
+          {% for link in site.data.travel.otherlinks.links %}
+            <a href="{{ link.url }}" target="_blank">
+              <h4 class="applications-link link-grow">{{ link.cast }}</h4>
+            </a>
+          {% endfor %}
         </div>
       </div><!--row-->
 
