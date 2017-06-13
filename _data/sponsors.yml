@@ -22,6 +22,10 @@
   role: sponsor
   url: 'https://www.corfo.cl/sites/cpp/home'
   img: corfo.png
+- organization: Inacap
+  role: sponsor
+  url: 'http://www.inacap.cl/portal'
+  img: inacap.png
 - organization: Trotec
   role: sponsor
   url: 'https://www.troteclaser.com/'
