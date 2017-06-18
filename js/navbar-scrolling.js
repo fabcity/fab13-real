@@ -32,6 +32,8 @@ function scrollAction(yScroll) {
         $('#twitter-band').addClass('twitter-init');
         $('.tweet').css({ 'color': '#d8d8d8'});
         $('.tweet-link').css({ 'color': '#d8d8d8'});
+        
+
 
     }
 
