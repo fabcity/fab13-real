@@ -118,3 +118,7 @@
   role: lab
   url: 'http://designlab.uai.cl/'
   img: designlabuai.png
+- organization: Aconcagua Fab Lab
+  role: lab
+  url: 'https://www.facebook.com/Aconcagua-FabLab-1845111535713373/'
+  img: aconcagua.png
