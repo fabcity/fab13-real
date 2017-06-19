@@ -2,9 +2,9 @@
   cover: mountain.svg
   fallback: mountain.png
   imgs:
-    - file: "workshops.svg"
+    - file: "selected-workshops.svg"
       url: "/selected_workshops.pdf"
-    - file: "icon-row.svg"
+    - file: "fabricating-society.svg"
       url: "https://twitter.com/fab13santiago"
     - file: "0.svg"
       hasurl: true
