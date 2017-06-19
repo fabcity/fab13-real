@@ -20,10 +20,11 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
+/* Closes the Responsive Menu on Menu Item Click*/
+$('.navbar-collapse ul li .cierra').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
 
 
 $('div.modal').on('show.bs.modal', function() {
@@ -32,7 +33,7 @@ $('div.modal').on('show.bs.modal', function() {
 	window.location.hash = hash;
 	window.onhashchange = function() {
 		if (!location.hash){
-			$(modal).modal('hide');
+			(modal).modal('hide');
 		}
 	}
 });

@@ -447,7 +447,6 @@ h4.section-link {
     font-size: 12px;
     font-weight: 700px;
     z-index: 100;
-    position: absolute;
     top: 0;
     width: 100%;
     border-radius: 0px;
@@ -515,7 +514,7 @@ h4.section-link {
     }
 }
 
-.navbar-toggle {
+.navbar-default .navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
@@ -567,7 +566,9 @@ h4.section-link {
 
 }
 
-
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 540px;
+}
 
 /*---TRACKS MOSAIC SECTION--*/ 
 
