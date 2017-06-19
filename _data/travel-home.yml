@@ -13,18 +13,24 @@ links:
   - eng: Hotels
     cast: Hoteles
     url: '/travel#travel-hotels'
+    url-cast: '/viaje/#travel-hotels'
   - eng: Visa invitation letters
     cast: Cartas de invitación para la visa
     url: '/travel#invitation-letters'
+    url-cast: '/viaje/#invitation-letters'
   - eng: Visa Requirements
     cast: Requerimientos de visa
     url: '/travel#visas'
+    url-cast: '/viaje#visas'
   - eng: Transport
     cast: Transporte
     url: '/travel#transport'
+    url-cast: '/viaje#transport'
   - eng: Customs
     cast: Aduanas
     url: '/travel#customs'
+    url-cast: '/viaje#customs'
   - eng: Discover Chile
     cast: Descubre Chile
     url: '/travel#discover-chile'
+    url-cast: '/viaje#discover-chile'
