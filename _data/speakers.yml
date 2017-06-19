@@ -26,7 +26,7 @@
   bio: 'Architect / Programmer / Game Designer, Principal at the Plethora Project'
   longbio: "Jose Sanchez is an Architect / Programmer / Game Designer based in Los Angeles, California. He is partner at Bloom Games, start-up built upon the BLOOM project, winner of the WONDER SERIES hosted by the City of London for the London 2012 Olympics. He is the director of the Plethora Project (www.plethora-project.com), a research and learning project investing in the future of on-line open-source knowledge and the creator of Block’hood, a city simulator video game exploring notions of crowdsourced urbanism. He has taught and guest lectured in several renowned institutions across the world, including the Architectural Association in London, the University of Applied Arts (Angewandte) in Vienna, ETH Zurich, The Bartlett School of Architecture, University College London, and the Ecole Nationale Supérieure D'Architecture in Paris. Today, he is an Assistant Professor at USC School of Architecture in Los Angeles. His research ‘Gamescapes’, explores generative interfaces in the form of video games, speculating in modes of intelligence augmentation, combinatorics and open systems as a design medium."
   url: 'https://www.plethora-project.com/'
-  img: jose-sanchez.png
+  img: jose.jpg
   category: speaker
 - name: Alastair Parvin
   bio: 'Co-founder at WikiHouse Foundation, Architectural & strategic designer with 00 London.'
@@ -56,7 +56,7 @@
   bio: Designer / Maker / Researcher / Tutor at ‎Royal College of Art
   longbio: 'James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College of Art. He is a designer and researcher, with his research, both commercial and academic, focusing on three interwoven areas: open design, open fabrication and digital manufacturing. A graduate of the Design Products programme, he also trained as a furniture designer and cabinetmaker, and continues to practice.'
   url: 'https://www.rca.ac.uk/more/staff/james-tooze/'
-  img: tooze.JPG
+  img: james.jpg
   category: panelist
 - name: Andrés Briceño
   bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation'
