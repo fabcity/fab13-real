@@ -28,7 +28,9 @@
                 </div>
                 {% for image in site.data.carousel-home.imgs %}
                 <div class="item">
-                    <div class="fill" style="background-image:url('/img/carousel/{{ image }}');"></div>
+                    <a href="{{ image.url }}" target="_blank">
+                    <div class="fill" style="background-image:url('/img/carousel/{{ image.file }}');"></div>
+                    </a>
                 </div>
                 {% endfor %}
             </div>

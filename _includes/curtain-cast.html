@@ -8,9 +8,9 @@
     </div>
     <div class="parallax__layer parallax__layer--base">
 
-    	<!-- Full Page Image Background Carousel Header -->
+        <!-- Full Page Image Background Carousel Header -->
         <div id="myCarousel" class="carousel slide">
-            <!-- Indicators -->
+        <!--
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -18,35 +18,21 @@
                 <li data-target="#myCarousel" data-slide-to="3"></li>
                 <li data-target="#myCarousel" data-slide-to="4"></li>
             </ol>
+            -->
 
             <!-- Wrapper for Slides -->
-            <div class="carousel-inner">
+            <div class="carousel-inner" role="listbox">
                 <!--Slide 0-->
                 <div class="item active">
-                    <div class="fill" style="background-image:url('/img/carousel/0.png'); background-image:url('/img/carousel/{{ site.data.carousel-home.img1 }}');  margin-top: -30px;"></div>
+                    <div class="fill" style="background-image:url('/img/carousel/{{ site.data.carousel-home.fallback }}'); background-image:url('/img/carousel/{{ site.data.carousel-home.cover }}');"></div>
                 </div>
-                <!--Slide 1-->
+                {% for image in site.data.carousel-home.imgs %}
                 <div class="item">
-                    <div class="title" style="top:45%;"> 
-                        <img src="/img/carousel/{{ site.data.carousel-home.img2 }}" data-fallback="/img/carousel/icon-row.png">
-                        <p class="header-titles" style="">#FABRICATING <br> SOCIETY </p>
-                    </div>
+                    <a href="{{ image.url }}" target="_blank">
+                    <div class="fill" style="background-image:url('/img/carousel/{{ image.file }}');"></div>
+                    </a>
                 </div>
-                <!--Slide 2-->
-                <div class="item">
-                    <div class="fill" style="background-image:url('/img/carousel/{{ site.data.carousel-home.img3 }}');"></div>
-                </div>
-                <!--Slide 3-->
-                <div class="item">
-                    <div class="title" style="top:45%;"> 
-                        <img src="/img/carousel/{{ site.data.carousel-home.img4 }}" style="height: 80px; padding-bottom: 10px;">
-                        <p class="header-titles" style="">LAS APLICACIONES ESTÁN ABIERTAS!<br> <a href="/cast/#apply" style="font-size:16px;">Aplica</a></p>
-                    </div>
-                </div>
-                <!--Slide 4-->
-                <div class="item">
-                    <div class="fill" style="background-image:url('/img/carousel/{{ site.data.carousel-home.img5 }}');"></div>
-                </div>
+                {% endfor %}
             </div>
 
             <!-- Controls -->
