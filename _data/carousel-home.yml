@@ -5,6 +5,8 @@ imgs:
     url: /selected_workshops.pdf
   - file: gamm.png
     url: '/#venues'
+  - file: colpa.png
+    url: '/#venues'
   - file: fabricating-society.svg
     url: 'https://twitter.com/fab13santiago'
   - file: 0.svg
