@@ -20,20 +20,31 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
 					<h4 class="venue-category">Fab Conference </h4>
-					<a href="http://extension.uc.cl/" target="_blank"><h4 class="venue-titles link-grow">Centro de Extensión Universidad Católica </h4>
-						<p class="venue-address" style="margin-bottom: 24px;"> Avenida Libertador Bernardo O'Higgins 390</p>
+					{% for venue in site.data.venues %} 
+					{% if venue.category == "Fab Conference" %} 
+					<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
+						<p class="venue-address"> {{ venue.address }}</p>
 					</a>
+					{% endif %}
+					{% endfor %} 
 					<h4 class="venue-category">Fab Festival  </h4>
-					<a href="http://www.gam.cl/" target="_blank">
-						<h4 class="venue-titles link-grow">Centro Cultural Gabriela Mistral </h4>
-						<p class="venue-address"  style="margin-bottom: 24px;"> Avenida Libertador Bernardo O'Higgins 227</p>
+					{% for venue in site.data.venues %} 
+					{% if venue.category == "Fab Festival" %} 
+					<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
+						<p class="venue-address"> {{ venue.address }}</p>
 					</a>
+					{% endif %}
+					{% endfor %} 
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
 					<h4 class="venue-category">Organizing Lab </h4>
-					<a href="http://fablabsantiago.org/" target="_blank"><h4 class="venue-titles link-grow">Fab Lab Santiago </h4>
-						<p class="venue-address" style="margin-bottom: 24px;"> Seminario 642, Ñuñoa, Santiago de Chile</p>
+					{% for venue in site.data.venues %} 
+					{% if venue.category == "Organizing Lab" %} 
+					<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
+						<p class="venue-address"> {{ venue.address }}</p>
 					</a>
+					{% endif %}
+					{% endfor %} 
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
 					<h4 class="venue-category">Hosting Fab Labs </h4>
