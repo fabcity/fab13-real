@@ -202,3 +202,9 @@
   url: 'http://www.veritas.cr/staff/robert-garita'
   img: rob.png
   role: panelist
+- name: Inti Nuñez
+  bio: Former manager at CORFO- Chile
+  longbio:
+  url: 'https://www.linkedin.com/in/intinunez/?ppe=1'
+  img: inti.png
+  role: panelist
