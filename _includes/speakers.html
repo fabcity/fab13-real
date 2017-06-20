@@ -19,7 +19,7 @@
         </div>
         <div class="row text-center">
             {% for speaker in site.data.speakers %} 
-              {% if speaker.category == "moderator" %}
+              {% if speaker.role == "moderator" %}
                   <a href="{{ speaker.url }}" target="_blank">
                     <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
                       <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>  
@@ -37,7 +37,7 @@
         </div>
         <div class="row text-center">
             {% for speaker in site.data.speakers %} 
-              {% if speaker.category == "speaker" %}
+              {% if speaker.role == "speaker" %}
                   <a href="{{ speaker.url }}" target="_blank">
                     <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
                       <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>  
@@ -55,7 +55,7 @@
         </div>
         <div class="row text-center">
             {% for speaker in site.data.speakers %} 
-              {% if speaker.category == "panelist" %}
+              {% if speaker.role == "panelist" %}
                   <a href="{{ speaker.url }}" target="_blank">
                     <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
                       <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>  
