@@ -106,12 +106,6 @@
   url: 'http://fundacionvivienda.cl/'
   img: felipe-arteaga.jpg
   role: panelist
-- name: Alberto Gonzalez
-  bio: 'Design Director, Freshwater Chile'
-  longbio:
-  url: 'http://www.freshwatersolutions.org/'
-  img: alberto.PNG
-  role: panelist
 - name: Sofia Lobos
   bio: Executive Secretary of the Intergovernmental Creative Economy Committee at CNCA Chile
   longbio:
@@ -123,6 +117,12 @@
   longbio:
   url: 'http://engineering.tufts.edu/bme/people/molenaar/index.htm'
   img: jean.jpg
+  role: panelist
+- name: Alberto Gonzalez
+  bio: 'Design Director, Freshwater Chile'
+  longbio:
+  url: 'http://www.freshwatersolutions.org/'
+  img: alberto.PNG
   role: panelist
 - name: Joel Cutcher-Gershenfeld
   bio: 'Professor at the Heller School for Social Policy and Management, Brandeis University'
