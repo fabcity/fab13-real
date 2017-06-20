@@ -100,17 +100,17 @@
   url: 'http://elinemedia.com/staff/alan-gershenfeld/'
   img: alan.jpg
   role: moderator
-- name: Felipe Arteaga
-  bio: 'Executive Director, Fundación Vivienda Chile'
-  longbio:
-  url: 'http://fundacionvivienda.cl/'
-  img: felipe-arteaga.jpg
-  role: panelist
 - name: Sofia Lobos
   bio: Executive Secretary of the Intergovernmental Creative Economy Committee at CNCA Chile
   longbio:
   url: 'https://cl.linkedin.com/in/sofia-lobos-804a5326'
   img: sofia1.jpg
+  role: panelist
+- name: Felipe Arteaga
+  bio: 'Executive Director, Fundación Vivienda Chile'
+  longbio:
+  url: 'http://fundacionvivienda.cl/'
+  img: felipe-arteaga.jpg
   role: panelist
 - name: Jean-Michel Molenaar
   bio: 'Academany, Bioacademy and Fab Connections, Professor at Tufts University, Department of Biomedical Engineering'
@@ -118,18 +118,18 @@
   url: 'http://engineering.tufts.edu/bme/people/molenaar/index.htm'
   img: jean.jpg
   role: panelist
-- name: Alberto Gonzalez
-  bio: 'Design Director, Freshwater Chile'
-  longbio:
-  url: 'http://www.freshwatersolutions.org/'
-  img: alberto.PNG
-  role: panelist
 - name: Joel Cutcher-Gershenfeld
   bio: 'Professor at the Heller School for Social Policy and Management, Brandeis University'
   longbio:
   url: 'http://www.brandeis.edu/facultyguide/person.html?emplid=39367aa9b387b4d46a95956f614c8a82139d774d'
   img: joel.jpg
   role: moderator
+- name: Alberto Gonzalez
+  bio: 'Design Director, Freshwater Chile'
+  longbio:
+  url: 'http://www.freshwatersolutions.org/'
+  img: alberto.PNG
+  role: panelist
 - name: John N. Randall
   bio: Atomically-Precise Manufacturing -President of Zyvex Labs
   longbio: "John Randall has over twenty years of experience in micro- and nanofabrication. He is a key contributor to Zyvex Labs, having defined the company's Atomically Precise Manufacturing program, which he serves as Program Manager and Principal Investigator. He originally joined Zyvex Corporation in March of 2001 after fifteen years at Texas Instruments where he worked in high resolution processing for integrated circuits, MEMS, and quantum effect devices. Prior to working at TI, John worked at MIT’s Lincoln Laboratory on ion beam and x-ray lithography."
