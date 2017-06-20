@@ -130,12 +130,6 @@
   url: 'http://www.zyvexlabs.com/About2012/RandallBio.html'
   img: johnr.png
   role: speaker
-- name: Alberto Gonzalez
-  bio: 'Design Director, Freshwater Chile'
-  longbio:
-  url: 'http://www.freshwatersolutions.org/'
-  img: alberto.PNG
-  role: panelist
 - name: Mara Balestrini
   bio: Project Manager Fab Lab Barcelona- Coordinator of Making Sense
   longbio: 'Mara is a Human Computer Interaction (HCI) researcher and a technology strategist. She leads the Research Lab at Ideas for Change, a think tank and consultancy firm advising cities, businesses and institutions on innovation, open and collaborative strategies, civic tech, and exponential growth (see our frameworks @pentagrowth and @The Bristol approach). She is also a project manager at the Fab Lab Barcelona where she coordinates Making Sense, a European project that seeks to empower citizens through personal digital manufacturing applied to the design of environmental sensors.'
@@ -148,6 +142,12 @@
   url: 'http://worldbuilding.institute/people/puneet-ahira'
   img: puneet.png
   role: speaker
+- name: Alberto Gonzalez
+  bio: 'Design Director, Freshwater Chile'
+  longbio:
+  url: 'http://www.freshwatersolutions.org/'
+  img: alberto.PNG
+  role: panelist
 - name: Beno Juarez
   bio: Director of the Floating Fab Lab Amazon
   longbio:
