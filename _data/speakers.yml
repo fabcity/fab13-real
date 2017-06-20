@@ -172,3 +172,9 @@
   url: 'https://globalhumanitarianlab.org/'
   img: ott.png
   role: panelist
+- name: Roberth Garita
+  bio: Director Fab Lab Veritas- Costa Rica
+  longbio:
+  url: 'http://www.veritas.cr/staff/robert-garita'
+  img: rob.png
+  role: panelist
