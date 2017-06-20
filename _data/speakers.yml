@@ -136,12 +136,6 @@
   url: 'http://www.zyvexlabs.com/About2012/RandallBio.html'
   img: johnr.png
   role: speaker
-- name: Pedro Vidal
-  bio: 'Manager at Se.Santiago: Programa Santiago Ciudad Inteligente'
-  longbio:
-  url: 'http://sesantiago.cl/se/'
-  img: pedro-vidal.jpg
-  role: panelist
 - name: Puneet Ahira
   bio: Co-founder and Chief Architect @ Shared Magic
   longbio: "The scope of Puneet's role at the White House includes leveraging science & technology to: address connectivity deserts across America and abroad, counter violent extremism, expand opportunity for refugees and other marginalized communities, and scale the work of heroic women and men driving forward systems solutions. In her previous life in the private sector, Puneet was the Program Director for Solve for X at Google[x] - Google's stealth moonshot laboratory focused on developing technologies that could positively impact billions of people. Prior to her time at Google, she worked as a Portfolio Analyst at Goldman Sachs, where she was part of the founding team that introduced a framework to identify structurally-advantaged companies poised to disrupt their industries over the next 15-20 years. She served on the Board of Directors for Colin Powell's non-profit - America's Promise, co-founded an NGO called Freedom's Answer, and co-authored a book on civic activism under the same title. Puneet received her BSc and MSc from Oxford University."
@@ -153,6 +147,12 @@
   longbio: 'Mara is a Human Computer Interaction (HCI) researcher and a technology strategist. She leads the Research Lab at Ideas for Change, a think tank and consultancy firm advising cities, businesses and institutions on innovation, open and collaborative strategies, civic tech, and exponential growth (see our frameworks @pentagrowth and @The Bristol approach). She is also a project manager at the Fab Lab Barcelona where she coordinates Making Sense, a European project that seeks to empower citizens through personal digital manufacturing applied to the design of environmental sensors.'
   url: 'https://marabales.com/contact/'
   img: marabb.png
+  role: panelist
+- name: Pedro Vidal
+  bio: 'Manager at Se.Santiago: Programa Santiago Ciudad Inteligente'
+  longbio:
+  url: 'http://sesantiago.cl/se/'
+  img: pedro-vidal.jpg
   role: panelist
 - name: Beno Juarez
   bio: Director of the Floating Fab Lab Amazon
