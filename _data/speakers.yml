@@ -94,6 +94,12 @@
   url: 'http://www.lab.gob.cl/'
   img: juan-felipe.jpg
   role: panelist
+- name: Alan Gershenfeld
+  bio: 'Co-founder and President, E-Line Media'
+  longbio:
+  url: 'http://elinemedia.com/staff/alan-gershenfeld/'
+  img: alan.jpg
+  role: moderator
 - name: Alberto Gonzalez
   bio: 'Design Director, Freshwater Chile'
   longbio:
@@ -106,12 +112,6 @@
   url: 'http://fundacionvivienda.cl/'
   img: felipe-arteaga.jpg
   role: panelist
-- name: Alan Gershenfeld
-  bio: 'Co-founder and President, E-Line Media'
-  longbio:
-  url: 'http://elinemedia.com/staff/alan-gershenfeld/'
-  img: alan.jpg
-  role: moderator
 - name: Sofia Lobos
   bio: Executive Secretary of the Intergovernmental Creative Economy Committee at CNCA Chile
   longbio:
