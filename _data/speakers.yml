@@ -58,18 +58,18 @@
   url: 'http://fablabsantiago.org/'
   img: andres.jpg
   role: panelist
-- name: James Tooze
-  bio: Designer / Maker / Researcher / Tutor at ‎Royal College of Art
-  longbio: 'James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College of Art. He is a designer and researcher, with his research, both commercial and academic, focusing on three interwoven areas: open design, open fabrication and digital manufacturing. A graduate of the Design Products programme, he also trained as a furniture designer and cabinetmaker, and continues to practice.'
-  url: 'https://www.rca.ac.uk/more/staff/james-tooze/'
-  img: james.jpg
-  role: panelist
 - name: Alysia Garmulewicz
   bio: 'Professor, Universidad de Santiago de Chile, Materiome'
   longbio:
   url: 'http://www.insis.ox.ac.uk/alysia-garmulewicz'
   img: alysia.jpg
   role: speaker
+- name: James Tooze
+  bio: Designer / Maker / Researcher / Tutor at ‎Royal College of Art
+  longbio: 'James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College of Art. He is a designer and researcher, with his research, both commercial and academic, focusing on three interwoven areas: open design, open fabrication and digital manufacturing. A graduate of the Design Products programme, he also trained as a furniture designer and cabinetmaker, and continues to practice.'
+  url: 'https://www.rca.ac.uk/more/staff/james-tooze/'
+  img: james.jpg
+  role: panelist
 - name: Tomas Diez
   bio: Urbanist. Fab City Research Lab Director. Fab Lab Barcelona Director
   longbio:
