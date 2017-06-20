@@ -22,7 +22,7 @@
   url: "http://fablabsantiago.org/"
   category: Organizing Lab
 
-- name: "FabHaus FADEU UC"
+- name: "FabHaus"
   address: "El Comendador 1916, Providencia, Santiago" 
   description: 
   latitude: -33.420252
@@ -46,12 +46,12 @@
   url: "https://goo.gl/maps/FbbmMTEt4Xp"
   category: Hosting Labs
 
-- name: "Fab Lab UAI"
+- name: "Campus Creativo Universidad Andrés Bello"
   address: "Diagonal Las Torres 2640, Peñalolén, Santiago"
   description: 
-  latitude: -33.499243
-  longitude: -70.614854
-  url: "https://goo.gl/maps/UsWTyY1arKs"
+  latitude: -33.431548
+  longitude: -70.638249
+  url: "https://campuscreativo.cl/"
   category: Hosting Labs
 
 - name: "Aconcagua Fab Lab"
