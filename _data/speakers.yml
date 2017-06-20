@@ -166,3 +166,9 @@
   url: 'https://www.linkedin.com/in/patrick-colgan-37272b109/?ppe=1'
   img: pat.png
   role: speaker
+- name: David Ott
+  bio: Co-founder Global Humanitarian Lab
+  longbio:
+  url: 'https://globalhumanitarianlab.org/'
+  img: ott.png
+  role: panelist
