@@ -148,3 +148,9 @@
   url: 'http://worldbuilding.institute/people/puneet-ahira'
   img: puneet.png
   category:
+- name: Beno Juarez
+  bio: Director of the Floating Fab Lab Amazon
+  longbio:
+  url: 'https://www.linkedin.com/in/benojuarez/?ppe=1'
+  img: beno.png
+  category:
