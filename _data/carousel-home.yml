@@ -1,10 +1,10 @@
 cover: mountain.svg
 fallback: mountain.png
 imgs:
-  - file: selected-workshops.svg
-    url: /selected_workshops.pdf
   - file: gamm.png
     url: '/#venues'
+  - file: selected-workshops.svg
+    url: /selected_workshops.pdf
   - file: colpa.png
     url: '/#venues'
   - file: fabricating-society.svg
