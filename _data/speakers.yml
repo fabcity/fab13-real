@@ -136,3 +136,15 @@
   url: 'http://sesantiago.cl/se/'
   img: pedro-vidal.jpg
   category: panelist
+- name: John N. Randall
+  bio: President of Zyvex Labs
+  longbio: "John Randall has over twenty years of experience in micro- and nanofabrication. He is a key contributor to Zyvex Labs, having defined the company's Atomically Precise Manufacturing program, which he serves as Program Manager and Principal Investigator. He originally joined Zyvex Corporation in March of 2001 after fifteen years at Texas Instruments where he worked in high resolution processing for integrated circuits, MEMS, and quantum effect devices. Prior to working at TI, John worked at MIT’s Lincoln Laboratory on ion beam and x-ray lithography."
+  url: 'http://www.zyvexlabs.com/About2012/RandallBio.html'
+  img: johnr.png
+  category:
+- name:
+  bio:
+  longbio:
+  url:
+  img:
+  category:
