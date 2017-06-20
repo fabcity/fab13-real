@@ -9,5 +9,5 @@ imgs:
     hasurl: true
     url: '/#about'
   - file: gam.svg
-    hasurl: true
-    url: 'http://fab13.fabevent.org/#venues'
+    hasurl: false
+    url: '/#venues'
