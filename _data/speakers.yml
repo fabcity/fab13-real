@@ -190,15 +190,15 @@
   url: 'https://globalhumanitarianlab.org/'
   img: ott.png
   role: panelist
-- name: Roberth Garita
-  bio: Director Fab Lab Veritas- Costa Rica
-  longbio:
-  url: 'http://www.veritas.cr/staff/robert-garita'
-  img: rob.png
-  role: panelist
 - name: Patricia Manns
   bio: Designer and Master in Educational Technologies at Mafa Chile
   longbio: 'Licenciada en Diseño de la Pontificia Universidad Católica de Chile y máster en Tecnologías Educativas de el Instituto Tecnológico de Monterrey, México.'
   url: 'https://www.mafa.cl/'
   img: patricia-manns.webp
+  role: panelist
+- name: Roberth Garita
+  bio: Director Fab Lab Veritas- Costa Rica
+  longbio:
+  url: 'http://www.veritas.cr/staff/robert-garita'
+  img: rob.png
   role: panelist
