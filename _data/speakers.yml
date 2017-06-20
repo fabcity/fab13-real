@@ -76,18 +76,18 @@
   url: 'https://iaac.net/people/tomas-diez/'
   img: tomas-diez.png
   role: moderator
-- name: Patricio Feres
-  bio: Head of Innovation / CEO InnovaChile at Corfo
-  longbio:
-  url: 'https://www.linkedin.com/in/patricio-feres-b1977a4?ppe=1'
-  img: patricio.jpg
-  role: panelist
 - name: Jens Dyvik
   bio: Designer. Specialized in global collaboration and local manufacturing. Machines that Make Machines
   longbio:
   url: 'http://www.dyvikdesign.com/site/jens-dyvik'
   img: jens.jpg
   role: speaker
+- name: Patricio Feres
+  bio: Head of Innovation / CEO InnovaChile at Corfo
+  longbio:
+  url: 'https://www.linkedin.com/in/patricio-feres-b1977a4?ppe=1'
+  img: patricio.jpg
+  role: panelist
 - name: Juan Felipe Lopez
   bio: '‎"Executive Director at Laboratorio de Gobierno, Chile"'
   longbio:
@@ -100,17 +100,17 @@
   url: 'http://elinemedia.com/staff/alan-gershenfeld/'
   img: alan.jpg
   role: moderator
-- name: Alberto Gonzalez
-  bio: 'Design Director, Freshwater Chile'
-  longbio:
-  url: 'http://www.freshwatersolutions.org/'
-  img: alberto.PNG
-  role: panelist
 - name: Felipe Arteaga
   bio: 'Executive Director, Fundación Vivienda Chile'
   longbio:
   url: 'http://fundacionvivienda.cl/'
   img: felipe-arteaga.jpg
+  role: panelist
+- name: Alberto Gonzalez
+  bio: 'Design Director, Freshwater Chile'
+  longbio:
+  url: 'http://www.freshwatersolutions.org/'
+  img: alberto.PNG
   role: panelist
 - name: Sofia Lobos
   bio: Executive Secretary of the Intergovernmental Creative Economy Committee at CNCA Chile
