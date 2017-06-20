@@ -154,3 +154,15 @@
   url: 'https://www.linkedin.com/in/benojuarez/?ppe=1'
   img: beno.png
   category:
+- name: Lito Ibarra
+  bio: ICANN Board Member
+  longbio: "Better known as Lito, Rafael Ibarra was born in San Salvador, El Salvador, in 1957. He holds professional degrees in Electrical Engineering and Business Administration, as well as a graduate degree in New Information and Communication Technologies.  Lito's work and expertise in the field of Information and Communication Technologies, more particularly the Internet, include private, academic and government companies and institutions, both in El Salvador as well as in the region of Central and Latin America."
+  url: 'https://www.icann.org/profiles/rafael-lito-ibarra'
+  img: lito.png
+  category:
+- name: Patrick Colgan
+  bio: Senior Adviser -Government of Ireland
+  longbio: "Seconded by the Government of Ireland to work in Bogota, Colombia to share the experiences of the Northern Ireland / Ireland PEACE Programmes as part of Ireland's contribution to the peace process in Colombia. Assigned also to represent Ireland at meetings of the EU Trust Fund for Colombia and the United Nations Multi-Donor Fund for Colombia under the aegis of the Embassy of Ireland in Mexico, accredited to the Colombian Government. Working closely with the Ministry for Post Conflict in Bogota, I am involved in developing close working relations with Government agencies responsible for the implementation of the peace agreements and with Civic Society organisations engaged in peace building."
+  url: 'https://www.linkedin.com/in/patrick-colgan-37272b109/?ppe=1'
+  img: pat.png
+  category:
