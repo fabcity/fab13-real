@@ -166,18 +166,18 @@
   url: 'http://sesantiago.cl/se/'
   img: pedro-vidal.jpg
   role: panelist
-- name: Patrick Colgan
-  bio: Senior Adviser -Government of Ireland
-  longbio: "Seconded by the Government of Ireland to work in Bogota, Colombia to share the experiences of the Northern Ireland / Ireland PEACE Programmes as part of Ireland's contribution to the peace process in Colombia. Assigned also to represent Ireland at meetings of the EU Trust Fund for Colombia and the United Nations Multi-Donor Fund for Colombia under the aegis of the Embassy of Ireland in Mexico, accredited to the Colombian Government. Working closely with the Ministry for Post Conflict in Bogota, I am involved in developing close working relations with Government agencies responsible for the implementation of the peace agreements and with Civic Society organisations engaged in peace building."
-  url: 'https://www.linkedin.com/in/patrick-colgan-37272b109/?ppe=1'
-  img: pat.png
-  role: speaker
 - name: Liz Corbin
   bio: Researcher at the Institute of Making
   longbio: 'Liz is a doctoral researcher at the Institute of Making. Corbin’s research explores the emergence of open workshops in Britain; investigating the materials, processes and cultures of practice indicative of this ever-fluid sector, particularly in relation to systems of production. Corbin holds a BA in Design and an MA in Material Culture. She is a contributor to the Fab City Global Initiative, collaborator of the Future Makespaces in Redistributed Manufacturing RCA project, and strategic partner to the Hello Shenzhen British Council programme. Her work has included founding the Open Workshop Network as well as co-founding Maker Assembly, and has helped to shape the debate around makerspaces and maker culture in Britain.'
   url: 'http://www.instituteofmaking.org.uk/about/people'
   img: lizc.png
   role: panelist
+- name: Patrick Colgan
+  bio: Senior Adviser -Government of Ireland
+  longbio: "Seconded by the Government of Ireland to work in Bogota, Colombia to share the experiences of the Northern Ireland / Ireland PEACE Programmes as part of Ireland's contribution to the peace process in Colombia. Assigned also to represent Ireland at meetings of the EU Trust Fund for Colombia and the United Nations Multi-Donor Fund for Colombia under the aegis of the Embassy of Ireland in Mexico, accredited to the Colombian Government. Working closely with the Ministry for Post Conflict in Bogota, I am involved in developing close working relations with Government agencies responsible for the implementation of the peace agreements and with Civic Society organisations engaged in peace building."
+  url: 'https://www.linkedin.com/in/patrick-colgan-37272b109/?ppe=1'
+  img: pat.png
+  role: speaker
 - name: Nadya Peek
   bio: 'Researcher at MIT, Center for Bits and Atoms working on machines/digital fabrication/control.'
   longbio: MIT- Machines that make machines
