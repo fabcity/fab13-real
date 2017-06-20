@@ -1,7 +1,6 @@
 carousel:
   cover: 1.jpg
   imgs:
-    - 1.jpg
     - 2.jpg
     - 3.jpg
     - 4.jpg
@@ -14,9 +13,6 @@ carousel:
     - 11.jpg
     - 12.jpg
     - 13.jpg
-    - 14.jpg
-    - 15.png
-    - 16.jpg
     - 17.jpg
 invitationletters:
   img: visas.jpg
