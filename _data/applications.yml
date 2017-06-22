@@ -1,10 +1,8 @@
-- name: Apply to volunteer
-  short: "Apply to volunteer at the biggest Digital Fabrication event in the world!"
-  url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSeKWl31p9fOxAetyjoDfe1p7Aejb3E_hTNgj3GYaiDz7AsMzQ/viewform"
+- name: 'Soon we will publish the selected volunteer!'
+  short:
+  url:
   placement: right
-
 - name: Workshop selection results
-  short: "Check out if your workshop was selected to be held at Fab13!"
+  short: 'Check out if your workshop was selected to be held at Fab13!'
   url: /selected_workshops.pdf
   placement: right
-
