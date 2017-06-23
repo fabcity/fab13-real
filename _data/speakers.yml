@@ -214,3 +214,9 @@
   url: 'https://architecture.mit.edu/faculty/skylar-tibbits'
   img: sky.jpg
   role: speaker
+- name: Elizabeth Hennaff
+  bio: Postdoctoral Associate at Weill Cornell Medical College
+  longbio: 'Elizabeth Hénaff was born of French/American parents in Austin in 1981, grew up in France, and has since lived in the US, Japan and Spain. She received a BS in Computer Science, an MS in Plant Biology (both from UT Austin) and a PhD in Bioinformatics from the University of Barcelona. The impetus behind her research is a fascination with the way living beings interact with their environment. She has made contributions to understanding how plants respond to the force of gravity, how plant genome structure changes in response to stress, and most recently has turned her attention to the ubiquitous and invisible microbial component of our environment. She has consistently made the tools - software, wetware, hardware - needed to answer her research questions, and enjoys both this process and the goal equally. Her interests in biological interactions and data visualization have inspired her to create interactive installations, and she has collaborated with artists and musicians in Barcelona, Paris and New York designing custom interactive visuals for their events. She currently works as a postdoc at the Weill Cornell Medical College in New York City.'
+  url: 'http://elizabeth-henaff.net/'
+  img: eli.png
+  role: panelist
