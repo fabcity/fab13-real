@@ -232,3 +232,9 @@
   url: 'From internet to 6axis Robot, Alexandre Dubor is an architectural researcher hacking new technologies in an attempt to reinvent how we build and live in our cities. He is currently instructor in Digital Fabrication class for a post-graduate master at the Institute for Advanced Architecture of Catalunya (IAAC), meanwhile working at Fab Lab Barcelona & Appareil. His current research inlcudes MagneticArchitecture.org and SmartCitizen.me.'
   img: alex.jpg
   role: panelist
+- name: Armando Azua-Bustos
+  bio: CEO of Atacama Biotech
+  longbio: 'The Atacama Desert in Chile is well known for being the driest and oldest desert on Earth.    Only a few decades ago it was sought that the Atacama was a sterile place. However, in the past years a range of different lifeforms have been discovered, showing fascinating adaptations to extremely low water availability, high UV radiation, high salinity and other environmental stresses. For these same reasons, the Atacama is also considered as a good analog model of the planet Mars.   In Atacama Biotech we are finding and characterizing the species that are able to survive in the extreme conditions imposed by the Atacama Desert, in order to learn more about the molecular mechanisms that are involved in this survival.    A better understanding of the tolerance mechanisms shown by these species will allow us to develop the biotechnological use of this knowledge in the biomedical and agricultural industry.   In addition, we are interested in the Atacama from the point of view of Astrobiology, as this desert has been the testbed for many robots and instruments that were later sent to Mars.'
+  url: 'https://www.astrobiology-in-chile.com/'
+  img: arma.jpg
+  role: panelist
