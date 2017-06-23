@@ -226,3 +226,9 @@
   url: 'http://diseno.uc.cl/persona/martin-tironi/'
   img: martin.jpg
   role: panelist
+- name: Alexandre Dubor
+  bio: IAAC Researcher at  MagneticArchitecture.org and SmartCitizen.me
+  longbio: 'From internet to 6axis Robot, Alexandre Dubor is an architectural researcher hacking new technologies in an attempt to reinvent how we build and live in our cities. He is currently instructor in Digital Fabrication class for a post-graduate master at the Institute for Advanced Architecture of Catalunya (IAAC), meanwhile working at Fab Lab Barcelona & Appareil. His current research inlcudes MagneticArchitecture.org and SmartCitizen.me.'
+  url: 'From internet to 6axis Robot, Alexandre Dubor is an architectural researcher hacking new technologies in an attempt to reinvent how we build and live in our cities. He is currently instructor in Digital Fabrication class for a post-graduate master at the Institute for Advanced Architecture of Catalunya (IAAC), meanwhile working at Fab Lab Barcelona & Appareil. His current research inlcudes MagneticArchitecture.org and SmartCitizen.me.'
+  img:
+  role: panelist
