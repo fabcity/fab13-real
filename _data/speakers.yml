@@ -220,3 +220,9 @@
   url: 'http://elizabeth-henaff.net/'
   img: eli.png
   role: panelist
+- name: Martin Tironi
+  bio: Developer of Fondecyt Smart Cities Chile
+  longbio: 'Martín Tironi es sociólogo de la Pontificia Universidad Católica de Chile, Magíster en Sociología en Université Paris-Sorbonne V y Ph.D en el Centre de Sociologie de l’Innovation (CSI), Ecole des Mines de Paris, y Post-Doctorado de este mismo centro de investigación. Actualmente es investigador y profesor de la Escuela de Diseño de la Pontificia Universidad Católica de Chile, participando de la cátedra de Investigación Etnográfica y Diseño y Diseño de Interacción. Actualmente desarrolla un proyecto de investigación (Fondecyt) sobre circulación del concepto de Smart Cities, conceptualizándolo en términos de experimentaciones y prototipos sociales.'
+  url: 'http://diseno.uc.cl/persona/martin-tironi/'
+  img: martin.jpg
+  role: panelist
