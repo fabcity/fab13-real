@@ -208,3 +208,9 @@
   url: 'https://www.linkedin.com/in/intinunez/?ppe=1'
   img: inti.jpg
   role: panelist
+- name: Skylar Tibbits
+  bio: Founder of the Self-Assembly Lab housed at MIT’s International Design Center
+  longbio: "Skylar Tibbits is a co-director and founder of the Self-Assembly Lab housed at MIT’s International Design Center. The Self-Assembly Lab focuses on self-assembly and programmable material technologies for novel manufacturing, products and construction processes.  Skylar is an Assistant Professor of Design Research in the Department of Architecture where he teaches graduate and undergraduate design studios and How to Make (Almost) Anything, a seminar at MIT's Media Lab with Neil Gershenfeld. Skylar was recently named R&D Magazine's 2015 Innovator of the Year, 2015 National Geographic Emerging Explorer, 2014 Inaugural WIRED Fellow, 2014 Gifted Citizen, 2013 Fast Company Innovation by Design Award, 2013 Architectural League Prize, The Next Idea Award at Ars Electronica 2013, Visionary Innovation Award at the Manufacturing Leadership Summit, 2012 TED Senior Fellow and was named a Revolutionary Mind in SEED Magazine’s 2008 Design Issue."
+  url: 'https://architecture.mit.edu/faculty/skylar-tibbits'
+  img: sky.jpg
+  role: speaker
