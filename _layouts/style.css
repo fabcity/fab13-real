@@ -2361,7 +2361,7 @@ video {
 
 @media (min-width: 768px) {
     .row-symposium {
-        padding: 50px 0px;
+        padding: 50px 0px 30px 0px;
     }
     .symposium-banner {
     background-size: cover;
