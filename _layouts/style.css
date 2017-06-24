@@ -179,6 +179,33 @@ h4.section-link {
     font-size: 13px;
 }
 
+/*Speacial subpages text definitions*/
+
+h3.subpage-title{
+    font-family: '{{ site.fonts.primary }}', 'Nunito', "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #{{ site.color.andeanpink }};
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.6px;
+   -webkit-text-stroke-color: #{{ site.color.andeanpink }};
+   padding-bottom: 30px;
+}
+
+p.subpage-subtitle {
+    color: #{{ site.color.whites }};
+    font-size: 27px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+p.subpage-entry {
+    color: #{{ site.color.whites }};
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 200;
+}
+
+
 /*---CSS TRANSITIONS---*/
 
 .bg-fade{
@@ -1574,9 +1601,9 @@ video {
 
     @media(min-width:767px) {
         .parallax__layer--back {
-            -webkit-transform: translateZ(-150px) scale(1.5);
-            transform: translateZ(-150px) scale(1.5);
-            -moz-transform: translateZ(-150px) scale(1.5);
+            -webkit-transform: translateZ(-150px) scale(1.52);
+            transform: translateZ(-150px) scale(1.52);
+            -moz-transform: translateZ(-150px) scale(1.52);
             z-index: 3;
         }
     }
@@ -2308,4 +2335,36 @@ video {
 
 .hotel {
     height: 400px;
+}
+
+.symposium-banner {
+    background-color: #{{ site.color.andeannavy }};
+    background-image: url(../img/backgrounds/symposium.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+    /*height: 400px;*/
+}
+
+.symposium-bg {
+    background-color: #{{ site.color.andeannavy }};
+    background-image: url(../img/symposium/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+}
+
+
+.row-symposium {
+    padding: 60px 0px;
+}
+
+@media (min-width: 768px) {
+    .row-symposium {
+        padding: 50px 0px;
+    }
+    .symposium-banner {
+    background-size: cover;
+    }
+
 }
