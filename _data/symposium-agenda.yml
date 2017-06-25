@@ -1,0 +1,11 @@
+events:
+  - name: Kickoff Ceremony
+    start: 9:00am
+    end: 10:00am
+    venue: Conference Hall
+    modalid: 1
+  - name: First Conference
+    start: 10:00am
+    end: 11:00am
+    venue: Conference Hall
+    modalid: 2

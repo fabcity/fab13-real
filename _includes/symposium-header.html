@@ -1,46 +1,44 @@
-<!--Travel Individual Page-->
+<!--Symposium Individual Page-->
 
-<div id="symposium-header" class="parallax__group" style="padding-top:0px; padding-bottom:100px;">
+<div id="symposium-header" class="parallax__group">
+  <div class="parallax__layer parallax__layer--base">
+    <div class="subpage-banner" style="background-image: url(../img/symposium/{{ site.data.symposium.intro.img }});">
+      <div class="container subpage-container">
+        <div class="row row-page row-symposium">
+          <div class="col-lg-12 text-center">
+            <h3 class="subpage-title">{{ site.data.symposium.intro.title }}</h3>
+          </div>
+          <div class="col-lg-12 text-center">
+            <p class="subpage-subtitle">{{ site.data.symposium.intro.subtitle }}</p>
+            <p class="subpage-entry">{{ site.data.symposium.intro.entry }}</p>
+            <div class="row text-center" style="padding-top:15px; padding-bottom: 40px;">
+                <a class="btn link-grow" href="/symposium#symposium-schedule">{{ site.data.symposium.intro.button }}</a> 
+            </div>
+          </div><!--col-->
+        </div><!--row-symposium-->
+      </div><!--container-->
+    </div> <!--subpage-banner-->
+  </div> <!--layer--base-->
+
+  <div class="parallax__layer parallax__layer--back text-center">
+    <div class="subpage-bg" style="background-image: url(../img/symposium/{{ site.data.symposium.intro.background }});"></div>
+  </div> <!--layer-back-->
 
   <div class="parallax__layer parallax__layer--base">
-    <div class="col-sm-12 col-md-12 symposium-banner">
-      <div class="container section-content text-center">
-        <div class="row row-page row-symposium">
-            <div class="col-lg-12 text-center">
-              <h3 class="subpage-title">FAB13 SYMPOSIUM</h3>
-            </div>
-            <div class="col-lg-12 text-center">
-              <p class="subpage-subtitle">From Moore’s Law to Lass’ Law: <br> The Next Fifty Years</p>
-              <p class="subpage-entry">Looking ahead to fifty years of doubling in digital <br>fabrication performance and access.</p>
-              <div class="row text-center" style="padding-top:15px;">
-                <a class="btn link-grow" href="">See the schedule</a>
-              </div>
-            </div>
+    <div class="col-sm-12 col-md-12" style="background-color: #1d3557">
+      <div class="container text-center">
+        <div class="row row-page" style="padding: 50px 0px 50px 0px;">
+          <div class="col-lg-12 text-center" id="subpage-desc">
+            <p> {{ site.data.symposium.intro.p1 }})</p><br>
+            <p> {{ site.data.symposium.intro.p2 }})</p><br>
+            <p> {{ site.data.symposium.intro.p3 }})</p><br>
+          </div>
         </div> <!--row-->
       </div> <!--container-->
     </div> <!--col-->
   </div> <!--layer--base-->
 
-  <div class="parallax__layer parallax__layer--back text-center">
-    <div class="symposium-bg"></div>
-  </div>
 
-    <div class="parallax__layer parallax__layer--base">
-      <div class="col-sm-12 col-md-12" style="background-color: #1d3557">
-        <div class="container text-center">
-          <div class="row row-page" style="padding: 50px 0px 50px 0px;">
-  <!--        <div class="col-lg-12 text-center">
-                <h3 class="section-title" style="color: #eb5f69;">Theme</h3>
-              </div> -->
-              <div class="col-lg-12 text-center">
-                <p style="color: white;">In 1965 Gordon Moore extrapolated five data points to make one of the most famous graphs in history, forecasting that the doubling of the number of components in an integrated circuit would continue for a decade. He was off by a little bit; the trend actually continued for fifty years. Moore's Law, as this came to be known, has defined the digital revolutions in communications and computation. <br>
-                Since the first fab lab was opened in 2003 the number of those has been doubling for more than a decade, surpassing 1000 now. That exponential trend was first noticed by Sherry Lassiter, aka Lass. Since there's already more data to support what could be called Lass' Law than Gordon Moore originally had, the FAB13 Symposium will look ahead to fifty years of doubling in digital fabrication performance and access. <br>
-                The day is organized as four moderated conversations with global leaders looking at the underlying science and technology, the opportunities and threats they bring, their implications for feeding minds and bodies, and their impact on society.  The overall goal will be to develop and share recommendations and roadmaps from each of these panels.</p>
-              </div>
-          </div> <!--row-->
-        </div> <!--container-->
-      </div> <!--col-->
-  </div> <!--layer--base-->
 </div> <!--symposium-header-->
 
 
