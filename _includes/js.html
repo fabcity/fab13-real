@@ -1,6 +1,6 @@
 <!-- jQuery Version 1.11.0 -->
 <!-- <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
- --><!-- jQuery -->
+--><!-- jQuery -->
 <!-- <script src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>-->
 <script src="http://code.jquery.com/jquery-latest.js"></script> 
 
@@ -27,49 +27,21 @@
 <!--Twitter call for last tweet home mosaic-->
 <script src="{{ "/js/twitter-call.js" | prepend: site.baseurl }}"></script>
 
-<!--Cookie consent script 
-  <script src="{{ "/js/bootstrap-cookie-consent.js" | prepend: site.baseurl }}"></script>  -->
-
-
-<!--Processing.js 
-<script src="{{ "/js/processing.js" | prepend: site.baseurl }}"></script> 
-<script src="{{ "/js/processing.min.js" | prepend: site.baseurl }}"></script> -->
-
-
-<!--Expandable-boxes 
-<script src="{{ "/js/expandable-box.js" | prepend: site.baseurl }}"></script> 
-<script src="{{ "/js/module-expand.js" | prepend: site.baseurl }}"></script> 
--->
-
-<!--Reveal elements -->
-<script src="{{ "/js/reveal-element.js" | prepend: site.baseurl }}"></script> 
-
-
 <!--Codyhouse schedule -->
 <script src="{{ "/js/codyhouse.js" | prepend: site.baseurl }}"></script> 
 
-<!--Timetable.js schedule
-  <script src="{{ "/js/timetable.js" | prepend: site.baseurl }}"></script>  -->
+<!--Show/hide Navbar when scroll-->
+<script src="{{ "/js/navbar-scrolling.js" | prepend: site.baseurl }}"></script>  
 
-  <!-- Contact-->
-  <script src="{{ "/js/contact-form.js" | prepend: site.baseurl }}"></script> 
+<!--Google spreadsheet to Jquery Parser-->
+<script src="{{ "/js/tabletop.min.js" | prepend: site.baseurl }}"></script> 
 
-  <!--Flip card contact form-->
-  <script src="{{ "/js/contact.js" | prepend: site.baseurl }}"></script> 
-
-  <!--Show/hide Navbar when scroll-->
-  <script src="{{ "/js/navbar-scrolling.js" | prepend: site.baseurl }}"></script>  
-
-  <!--Google spreadsheet to Jquery Parser-->
-  <script src="{{ "/js/tabletop.min.js" | prepend: site.baseurl }}"></script> 
-
-  <!--Map js-->
-  <script src="{{ "/js/map.js" | prepend: site.baseurl }}"></script> 
-
-  <!--Csv to Jquery Parser-->
-  <script src="{{ "/js/jquery.csv.min.js" | prepend: site.baseurl }}"></script> 
+<!--Map js-->
+<script src="{{ "/js/map.js" | prepend: site.baseurl }}"></script>  
 
 
+<!--Csv to Jquery Parser-->
+<script src="{{ "/js/jquery.csv.min.js" | prepend: site.baseurl }}"></script> 
 
 
 <!--
@@ -85,26 +57,26 @@ updateDebugState();
 
 <!-- svg fallback -->
 <script>
-function svgasimg() {
-  return document.implementation.hasFeature(
-    "http://www.w3.org/TR/SVG11/feature#Image", "1.1");
-}
-
-if (!svgasimg()){
-  var e = document.getElementsByTagName("img");
-  if (!e.length){
-    e = document.getElementsByTagName("IMG");
+  function svgasimg() {
+    return document.implementation.hasFeature(
+      "http://www.w3.org/TR/SVG11/feature#Image", "1.1");
   }
-  for (var i=0, n=e.length; i<n; i++){
-    var img = e[i],
-    src = img.getAttribute("src");
-    if (src.match(/svgz?$/)) {
-      /* URL ends in svg or svgz */
-      img.setAttribute("src", 
-       img.getAttribute("data-fallback"));
+
+  if (!svgasimg()){
+    var e = document.getElementsByTagName("img");
+    if (!e.length){
+      e = document.getElementsByTagName("IMG");
     }
-  }    
-}
+    for (var i=0, n=e.length; i<n; i++){
+      var img = e[i],
+      src = img.getAttribute("src");
+      if (src.match(/svgz?$/)) {
+        /* URL ends in svg or svgz */
+        img.setAttribute("src", 
+         img.getAttribute("data-fallback"));
+      }
+    }    
+  }
 </script>
 
 

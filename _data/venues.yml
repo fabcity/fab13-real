@@ -1,63 +1,44 @@
 - name: "Centro de Extensión Universidad Católica" 
   address: "Avenida Libertador Bernardo O'Higgins 390"
-  description: 
-  latitude: -33.440701
-  longitude: -70.641212
   url: "http://extension.uc.cl/"
   category: Fab Conference
 
 - name: "Centro Cultural Gabriela Mistral"
   address: "Avenida Libertador Bernardo O'Higgins 227"
-  description: 
-  latitude: -33.438402
-  longitude: -70.638149
   url: "http://www.gam.cl/"
   category: Fab Festival
 
 - name: "Fab Lab Santiago"
   address: "Seminario 642, Providencia" 
-  description: 
-  latitude: -33.449806
-  longitude: -70.627767
   url: "http://fablabsantiago.org/"
   category: Organizing Lab
 
 - name: "FabHaus"
   address: "El Comendador 1916, Providencia, Santiago" 
-  description: 
-  latitude: -33.420252
-  longitude: -70.618093
   url: "https://goo.gl/maps/AahJit9APh42"
   category: Hosting Labs
 
 - name: "Fab Lab UC"
   address: "Vicuña Mackenna 4860, Macul, Santiago" 
-  description: 
-  latitude: -33.497856
-  longitude: -70.615294
   url: "http://fablabuc.cl/"
   category: Hosting Labs
 
 - name: "Fab Lab U. de Chile"
   address: "Av. Beaucheff 851, Santiago"
-  description: 
-  latitude: -33.457914
-  longitude: -70.664698
   url: "https://goo.gl/maps/FbbmMTEt4Xp"
   category: Hosting Labs
 
 - name: "Campus Creativo Universidad Andrés Bello"
   address: "Diagonal Las Torres 2640, Peñalolén, Santiago"
-  description: 
-  latitude: -33.431548
-  longitude: -70.638249
   url: "https://campuscreativo.cl/"
   category: Hosting Labs
 
 - name: "Aconcagua Fab Lab"
   address: "Mobile Fab Lab!"
-  description: 
-  latitude:
-  longitude:
   url: "https://www.facebook.com/Aconcagua-FabLab-1845111535713373/"
   category: Hosting Labs
+
+- name: "CORPARTES"
+  address: "Rosario Nte 660, Las Condes, Región Metropolitana, Chile"
+  url: "http://www.corpartes.cl/"
+  category: Symposium
