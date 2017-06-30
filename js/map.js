@@ -99,10 +99,10 @@ function initialize() {
     }
     ],
     {name: 'Styled Map'});
+
   var mapOptions = {
     mapTypeId: 'roadmap'
   };
-
 
     // Display a map on the page
     map = new google.maps.Map(document.getElementById("map_canvas"), {
@@ -112,6 +112,7 @@ function initialize() {
         'styled_map']
       }
     }, mapOptions);
+
     map.setTilt(45);
 
     map.mapTypes.set('styled_map', styledMapType);
@@ -120,6 +121,7 @@ function initialize() {
     var conference = "/img/map/conference.png";
     var festival = "/img/map/festival.png";
     var labs = "/img/map/labs.png";
+    var symposium = "/img/map/symposium.png";
 
     // Multiple Markers
     var markers = [
@@ -129,7 +131,8 @@ function initialize() {
     ['FabHaus', -33.420252 , -70.618093, labs],
     ['Fab Lab UC', -33.497856, -70.615294, labs],
     ['Fab Lab U. de Chile', -33.457914, -70.664698, labs], 
-    ['Campus Creativo UNAB', -33.431548, -70.638249, labs]
+    ['Campus Creativo UNAB', -33.431548, -70.638249, labs],
+    ['CORPARTES', -33.404567, -70.573158, symposium],
     ];
 
     // Info Window Content
@@ -160,6 +163,10 @@ function initialize() {
     ['<div class="info_content">' +
     '<h5>Campus Creativo UNAB</h5>' +
     '<p>Hosting Lab</p>' +
+    '</div>'],
+    ['<div class="info_content">' +
+    '<h5>CORPARTES</h5>' +
+    '<p>Fab13 Symposium Venue</p>' +
     '</div>']
     ];
 
@@ -192,8 +199,9 @@ function initialize() {
 
     // Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
     var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
-      this.setZoom(12);
+      this.setZoom(11);
       google.maps.event.removeListener(boundsListener);
     });
-    
+
+
   }
