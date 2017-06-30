@@ -5,6 +5,6 @@
 
 - name: Resultado de la selección de workshops
   short: Revisa si tu workshop fue elegido para llevarse a cabo en Fab13!
-  url: /selected_workshops.pdf
+  url: "https://docs.google.com/spreadsheets/d/1KQksuiCkClyh7W7QdOw83xGTWTL7HJNn8jjvYITokmI/edit#gid=0"
   placement: right
 

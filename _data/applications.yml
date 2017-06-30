@@ -1,8 +1,8 @@
-- name: 'Soon we will publish the selected volunteer!'
+- name: 'Soon we will publish the selected volunteers!'
   short:
   url:
   placement: right
 - name: Workshop selection results
   short: 'Check out if your workshop was selected to be held at Fab13!'
-  url: /selected_workshops.pdf
+  url: "https://docs.google.com/spreadsheets/d/1KQksuiCkClyh7W7QdOw83xGTWTL7HJNn8jjvYITokmI/edit#gid=0"
   placement: right

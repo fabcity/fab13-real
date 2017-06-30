@@ -4,7 +4,7 @@ imgs:
   - file: gamm.png
     url: '/#venues'
   - file: selected-workshops.svg
-    url: /selected_workshops.pdf
+    url: "https://docs.google.com/spreadsheets/d/1KQksuiCkClyh7W7QdOw83xGTWTL7HJNn8jjvYITokmI/edit#gid=0"
   - file: colpa.png
     url: '/#venues'
   - file: fabricating-society.svg
