@@ -227,10 +227,10 @@
   img: martin.jpg
   role: panelist
 - name: Alexandre Dubor
-  bio: IAAC Researcher at  MagneticArchitecture.org and SmartCitizen.me
+  bio: Researcher in Digital Fabrication for Architecture at IAAC. 
   longbio: 'From internet to 6axis Robot, Alexandre Dubor is an architectural researcher hacking new technologies in an attempt to reinvent how we build and live in our cities. He is currently instructor in Digital Fabrication class for a post-graduate master at the Institute for Advanced Architecture of Catalunya (IAAC), meanwhile working at Fab Lab Barcelona & Appareil. His current research inlcudes MagneticArchitecture.org and SmartCitizen.me.'
   url: 'http://iaac.net/'
-  img: alex.jpg
+  img: alex.png
   role: panelist
 - name: Armando Azua-Bustos
   bio: CEO of Atacama Biotech
