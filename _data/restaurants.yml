@@ -1,21 +1,16 @@
-# Remember to put image files inside /img/travel/restaurants
-
-- name: "Bocanáriz"
-  short: "Situated in the heart of one of the most beautiful and historic neighbourhoods in the city."
+- name: Bocanáriz
+  short: 'Situated in the heart of one of the most beautiful and historic neighborhoods in the city. 15% Discount on all the menu.'
   img: bocanariz.jpg
-  url: "http://www.bocanariz.cl/en/home/"
-
-- name: "Chipe Libre"
-  short: "Independent Republic of Pisco"
+  url: 'http://www.bocanariz.cl/en/home/'
+- name: Chipe Libre
+  short: 'Independent Republic of Pisco. 15% Discount on all the menu.'
   img: chipe.jpg
-  url: "https://www.facebook.com/chipelibrerepublicaindependientedelpisco"
-
-- name: "Castillo Forestal"
-  short: "A unique gastronomic experience inside a national leritage building"
+  url: 'https://www.facebook.com/chipelibrerepublicaindependientedelpisco'
+- name: Castillo Forestal
+  short: 'A unique gastronomic experience inside a national heritage building. 15% Discount on all the menu.'
   img: castillo.jpg
-  url: "http://castilloforestal.cl/"
-
-- name: "La Misión"
-  short: "Gastronomy inspired in wine's flavours."
+  url: 'http://castilloforestal.cl/'
+- name: La Misión
+  short: "Gastronomy inspired in wine's flavours. 20% Discount on all the menu."
   img: mision.jpg
-  url: "http://www.lamisionsantiago.cl/"
+  url: 'http://www.lamisionsantiago.cl/'
