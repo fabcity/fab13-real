@@ -1,0 +1,31 @@
+# Remember to put image files inside /img/travel/hotels
+
+- name: HOTEL CUMBRES DE LASTARRIA
+  short: "Nestled in Santiago de Chile's Lastarria District."
+  img: cumbres_lastarria.jpg
+  url: "https://reservations.travelclick.com/97344?groupID=1973700#/guestsandrooms"
+
+- name: HOTEL ISMAEL 312
+  short: "Located close to one of the most attractive cultural and historic quarter of Santiago de Chile"
+  img: hotel_ismael.jpg
+  url: "https://reservations.travelclick.com/85437?hotelId=85437&RateplanId=2383157&Identifier=FABLAB#/guestsandrooms"
+
+- name: HOTEL CROWNE PLAZA
+  short: "23-story hotel in a commercial area of Santiago at a close proximity to Costanera Center, Cerro Santa Lucia and La Moneda"
+  img: crowne-plaza-santiago.png
+  url: "https://www.ihg.com/crowneplaza/hotels/us/en/santiago/sclco/hoteldetail?qAdlt=1&qBrs=6c.hi.ex.rs.ic.cp.in.sb.cw.cv.ul.vn.ki.sp.nd.ct&qChld=0&qFRA=1&qGRM=0&qGrpCd=FBL&qIta=99801505&qPSt=0&qRRSrt=rt&qRef=df&qRms=1&qRpn=1&qRpp=20&qSHp=1&qSmP=3&qSrt=sBR&qWch=0&srb_u=1&icdv=99801505"
+
+- name: HOTEL FUNDADOR
+  short: "4-star accomodation located in downtown Santiago´s traditional Paris-London district."
+  img: fundador.jpg
+  url: "http://www.novapark.cl/congreso_fablab_hf/reservar.html"
+
+- name: HOTEL NOVAPARK
+  short: "Located in the historical centre of the city, close to shops and restaurants."
+  img: nova.jpg
+  url: "http://www.novapark.cl/congreso_fablab_hn/reservar.html"
+
+- name: HOTEL REGAL PACIFIC
+  short: "5-star accommodation, varied dining options and a wellness centre in the heart of Santiago."
+  img: regal.jpg
+  url: "https://reservations.travelclick.com/4796?groupID=1986198#/guestsandrooms"
