@@ -63,6 +63,28 @@
           <p class="bold">Si estás interesado en tomar uno de estos tours profavor contactar a Cocha Tours - Carolina Sciaccaluga csciaccaluga@cocha.com o Marianela Arias marias@cocha.com. Tel: 56-22-4641500 /1504/1532</p>
       </div>
 
+      <div class="row row-page" id="travel-restaurants">
+        <div class="col-sm-12 text-center">
+          <h4 class="section-title">Restaurantes</h4>
+        </div>
+        <div class="col-lg-12 text-center">
+          <p>Tendrás descuentos especiales en estos restaurantes si presentas tus credenciales de Fab13!</p>
+        </div>
+        {% for restaurant in site.data.restaurants %}
+        <a href="{{ restaurant.url }}" target="_blank">
+        <div class="col-xs-12 col-sm-6 col-md-6 track-box bg-fade box-grow hotel">
+          <div class="hotel-img bg-img" style="background-image: url(../img/travel/restaurants/{{ restaurant.img }});">
+          </div>
+          <div class="hotel-description">
+            <h4>{{ restaurant.name }}</h4>
+            <div class="text-center" style="margin:0% 5%">
+              <p>{{ restaurant.short }}<span class="bold"></br>+visitar web</span></p>
+            </div>  
+          </div>
+        </div>  
+        </a>
+       {% endfor %}
+      </div><!--row-->
 
 
       <div class="row row-page" id="invitation-letters">
