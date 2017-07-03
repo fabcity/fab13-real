@@ -138,3 +138,7 @@
   role: restaurant
   url: 'http://castilloforestal.cl/'
   img: castillo.png
+- organization: Siemens
+  role: sponsor
+  url: 'https://www.siemens.com/global/en/home.html'
+  img: siemens.png
