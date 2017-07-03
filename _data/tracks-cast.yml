@@ -35,7 +35,7 @@
   img: innovation-w
   imgmodal: innovation-modal
   modalid: 9
-  color: a8dadc
+  color: 8fcbce
   text: "Los fab labs son plataformas de manufactura que permiten retar a los sistemas de producción convencionales. En este sentido pueden ser un complemento a la industria, la cual a su vez puede ser fortalecida por su capacidad de producir objetos innovadores utilizando lenguaje digital. Del mismo modo, los fab labs pueden apoyar a los emprendedores en el proceso de convertir sus prototipos en productos."
   speakers:
     - name: Nadya Peek
@@ -80,7 +80,7 @@
   img: decentralization-w
   imgmodal: decentralization-modal
   modalid: 12
-  color: c5d4c2
+  color: b4c1b2
   text: "Debido a la extensión geográfica de Chile y el crecimiento gradual de cada una de sus regiones, Santiago, la capital, concentra prácticamente el 40% de la población total del país. Gracias a que Fab13 será un evento de gran interés público, tanto nacional como internacionalmente, y con el objetivo de amplificar el impacto de este encuentro, hemos decidido extender su alcance a las regiones creando el ‘Off Lab’, en el cual varios miembros de la red global de Fab Labs viajarán a algunas de las regiones del país para desarrollar actividades, workshops, charlas y participar en festivales regionales."
   speakers:
     - name: Nadya Peek

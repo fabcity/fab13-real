@@ -35,7 +35,7 @@
   img: innovation-w
   imgmodal: innovation-modal
   modalid: 3
-  color: a8dadc
+  color: 8fcbce
   text: "Fab Labs are manufacturing platforms that allow conventional production schemes to be challenged. In this sense, Fab Labs can be a complement to the industry, which in turn can be strengthened by their capacity to produce innovative objects using digital language. In the same way, Fab Labs can also support entrepreneurs as they turn prototypes into products."
   speakers:
     - name: Nadya Peek
@@ -80,7 +80,7 @@
   img: decentralization-w
   imgmodal: decentralization-modal
   modalid: 6
-  color: c5d4c2
+  color: b4c1b2
   text: "Given Chile’s geographic extension and the gradual growth of each of its regions, Santiago, the capital, concentrates practically 40% of the total population. As this will be an event of tremendous public interest, on both a national and international level, and with the objective of amplifying the impact of this meeting, we have decided to extend its reach to the regions, creating the Off Lab, in which various members of Fab Labs’ world network will travel to some of the country’s regions to develop activities, workshops, talks and to participate in regional festivals."
   speakers:
     - name: Nadya Peek

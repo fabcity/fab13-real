@@ -1,44 +1,46 @@
  <!-- Tracks Modals -->
 {% for track in site.data.tracks %}
 <div class="track-modal modal fade" id="tracksModal{{ track.modalid }}">
-    <div class="modal-content modal-particles" style= "background-color: #{{ track.color }}; ">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
+    <div class="modal-dialog">
+        <div class="modal-content modal-particles" style= "background-color: #{{ track.color }}; ">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
                 </div>
             </div>
+            <div class="container text-center">
+                <div class="row" style="padding-bottom:20px;">
+                    <div>
+                        <div class="modal-body text-center">
+                            <img class="img-icon" src="/img/icons/{{ track.imgmodal }}.svg" data-fallback="/img/icons/{{ track.imgmodal }}.png" >
+                            <h2>{{ track.name }}</h2>         
+                            <p>{{ track.text }}</p>
+                            <h4>Speakers</h4>
+                            <!--
+                                <a href="/speakers" alt="{{ speaker.name }}">
+                                    <div class="modal-speaker" style= "background-image: url(..{{ speaker.img }});"> </div>
+                                </a>
+                            -->
+                            <p>To be announced!</p>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="padding-bottom:10px;">
+                    <div>
+                        <div class="modal-body text-center">
+                             <h4>Activities</h4>
+                             <p>To be announced!</p>    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <a class="page-scroll btn btn-inverted" data-dismiss="modal">Close</a>
+                </div>
+             </div> <!--container -->
         </div>
-        <div class="container">
-            <div class="row" style="padding-bottom:20px;">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body text-center">
-                        <img class="img-icon" src="/img/icons/{{ track.imgmodal }}.svg" data-fallback="/img/icons/{{ track.imgmodal }}.png" >
-                        <h2>{{ track.name }}</h2>         
-                        <p>{{ track.text }}</p>
-                        <h4>Speakers</h4>
-                        <!--
-                            <a href="/speakers" alt="{{ speaker.name }}">
-                                <div class="modal-speaker" style= "background-image: url(..{{ speaker.img }});"> </div>
-                            </a>
-                        -->
-                        <p style="padding-top: 30px;">To be announced!</p>    
-                    </div>
-                </div>
-            </div>
-
-            <div class="row" style="padding-bottom:10px;">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="modal-body text-center">
-                         <h4>Activities</h4>
-                         <p style="padding-top: 30px;">To be announced!</p>    
-                    </div>
-                </div>
-            </div>
-
-            <div class="row text-center">
-                <a class="page-scroll btn btn-inverted" data-dismiss="modal">Close</a>
-            </div>
-         </div> <!--container -->
     </div>
 </div>
 {% endfor %}
