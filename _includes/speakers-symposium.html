@@ -21,7 +21,7 @@
             {% for speaker in site.data.speakers %} 
               {% if speaker.role == "moderator" %}
                   <a href="{{ speaker.url }}" target="_blank">
-                    <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
+                    <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box box-grow">
                       <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>  
                       <h4>{{ speaker.name }}</h4>
                       <p class="speakerbio">{{ speaker.bio }}</p>
@@ -39,7 +39,7 @@
             {% for speaker in site.data.speakers %} 
               {% if speaker.role == "speaker" %}
                   <a href="{{ speaker.url }}" target="_blank">
-                    <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box">
+                    <div class="col-xs-12 col-sm-3 col-md-3 text-center speaker-box box-grow">
                       <div class="imgs-speaker" style= "background-image: url(../img/speakers/{{ speaker.img }});"> </div>  
                       <h4>{{ speaker.name }}</h4>
                       <p class="speakerbio">{{ speaker.bio }}</p>
