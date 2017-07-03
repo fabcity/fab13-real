@@ -2494,3 +2494,11 @@ ul.horario {
     margin:0;
   }
 }
+
+
+ul.bullet-list {
+    list-style: disc outside none;
+    padding-left: 25px;
+    font-size: 13px;
+    line-height: 1.5;
+}
