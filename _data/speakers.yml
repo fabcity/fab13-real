@@ -250,15 +250,15 @@
   url: 'https://www.linkedin.com/in/laurenslowik/'
   img: lau.jpeg
   role: panelist
-- name:
-  bio:
-  longbio:
-  url:
+- name: Gian-Paolo Bassi
+  bio: CEO Dassault/Soldworks
+  longbio: 'Gian Paolo Bassi brings more than 25 years of experience in 3D, CAD, and PLM industries to Dassault Systèmes SolidWorks Corp. As CEO, Gian Paolo spearheads the development of SOLIDWORKS future product and technology strategies designed for the desktop and the cloud, and collaboration with the strong user community. He most recently served as the vice president of research and development, where he was responsible for charting future product and technology strategies, including the development of the SOLIDWORKS cloud applications. Prior to SOLIDWORKS, Gian Paolo was the founder and CTO of RIWEBB where he oversaw the development of new technologies for the Mechanical and Architectural Design Automation industry, collaborating with companies like Dassault Systèmes. Prior to RIWEBB, Gian Paolo served as vice president and CTO of ImpactXoft, where he led the team developing functional modeling and collaboration applications which are now part of CATIA. In this position, he co-invented three of his five patents in functional modeling. He also served in the R&D organizations of companies like Computervision and think3. Gian Paolo holds a degree in Mechanical Engineering from the University of Bologna.'
+  url: 'http://www.solidworks.com/sw/executive-management/gian-paolo-bassi.htm'
   img: gian.jpg
   role: speaker
-- name:
-  bio:
-  longbio:
-  url:
+- name: Yogesh Kulkarni
+  bio: Software Engineering Director at Dell and Project Manager at Vigyan Ashram
+  longbio: "Strong program management skills and expertise right from hardware design to firmware development including assembly, BIOS, EFI and application development with a total of 15+ years of experience with:  •\tMore than 4 years of experience in program management & coordination of multi-location projects handling around 30+ engineers. •\t6 years of system level programming in SAL, BIOS & EFI development on IA-64, Xeon and Opteron based multiprocessor systems, IPMI firmware development and network search engines control plane firmware development. •\t3+ years of experience in the area of IEEE 1394. This involved development of Kernel mode Device drivers for 1394 PCI card on Windows NT & all phases of product development using VC++.  •\t3+ years of experience in embedded systems. This involved working on microprocessors & microcontrollers using assembly languages & C  Specialties: Server architecture, BIOS, Firmware, Program management for large teams spaning multi-location"
+  url: 'http://vigyanashram.com/'
   img: yog.jpg
   role: speaker
