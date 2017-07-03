@@ -250,3 +250,15 @@
   url: 'https://www.linkedin.com/in/laurenslowik/'
   img: lau.jpeg
   role: panelist
+- name:
+  bio:
+  longbio:
+  url:
+  img: gian.jpg
+  role: speaker
+- name:
+  bio:
+  longbio:
+  url:
+  img: yog.jpg
+  role: speaker
