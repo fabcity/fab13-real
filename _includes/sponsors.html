@@ -113,6 +113,21 @@
                     {% endfor %}
                 </div>
 
+                <div class="row text-center sponsor-row">
+                    <div class="col-md-12">
+                       <p class="text-muted bold sponsor-row">Partner Restaurants</p>
+                    </div>
+                    {% for sponsor in site.data.sponsors %}
+                        {% if sponsor.role == 'restaurant' %}
+                           <a href="{{ sponsor.url }}" target="_blank">
+                                <div class="col-xs-4 col-sm-2 col-md-2 sponsor-div link-grow">
+                                    <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
+                                </div>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
             </div><!--container-->   
         </aside>
     </div> <!-- layer base -->

@@ -122,3 +122,19 @@
   role: lab
   url: 'https://www.facebook.com/Aconcagua-FabLab-1845111535713373/'
   img: aconcagua.png
+- organization: Bocanáriz
+  role: restaurant
+  url: 'http://www.bocanariz.cl/en/home/'
+  img: bocanariz.png
+- organization: Chipe Libre
+  role: restaurant
+  url: 'https://www.facebook.com/chipelibrerepublicaindependientedelpisco'
+  img: chipe.png
+- organization: La Misión
+  role: restaurant
+  url: 'http://www.lamisionsantiago.cl/'
+  img: mision.png
+- organization: Castillo Forestal
+  role: restaurant
+  url: 'http://castilloforestal.cl/'
+  img: castillo.png
