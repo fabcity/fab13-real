@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
+    
+    <body id="page-top" class="index">  
+        {% include navbar.html %}
+       
+    <div class="parallax">   
+    	{% include symposium-header.html %}
+        
+        <a id="sched-embed" href="https://fab13test2017.sched.com/overview/type/Energy+and+Environment">View the FAB13 schedule & directory.</a><script type="text/javascript" src="//fab13test2017.sched.com/js/embed.js"></script>
 
-    <body id="page-top" class="index">
-    {% include navbar.html %}    
-    {% include js.html %}
-
+        {% include tickets.html %}
+        {% include faq.html %}
+        {% include sponsors.html %}
+        {% include subscribe.html %}
+        {% include footer.html %}
+    </div>
+        {% include modals.html %}
+        {% include mailchimp-modal.html %}
+        {% include email-modal.html %}
+        {% include speakers-modals.html %}
+        {% include js.html %}
     </body>
+
+
 
 </html>

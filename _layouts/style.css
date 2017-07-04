@@ -2508,3 +2508,8 @@ ul.bullet-list {
     font-size: 13px;
     line-height: 1.5;
 }
+
+
+.cartodb-text {
+    display: none;
+}
