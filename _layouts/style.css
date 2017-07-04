@@ -2513,3 +2513,7 @@ ul.bullet-list {
 .cartodb-text {
     display: none;
 }
+
+.mapa-carto {
+    padding-bottom: 50px;
+}
