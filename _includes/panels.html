@@ -18,17 +18,23 @@
 
       {% for panel in site.data.panels %}
       <a href="{{ panel.url }}" target="_blank">
-      <div class="row text-left" style="padding-bottom: 30px;">
-        <div class="col-sm-12 box-grow paneles">
+      <div class="row text-left box-grow" style="padding-bottom: 30px;">
+        <div class="col-sm-12 paneles">
             <div>
               <p class="bold large">{{ panel.name }}</p>
             </div>
             <div>
                 <p>{{ panel.description }}</p>
             </div> 
-            <div>
+            <div class="row" style="padding:0;">
+            {% for speaker in panel.speakers %} 
+                  <div class= "imgs-speaker micro" style= "background-image: url(../img/speakers/{{ speaker.img }});"> 
+                  </div> 
+             {% endfor %}
+            </div>
+<!--             <div>
                 <p class="panel-speakers">{{ panel.speakers }}</p>
-            </div> 
+            </div>  -->
             <div>
               <span class="bold">+add to my Sched </span> 
             </div>

@@ -275,6 +275,13 @@ p.subpage-entry {
     margin-bottom:20px;
 }
 
+.imgs-speaker.micro {
+     width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
 @media(min-width: 768px) { 
     .imgs-speaker {
         height: 170px;
