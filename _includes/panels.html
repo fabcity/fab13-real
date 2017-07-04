@@ -1,0 +1,60 @@
+<!--Panel Modules-->
+
+<div id="panels" class="parallax__group">
+
+  <div class="parallax__layer parallax__layer--back">
+    <img class="bg-responsive" src="/img/backgrounds/color-top-navy.svg"/>
+  </div>
+
+
+  <div class="parallax__layer parallax__layer--base">
+    <div class="container section-content text-center">
+      
+      <div class="row row-page" style="padding-top: 0px;">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-title">Panels</h3>
+        </div>
+      </div><!--row-->
+
+      {% for panel in site.data.panels %}
+      <a href="{{ panel.url }}" target="_blank">
+      <div class="row text-left" style="padding-bottom: 30px;">
+        <div class="col-sm-12 box-grow paneles">
+            <div>
+              <p class="bold large">{{ panel.name }}</p>
+            </div>
+            <div>
+                <p>{{ panel.description }}</p>
+            </div> 
+            <div>
+                <p class="panel-speakers">{{ panel.speakers }}</p>
+            </div> 
+            <div>
+              <span class="bold">+add to my Sched </span> 
+            </div>
+        </div><!--col--> 
+      </div><!--row-->
+      </a>
+      {% endfor %}
+       
+
+
+    </div><!--container-->
+  </div><!--layer base-->
+</div><!--parallax-group-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

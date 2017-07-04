@@ -2517,3 +2517,14 @@ ul.bullet-list {
 .mapa-carto {
     padding-bottom: 50px;
 }
+
+.paneles {
+    padding: 40px;
+    background-color: #{{ site.color.andeansand }};
+}
+
+.panel-speakers {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
