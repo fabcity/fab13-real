@@ -29,7 +29,7 @@
 				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
 					<h4 class="venue-category">Symposium </h4>
 					{% for venue in site.data.venues %} 
-					{% if venue.category == "Symposium" %} 
+					{% if venue.type == "Symposium" %} 
 					<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 						<p class="venue-address"> {{ venue.address }}</p>
 					</a>
