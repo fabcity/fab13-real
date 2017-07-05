@@ -1,6 +1,6 @@
 <!-- Schedule section-->
 
-<div id="schedule" class="parallax__group">
+<div id="schedule-symposium" class="parallax__group">
 
 	<div class="parallax__layer parallax__layer--back text-center">
 		<img class="bg-responsive" src="/img/backgrounds/color-top-navy.svg"/>
@@ -10,6 +10,10 @@
 	<div class="parallax__layer parallax__layer--base">
 		<div class="container section-content" id="symposium-schedule">
 			<h3 class="section-title"> Schedule </h3>
+		
+			<a id="sched-embed" data-sched-sidebar="no" href="https://fab13.sched.com/type/Symposium">View the FAB13 mobile app</a><script type="text/javascript" src="http://fab13.sched.com/js/embed.js"></script>
+
+			<!--Old Option
 			<ul class="horario">
 			<li class="fecha">
 				<h3>Aug 4</h3>
@@ -19,17 +23,20 @@
 				<li class= "eventos">
 					<ul class="eventos-detail">
 						<li>
-<!-- 							<a data-toggle="modal" data-target="#symposium-event">
- -->							<span class="evento-time">{{ event.start }} - {{ event.end }}  </span>
+							<a data-toggle="modal" data-target="#symposium-event">
+							<span class="evento-time">{{ event.start }} - {{ event.end }}  </span>
 								<span class="evento-name">{{ event.name }}</span>
 								<br />
 								<span class="evento-location">{{ event.venue }}</span>
-<!-- 							</a>
- -->						</li>
-					</ul><!--eventos-detail-->
-				</li><!--Eventos-->
+ 							</a>
+						</li>
+					</ul>
+				</li>
 			{% endfor %}
-			</ul> <!--horaio-->
+			</ul> -->
+
+
+
 		</div> <!--container -->
 	</div><!--layer-base-->
 
