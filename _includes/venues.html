@@ -30,7 +30,7 @@
 					<div class="venue-block">
 						<h4 class="venue-category">Symposium </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.type == "Symposium" %} 
+						{% if venue.category == "Symposium" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
@@ -40,7 +40,7 @@
 					<div class="venue-block">
 						<h4 class="venue-category">Fab Conference </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.type == "Fab Conference" %} 
+						{% if venue.category == "Fab Conference" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
@@ -50,7 +50,7 @@
 					<div class="venue-block">
 						<h4 class="venue-category">Fab Festival  </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.type == "Fab Festival" %} 
+						{% if venue.category == "Fab Festival" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
@@ -62,7 +62,7 @@
 					<div class="venue-block">
 						<h4 class="venue-category">Organizing Lab </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.type == "Organizing Lab" %} 
+						{% if venue.category == "Organizing Lab" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
@@ -74,7 +74,7 @@
 					<div class="venue-block">
 						<h4 class="venue-category">Hosting Fab Labs </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.type == "Hosting Labs" %} 
+						{% if venue.category == "Hosting Labs" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
