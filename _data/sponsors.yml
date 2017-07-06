@@ -142,3 +142,15 @@
   role: sponsor
   url: 'https://www.siemens.com/global/en/home.html'
   img: siemens.png
+- organization: Shopbot
+  role: sponsor
+  url: 'http://www.shopbottools.com/'
+  img: shopbot.png
+- organization: Sindoh
+  role: sponsor
+  url: 'http://www.sindoh-america.com/'
+  img: sindoh.png
+- organization: Forest Scientific Corporation
+  role: sponsor
+  url: 'http://forestscientific.com/'
+  img: forest-corporation.png
