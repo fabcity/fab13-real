@@ -286,3 +286,9 @@
   url: 'http://www.brooketoczylowski.com/'
   img: brook.jpg
   role: panelist
+- name: Sonya Pryor-Jones
+  bio: Chief Implementation Officer at Fab Foundation (MIT)
+  longbio:
+  url: 'https://www.linkedin.com/in/sonya-pryor-jones/'
+  img: sony.jpg
+  role: panelist
