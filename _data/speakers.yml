@@ -41,7 +41,7 @@
   img: gonzalo-rey.jpg
   role: speaker
 - name: Tomás Vivanco
-  bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation | Professor Design School Pontifical Catholic University of Chile'
+  bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation | Assistant Professor Design School Pontifical Catholic University of Chile'
   longbio:
   url: 'http://diseno.uc.cl/persona/tomas-vivanco/'
   img: tomasvv.jpg
@@ -65,7 +65,7 @@
   img: alysia.jpg
   role: speaker
 - name: James Tooze
-  bio: Designer / Maker / Researcher / Tutor at ‎Royal College of Art
+  bio: Tutor at ‎Royal College of Arts
   longbio: 'James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College of Art. He is a designer and researcher, with his research, both commercial and academic, focusing on three interwoven areas: open design, open fabrication and digital manufacturing. A graduate of the Design Products programme, he also trained as a furniture designer and cabinetmaker, and continues to practice.'
   url: 'https://www.rca.ac.uk/more/staff/james-tooze/'
   img: james.jpg
@@ -89,7 +89,7 @@
   img: patricio.jpg
   role: panelist
 - name: Juan Felipe Lopez
-  bio: '‎"Executive Director at Laboratorio de Gobierno, Chile"'
+  bio: '‎Executive Director at Laboratorio de Gobierno, Chile'
   longbio:
   url: 'http://www.lab.gob.cl/'
   img: juan-felipe.jpg
@@ -125,13 +125,13 @@
   img: joel.jpg
   role: moderator
 - name: Mara Balestrini
-  bio: Project Manager Fab Lab Barcelona- Coordinator of Making Sense
+  bio: 'Researcher at Fab City | Director of Making Sense'
   longbio: 'Mara is a Human Computer Interaction (HCI) researcher and a technology strategist. She leads the Research Lab at Ideas for Change, a think tank and consultancy firm advising cities, businesses and institutions on innovation, open and collaborative strategies, civic tech, and exponential growth (see our frameworks @pentagrowth and @The Bristol approach). She is also a project manager at the Fab Lab Barcelona where she coordinates Making Sense, a European project that seeks to empower citizens through personal digital manufacturing applied to the design of environmental sensors.'
   url: 'https://marabales.com/contact/'
   img: marabb.png
   role: panelist
 - name: John N. Randall
-  bio: Atomically-Precise Manufacturing -President of Zyvex Labs
+  bio: 'Atomically Precise Manufacturing  | President of Zyvex Labs'
   longbio: "John Randall has over twenty years of experience in micro- and nanofabrication. He is a key contributor to Zyvex Labs, having defined the company's Atomically Precise Manufacturing program, which he serves as Program Manager and Principal Investigator. He originally joined Zyvex Corporation in March of 2001 after fifteen years at Texas Instruments where he worked in high resolution processing for integrated circuits, MEMS, and quantum effect devices. Prior to working at TI, John worked at MIT’s Lincoln Laboratory on ion beam and x-ray lithography."
   url: 'http://www.zyvexlabs.com/About2012/RandallBio.html'
   img: johnr.png
@@ -143,13 +143,13 @@
   img: puneet.png
   role: speaker
 - name: Alberto Gonzalez
-  bio: 'Design Director, Freshwater Chile'
+  bio: 'Design Director, Freshwater Chile | Associate Professor Design School Pontifical Catholic University of Chile'
   longbio:
   url: 'http://www.freshwatersolutions.org/'
   img: alberto.PNG
   role: panelist
 - name: Beno Juarez
-  bio: Director of the Floating Fab Lab Amazon
+  bio: 'Director  Floating Fab Lab Amazon | Fab Lab Lima'
   longbio:
   url: 'https://www.linkedin.com/in/benojuarez/?ppe=1'
   img: beno.png
@@ -161,26 +161,26 @@
   img: lito.png
   role: speaker
 - name: Pedro Vidal
-  bio: 'Manager at Se.Santiago: Programa Santiago Ciudad Inteligente'
+  bio: 'Manager Se.Santiago: Programa Santiago Ciudad Inteligente'
   longbio:
   url: 'http://sesantiago.cl/se/'
   img: pedro-vidal.jpg
   role: panelist
 - name: Liz Corbin
-  bio: Researcher at the Institute of Making
+  bio: 'Researcher at the Institute of Making UCL, London'
   longbio: 'Liz is a doctoral researcher at the Institute of Making. Corbin’s research explores the emergence of open workshops in Britain; investigating the materials, processes and cultures of practice indicative of this ever-fluid sector, particularly in relation to systems of production. Corbin holds a BA in Design and an MA in Material Culture. She is a contributor to the Fab City Global Initiative, collaborator of the Future Makespaces in Redistributed Manufacturing RCA project, and strategic partner to the Hello Shenzhen British Council programme. Her work has included founding the Open Workshop Network as well as co-founding Maker Assembly, and has helped to shape the debate around makerspaces and maker culture in Britain.'
   url: 'http://www.instituteofmaking.org.uk/about/people'
   img: lizc.png
   role: panelist
 - name: Patrick Colgan
-  bio: Senior Adviser -Government of Ireland
+  bio: Senior Adviser - Government of Ireland
   longbio: "Seconded by the Government of Ireland to work in Bogota, Colombia to share the experiences of the Northern Ireland / Ireland PEACE Programmes as part of Ireland's contribution to the peace process in Colombia. Assigned also to represent Ireland at meetings of the EU Trust Fund for Colombia and the United Nations Multi-Donor Fund for Colombia under the aegis of the Embassy of Ireland in Mexico, accredited to the Colombian Government. Working closely with the Ministry for Post Conflict in Bogota, I am involved in developing close working relations with Government agencies responsible for the implementation of the peace agreements and with Civic Society organisations engaged in peace building."
   url: 'https://www.linkedin.com/in/patrick-colgan-37272b109/?ppe=1'
   img: pat.png
   role: speaker
 - name: Nadya Peek
-  bio: 'Researcher at MIT, Center for Bits and Atoms working on machines/digital fabrication/control.'
-  longbio: MIT- Machines that make machines
+  bio: 'Researcher at MIT, Center for Bits and Atoms working | Machines that Make Machines'
+  longbio: 'CBA MIT  | Machines That Make Machines'
   url: 'http://mtm.cba.mit.edu/machines/science/'
   img: nadya.jpg
   role: panelist
@@ -191,7 +191,7 @@
   img: ott.png
   role: panelist
 - name: Patricia Manns
-  bio: Designer and Master in Educational Technologies at Mafa Chile
+  bio: 'Designer project MAFA | Associate Professor Design School Pontifical Catholic University of Chile'
   longbio: 'Licenciada en Diseño de la Pontificia Universidad Católica de Chile y máster en Tecnologías Educativas de el Instituto Tecnológico de Monterrey, México.'
   url: 'https://www.mafa.cl/'
   img: patricia-manns.webp
@@ -202,14 +202,8 @@
   url: 'http://www.veritas.cr/staff/robert-garita'
   img: rob.png
   role: panelist
-- name: Inti Nuñez
-  bio: Former manager at CORFO- Chile
-  longbio: 'Facultad de Ingenieria, Universidad de Concepción  - Pontificia Universidad Católica de Chile'
-  url: 'https://www.linkedin.com/in/intinunez/?ppe=1'
-  img: inti.jpg
-  role: panelist
 - name: Skylar Tibbits
-  bio: Founder of the Self-Assembly Lab housed at MIT’s International Design Center
+  bio: Director Self-Assembly Lab - MIT
   longbio: "Skylar Tibbits is a co-director and founder of the Self-Assembly Lab housed at MIT’s International Design Center. The Self-Assembly Lab focuses on self-assembly and programmable material technologies for novel manufacturing, products and construction processes.  Skylar is an Assistant Professor of Design Research in the Department of Architecture where he teaches graduate and undergraduate design studios and How to Make (Almost) Anything, a seminar at MIT's Media Lab with Neil Gershenfeld. Skylar was recently named R&D Magazine's 2015 Innovator of the Year, 2015 National Geographic Emerging Explorer, 2014 Inaugural WIRED Fellow, 2014 Gifted Citizen, 2013 Fast Company Innovation by Design Award, 2013 Architectural League Prize, The Next Idea Award at Ars Electronica 2013, Visionary Innovation Award at the Manufacturing Leadership Summit, 2012 TED Senior Fellow and was named a Revolutionary Mind in SEED Magazine’s 2008 Design Issue."
   url: 'https://architecture.mit.edu/faculty/skylar-tibbits'
   img: sky.jpg
@@ -221,13 +215,13 @@
   img: eli.png
   role: panelist
 - name: Martin Tironi
-  bio: Developer of Fondecyt Smart Cities Chile
+  bio: 'Sociologist | Researcher at The Smart Citizen Project | Assistant Professor  Design School Pontifical Catholic University of Chile'
   longbio: 'Martín Tironi es sociólogo de la Pontificia Universidad Católica de Chile, Magíster en Sociología en Université Paris-Sorbonne V y Ph.D en el Centre de Sociologie de l’Innovation (CSI), Ecole des Mines de Paris, y Post-Doctorado de este mismo centro de investigación. Actualmente es investigador y profesor de la Escuela de Diseño de la Pontificia Universidad Católica de Chile, participando de la cátedra de Investigación Etnográfica y Diseño y Diseño de Interacción. Actualmente desarrolla un proyecto de investigación (Fondecyt) sobre circulación del concepto de Smart Cities, conceptualizándolo en términos de experimentaciones y prototipos sociales.'
   url: 'http://diseno.uc.cl/persona/martin-tironi/'
   img: martin.jpg
   role: panelist
 - name: Alexandre Dubor
-  bio: Researcher in Digital Fabrication for Architecture at IAAC.
+  bio: 'Researcher in Digital Fabrication for Architecture | Institute for Advanced Architecture of Catalonia'
   longbio: 'From internet to 6axis Robot, Alexandre Dubor is an architectural researcher hacking new technologies in an attempt to reinvent how we build and live in our cities. He is currently instructor in Digital Fabrication class for a post-graduate master at the Institute for Advanced Architecture of Catalunya (IAAC), meanwhile working at Fab Lab Barcelona & Appareil. His current research inlcudes MagneticArchitecture.org and SmartCitizen.me.'
   url: 'http://iaac.net/'
   img: alex.png
@@ -239,19 +233,19 @@
   img: arma.jpg
   role: panelist
 - name: David Basulto
-  bio: Founder and Editor in Chief at ArchDaily
+  bio: 'Founder and Editor in Chief, ArchDaily'
   longbio: 'Architect ArchDaily Founder Endeavor Entrepreneur Specialties: Architecture, New Media, Entrepreneurship,'
   url: 'https://www.linkedin.com/in/dbasulto/?ppe=1'
   img: david.jpeg
   role: panelist
 - name: Lauren Slowik
-  bio: Director of Education and Designer Evangelism at Shapeways
+  bio: 'Director of Education and Designer Evangelism, Shapeways'
   longbio: 'Lauren is the Design Evangelist for Education at Shapeways and one of the founding members of the Lady Tech Guild, a group started to connect and inspire women working in the 3D industries. She is occasionally a part-time professor at Parsons School of Design where she also received her MFA in Design+Technology. Lauren has contributed to organizations such as Apple, MoMA, the Ms. Foundation, Eyebeam Art+Technology Center, the Museum of Arts and Design and Etsy.com. Her research is focused on 3D design and 3D printing and the future of creativity in education with a focus on storytelling and user experience/interaction design. She lives in Brooklyn.'
   url: 'https://www.linkedin.com/in/laurenslowik/'
   img: lau.jpeg
   role: panelist
 - name: Gian-Paolo Bassi
-  bio: CEO Dassault/Solidworks
+  bio: CEO Dassault/ Solidworks
   longbio: 'Gian Paolo Bassi brings more than 25 years of experience in 3D, CAD, and PLM industries to Dassault Systèmes SolidWorks Corp. As CEO, Gian Paolo spearheads the development of SOLIDWORKS future product and technology strategies designed for the desktop and the cloud, and collaboration with the strong user community. He most recently served as the vice president of research and development, where he was responsible for charting future product and technology strategies, including the development of the SOLIDWORKS cloud applications. Prior to SOLIDWORKS, Gian Paolo was the founder and CTO of RIWEBB where he oversaw the development of new technologies for the Mechanical and Architectural Design Automation industry, collaborating with companies like Dassault Systèmes. Prior to RIWEBB, Gian Paolo served as vice president and CTO of ImpactXoft, where he led the team developing functional modeling and collaboration applications which are now part of CATIA. In this position, he co-invented three of his five patents in functional modeling. He also served in the R&D organizations of companies like Computervision and think3. Gian Paolo holds a degree in Mechanical Engineering from the University of Bologna.'
   url: 'http://www.solidworks.com/sw/executive-management/gian-paolo-bassi.htm'
   img: gian.jpg
@@ -275,10 +269,16 @@
   img: nat2.jpg
   role: panelist
 - name: Edward Peter Clapp
-  bio: Educational researcher at Harvard Project Zero
+  bio: 'Project Zero educational researcher, Harvard'
   longbio: "Edward P. Clapp is a senior research manager and a member of the core research team working on the Agency by Design initiative\x97an investigation of the promises, practices, and pedagogies of maker-centered learning\x97at Project Zero, an educational research center at the Harvard Graduate School of Education. Clapp's current research interests include creativity and innovation, \"maker\" education, design thinking, and contemporary approaches to arts teaching and learning. In the past, Edward has worked with Project Zero on the multiyear research initiative, the Qualities of Quality: Understanding Excellence in Arts Education. In addition to his work as an educational researcher, Edward is an HGSE Lecturer on Education and co-instructor (with Carrie James) of the HGSE course \"Thinking and Learning Today and Tomorrow: Project Zero Perspectives.\" Edward is also an adjunct professor at the Massachusetts College of Art and Design where he teaches a graduate level course entitled \"Principles of Pedagogy for the Studio Arts Educator.\" In 2013 Edward coedited Expanding Our Vision for the Arts in Education, the most recent special issue of the Harvard Educational Review. Independently, in 2010 Edward edited the anthology 20UNDER40: Re-Inventing the Arts and Arts Education for the 21st Century, a collection of 20 essays about the future of the arts sector written by young and emerging arts leaders under the age of 40. Edward holds a Doctorate of Education (Ed.D.) and Masters of Education (Ed.M.) from HGSE, a Masters of Letters (M.Litt.) in poetry from the University of Glasgow/Strathclyde, and a Bachelor of Fine Arts (BFA) in painting from the Rhode Island School of Design. In addition to his academic pursuits, Edward has also published his poetry and fiction in national and international literary magazines and has had his plays produced Off-Off-Broadway in New York. Web: http://scholar.harvard.edu/edwardclapp"
   url: 'https://www.gse.harvard.edu/faculty/edward-clapp'
   img: edw.jpeg
+  role: panelist
+- name: Brooke Toczylowski
+  bio: Agency by Design Teacher Researcher at Project Zero
+  longbio:
+  url: 'http://www.brooketoczylowski.com/'
+  img: brook.jpg
   role: panelist
 - name: Sonya Pryor-Jones
   bio: Chief Implementation Officer at Fab Foundation (MIT)
@@ -287,7 +287,7 @@
   img: sony.jpg
   role: panelist
 - name: Gonzalo Vargas Otte
-  bio: INACAP Principal
+  bio: Rector INACAP
   longbio:
   url: 'http://portales.inacap.cl/acerca-de/bienvenida-del-rector'
   img: gonva.jpg
@@ -299,7 +299,7 @@
   img: tony.PNG
   role: panelist
 - name: Sergio Araya
-  bio: 'Ph.D. in Architecture, Massachusetts Institute of Technology, Visiting Scientist, School of Engineering MIT.'
+  bio: UAI DesignLab Dean
   longbio: 'Ph.D. in Architecture, Massachusetts Institute of Technology, Visiting Scientist, School of Engineering MIT. Holds a Master of Science in Architecture form MIT and a Master in Architecture from Catholic University in Chile.He is a Visiting Scientist at the MIT and conducts research in architecture, digital fabrication and materials at the Architecture and Materials Center (CAM) of Design Lab UAI. He has been lecturer in the Faculty of Architecture, Design and Urban Studies of the Pontifical Catholic University and professor of the Faculty of Architecture, Art and Design of the Diego Portales University, and has given courses and talks in the USA, England, Japan, Colombia, Peru and Chile, exhibiting and publishing their work internationally.'
   url: 'https://www.linkedin.com/in/sergioaraya/?ppe=1'
   img: sergio.JPG
