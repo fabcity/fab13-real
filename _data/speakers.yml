@@ -292,3 +292,9 @@
   url: 'https://www.linkedin.com/in/sonya-pryor-jones/'
   img: sony.jpg
   role: panelist
+- name: Gonzalo Vargas Otte
+  bio: INACAP Principal
+  longbio:
+  url: 'http://portales.inacap.cl/acerca-de/bienvenida-del-rector'
+  img: gonva.jpg
+  role: panelist
