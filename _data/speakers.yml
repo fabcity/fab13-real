@@ -257,8 +257,8 @@
   img: gian.jpg
   role: speaker
 - name: Yogesh Kulkarni
-  bio: Software Engineering Director at Dell and Project Manager at Vigyan Ashram
-  longbio: "Strong program management skills and expertise right from hardware design to firmware development including assembly, BIOS, EFI and application development with a total of 15+ years of experience with:  •\tMore than 4 years of experience in program management & coordination of multi-location projects handling around 30+ engineers. •\t6 years of system level programming in SAL, BIOS & EFI development on IA-64, Xeon and Opteron based multiprocessor systems, IPMI firmware development and network search engines control plane firmware development. •\t3+ years of experience in the area of IEEE 1394. This involved development of Kernel mode Device drivers for 1394 PCI card on Windows NT & all phases of product development using VC++.  •\t3+ years of experience in embedded systems. This involved working on microprocessors & microcontrollers using assembly languages & C  Specialties: Server architecture, BIOS, Firmware, Program management for large teams spaning multi-location"
+  bio: 'Executive Director of Vigyan Ashram, Pabal in India'
+  longbio: "Executive Director of Vigyan Ashram, Pabal in India. He is engaged in the development of appropriate technology solutions for poor communities. He is training rural youth and helping them to start the technology-based enterprise in villages. He runs a Fab Lab in village Pabal since 2002. He is also heading the design innovation center at Vigyan Ashram in association with Saviribai Phule Pune University. Yogesh is credited with scaling up of work Centered Education program 'Introduction to Basic Technology'in 122+ schools in four states benefiting 8000 students every year."
   url: 'http://vigyanashram.com/'
   img: yog.jpg
   role: speaker
