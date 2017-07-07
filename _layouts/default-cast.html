@@ -4,31 +4,25 @@
     {% include head.html %}
     
     <body id="page-top" class="index">  
-
-   <!--
-    <div class="debug">
-    <label><input type="checkbox"> Debug</label>
-    </div>
-    -->
+        <!--Parallax debug feature-->
+        <!--<div class="debug">
+        <label><input type="checkbox"> Debug</label>
+        </div>
+        -->
         {% include navbar-cast.html %}
         {% include twitter-cast.html %}
        
     <div class="parallax">   
-        {% include curtain.html %}
-        {% include intro-cast.html %}
-        {% include tracks-cast.html %}
-        {% include video.html %}
-        {% include speakers-cast.html %}
-        {% include apply-cast.html %}
-        {% include travel-cast.html %}
-        {% include schedule-cast.html %}
-        {% include venues.html %}
-        {% include tickets-cast.html %}
+
+        {{ content }}
+
         {% include faq-cast.html %}
         {% include sponsors-cast.html %}
         {% include subscribe-cast.html %}
         {% include footer.html %}
+
     </div>
+    
         {% include modals-cast.html %}
         {% include mailchimp-modal.html %}
         {% include email-modal-cast.html %}

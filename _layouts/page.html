@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
+    
+    <body id="page-top" class="index">  
+        <!--Parallax debug feature-->
+        <!--<div class="debug">
+        <label><input type="checkbox"> Debug</label>
+        </div>
+        -->
+        {% include navbar.html %}
+        {% include twitter.html %}
+       
+    <div class="parallax">   
 
-    <body id="page-top" class="index">
-    {% include navbar.html %}    
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
+        {{ content }}
 
+        {% include tickets.html %}
+        {% include faq.html %}
+        {% include sponsors.html %}
+        {% include subscribe.html %}
+        {% include footer.html %}
+
+    </div>
+
+        {% include modals.html %}
+        {% include mailchimp-modal.html %}
+        {% include email-modal.html %}
+        {% include speakers-modals.html %}
+        {% include js.html %}
     </body>
+
+
 
 </html>
