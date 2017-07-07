@@ -304,3 +304,9 @@
   url: 'https://www.linkedin.com/in/tonyfish/?ppe=1'
   img: tony.PNG
   role: panelist
+- name: Sergio Araya
+  bio: 'Ph.D. in Architecture, Massachusetts Institute of Technology, Visiting Scientist, School of Engineering MIT.'
+  longbio: 'Ph.D. in Architecture, Massachusetts Institute of Technology, Visiting Scientist, School of Engineering MIT. Holds a Master of Science in Architecture form MIT and a Master in Architecture from Catholic University in Chile.He is a Visiting Scientist at the MIT and conducts research in architecture, digital fabrication and materials at the Architecture and Materials Center (CAM) of Design Lab UAI. He has been lecturer in the Faculty of Architecture, Design and Urban Studies of the Pontifical Catholic University and professor of the Faculty of Architecture, Art and Design of the Diego Portales University, and has given courses and talks in the USA, England, Japan, Colombia, Peru and Chile, exhibiting and publishing their work internationally.'
+  url: 'https://www.linkedin.com/in/sergioaraya/?ppe=1'
+  img: sergio.JPG
+  role: panelist
