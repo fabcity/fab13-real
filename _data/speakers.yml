@@ -298,3 +298,9 @@
   url: 'http://portales.inacap.cl/acerca-de/bienvenida-del-rector'
   img: gonva.jpg
   role: panelist
+- name: Tony Fish
+  bio: Co-founder at FabLab London
+  longbio: 'Tony has 20 years of C-level exec and board experience, having founded, funded and sold businesses over the past 25 years. He remains passionate about innovation and highly disruptive technology which is at an early stage and capable of scaling.  His style is based on fast iteration, trust, deep involvement, clear decision making, robust financials, transparency and strong open governance controls.    Tony is the one of the two founders of Fab Lab London and has personally helped establish 9 other labs in the UK and supported over 20 in their early stages across the globe.  He is very proud of his engineering roots, is based in London but will be checking out the snowboarding in Valle Nevado this week.'
+  url: 'https://www.linkedin.com/in/tonyfish/?ppe=1'
+  img: tony.PNG
+  role: panelist
