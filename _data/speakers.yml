@@ -262,3 +262,15 @@
   url: 'http://vigyanashram.com/'
   img: yog.jpg
   role: speaker
+- name: David Cavallo
+  bio: Research Scientist and Director of the Future of Learning Group at the MIT
+  longbio:
+  url: 'http://one.laptop.org/'
+  img: davidc.jpg
+  role: panelist
+- name: Anastasia Pistofidou
+  bio: Director FabTextile Research Lab and Fabricademy
+  longbio: 'Anastasia Pistofidou is a Greek architect specialized in digital fabrication technologies, design and education. She has a Master degree from the Institute for Advanced Architecture of Catalonia 2010-2011 in Digital tectonics and a Bachelor Degree from the Aristotle University of Thessaloniki, department of Architecture in 2008. She currently works as the director of the FabTextile research lab and the Fabricademy, A new Textile and Technology Academy. She combines the analog and the digital towards applied research focused on new materials, art and textiles.'
+  url: 'http://fabtextiles.org/'
+  img: nat.jpg
+  role: panelist
