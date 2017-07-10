@@ -352,3 +352,9 @@
   url: 'https://www.linkedin.com/in/betoldi/'
   img: lu.jpg
   role: panelist
+- name: Luis Felipe Céspedes
+  bio: 'Minister of Economy, Development, and Tourism'
+  longbio:
+  url: 'http://www.gob.cl/ministers/economy-development-and-tourism/'
+  img: luis.jpg
+  role: panelist
