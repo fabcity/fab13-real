@@ -304,3 +304,9 @@
   url: 'https://www.linkedin.com/in/sergioaraya/?ppe=1'
   img: sergio.JPG
   role: panelist
+- name: Benjamin Tincq
+  bio: Co-founder of OuiShare
+  longbio: "French social entrepreneur and strategist focused on open source and decentralized technologies for new economies. Co-founder of OuiShare: a global network of projects and people exploring the edge and intersections of collaborative economies, emerging communities and digital transformations ; and POC21: a global community of eco-hackers developing open source solutions for sustainable living. Currently building a new-generation Investment Fund for social entrepreneurs aiming to solve the world's biggest challenges with open and decentralized technologies."
+  url: 'http://poc21.cc/'
+  img:
+  role: panelist
