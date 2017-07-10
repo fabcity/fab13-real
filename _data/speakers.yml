@@ -322,3 +322,9 @@
   url: 'https://waag.org/en/users/cecilia-raspanti'
   img: cecilia.jpg
   role: panelist
+- name: David Li
+  bio: Founder Fab Lab Szoil- Shenzhen
+  longbio: 'As the pioneer who pays close attention to the maker movem, David Li has been committed to promoting the development of Chinese makers and the transformation of innovative products since 2010.'
+  url: 'http://szoil.org/wp/author/david/'
+  img: szoil.jpg
+  role: panelist
