@@ -346,3 +346,9 @@
   url: 'https://www.linkedin.com/in/julio-valdivia-silva-4009aa23/?locale=en_US'
   img: julio.jpg
   role: panelist
+- name: Luciano Betoldi
+  bio: International Operations Director at Fab Foundation / Fab Academy
+  longbio:
+  url: 'https://www.linkedin.com/in/betoldi/'
+  img: lu.jpg
+  role: panelist
