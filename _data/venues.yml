@@ -1,44 +1,44 @@
 - name: "Centro de Extensión Universidad Católica" 
   address: "Avenida Libertador Bernardo O'Higgins 390"
   url: "http://extension.uc.cl/"
-  category: Fab Conference
+  type: Fab Conference
 
 - name: "Centro Cultural Gabriela Mistral"
   address: "Avenida Libertador Bernardo O'Higgins 227"
   url: "http://www.gam.cl/"
-  category: Fab Festival
+  type: Fab Festival
 
 - name: "Fab Lab Santiago"
   address: "Seminario 642, Providencia" 
   url: "http://fablabsantiago.org/"
-  category: Organizing Lab
+  type: Organizing Lab
 
 - name: "FabHaus"
   address: "El Comendador 1916, Providencia, Santiago" 
   url: "https://goo.gl/maps/AahJit9APh42"
-  category: Hosting Labs
+  type: Hosting Labs
 
 - name: "Fab Lab UC"
   address: "Vicuña Mackenna 4860, Macul, Santiago" 
   url: "http://fablabuc.cl/"
-  category: Hosting Labs
+  type: Hosting Labs
 
 - name: "Fab Lab U. de Chile"
   address: "Av. Beaucheff 851, Santiago"
   url: "https://goo.gl/maps/FbbmMTEt4Xp"
-  category: Hosting Labs
+  type: Hosting Labs
 
 - name: "Campus Creativo Universidad Andrés Bello"
   address: "Diagonal Las Torres 2640, Peñalolén, Santiago"
   url: "https://campuscreativo.cl/"
-  category: Hosting Labs
+  type: Hosting Labs
 
 - name: "Aconcagua Fab Lab"
   address: "Mobile Fab Lab!"
   url: "https://www.facebook.com/Aconcagua-FabLab-1845111535713373/"
-  category: Hosting Labs
+  type: Hosting Labs
 
 - name: "CORPARTES"
   address: "Rosario Nte 660, Las Condes, Región Metropolitana, Chile"
   url: "http://www.corpartes.cl/"
-  category: Symposium
+  type: Symposium

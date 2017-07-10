@@ -30,9 +30,9 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
 					<div class="venue-block">
-						<h4 class="venue-category">Symposium </h4>
+						<h4 class="venue-type">Symposium </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.category == "Symposium" %} 
+						{% if venue.type == "Symposium" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
@@ -40,9 +40,9 @@
 						{% endfor %} 
 					</div>
 					<div class="venue-block">
-						<h4 class="venue-category">Fab Conference </h4>
+						<h4 class="venue-type">Fab Conference </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.category == "Fab Conference" %} 
+						{% if venue.type == "Fab Conference" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
@@ -50,21 +50,9 @@
 						{% endfor %} 
 					</div>
 					<div class="venue-block">
-						<h4 class="venue-category">Fab Festival  </h4>
+						<h4 class="venue-type">Fab Festival  </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.category == "Fab Festival" %} 
-						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
-							<p class="venue-address"> {{ venue.address }}</p>
-						</a>
-						{% endif %}
-						{% endfor %} 
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
-					<div class="venue-block">
-						<h4 class="venue-category">Organizing Lab </h4>
-						{% for venue in site.data.venues %} 
-						{% if venue.category == "Organizing Lab" %} 
+						{% if venue.type == "Fab Festival" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
@@ -74,9 +62,21 @@
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
 					<div class="venue-block">
-						<h4 class="venue-category">Hosting Fab Labs </h4>
+						<h4 class="venue-type">Organizing Lab </h4>
 						{% for venue in site.data.venues %} 
-						{% if venue.category == "Hosting Labs" %} 
+						{% if venue.type == "Organizing Lab" %} 
+						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
+							<p class="venue-address"> {{ venue.address }}</p>
+						</a>
+						{% endif %}
+						{% endfor %} 
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
+					<div class="venue-block">
+						<h4 class="venue-type">Hosting Fab Labs </h4>
+						{% for venue in site.data.venues %} 
+						{% if venue.type == "Hosting Labs" %} 
 						<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
 							<p class="venue-address"> {{ venue.address }}</p>
 						</a>
