@@ -8,11 +8,23 @@
 
 
   <div class="parallax__layer parallax__layer--base">
-    <div class="container section-content">
-      <h3 class="section-title"> Schedule </h3>
-         {% include planner.html %}
-    </div> 
-  </div>
+    	<div class="container section-content">
+	    	<div class="row">
+	      		<h3 class="section-title"> Schedule </h3>
+	  			<div style="height: 300px; background-color: #1d3557;">
+	  				<div class="row text-center">
+	  					<img src="/img/schedule/schedule-icon.svg"/ style="height: 80px; margin-top: 60px;">
+	  				</div>
+			      	<div class="row text-center" style="padding-top:25px;">
+						<a class="btn link-grow" href="https://fab13.sched.com/" target="_blank">See full schedule &#8599;</a>
+					</div>
+	    		</div>
+		    </div>
+		    <div class="row">
+		    	{% include planner.html %}
+		    </div>
+    	</div> 
+  	</div><!--layer--base-->
 
 </div><!--parallax-group-->
 
