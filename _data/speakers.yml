@@ -340,3 +340,9 @@
   url: 'http://www.fablabatacama.cl/'
   img: javier.jpg
   role: panelist
+- name: Julio Valdivia Silva
+  bio: Physician and Researcher at NASA Ames Research Center
+  longbio:
+  url: 'https://www.linkedin.com/in/julio-valdivia-silva-4009aa23/?locale=en_US'
+  img: julio.jpg
+  role: panelist
