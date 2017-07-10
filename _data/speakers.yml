@@ -310,3 +310,9 @@
   url: 'http://poc21.cc/'
   img: ben.jpg
   role: panelist
+- name: Brandon Prentice
+  bio: Fab Lab Manager for the IU1 Fab Lab
+  longbio: 'Brandon Prentice is a technology educator, mentor, and manager for the IU1 Fab Lab program. He’s a hands-on generalist when it comes to construction technology, engineering, manufacturing, and graphic design. You can find him on Twitter talking about Fab Lab conventions, community events, student projects, and other lab experiences'
+  url: 'https://www.iu1.org/fablab/blog/author/brandon.prentice'
+  img: bran.jpg
+  role: panelist
