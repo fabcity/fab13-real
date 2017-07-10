@@ -328,3 +328,9 @@
   url: 'http://szoil.org/wp/author/david/'
   img: szoil.jpg
   role: panelist
+- name: Fiore Basile
+  bio: Coordinator at FabLab Toscana and Fabricademy
+  longbio:
+  url: 'http://fabtextiles.org/tag/fiore-basile/'
+  img: fiore.jpg
+  role: panelist
