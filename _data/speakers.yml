@@ -334,3 +334,9 @@
   url: 'http://fabtextiles.org/tag/fiore-basile/'
   img: fiore.jpg
   role: panelist
+- name: Javier Figueroa
+  bio: Director Fab Lab Atacama
+  longbio:
+  url: 'http://www.fablabatacama.cl/'
+  img: javier.jpg
+  role: panelist
