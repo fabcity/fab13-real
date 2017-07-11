@@ -42,7 +42,7 @@
 
 <div id="challenge-participate" class="parallax__group">
   <div class="parallax__layer parallax__layer--back text-center">
-    <img class="bg-responsive" src="/img/backgrounds/color-top.svg"/>
+    <img class="bg-responsive" src="/img/backgrounds/color-top-gray-short.svg"/>
   </div>
   <div class="parallax__layer parallax__layer--base">
     <div class="container section-content text-center">
@@ -51,14 +51,37 @@
           <h3 class="section-title">Participate</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <p> </p>
+      <div class="row" style="padding-bottom: 60px;" >
+        <div class="col-md-6 text-center" >
+          <h4 class="section-subtitle">How can I participate? </h4>
+          <p>{{ site.data.challenge.intro.how }} <a href="/challenge#tickets"> here. </a>
+          </p>
         </div>
         <div class="col-md-6 text-center">
-          <p> </p>
+          <h4 class="section-subtitle">Time Schedule </h4>
+          <p>{{ site.data.challenge.intro.time }}</p>
         </div>
       </div>
+      <div class="row" style="padding-bottom: 60px;">
+        <div class="col-md-12 text-center">
+          <h4 class="section-subtitle">Prizes </h4>
+          <p>{{ site.data.challenge.intro.prizes }}</p>
+        </div>
+      </div>
+      <div class="row text-center sponsor-row">
+          <div class="col-md-12">
+             <p class="text-muted bold">Organized by</p>
+          </div>
+          {% for sponsor in site.data.sponsors %}
+              {% if sponsor.role == 'challenge' %}
+                 <a href="{{ sponsor.url }}" target="_blank">
+                     <div class="col-xs-4 col-sm-2 col-md-2 sponsor-div link-grow">
+                          <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
+                      </div>
+                  </a>
+              {% endif %}
+          {% endfor %}
+        </div>
     </div><!--container-->
   </div><!--layer--base-->
 </div><!--challenge-participate -->
