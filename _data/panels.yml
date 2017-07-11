@@ -1,5 +1,5 @@
 - name: 'Cities: Towards a Liquid Distribution'
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  description: ''
   speakers:
     - name: Tomas Vivanco
       img: tomasvv.jpg
@@ -11,9 +11,9 @@
       img: marabb.png
     - name: David Basulto
       img: david.jpeg
-  url: 'https://fab13test2017.sched.com/'
+  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
 - name: 'Education: How do we envision the future of education'
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  description: ''
   speakers:
     - name: Sherry Lassiter
       img: sherry.png
@@ -27,9 +27,9 @@
       img:
     - name: Rector INACAP
       img:
-  url: 'https://fab13test2017.sched.com/'
+  url: 'https://fab13.sched.com/event/BPCM/education-how-do-we-envision-the-future-of-education?iframe=no&w=100%&sidebar=no&bg=no'
 - name: 'Decentralization : Mobile Fab Labs & Emergency Solutions'
-  description: 'orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  description: ''
   speakers:
     - name: Robert Garrita
       img: rob.png
@@ -39,4 +39,4 @@
       img:
     - name: Brandon Prentice
       img:
-  url:
+  url: 'https://fab13.sched.com/event/BPEJ/decentralization-mobile-fab-labs-emergency-solutions?iframe=no&w=100%&sidebar=no&bg=no'

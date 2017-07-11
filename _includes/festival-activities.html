@@ -1,0 +1,60 @@
+<!--Fab Festival Modules-->
+
+<div id="festival-modules" class="parallax__group">
+
+  <div class="parallax__layer parallax__layer--back">
+    <img class="bg-responsive" src="/img/backgrounds/color-top.svg"/>
+  </div>
+
+
+  <div class="parallax__layer parallax__layer--base">
+    <div class="container section-content text-center">
+      
+      <div class="row row-page" style="padding-top: 0px;">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-title">Activities</h3>
+        </div>
+      </div><!--row-->
+
+      <div id="festival-modules">
+        {% for activity in site.data.festival-activities %}
+        <div class="row text-left paneles" style="margin-bottom: 30px;">
+          <div class="col-sm-4 col-md-4">
+            <div style="background-image: url(../img/festival/{{ activity.img }}); height:150px; margin-bottom: 20px; background-position: center center; " ></div>
+          </div>
+          <div class="col-sm-8 col-sm-8">
+              <div>
+                <p class="bold large">{{ activity.name }}</p>
+              </div>
+              <div>
+                  <p>{{ activity.description }}</p>
+              </div> 
+              <div class="row">
+                <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+              </div>
+          </div><!--col--> 
+        </div><!--paneles-->
+        {% endfor %}
+      </div> <!--festival-modules-->
+       
+
+
+    </div><!--container-->
+  </div><!--layer base-->
+</div><!--parallax-group-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -28,15 +28,17 @@
             </div> 
             <div class="row" style="padding:0;">
             {% for speaker in panel.speakers %} 
-                  <div class= "imgs-speaker micro" style= "background-image: url(../img/speakers/{{ speaker.img }});"> 
-                  </div> 
-             {% endfor %}
+                  <div class= "imgs-speaker micro"  style= "background-image: url(../img/speakers/{{ speaker.img }});"></div> 
+            {% endfor %}
             </div>
-<!--             <div>
-                <p class="panel-speakers">{{ panel.speakers }}</p>
-            </div>  -->
-            <div>
-              <span class="bold">+add to my Sched </span> 
+            <br>
+            <div class="row">
+              {% for speaker in panel.speakers %} 
+              <div style="float: left;"><p> {{ speaker.name }} &nbsp /  &nbsp  </p></div>
+              {% endfor %}
+            </div>
+            <div class="row">
+              <a href="{{ panel.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
             </div>
         </div><!--col--> 
       </div><!--row-->

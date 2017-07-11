@@ -1,10 +1,10 @@
 intro:
   img: "conference2.svg"
   title: "Fab13 Conference"
-  subtitle: "This is a title for the conference"
-  entry: "This is a subtitle for the conference"
+  subtitle: "Be part of the largest conference on digital fabrication in the world."
+  entry: "Join us in Santiago de Chile for the annual meeting of the international Fab Lab network!"
   button: "Schedule"
   background: "panel.jpg"
-  p1: "In 1965 Gordon Moore extrapolated five data points to make one of the most famous graphs in history, forecasting that the doubling of the number of components in an integrated circuit would continue for a decade. He was off by a little bit; the trend actually continued for fifty years. Moore's Law, as this came to be known, has defined the digital revolutions in communications and computation."
-  p2: "Since the first fab lab was opened in 2003 the number of those has been doubling for more than a decade, surpassing 1000 now. That exponential trend was first noticed by Sherry Lassiter, aka Lass. Since there's already more data to support what could be called Lass' Law than Gordon Moore originally had, the FAB13 Symposium will look ahead to fifty years of doubling in digital fabrication performance and access."
-  p3: "The day is organized as four moderated conversations with global leaders looking at the underlying science and technology, the opportunities and threats they bring, their implications for feeding minds and bodies, and their impact on society.  The overall goal will be to develop and share recommendations and roadmaps from each of these panels."
+  p1: "Join world-class panelists, members of the Fab Lab community, makers from all over the world and professionals from all kinds of fields in the 13th annual Fab Lab Conference in Santiago de Chile from July 31 to August 3, followed by the Fab13 Symposium and the Fab Festival on the 4th and 5th of August."
+  p2: "Attend world-class panels, demos, workshops, discussions and lab presentations from represeantatives from all over the globe!"
+  p3: 
