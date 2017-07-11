@@ -1,0 +1,48 @@
+<!--Venues Section -->
+
+<div id="venues-festival" class="parallax__group">
+	<div class="parallax__layer parallax__layer--back text-center">
+		<img class="bg-responsive" src="/img/backgrounds/color-top-gray-short.svg"/>
+	</div>
+	<div class="parallax__layer parallax__layer--base">
+		<div class="container section-content text-center">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h3 class="section-title">Festival Map</h3>
+				</div>
+			</div>
+		</div><!--container-->
+
+		
+		<!--- Carto Embed-->
+		<iframe width="100%" height="400" frameborder="0" src="https://mqvlm.carto.com/viz/5bec46fb-7690-4a5d-9d93-d27730140376/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+		<!--Google Map API Map-->
+		
+		<!-- 
+		<div id="map_wrapper">
+			<div id="map_canvas" class="mapping"></div>
+		</div> -->
+
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 text-left">
+					<h4 class="venue-type">Conference </h4>
+					{% for venue in site.data.venues %} 
+					{% if venue.type == "Fab Festival" %} 
+					<a href="{{ venue.url }}" target="_blank"><h4 class="venue-titles link-grow">{{ venue.name }}</h4>
+						<p class="venue-address"> {{ venue.address }}</p>
+					</a>
+					{% endif %}
+					{% endfor %} 
+				</div>
+			</div> <!--row-->
+		</div> <!--container-->
+	</div><!--layer base-->
+</div> <!--parallax group-->
+
+
+
+
+
+

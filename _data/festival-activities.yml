@@ -4,8 +4,20 @@
   description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
   url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
 
-- name: 'Workshop: This is a workshop'
-  type: workshop
+- name: 'Workshop: This is a demo'
+  type: demo
+  img: test-img.png
+  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
+  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
+
+- name: 'Workshop: This is a panel'
+  type: panel talk
+  img: test-img.png
+  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
+  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
+
+- name: 'Workshop: This is a panel'
+  type: short talk
   img: test-img.png
   description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
   url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'

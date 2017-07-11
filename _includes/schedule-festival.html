@@ -1,0 +1,51 @@
+<!-- Schedule section-->
+
+<div id="festival-schedule" class="parallax__group">
+
+	<div class="parallax__layer parallax__layer--back text-center">
+		<img class="bg-responsive" src="/img/backgrounds/color-top-gray.svg"/>
+	</div>
+
+
+	<div class="parallax__layer parallax__layer--base">
+		<div class="container section-content" id="symposium-schedule">
+			<h3 class="section-title"> Schedule </h3>
+		
+			<div class="col-md-12">
+			<a id="sched-embed" data-sched-sidebar="no" href="https://fab13.sched.com/venue/GAM/Av+Libertador+Bernardo+O%27Higgins+227%2C+Santiago%2C+Regi%C3%B3n+Metropolitana">View the FAB13 mobile app</a><script type="text/javascript" src="http://fab13.sched.com/js/embed.js"></script>
+			</div>
+
+			<div class="row text-center" style="padding-top:15px; padding-bottom: 40px;">
+                <a class="btn link-grow" target="_blank" href="https://fab13.sched.com/">Full Fab13 Schedule</a> 
+            </div>
+
+
+			<!--Old Option
+			<ul class="horario">
+			<li class="fecha">
+				<h3>Aug 4</h3>
+				<p>Schedule of Events</p>
+			</li>
+			{% for event in site.data.symposium-agenda.events %}
+				<li class= "eventos">
+					<ul class="eventos-detail">
+						<li>
+							<a data-toggle="modal" data-target="#symposium-event">
+							<span class="evento-time">{{ event.start }} - {{ event.end }}  </span>
+								<span class="evento-name">{{ event.name }}</span>
+								<br />
+								<span class="evento-location">{{ event.venue }}</span>
+ 							</a>
+						</li>
+					</ul>
+				</li>
+			{% endfor %}
+			</ul> -->
+
+
+
+		</div> <!--container -->
+	</div><!--layer-base-->
+
+</div><!--parallax-group-->
+
