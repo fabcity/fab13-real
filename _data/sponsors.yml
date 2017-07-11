@@ -154,3 +154,11 @@
   role: sponsor
   url: 'http://forestscientific.com/'
   img: forest-corporation.png
+- organization: Shapeways
+  role: challenge
+  url: 'https://www.shapeways.com/'
+  img: shapeways.png
+- organization: Fabtextiles
+  role: challenge
+  url: 'https://fabtextiles.org/'
+  img: fabtextiles.png
