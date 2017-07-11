@@ -17,24 +17,131 @@
       </div><!--row-->
 
       <div id="festival-modules">
-        {% for activity in site.data.festival-activities %}
-        <div class="row text-left paneles" style="margin-bottom: 30px;">
-          <div class="col-sm-4 col-md-4">
-            <div style="background-image: url(../img/festival/{{ activity.img }}); height:150px; margin-bottom: 20px; background-position: center center; " ></div>
-          </div>
-          <div class="col-sm-8 col-sm-8">
-              <div>
-                <p class="bold large">{{ activity.name }}</p>
+
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#all-modules">All Activities</a></li>
+          <li><a data-toggle="tab" href="#menu1">Workshops</a></li>
+          <li><a data-toggle="tab" href="#menu2">Demos</a></li>
+          <li><a data-toggle="tab" href="#menu3">Panel Talks</a></li>
+          <li><a data-toggle="tab" href="#menu4">Short Talks</a></li>
+        </ul>
+
+        <div class="tab-content">
+
+          <div id="all-modules" class="tab-pane fade in active">
+            {% for activity in site.data.festival-activities %}
+            <div class="row text-left paneles" style="margin-bottom: 30px;">
+              <div class="col-sm-4 col-md-4">
+                <div style="background-image: url(../img/festival/{{ activity.img }}); height:150px; margin-bottom: 20px; background-position: center center; " ></div>
               </div>
-              <div>
-                  <p>{{ activity.description }}</p>
-              </div> 
-              <div class="row">
-                <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+              <div class="col-sm-8 col-sm-8">
+                  <div>
+                    <p class="bold large">{{ activity.name }}</p>
+                  </div>
+                  <div>
+                      <p>{{ activity.description }}</p>
+                  </div> 
+                  <div class="row">
+                    <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+                  </div>
+              </div><!--col--> 
+            </div><!--paneles-->
+            {% endfor %}
+          </div> <!--all-->
+
+          <div id="menu1" class="tab-pane fade">
+            {% for activity in site.data.festival-activities %}
+            {% if activity.type == 'workshop' %}
+            <div class="row text-left paneles" style="margin-bottom: 30px;">
+              <div class="col-sm-4 col-md-4">
+                <div style="background-image: url(../img/festival/{{ activity.img }}); height:150px; margin-bottom: 20px; background-position: center center; " ></div>
               </div>
-          </div><!--col--> 
-        </div><!--paneles-->
-        {% endfor %}
+              <div class="col-sm-8 col-sm-8">
+                  <div>
+                    <p class="bold large">{{ activity.name }}</p>
+                  </div>
+                  <div>
+                      <p>{{ activity.description }}</p>
+                  </div> 
+                  <div class="row">
+                    <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+                  </div>
+              </div><!--col--> 
+            </div><!--paneles-->
+            {% endif %}
+            {% endfor %}
+          </div> <!--all-->
+
+          <div id="menu2" class="tab-pane fade">
+            {% for activity in site.data.festival-activities %}
+            {% if activity.type == 'demo' %}
+            <div class="row text-left paneles" style="margin-bottom: 30px;">
+              <div class="col-sm-4 col-md-4">
+                <div style="background-image: url(../img/festival/{{ activity.img }}); height:150px; margin-bottom: 20px; background-position: center center; " ></div>
+              </div>
+              <div class="col-sm-8 col-sm-8">
+                  <div>
+                    <p class="bold large">{{ activity.name }}</p>
+                  </div>
+                  <div>
+                      <p>{{ activity.description }}</p>
+                  </div> 
+                  <div class="row">
+                    <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+                  </div>
+              </div><!--col--> 
+            </div><!--paneles-->
+            {% endif %}
+            {% endfor %}
+          </div> <!--all-->
+
+          <div id="menu3" class="tab-pane fade">
+            {% for activity in site.data.festival-activities %}
+            {% if activity.type == 'panel talk' %}
+            <div class="row text-left paneles" style="margin-bottom: 30px;">
+              <div class="col-sm-4 col-md-4">
+                <div style="background-image: url(../img/festival/{{ activity.img }}); height:150px; margin-bottom: 20px; background-position: center center; " ></div>
+              </div>
+              <div class="col-sm-8 col-sm-8">
+                  <div>
+                    <p class="bold large">{{ activity.name }}</p>
+                  </div>
+                  <div>
+                      <p>{{ activity.description }}</p>
+                  </div> 
+                  <div class="row">
+                    <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+                  </div>
+              </div><!--col--> 
+            </div><!--paneles-->
+            {% endif %}
+            {% endfor %}
+          </div> <!--all-->
+
+          <div id="menu3" class="tab-pane fade">
+            {% for activity in site.data.festival-activities %}
+            {% if activity.type == 'short talk' %}
+            <div class="row text-left paneles" style="margin-bottom: 30px;">
+              <div class="col-sm-4 col-md-4">
+                <div style="background-image: url(../img/festival/{{ activity.img }}); height:150px; margin-bottom: 20px; background-position: center center; " ></div>
+              </div>
+              <div class="col-sm-8 col-sm-8">
+                  <div>
+                    <p class="bold large">{{ activity.name }}</p>
+                  </div>
+                  <div>
+                      <p>{{ activity.description }}</p>
+                  </div> 
+                  <div class="row">
+                    <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+                  </div>
+              </div><!--col--> 
+            </div><!--paneles-->
+            {% endif %}
+            {% endfor %}
+          </div> <!--all-->
+
+        </div> <!--tab-content-->
       </div> <!--festival-modules-->
        
 

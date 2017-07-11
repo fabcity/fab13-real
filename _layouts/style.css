@@ -2540,3 +2540,8 @@ ul.bullet-list {
 #festival-modules {
     padding-bottom: 80px;
 }
+
+
+#festival-modules .active {
+    background-color: transparent ;
+}
