@@ -1,11 +1,5 @@
-- name: 'This is a workshop'
-  type: workshop
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
-  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
-
-- name: 'This is a demo'
-  type: demo
+- name: 'This is a working group'
+  type: working group
   img: test-img.png
   description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
   url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
@@ -16,8 +10,14 @@
   description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
   url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
 
-- name: 'This is a short talk'
-  type: short talk
+- name: 'This is a workshop'
+  type: workshop
+  img: test-img.png
+  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
+  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
+
+- name: 'This is an activity'
+  type: activities
   img: test-img.png
   description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
   url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
