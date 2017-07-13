@@ -74,24 +74,32 @@
 
           <div id="menu2" class="tab-pane fade">
             {% for activity in site.data.conference-activities %}
-            {% if activity.type == 'panel' %}
-            <div class="row text-left paneles" style="margin-bottom: 30px;">
-              <div class="col-sm-4 col-md-4">
-                <div class="module-img" style="background-image: url(../img/festival/{{ activity.img }});" ></div>
-              </div>
-              <div class="col-sm-8 col-sm-8">
-                  <div>
-                    <p class="bold large">{{ activity.name }}</p>
-                  </div>
-                  <div>
-                      <p>{{ activity.description }}</p>
-                  </div> 
-                  <div class="row">
-                    <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
-                  </div>
-              </div><!--col--> 
-            </div><!--paneles-->
-            {% endif %}
+              {% if activity.type == 'panel' %}
+                <div class="row text-left box-grow" style="padding-bottom: 30px;">
+                  <div class="col-sm-12 paneles">
+                      <div>
+                        <p class="bold large">{{ activity.name }}</p>
+                      </div>
+                      <div>
+                          <p>{{ activity.description }}</p>
+                      </div> 
+                      <div class="row" style="padding:0;">
+                      {% for speaker in activity.speakers %} 
+                            <div class= "imgs-speaker micro"  style= "background-image: url(../img/speakers/{{ speaker.img }});"></div> 
+                      {% endfor %}
+                      </div>
+                      <br>
+                      <div class="row">
+                        {% for speaker in activity.speakers %} 
+                        <div style="float: left;"><p> {{ speaker.name }} &nbsp /  &nbsp  </p></div>
+                        {% endfor %}
+                      </div>
+                      <div class="row">
+                        <a href="{{ panel.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+                      </div>
+                  </div><!--col--> 
+                </div><!--row-->
+                {% endif %}
             {% endfor %}
           </div> <!--all-->
 

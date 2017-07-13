@@ -9,6 +9,17 @@
   img: test-img.png
   description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
   url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
+  speakers:
+    - name: Tomas Vivanco
+      img: tomasvv.jpg
+    - name: Tomas Diez
+      img: tomas-diez.png
+    - name: Martin Tironi
+      img: martin.jpg
+    - name: Mara Balestrini
+      img: marabb.png
+    - name: David Basulto
+      img: david.jpeg
 
 - name: 'This is a workshop'
   type: workshop
