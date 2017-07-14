@@ -173,16 +173,32 @@
   description:
   url: 'https://fab13.sched.com/event/BQol/prototyping-a-sustainable-future'
   speakers:
-    - name: 
-      img: 
+    - name: Beno Juarez
+      img: beno.png
+    - name: Armando Azua
+      img: arma.jpg
+    - name: Fernan Federici
+      img: fernan.jpg
+    - name: Elizabeth Henaff
+      img: eli.png
+    - name: Julio Valdivia Silva
+      img: julio.jpg
 - name: Design Material Systems
   type: panel
   img: mat.jpg
   description:
   url: 'https://fab13.sched.com/event/BQom/design-material-systems'
   speakers:
-    - name:
-      img:
+    - name: Sergio Araya
+      img: sergio.jpg
+    - name: Liz Corbin
+      img: lizc.png
+    - name: Alexandre Dubor
+      img: alex.png
+    - name: Alysia Garmulewicz
+      img: alysia.jpg
+    - name: Ceciia Raspanti
+      img: cecilia.jpg
 - name: 'Quality Testing In-Field Prototypes Q&A'
   type: working group
   img: qual.jpg
