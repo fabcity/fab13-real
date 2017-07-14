@@ -135,3 +135,23 @@
   img: asado.jpg
   description:
   url: 'https://fab13.sched.com/event/BQeO/chilean-barbeque-asado'
+- name: Prototyping a Sustainable Future
+  type: panel
+  img: sus.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BQol/prototyping-a-sustainable-future'
+- name: Design Material Systems
+  type: panel
+  img: mat.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BQom/design-material-systems'
+- name: 'Quality Testing In-Field Prototypes Q&A'
+  type: working group
+  img: qual.jpg
+  description: 'Humanitarian Makers is a grassroots, global community of makers and humanitarians supporting disaster response. We are in the process of narrowing our focus to enable effective, global engagement. In fall of 2017, we aim to pilot crowd-sourced quality testing of various in-field developed prototypes that are meeting a persistent and/or pressing human need. This will help us understand if this focus provides real value to humanitarians and makers alike. We are “incubated” in Field Ready and together are learning how to effectively support humanitarian hardware prototype development that is appropriate, affordable, available and accessible when and where needed, with a focus on distributed and local manufacturing. As such, we will be delivering a workshop on Quality Testing of In-Field Humanitarian Prototypes at Fab13. This workshop is interactive and hands-on. Participants will hear stories about field engineer efforts to create prototypes in humanitarian settings. Participants will have the opportunity to pull from their making experiences to inform how might prototype quality testing be accessible and actionable by the making community and fab lab network (the Q&A). Participants will also be able to walk-through a 3D print of a Field Ready prototype'
+  url: 'https://fab13.sched.com/event/BSiH/quality-testing-in-field-prototypes-qa'
+- name: Modular citizen science with sensor bricks and LEGO
+  type: workshop
+  img: lego.jpg
+  description: "Build your own smart sensor kit with internet enabled bricks and traditional LEGO! You get a hands-on experience in building your own smart device that you can control via a web interface or your voice with an Amazon Alexa. Build your own smart lamp that blinks when you get a Tweet, build a citizen science kit or control a game using your breath. You will get creative with Joris' final project prototypes which are Fab Lab made LEGO bricks with all kinds of smart technology inside, like sensors, LEDs and WiFi. This workshop is also great if you're and educator and want to learn how to use these new bricks in a learning environment."
+  url: 'https://fab13.sched.com/event/BQcy/311-modular-citizen-science-with-sensor-bricks-and-lego'
