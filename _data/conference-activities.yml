@@ -35,8 +35,16 @@
   description: 'It is an admitted fact that education is experiencing challenging moments in all conventional teaching models and how they are being inserted within a concrete way to all sort of new rules that society and culture are generating by. The introduction of cross-cutting variables in educational models, the freedom and self-management of education brought about by the communications revolution, highly flexible educational curriculums and the promotion of 21st century skills are just some of the parameters on table of contemporary education. The debate in this panel proposes to explore where the educational models should be directed and how they should relate to the environment. STEAM, Fablabs, DYD, Hacking, are increasingly recurrent concepts in the educational scene, so what is the future of education?'
   url: 'https://fab13.sched.com/event/BPCM/education-how-do-we-envision-the-future-of-education'
   speakers:
-    - name: 
-      img: 
+    - name: David Cavallo
+      img: davidc.jpg
+    - name: Edward Peter Clapp
+      img: edw.jpeg
+    - name: Sherry Lassiter
+      img: sherry.png
+    - name: Sonya Pryor-Jones
+      img: sony.jpg
+    - name: Gonzalo Vargas
+      img: gonva.jpg
 - name: 'Decentralization : Mobile Fab Labs & Emergency Solutions'
   type: panel
   img: mov.jpg
@@ -95,8 +103,14 @@
   description:
   url: 'https://fab13.sched.com/event/BQnk/expanding-education-in-the-fab-lab-network'
   speakers:
-    - name: Tomas Vivanco
-      img: tomasvv.jpg
+    - name: Neil Gershenfeld
+      img: neil.jpg
+    - name: Fiore Basile
+      img: fiore.jpg
+    - name: Luciano Betoldi
+      img: lu.jpg
+    - name: Anastasia Pistofidou
+      img: nat2.jpg
 - name: Distributed Design
   type: panel
   img: did.jpg
