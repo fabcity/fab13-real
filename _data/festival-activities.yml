@@ -103,3 +103,18 @@
   img: ene.jpg
   description:
   url: 'https://fab13.sched.com/event/BUJr/energia'
+- name: Inauguración del Fab Festival 2017
+  type: demo
+  img: ina.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BUHK/inauguracion-fab-festival'
+- name: Mini escuela para niños
+  type: workshop
+  img: mini1.png
+  description: 'Los niños vivirán un mundo diferente al que vemos hoy. La Mini Escuelapara niños prepara a chicos de 12 a 15 años para estos nuevosretos. Aprenderán sobre diseño 2D y 3D, impresión 3D, fresado CNC,corte láser, electrónica y programación. Ven, acércate a la tecnología,aprende a fabricar y verás que ¡eres capaz de hacer cualquier cosa!'
+  url: 'https://fab13.sched.com/event/BUWk/mini-escuela-para-ninos-parte-1'
+- name: Gusiluz
+  type: workshop
+  img: guz.png
+  description: 'Ensambla tu propia lámpara. Fabrícala a través de electrónica básicapara que encienda, usa una máquina de corte láser para hacer suforma y personalizala con tu nombre, dibujos o personajes favoritos.'
+  url: 'https://fab13.sched.com/event/BUXH/gusiluz'
