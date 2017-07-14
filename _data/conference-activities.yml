@@ -74,3 +74,29 @@
   img: fabcity.jpg
   description: "Working Group: Fab City Bootcamp // How To Make It Happen In Your City *** Goals ***\nKickstarted at FAB7 in Lima by Tomas Diez (Fab Lab Barcelona | IAAC), and now being prototyped in Barcelona, the Fab City project has been providing an overall framework for a long-term transition towards locally productive and globally connected cities. The initial pledge started in Barcelona at FAB10 with the commitment of the city to produce everything it consumes by 2054, has inspired others to make this transition happen, in a unique collaboration between bottom-up movements and top-down governments and institutions, in cities like Paris, Amsterdam, Boston, Shenzhen, Santiago, Detroit or the Kingdom of Bhutan. But how does this appealing vision translate in your local context? How can you bring together the local community while onboarding the municipality and companies ? How should you organize and where should you start ?\nBased on 18 months of experience from the Fab City Paris team, now established a local nonprofit gathering 25 member organizations, this workshop aims to give ideas and practical first steps to get the Fab City process started in your city.\n-------------------------------------------------------------------------------------------------------------\nTwo days working on Fab Cities Future\n\nFab City, a Global Vision with Local Flavours : Lecture (1h) : Through the study we did for the city of Paris, we will present how we worked to make an international benchmark for productive cities and how we defined a specific vision for the city of Paris based on the local characteristics of the communities and local ongoing projects.\nFab City Prototypes: Where Do We Start ? (1h) Presentations of cases of implementations of Fab Cities by various speakers FabCity Prototype: Tomas Diez, Fab City Plymouth: Anne Le Gars, FabCity Amsterdam: Karen Van Der Mooen, FabCity Gran Paris: Mihn Man\nAnd you, how would you deal with that in your city ? \nWorking group to start to map local initiatives and define local flavors in your cities.  \nWorking group to start elaborate strategies to implement the process in your city.\n\nDAY 2:\nFab City and Fab Citizens: Bringing Everyone Onboard (1h)\nIn this part we will tell the story of how we built the association, how we engaged local labs and members and how we created the community around the project. We will also explain how we’ve been interacting with the City Council and we will talk about our proposal to implement a locally productive city in Paris. Workshop (2:30h) :\nAnd you, how would you deal with that in your city ?\nWorking group to start to map local initiatives and define local flavours in your cities.  \nWorking group to start elaborate strategies to implement the process in your city.\nWorking group to start elaborate strategies to implement a prototype in your city.\nLecture (30mins) : How we are working in Paris to launch a prototype and which initiatives are arising (coliving, fablab building, superlab, public space redesign, etc…)."
   url: 'https://fab13.sched.com/event/BPs6/fab-city-how-to-make-it-happen-in-your-city'
+- name: '"La Misión" cocktail'
+  type: activities
+  img: mision.jpg
+  description: 250 pp only with reservation
+  url: 'https://fab13.sched.com/event/BPsD/cocktail-at-la-mision'
+- name: Expanding Education in the Fab Lab Network
+  type: panel
+  img: exneil.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BQnk/expanding-education-in-the-fab-lab-network'
+- name: Distributed Design
+  type: panel
+  img: did.jpg
+  description: >-
+    To Design is a strategic tool to create socio-cultural value, organizing
+    matter and communicating their effects through a specific function that
+    transform our build environment. To design is always a political act.
+
+    Nowadays, the design has potentially more chances to be close to generated
+    positives transformation within our society by several novel digital
+    fabrication technologies and Internet holistic capabilities to generate more
+    possibilities of social cohesion, expanding the inherent objects capacities
+    to instances that construct systems from themselves. The main idea of this
+    discussion is to provide several points of view in order to interpret how to
+    design is moving from objects to systems
+  url: 'https://fab13.sched.com/event/BQnn/distributed-design'
