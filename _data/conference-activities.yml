@@ -127,8 +127,16 @@
   description:
   url: 'https://fab13.sched.com/event/BQnr/making-new-economies'
   speakers:
-    - name: 
-      img: 
+    - name: Tomas Diez
+      img: tomas-diez.png
+    - name: Zach Dunham
+      img: zach.jpg
+    - name: Primavera de Filippi
+      img: primavera.jpg
+    - name: Tony Fish
+      img: tony.png
+    - name: Benjamin Tincq
+      img: ben.jpg
 - name: Fab Lab for efficient usage of water for agriculture in water scarcity regions
   type: workshop
   img: fli.JPG
