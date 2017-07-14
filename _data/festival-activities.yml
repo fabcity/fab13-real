@@ -29,7 +29,7 @@
   description: 'Jóvenes de diferentes países unen esfuerzos e ideas para generarun PRODUCTO que refleja la juventud latinoamericana, sus intereses,retos y propuestas para transformar su comunidad. Esto no esuna COMPETENCIA, es una CONVERGENCIA de ideas basada encreación colaborativa: SIMBIOCREACIÓN.'
   url: 'https://fab13.sched.com/event/BURi/simbiocreacion'
 - name: Fabercise
-  type: demo
+  type: activity
   img: ex.jpg
   description:
   url: 'https://fab13.sched.com/event/BURu/fabercise'
@@ -69,14 +69,14 @@
   description: '¡Crea un objeto de origami que de mueve! Aprende a crear origamicon cartón reciclado, fabrica un mecanismo de engranaje simple conla cortadora láser y usando arduino y componentes de electrónicasimple ¡dale vida a tu creación!'
   url: 'https://fab13.sched.com/event/BUU8/origami-con-movimiento'
 - name: Pedal Loom
-  type: demo
+  type: activity
   img: loom.png
   description: 'Durante esta actividad no solo aprenderas técnicas de tejido, sinotambién podrás armar y desarmar el Pedal Loom, un telar fabricadoen un Laboratorio de Fabricación (Fab Lab). Diviértete tejiendo conmúltiples colores y diseños, bajo la dirección del único e inigualableWalter González.'
   url: 'https://fab13.sched.com/event/BUUH/pedal-loom'
 - name: Viviendas de Código Abiierto
   type: panel
   img: wiki.jpg
-  description: "Por siglos, los formatos y técnicas constructivas determinaron los parámetros para diseñar nuestras ciudades, componiendo paulatinamente una historia que evolucionó hasta lograr lo que hoy podríamos identificar como una arquitectura orquestada por partes que el mercado diseña y los arquitectos hacen uso de ellas, desapegandose de las capacidades inherentes a la materia, la tectónica y la invención. Hoy, debido a los innumerables métodos de fabricación digital que han democratizado la posibilidad de unificar el diseño y la fabricación, podemos inferir que entrega nuevas posibilidades a la composición de viviendas, incorporando soluciones que permitan reformar los procesos de diseño. \nEste panel, quiere invitar a debatir el lugar en dónde se insertan estas nuevas posibilidades y cómo podemos incorporar estas nuevas tecnologías dentro del cuerpo de conocimiento de la arquitectura y la fabricación en serie"
+  description: "Por siglos, los formatos y técnicas constructivas determinaron los parámetros para diseñar nuestras ciudades, componiendo paulatinamente una historia que evolucionó hasta lograr lo que hoy podríamos identificar como una arquitectura orquestada por partes que el mercado diseña y los arquitectos hacen uso de ellas, desapegandose de las capacidades inherentes a la materia, la tectónica y la invención. Hoy, debido a los innumerables métodos de fabricación digital que han activitycratizado la posibilidad de unificar el diseño y la fabricación, poactivitys inferir que entrega nuevas posibilidades a la composición de viviendas, incorporando soluciones que permitan reformar los procesos de diseño. \nEste panel, quiere invitar a debatir el lugar en dónde se insertan estas nuevas posibilidades y cómo poactivitys incorporar estas nuevas tecnologías dentro del cuerpo de conocimiento de la arquitectura y la fabricación en serie"
   url: 'https://fab13.sched.com/event/BUUu/vivienda'
 - name: Innovación y Emprendimiento
   type: panel
@@ -104,7 +104,7 @@
   description:
   url: 'https://fab13.sched.com/event/BUJr/energia'
 - name: Inauguración del Fab Festival 2017
-  type: demo
+  type: activity
   img: ina.jpg
   description:
   url: 'https://fab13.sched.com/event/BUHK/inauguracion-fab-festival'
@@ -179,7 +179,7 @@
   description:
   url: 'https://fab13.sched.com/event/BUUp/ciudades'
 - name: 'Cinestesia: Danza de Robots'
-  type: demo
+  type: activity
   img: roc.jpg
   description: Muestra de Robots bailarines.
   url: 'https://fab13.sched.com/event/BUY4/cinestesia-danza-de-robots'
