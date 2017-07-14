@@ -43,8 +43,12 @@
   description:
   url: 'https://fab13.sched.com/event/BPEJ/decentralization-mobile-fab-labs-emergency-solutions'
   speakers:
-    - name: 
-      img: 
+    - name: Robert Garita
+      img: rob.png
+    - name: Juan Felipe López
+      img: juan-felipe.jpg
+    - name: James Tooze
+      img: james.jpg
 - name: Afternoon Announcements
   type: activities
   img: wk.jpg
