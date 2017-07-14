@@ -2529,6 +2529,7 @@ ul.bullet-list {
 .paneles {
     padding: 40px;
     background-color: #{{ site.color.andeansand }};
+    margin-bottom: 10px;
 }
 
 .panel-speakers {
