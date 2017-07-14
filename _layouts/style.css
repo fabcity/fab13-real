@@ -2552,3 +2552,7 @@ ul.bullet-list {
     margin-bottom: 20px;
     background-position: center center;
 }
+
+.speaker-name {
+    margin-bottom: 0px;
+}
