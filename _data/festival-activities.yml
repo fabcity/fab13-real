@@ -143,3 +143,43 @@
   img: esta.png
   description: 'Durante este taller, los niños de entre 6 a 12 años, podrán fabricar supropia ropa y aprender cómo funciona la cortadora láser. Los niñospodrán elegir entre diferentes opciones de ropa diseñada sin costuras,decidiendo entre máscaras, chaquetas, zapatos, etc. Despuéspodrán estampar sus prendas con timbres fabricados en corte láser.'
   url: 'https://fab13.sched.com/event/BUXp/estampa-y-fabrica-sin-costuras'
+- name: Evolución Emosilla
+  type: workshop
+  img: emo.png
+  description: 'Emosilla motiva a los niños y niñas a expresar sus emociones paracaputarlas gráficamente en una expresión facial que pueden grabaren su propia silla personalizada. Para este taller, la emosilla evolucionay se convierte en un trineo para nieve, como iniciativa de nuestrosamigos de Japón. ¡Diseña, fabrica y diviértete con tu emosilla!'
+  url: 'https://fab13.sched.com/event/BUXN/evolucion-emosilla'
+- name: Fabrica tu Fidget Spinner
+  type: workshop
+  img: sp.png
+  description: ¿Estresado? Fabrica tu propio desestresador (fidget spinner) reciclandomaterial y usando herramientas como la fresa CNC para personalizarlo.
+  url: 'https://fab13.sched.com/event/BUXo/fabrica-tu-fidget-spinner'
+- name: Las maravillas del Internet
+  type: workshop
+  img: mini1.png
+  description: 'Descubre el maravilloso mundo del Internet como nunca antes. Eneste taller no solo verás lo que se puede hacer gracias al internet sinoque también crearás tu propia página web, video juego y un jugueteimpreso en 3d. ¡Maravilloso!'
+  url: 'https://fab13.sched.com/event/BUXr/las-maravillas-del-internet'
+- name: Piezas Arquelogicas de la cultura MOCHE
+  type: workshop
+  img: arq.png
+  description: '¡Conviértete en un arquéologo de la cultura ancestral Moche del Perú!Reproduce piezas arqueológicas antíguas a través de un scanner 3Dque luego se imprimirá en 3D. Continúa la diversión y el aprendizajeinteractuando con las piezas en una aplicación de Realidad Aumentadaa través tu celular inteligente usando lentes de cartón de RealidadVirtual fabricados por ti. ¡Increíble!'
+  url: 'https://fab13.sched.com/event/BUXd/piezas-arquelogicas-de-la-cultura-moche'
+- name: Academia de Drones
+  type: workshop
+  img: aca.png
+  description: 'En este taller, jóvenes de 12 a16 años construirán su dron y lo personalizarána su gusto. Los chicos van a programar el código pararealizar tareas autónomas como seguir rutas. Al finalizar la actividad,los participantes tendrán el conocimiento para programar sus propiastareas con arduino.'
+  url: 'https://fab13.sched.com/event/BUY0/academia-de-drones'
+- name: 'Educación : Modelos y experiencias educativas de vanguardia'
+  type: Panel
+  img: educa.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BUUx/educacion-modelos-y-experiencias-educativas-de-vanguardia'
+- name: Ciudades
+  type: panel
+  img: ciu.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BUUp/ciudades'
+- name: 'Cinestesia: Danza de Robots'
+  type: demo
+  img: roc.jpg
+  description: Muestra de Robots bailarines.
+  url: 'https://fab13.sched.com/event/BUY4/cinestesia-danza-de-robots'
