@@ -1,24 +1,50 @@
-- name: 'This is a workshop'
+- name: DigiToys
   type: workshop
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
-  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
-
-- name: 'This is a demo'
-  type: demo
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
-  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
-
-- name: 'This is a panel'
-  type: panel
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
-  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
-
-- name: 'This is a short talk'
+  img: digi.png
+  description: 'Digitoys es un taller diseñado para que los niños puedan convertirsus ideas en realidad a través de la impresión 3D. Ellos crearán suspropios juguetes, robots o cualquier personaje que puedan imaginar.Durante el taller, van a modelar su creación en plastilina, después ladigitalizarán con un software de modelado 3D para finalmente imprimirloen 3D.DIgitoyD'
+  url: 'https://fab13.sched.com/event/BURW/digittoys'
+- name: El Agua de las Tierras
+  type: workshop
+  img: sin.png
+  description: '¡Explora y experimenta con los materiales y métodos propuestos por laCaja de Experimento Siemens! Este taller pretende abrir espacios dediálogo entre los participantes en torno a la actuación de manera responsabley sostenible con nuestro medio ambiente específicamentecon el agua, proponiendo actividades que promuevan su cuidado.'
+  url: 'https://fab13.sched.com/event/BURl/el-agua-de-la-tierras'
+- name: Joyería Digital Andina
+  type: workshop
+  img: rox.png
+  description: '¡Explora la riqueza de la cultura andina mientras aprendes de fabricacióndigital! Descúbre la iconografía andina de Perú al realizar unapieza de joyería digital. Diseña tu pieza basada en un patrón, digitalizatu diseño en un software de dibujo computarizado y fabrica tu piezade joyería con corte y grabado láser.'
+  url: 'https://fab13.sched.com/event/BURr/joyeria-digital-andina'
+- name: FabX Talks
   type: short talk
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
-  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
-
+  img: talk.jpg
+  description: 5 min presentations on different topics
+  url: 'https://fab13.sched.com/event/BRJx/fab-x-talks-1'
+- name: Jugando con redes Sociales
+  type: workshop
+  img: SIMA 1.jpg
+  description: 'Acércate al mundo de la robótica transformando un teléfono inteligente en un robotcito social completamente interactivo, capaz de escuchar, moverse y expresarse. ¡No necesitas tener habilidades tecnológicas para interactuar con estos robots!'
+  url: 'https://fab13.sched.com/event/BUJi/jugando-con-robots-sociales'
+- name: Simbiocreación
+  type: workshop
+  img: ben.png
+  description: 'Jóvenes de diferentes países unen esfuerzos e ideas para generarun PRODUCTO que refleja la juventud latinoamericana, sus intereses,retos y propuestas para transformar su comunidad. Esto no esuna COMPETENCIA, es una CONVERGENCIA de ideas basada encreación colaborativa: SIMBIOCREACIÓN.'
+  url: 'https://fab13.sched.com/event/BURi/simbiocreacion'
+- name: Fabercise
+  type: demo
+  img: ex.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BURu/fabercise'
+- name: DÑA-Dos niños al mando
+  type: workshop
+  img: dña.png
+  description: '¿Sabes qué es el DNA y cómo está contituído? Durante este taller jugaráscon un amigo para armar una estructura interactiva de 2 metrosa la que se le anexan botellas de plástico recicladas, simulando unDNA con sus ácidos nucléicos. ¡Descubre la combinación coryobserva una estructura 3D de DNA en el software Avogadr'
+  url: 'https://fab13.sched.com/event/BURz/dna-dos-ninos-al-mando'
+- name: Medio Ambiente
+  type: workshop
+  img: medio.png
+  description: 'Durante este taller se busca reconocer los principales agentes decontaminación del medio ambiente y las acciones que se puedenhacer para disminuirlos, promover el desarrollo de habilidades delpensamiento científico durante el proceso indagatorio y sensibilizara niños, jóvenes y familia al cuidado y protección de medio ambiente.'
+  url: 'https://fab13.sched.com/event/BUTy/medio-ambiente'
+- name: Fabrica tu Guitarra
+  type: workshop
+  img: guitarra.png
+  description: '¿Quieres diseñar y fabricar tu propia guitarra? Durante este taller podráspersonalizar las partes de una guitarra, cortarlas con una cortadoraláser, armarla y ¡llevarla a casa!.'
+  url: 'https://fab13.sched.com/event/BUUK/fabrica-tu-guitarra'
