@@ -3,7 +3,7 @@
   img: faba.jpg
   description: 'All Instructors of FabAcademy are invited to work on the updates, exchanged knowledge, share agendas and new techniques, propose improvements and work collaboratively for the rapidly expanding FabAcademy.'
   url: 'https://fab13.sched.com/event/BPEa/fabacademy-instructors-meeting'
-- name: 'Cities:Towards a Liquid Distribution'
+- name: 'Cities: Towards a Liquid Distribution'
   type: panel
   img: bcn.png
   description:
@@ -29,3 +29,28 @@
   img: tex.png
   description: "Fab13ers!\nWe are celebrating Fab13 with a Challenge on Fashion and Assistive Technology to recognize the ways society embraces digital fabrication in the most intimate way. Technology gets closer, it becomes an extension of our body to assist and augment our abilities, to gather and process our data. How can society adapt and benefit from the democratic access to knowledge and skills found in Fab Labs, to improve the life of people? How does the industry of fashion transform with digital distributed production and communities?\nWe call on the participants of Fab13 to demonstrate the power of creation through visionary prototypes and innovative concepts. During the conference days makers, inventors, thinkers, and innovators will have access to the Super Fab Lab in order to develop their projects, ideas and technologies to prescribe the impact of wearables, digital fashion, and assistive technology, through digital fabrication and global collaborations. \nAll projects will be presented on Saturday at the main stage of Fab13Festival and we are preparing great prices for the winning teams."
   url: 'https://fab13.sched.com/event/BPsE/super-fab-lab-open-for-challenge'
+- name: 'Education: How do we envision the future of education'
+  type: panel
+  img: edu.png
+  description:
+  url: 'https://fab13.sched.com/event/BPCM/education-how-do-we-envision-the-future-of-education'
+- name: 'Decentralization : Mobile Fab Labs & Emergency Solutions'
+  type: panel
+  img: mov.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BPEJ/decentralization-mobile-fab-labs-emergency-solutions'
+- name: Afternoon Announcements
+  type: activities
+  img: wk.jpg
+  description: "Let's Learn how to select your workshop on the APP"
+  url: 'https://fab13.sched.com/event/BPER/afternoon-announcements'
+- name: Foundations and Regional Networks
+  type: working group
+  img: lat.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BPgj/foundations-and-regional-networks'
+- name: Minecraft hacking
+  type: workshop
+  img: ras.jpg
+  description: Learn electronics and Minecraft with raspberry pi and Minecraft.
+  url: 'https://fab13.sched.com/event/BQcO/125-minecraft-hacking'
