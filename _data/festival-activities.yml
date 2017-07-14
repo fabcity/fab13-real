@@ -118,3 +118,28 @@
   img: guz.png
   description: 'Ensambla tu propia lámpara. Fabrícala a través de electrónica básicapara que encienda, usa una máquina de corte láser para hacer suforma y personalizala con tu nombre, dibujos o personajes favoritos.'
   url: 'https://fab13.sched.com/event/BUXH/gusiluz'
+- name: Materiales Inteligentes
+  type: workshop
+  img: mate.png
+  description: '¡Diviértete experimentando con ferrofluídos y otros materiales inteligentes!En este taller aprenderás la composición y propiedades demateriales inteligentes: cómo es la interacción de sus compuestos ycómo pueden ser modificados por estímulos externos.'
+  url: 'https://fab13.sched.com/event/BUV6/materiales-inteligentes'
+- name: Pequeño Phagobot Aprende Biotecnología con Robotcito
+  type: workshop
+  img: pequ.png
+  description: '¡Aprende los conceptos básicos de biotecnología jugando conpequeños robots interactivos! El taller presenta los conceptos de latecnología basada en fagos a través del juego, para explicar cómo seinyecta DNA en bacteria para diferentes aplicaciones.'
+  url: 'https://fab13.sched.com/event/BUVA/pequeno-phagobot-aprende-biotecnologia-con-robotcito'
+- name: Zapatos sin costuras
+  type: workshop
+  img: zap.png
+  description: '¡Aprende a hacer productos utilizando la cortadora láser! Conoce lasposibilidades del corte láser para crear elementos tridimensonalesque pueden ensamblarse sin costuras. En este taller podrás creartus propios zapatos personalizados, con diferentes materiales y sinnecesidad de costuras.'
+  url: 'https://fab13.sched.com/event/BUVI/zapatos-sin-costuras'
+- name: Drawbot
+  type: workshop
+  img: draw.png
+  description: '¡Contruye un robot que dibuja! Integra los elementos principales paraser un maker: Fabricación Digital, mecatrónica y programación. Juegacon tus compañeros dibujando con sus robots de cartón, creandoverdaderas obras de arte.'
+  url: 'https://fab13.sched.com/event/BUXm/drawbot'
+- name: Estampa y Fabrica sin Costuras
+  type: workshop
+  img: esta.png
+  description: 'Durante este taller, los niños de entre 6 a 12 años, podrán fabricar supropia ropa y aprender cómo funciona la cortadora láser. Los niñospodrán elegir entre diferentes opciones de ropa diseñada sin costuras,decidiendo entre máscaras, chaquetas, zapatos, etc. Despuéspodrán estampar sus prendas con timbres fabricados en corte láser.'
+  url: 'https://fab13.sched.com/event/BUXp/estampa-y-fabrica-sin-costuras'
