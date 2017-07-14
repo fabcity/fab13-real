@@ -113,8 +113,14 @@
     design is moving from objects to systems
   url: 'https://fab13.sched.com/event/BQnn/distributed-design'
   speakers:
-    - name: 
-      img: 
+    - name: Andrés Briceño
+      img: andres.jpg
+    - name: David Li
+      img: david-li.jpg
+    - name: Lauren Slowik
+      img: lau.jpeg
+    - name: James Tooze
+      img: james.jpg
 - name: Making New economies
   type: panel
   img: new.jpg
