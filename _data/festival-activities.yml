@@ -48,3 +48,13 @@
   img: guitarra.png
   description: '¿Quieres diseñar y fabricar tu propia guitarra? Durante este taller podráspersonalizar las partes de una guitarra, cortarlas con una cortadoraláser, armarla y ¡llevarla a casa!.'
   url: 'https://fab13.sched.com/event/BUUK/fabrica-tu-guitarra'
+- name: Realidad Virtual
+  type: workshop
+  img: realidad.png
+  description: 'Mediante gafas de realidad virtual los chicos van a encontrar clavesde acceso, elementos tecnológicos, armar circuitos funcionales, paradescifrar la clave que llevará al éxito de la misión. Al finalizar estaaventura, tendrás un premio por tu ardua tarea ¡Atrévete!'
+  url: 'https://fab13.sched.com/event/BUUM/realidad-virtual'
+- name: Arcilla Conductiva para niños
+  type: workshop
+  img: arilla.png
+  description: 'Pequeños de 2 a 6 años aprenderán cómo funciona un circuito eléctricojugando con arcilla. Harán su propia arcilla usando materiales decocina como harina, azúcar y sal, y la utilizarán como conductor parahacer funcionar algunos componentes como LEDs y motores'
+  url: 'https://fab13.sched.com/event/BUUC/arcilla-conductiva-para-ninos'
