@@ -1,13 +1,12 @@
-- name: 'This is a working group'
+- name: FabAcademy Instructors meeting
   type: working group
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
-  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
-
-- name: Cities:Towards a Liquid Distribution
+  img: faba.jpg
+  description: 'All Instructors of FabAcademy are invited to work on the updates, exchanged knowledge, share agendas and new techniques, propose improvements and work collaboratively for the rapidly expanding FabAcademy.'
+  url: 'https://fab13.sched.com/event/BPEa/fabacademy-instructors-meeting'
+- name: 'Cities:Towards a Liquid Distribution'
   type: panel
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
+  img: bcn.png
+  description:
   url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
   speakers:
     - name: Tomas Vivanco
@@ -20,16 +19,13 @@
       img: marabb.png
     - name: David Basulto
       img: david.jpeg
-
-- name: 'This is a workshop'
+- name: Cardboard CNC Machines MTM (2days)
   type: workshop
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
-  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
-
-- name: 'This is an activity'
+  img: cnc.jpg
+  description: 'At Fab Lab Tecsup we have been working, since last year in the development of machine structures using cardboard. Cardboard is light weight and resistant depending on how do you design the structure. For this workshop, we are going to make a hands-on activity with the participants to developed a Tube Cutter Machine and 4 axis CNC machine.'
+  url: 'https://fab13.sched.com/event/BQc1/102-cardboard-cnc-machines-mtm-2days'
+- name: 'Super Fab Lab Open : Fashion and Assistive Technology Challenge'
   type: activities
-  img: test-img.png
-  description: 'Lorem ipsum dolor sit amet, mea lobortis voluptatum in, atqui tamquam pericula mei ea, cum volumus percipit cu. His dolore nonumy inciderint in. Alia erant congue eam in. Cum et cibo decore, delenit dolorem eum ut.'
-  url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
-
+  img: tex.png
+  description: "Fab13ers!\nWe are celebrating Fab13 with a Challenge on Fashion and Assistive Technology to recognize the ways society embraces digital fabrication in the most intimate way. Technology gets closer, it becomes an extension of our body to assist and augment our abilities, to gather and process our data. How can society adapt and benefit from the democratic access to knowledge and skills found in Fab Labs, to improve the life of people? How does the industry of fashion transform with digital distributed production and communities?\nWe call on the participants of Fab13 to demonstrate the power of creation through visionary prototypes and innovative concepts. During the conference days makers, inventors, thinkers, and innovators will have access to the Super Fab Lab in order to develop their projects, ideas and technologies to prescribe the impact of wearables, digital fashion, and assistive technology, through digital fabrication and global collaborations. \nAll projects will be presented on Saturday at the main stage of Fab13Festival and we are preparing great prices for the winning teams."
+  url: 'https://fab13.sched.com/event/BPsE/super-fab-lab-open-for-challenge'
