@@ -148,7 +148,7 @@
     - name: Primavera de Filippi
       img: primavera.jpg
     - name: Tony Fish
-      img: tony.png
+      img: tony.PNG
     - name: Benjamin Tincq
       img: ben.jpg
 - name: Fab Lab for efficient usage of water for agriculture in water scarcity regions
@@ -204,7 +204,7 @@
   url: 'https://fab13.sched.com/event/BQom/design-material-systems'
   speakers:
     - name: Sergio Araya
-      img: sergio.jpg
+      img: sergio.JPG
     - name: Liz Corbin
       img: lizc.png
     - name: Alexandre Dubor
