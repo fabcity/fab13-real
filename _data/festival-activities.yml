@@ -58,3 +58,48 @@
   img: arilla.png
   description: 'Pequeños de 2 a 6 años aprenderán cómo funciona un circuito eléctricojugando con arcilla. Harán su propia arcilla usando materiales decocina como harina, azúcar y sal, y la utilizarán como conductor parahacer funcionar algunos componentes como LEDs y motores'
   url: 'https://fab13.sched.com/event/BUUC/arcilla-conductiva-para-ninos'
+- name: Haz tu Dron
+  type: workshop
+  img: dron.png
+  description: 'Haz un dron con equipo y componentes simples. Aprende los coneptosbásicos de la electrónica y ¡manos a la obra!. Arma las partes ycon unos minutos de práctica, ¡conviertete en un piloto de drones!'
+  url: 'https://fab13.sched.com/event/BUU2/haz-tu-dron'
+- name: Origami en Movimiento
+  type: workshop
+  img: ori.png
+  description: '¡Crea un objeto de origami que de mueve! Aprende a crear origamicon cartón reciclado, fabrica un mecanismo de engranaje simple conla cortadora láser y usando arduino y componentes de electrónicasimple ¡dale vida a tu creación!'
+  url: 'https://fab13.sched.com/event/BUU8/origami-con-movimiento'
+- name: Pedal Loom
+  type: demo
+  img: loom.png
+  description: 'Durante esta actividad no solo aprenderas técnicas de tejido, sinotambién podrás armar y desarmar el Pedal Loom, un telar fabricadoen un Laboratorio de Fabricación (Fab Lab). Diviértete tejiendo conmúltiples colores y diseños, bajo la dirección del único e inigualableWalter González.'
+  url: 'https://fab13.sched.com/event/BUUH/pedal-loom'
+- name: Viviendas de Código Abiierto
+  type: panel
+  img: wiki.jpg
+  description: "Por siglos, los formatos y técnicas constructivas determinaron los parámetros para diseñar nuestras ciudades, componiendo paulatinamente una historia que evolucionó hasta lograr lo que hoy podríamos identificar como una arquitectura orquestada por partes que el mercado diseña y los arquitectos hacen uso de ellas, desapegandose de las capacidades inherentes a la materia, la tectónica y la invención. Hoy, debido a los innumerables métodos de fabricación digital que han democratizado la posibilidad de unificar el diseño y la fabricación, podemos inferir que entrega nuevas posibilidades a la composición de viviendas, incorporando soluciones que permitan reformar los procesos de diseño. \nEste panel, quiere invitar a debatir el lugar en dónde se insertan estas nuevas posibilidades y cómo podemos incorporar estas nuevas tecnologías dentro del cuerpo de conocimiento de la arquitectura y la fabricación en serie"
+  url: 'https://fab13.sched.com/event/BUUu/vivienda'
+- name: Innovación y Emprendimiento
+  type: panel
+  img: ino.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BUGd/innovacion-emprendimiento'
+- name: Descentralización
+  type: panel
+  img: desc.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BUH9/decentralizacion'
+- name: Mapero del GAM con drones e impresion 3D
+  type: workshop
+  img: mapeo.png
+  description: 'Este taller se enfoca en el uso de drones para mapeo 3D e impresión3D. Los participantes aprenerán el uso básico de un dron y de planesde vuelo, mientras vuelan un dron que toma fotografías del área.Después, procesarán dichas imagenes para obtener un modelo tridimensionalque puede ser impreso en 3D.'
+  url: 'https://fab13.sched.com/event/BUUP/mapea-el-gam-con-drones-e-imprime-en-3d'
+- name: Mascaras
+  type: workshop
+  img: mas.png
+  description: 'Taller para niños de 12 a 16 años, donde se introduce en forma lúdicaal niño en la construcción de un modelo 3D, a través del diseño yfabricación de una mascara de animales en cartón forrado con aplicacionesde electrónica que permiten su personalización.'
+  url: 'https://fab13.sched.com/event/BUUR/mascaras'
+- name: Energia
+  type: panel
+  img: ene.jpg
+  description:
+  url: 'https://fab13.sched.com/event/BUJr/energia'
