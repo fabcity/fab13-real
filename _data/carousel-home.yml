@@ -3,8 +3,8 @@ fallback: mountain.png
 imgs:
   - file: gamm.png
     url: '/#venues'
-  - file: selected-workshops.svg
-    url: "https://docs.google.com/spreadsheets/d/1KQksuiCkClyh7W7QdOw83xGTWTL7HJNn8jjvYITokmI/edit#gid=0"
+  - file: festivalfab11.jpg
+    url:
   - file: colpa.png
     url: '/#venues'
   - file: fabricating-society.svg
