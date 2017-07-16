@@ -4,10 +4,8 @@ imgs:
   - file: gamm.png
     url: '/#venues'
   - file: festivalfab11.jpg
-    url:
-  - file: confefab12.jpg
     url: '/#venues'
-  - file: ce.png
+  - file: confefab12.jpg
     url: '/#venues'
   - file: 0.svg
     url: '/#about'
