@@ -1,0 +1,73 @@
+<!--Conference Activities-->
+
+<div id="conference-activities" class="parallax__group">
+
+  <div class="parallax__layer parallax__layer--back">
+    <img class="bg-responsive" src="/img/backgrounds/color-top.svg"/>
+  </div>
+
+
+  <div class="parallax__layer parallax__layer--base">
+    <div class="container section-content text-center">
+      
+      <div class="row row-page" style="padding-top: 0px;">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-title">Activities</h3>
+        </div>
+      </div><!--row-->
+
+      <div id="festival-modules">
+
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#all-modules">Working Groups</a></li>
+        </ul>
+
+        <div class="tab-content">
+
+          <div id="all-modules" class="tab-pane fade in active">
+            {% for activity in site.data.conference-activities %}
+              {% if activity.type == 'working group' %}
+                <div class="row text-left paneles"> 
+                  <div class="col-sm-4 col-md-4">
+                    <div class="module-img" style="background-image: url(../img/conference/{{ activity.img }});" ></div>
+                  </div>
+
+                  <div class="col-sm-8 col-md-8">
+                      <div>
+                        <p class="bold large">{{ activity.name }}</p>
+                      </div>
+                      <div>
+                          <p>{{ activity.description }}</p>
+                      </div> 
+                      <br>
+                      <div class="row">
+                        <a href="{{ activity.url }}" target="_blank"> <span class="bold"> +add to my schedule </span> </a>
+                      </div>
+                  </div><!--col--> 
+                </div><!--row-->
+                {% endif %}
+            {% endfor %}
+          </div>
+        </div> <!--tab-content-->
+      </div> <!--conference-modules-->
+    
+
+    </div><!--container-->
+  </div><!--layer base-->
+</div><!--parallax-group-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
