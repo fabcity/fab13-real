@@ -352,7 +352,7 @@ Main Components
 
 .cd-schedule .event-date {
   /* they are not included in the the HTML but added using JavScript */
-  font-size: 1.4rem;
+  font-size: 1rem;
   opacity: .7;
   line-height: 1.2;
   margin-bottom: .2em;
@@ -397,6 +397,12 @@ Main Components
 .cd-schedule [data-event="event-4"] .header-bg {
   background: #e63946 ;/*red*/
 }
+
+.cd-schedule .single-event[data-event="event-5"],
+.cd-schedule [data-event="event-5"] .header-bg {
+  background: #ccc ;/*gray*/
+}
+
 
 /*
 .cd-schedule .single-event[data-event="event-4"]:hover {
@@ -743,13 +749,6 @@ Main Components
     background-color: transparent;
   }
 
-
-  @media only screen and (min-width: 800px){
-    .cd-schedule .event-name {
-      font-size: 1.7rem;
-    }
-  }
-
   .events-group ul {
     background-color: white;
   }
@@ -765,12 +764,13 @@ Main Components
   @media only screen and (min-width: 800px){
     .cd-schedule .event-name {
       font-size: 1rem;
+      line-height: 1.2;
     }
   }
 
   @media only screen and (min-width: 991px){
     .cd-schedule .event-name {
-      font-size: 1.3rem;
+      font-size: 1rem;
     }
   }
 
