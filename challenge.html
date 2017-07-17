@@ -1,5 +1,69 @@
 ---
 layout: page
+title: Fab13 Challenge
+subtitle: "Anybody with the FAB13 ticket can participate!"
+intro: "We call on the participants of Fab13 to demonstrate the power of creation through visionary prototypes and innovative concepts."
+button-text: Participate
+button-link: /challenge#challenge-participate
+header-img: /img/challenge/festival3.svg
+bg-color: e63946
+photo: /img/challenge/challenge.jpg
+description: We are celebrating Fab13 with a Challenge on Fashion and Assistive Technology to recognize the ways society embraces digital fabrication in the most intimate way. Technology gets closer, it becomes an extension of our body to assist and augment our abilities, to gather and process our data. How can society adapt and benefit from the democratic access to knowledge and skills found in Fab Labs, to improve the life of people? How does the industry of fashion transform with digital distributed production and communities? We call on the participants of Fab13 to demonstrate the power of creation through visionary prototypes and innovative concepts. During the conference days makers, inventors, thinkers, and innovators will have access to the Super Fab Lab in order to develop their projects, ideas and technologies to prescribe the impact of wearables, digital fashion, and assistive technology, through digital fabrication and global collaborations. All projects will be presented on Saturday at the main stage of Fab13Festival and we are preparing great prices for the winning teams.
 ---
 
-{% include challenge-header.html %}
+
+<div id="challenge-participate" class="parallax__group">
+  <div class="parallax__layer parallax__layer--back text-center">
+    <img class="bg-responsive" src="/img/backgrounds/color-top-gray-short.svg"/>
+  </div>
+  <div class="parallax__layer parallax__layer--base">
+    <div class="container section-content text-center">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h3 class="section-title">Participate</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-6 text-center" style="padding-bottom: 20px;"  >
+          <h4 class="section-subtitle">How can I participate? </h4>
+          <p>Anybody with the ticket of FAB13 can participate. We encourage you to create groups and develop your proposals during the FAB 13 Conference. If you haven't purchased your ticket yet please buy it <a href="/challenge#tickets"> here. </a>
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-6 text-center" style="padding-bottom: 20px;" >
+          <h4 class="section-subtitle">Time Schedule </h4>
+          <p>During the conference days (from Tuesday to Thursday) teams can develop their projects using the infrastructure of the Super Fab Lab. Project registration will be held at the main venue on Tuesday night. Projects will be presented at the main stage of Fab Festival on Saturday afternoon.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-6 text-center" style="padding-bottom: 20px;" >
+          <h4 class="section-subtitle">Prizes </h4>
+          <p>The event is supported by Shapeways, lots of prizes are going to be announced for the winners of the challenge. Stay tuned!</p>
+        </div>
+        <div class="col-sm-6 col-md-6 text-center" style="padding-bottom: 20px;" >
+          <h4 class="section-subtitle" >Organized by: </h4>
+           {% for sponsor in site.data.sponsors %}
+              {% if sponsor.role == 'challenge' %}
+                 <a href="{{ sponsor.url }}" target="_blank">
+                     <div class="col-xs-6 col-sm-6 col-md-6 sponsor-div link-grow">
+                          <img class="sponsor-img" src="/img/logos/{{ sponsor.img }}">
+                      </div>
+                  </a>
+              {% endif %}
+          {% endfor %} 
+        </div>
+      </div>
+    </div><!--container-->
+  </div><!--layer--base-->
+</div><!--challenge-participate -->
+
+
+
+
+
+
+
+
+
+
+
+
