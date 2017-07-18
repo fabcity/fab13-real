@@ -2538,13 +2538,13 @@ ul.bullet-list {
     margin-bottom: 40px;
 }
 
-#festival-modules {
+.tab-modules {
     padding-bottom: 80px;
 }
 
 
-#festival-modules .active {
-    background-color: transparent ;
+.tab-modules .active {
+    background-color: transparent;
 }
 
 .module-img {
