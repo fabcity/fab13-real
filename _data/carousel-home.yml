@@ -3,9 +3,9 @@ fallback: mountain.png
 imgs:
   - file: gamm.png
     url: '/#venues'
-  - file: festivalfab11.jpg
+  - file: all.jpg
     url: '/#venues'
-  - file: confefab12.jpg
+  - file: show.jpg
     url: '/#venues'
   - file: 0.svg
     url: '/#about'
