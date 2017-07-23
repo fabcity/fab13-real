@@ -268,12 +268,6 @@
   url: 'https://www.gse.harvard.edu/faculty/edward-clapp'
   img: edw.jpeg
   role: panelist
-- name: Brooke Toczylowski
-  bio: Agency by Design Teacher Researcher at Project Zero
-  longbio:
-  url: 'http://www.brooketoczylowski.com/'
-  img: brook.jpg
-  role: panelist
 - name: Sonya Pryor-Jones
   bio: Chief Implementation Officer at Fab Foundation (MIT)
   longbio:
@@ -333,12 +327,6 @@
   longbio:
   url: 'http://www.fablabatacama.cl/'
   img: javier.jpg
-  role: panelist
-- name: Julio Valdivia Silva
-  bio: Physician and Researcher at NASA Ames Research Center
-  longbio:
-  url: 'https://www.linkedin.com/in/julio-valdivia-silva-4009aa23/?locale=en_US'
-  img: julio.jpg
   role: panelist
 - name: Luciano Betoldi
   bio: International Operations Director at Fab Foundation / Fab Academy
