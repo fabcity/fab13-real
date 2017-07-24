@@ -162,3 +162,7 @@
   role: challenge
   url: 'https://fabtextiles.org/'
   img: fabtextiles.png
+- organization: Laboratorio de Gobierno
+  role: government
+  url: 'http://www.lab.gob.cl/'
+  img: laboratorio-gobierno.jpg
