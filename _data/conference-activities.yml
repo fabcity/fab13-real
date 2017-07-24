@@ -6,7 +6,14 @@
 - name: 'Cities: Towards a Liquid Distribution'
   type: panel
   img: bcn.png
-  description:
+  description: >-
+    The biggest socio-cultural transformations determined local and global urban
+    structures in the past 200 years. The emergence of new technological media
+    and citizen empowerment enable the possibility of moving from the right of
+    access to the city to the right of making cities.
+
+    In this panel will present different visions and strategies for the
+    construction of a new model of a city.
   url: 'https://fab13.sched.com/event/BOzh/cities-towards-a-liquid-distribution?iframe=no&w=100%&sidebar=no&bg=no'
   speakers:
     - name: Tomas Vivanco
@@ -114,17 +121,7 @@
 - name: Distributed Design
   type: panel
   img: did.jpg
-  description: >-
-    To Design is a strategic tool to create socio-cultural value, organizing
-    matter and communicating their effects through a specific function that
-    transform our build environment. To design is always a political act.
-    Nowadays, the design has potentially more chances to be close to generated
-    positives transformation within our society by several novel digital
-    fabrication technologies and Internet holistic capabilities to generate more
-    possibilities of social cohesion, expanding the inherent objects capacities
-    to instances that construct systems from themselves. The main idea of this
-    discussion is to provide several points of view in order to interpret how to
-    design is moving from objects to systems
+  description: 'To Design is a strategic tool to create socio-cultural value, organizing matter and communicating their effects through a specific function that transform our build environment. To design is always a political act. Nowadays, the design has potentially more chances to be close to generated positives transformation within our society by several novel digital fabrication technologies and Internet holistic capabilities to generate more possibilities of social cohesion, expanding the inherent objects capacities to instances that construct systems from themselves. The main idea of this discussion is to provide several points of view in order to interpret how to design is moving from objects to systems'
   url: 'https://fab13.sched.com/event/BQnn/distributed-design'
   speakers:
     - name: Andrés Briceño
