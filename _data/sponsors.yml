@@ -174,3 +174,7 @@
   role: media
   url: 'http://www.fundacionvivechile.cl/'
   img: vive.png
+- organization: Talentum
+  role: sponsor
+  url:
+  img: talentum.png
