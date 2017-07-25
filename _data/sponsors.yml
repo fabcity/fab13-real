@@ -166,3 +166,7 @@
   role: government
   url: 'http://www.lab.gob.cl/'
   img: laboratorio-gobierno.jpg
+- organization: Formlabs
+  role: sponsor
+  url: 'https://formlabs.com/'
+  img: form.png
