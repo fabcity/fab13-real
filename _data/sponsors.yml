@@ -170,3 +170,7 @@
   role: sponsor
   url: 'https://formlabs.com/'
   img: form.png
+- organization: VTR
+  role: media
+  url: 'http://www.fundacionvivechile.cl/'
+  img: vive.png
