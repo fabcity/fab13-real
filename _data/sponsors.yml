@@ -178,3 +178,7 @@
   role: sponsor
   url:
   img: talentum.png
+- organization: 'Dis-up!'
+  role: media
+  url: 'https://twitter.com/disupmagazine?lang=en'
+  img: dis.png
