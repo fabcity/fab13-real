@@ -182,3 +182,7 @@
   role: media
   url: 'https://twitter.com/disupmagazine?lang=en'
   img: dis.png
+- organization: Municipalidad de Santiago
+  role: supporter
+  url: 'http://www.municipalidaddesantiago.cl/'
+  img: muni.jpg
