@@ -702,3 +702,9 @@
   url: 'https://www.linkedin.com/in/katie-rast-7957183/'
   img: katie.png
   role: panelist
+- name: Fernan Federici
+  bio: Research Group Co-Director
+  longbio:
+  url: 'https://federicilab.org/'
+  img: fer.jpg
+  role: panelist
