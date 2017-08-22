@@ -3,10 +3,14 @@
   url:
   placement: right
 - name: Workshop selection
-  short: 'Check out if your workshop was selected to be held at Fab13!'
+  short: 'Workshops are selected through an open call for all Fabber (Fab Lab Network), Maker (Maker Network), Hacker (Hacke Space Network), Diyer (Do it yourself Network), or the general public who are interested in making their workshop during the conference days. Applications are reviewed by experts in digital fabrication and selected workshops are announced a month before the event starts.'
   url: 
   placement: right
 - name: Working Group Selection
   short: 'Check out if your workshop was selected to be held at Fab13!'
   url: 
   placement: right
+- name: Volunteers Selection
+  short: 'Check out if your workshop was selected to be held at Fab13!'
+  url: 
+  placement: right  
