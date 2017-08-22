@@ -741,3 +741,9 @@
   url: 'https://www.linkedin.com/in/eduardo-recordon-9303a536/?ppe=1'
   img: eduar.jpg
   role: panelist
+- name: Jose Riquelme
+  bio: Innovation Manager in Sodimac Chile
+  longbio:
+  url: 'https://www.linkedin.com/in/jose-antonio-riquelme-zamorano-b8a63462/'
+  img: joser.jpg
+  role: panelist
