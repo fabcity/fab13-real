@@ -728,3 +728,16 @@
   url: 'https://www.linkedin.com/in/francisca-astaburuaga-7809092/?ppe=1'
   img: fran.jpg
   role: panelist
+- name: Jose Luján
+  bio: Peruvian chef. Creator of PachaLab
+  longbio:
+  url: >-
+    https://peru21.pe/cultura/jose-lujan-restaurantes-cusco-rescatan-regional-70304
+  img: joselu.jpg
+  role: panelist
+- name: Eduardo Recordon
+  bio: Renewable Energy Systems Ltd
+  longbio:
+  url: 'https://www.linkedin.com/in/eduardo-recordon-9303a536/?ppe=1'
+  img: eduar.jpg
+  role: panelist
