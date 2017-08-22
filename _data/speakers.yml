@@ -690,3 +690,15 @@
   url: 'https://www.linkedin.com/in/annalowe/?ppe=1'
   img: anna.jpg
   role: speaker
+- name: Naiomi Lundman
+  bio: 'Curator, Humanitarian Makers'
+  longbio:
+  url: 'https://www.linkedin.com/in/nlundman/'
+  img: nai.jpg
+  role: panelist
+- name: Katie Rast
+  bio: Director Fab Lab San Diego
+  longbio:
+  url: 'https://www.linkedin.com/in/katie-rast-7957183/'
+  img: katie.png
+  role: panelist
