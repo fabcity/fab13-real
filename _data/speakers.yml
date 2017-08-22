@@ -708,3 +708,27 @@
   url: 'https://federicilab.org/'
   img: fer.jpg
   role: panelist
+- name: Oscar Diaz
+  bio: Co-Founder Fab Lab Yucatan- Collaborator Fab Lat Kids
+  longbio:
+  url: 'https://www.facebook.com/diazcarrillo.oscar'
+  img: oscar.jpg
+  role: panelist
+- name: Elisa Panero
+  bio: U21
+  longbio:
+  url: 'https://21.edu.ar/'
+  img: elisa.jpg
+  role: panelist
+- name: Ulrike Wahl
+  bio: Geschaeftsfuehrerin bei Ulrike Wahl & FS Consultancy EIRL Latin America
+  longbio:
+  url: 'https://www.linkedin.com/in/ulrike-wahl-78409237/?ppe=1'
+  img: ul.jpg
+  role: panelist
+- name: Gabriela Navrro
+  bio: Inacap
+  longbio:
+  url: 'https://www.linkedin.com/in/gabriela-navarro-77786263/?ppe=1'
+  img: gab.jpg
+  role: panelist
