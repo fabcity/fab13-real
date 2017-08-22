@@ -732,3 +732,15 @@
   url: 'https://www.linkedin.com/in/gabriela-navarro-77786263/?ppe=1'
   img: gab.jpg
   role: panelist
+- name: Vaneza Caycho
+  bio: Wooden Architecture and Furniture Designer
+  longbio:
+  url: 'https://www.linkedin.com/in/vanezacaycho/?ppe=1'
+  img: vane.jpg
+  role: panelist
+- name: Francisca Astaburuaga
+  bio: Director Centro de Innovación en Ciudades UDD
+  longbio:
+  url: 'https://www.linkedin.com/in/francisca-astaburuaga-7809092/?ppe=1'
+  img: fran.jpg
+  role: panelist
