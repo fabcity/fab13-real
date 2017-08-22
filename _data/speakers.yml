@@ -1,59 +1,152 @@
 - name: Neil Gershenfeld
-  bio: "Director of MIT's Center for Bits and Atoms"
-  longbio: "Prof. Neil Gershenfeld is the Director of MIT's Center for Bits and Atoms. His unique laboratory is breaking down boundaries between the digital and physical worlds, from creating molecular quantum computers to virtuosic musical instruments. Technology from his lab has been seen and used in settings including New York's Museum of Modern Art and rural Indian villages, the White House and the World Economic Forum, inner-city community centers and automobile safety systems, Las Vegas shows and Sami herds. He is the author of numerous technical publications, patents, and books including Fab, When Things Start To Think, The Nature of Mathematical Modeling, and The Physics of Information Technology, and has been featured in media such as The New York Times, The Economist, NPR, CNN, and PBS. He is a Fellow of the American Physical Society, has been named one of Scientific American's 50 leaders in science and technology, as one of 40 Modern-Day Leonardos by the Museum of Science and Industry, one of Popular Mechanic's 25 Makers, has been selected as a CNN/Time/Fortune Principal Voice, and by Prospect/Foreign Policy as one of the top 100 public intellectuals. Dr. Gershenfeld has a BA in Physics with High Honors from Swarthmore College, a Ph.D. in Applied Physics from Cornell University, honorary doctorates from Swarthmore College, Strathclyde University and the University of Antwerp, was a Junior Fellow of the Harvard University Society of Fellows, and a member of the research staff at Bell Labs."
+  bio: Director of MIT's Center for Bits and Atoms
+  longbio: >-
+    Prof. Neil Gershenfeld is the Director of MIT's Center for Bits and Atoms.
+    His unique laboratory is breaking down boundaries between the digital and
+    physical worlds, from creating molecular quantum computers to virtuosic
+    musical instruments. Technology from his lab has been seen and used in
+    settings including New York's Museum of Modern Art and rural Indian
+    villages, the White House and the World Economic Forum, inner-city community
+    centers and automobile safety systems, Las Vegas shows and Sami herds. He is
+    the author of numerous technical publications, patents, and books including
+    Fab, When Things Start To Think, The Nature of Mathematical Modeling, and
+    The Physics of Information Technology, and has been featured in media such
+    as The New York Times, The Economist, NPR, CNN, and PBS. He is a Fellow of
+    the American Physical Society, has been named one of Scientific American's
+    50 leaders in science and technology, as one of 40 Modern-Day Leonardos by
+    the Museum of Science and Industry, one of Popular Mechanic's 25 Makers, has
+    been selected as a CNN/Time/Fortune Principal Voice, and by Prospect/Foreign
+    Policy as one of the top 100 public intellectuals. Dr. Gershenfeld has a BA
+    in Physics with High Honors from Swarthmore College, a Ph.D. in Applied
+    Physics from Cornell University, honorary doctorates from Swarthmore
+    College, Strathclyde University and the University of Antwerp, was a Junior
+    Fellow of the Harvard University Society of Fellows, and a member of the
+    research staff at Bell Labs.
   url: 'http://ng.cba.mit.edu/neil/bio/'
   img: neil.jpg
   role: moderator
 - name: Kate Adamala
-  bio: 'Protobiology. Biochemist, Assistant Professor in the Department of Genetics, Cell Biology and Development at the University of Minnesota.'
-  longbio: "Kate received a MSc in chemistry from the University of Warsaw, Poland, studying synthetic organic chemistry. In grad school, she worked with professor Pier Luigi Luisi from University Roma Tre and Jack Szostak from Harvard University. She studied RNA biophysics, small peptide catalysis and liposome dynamics, in an effort to build a chemical system capable of Darwinian evolution. Kate's postdoctoral work in Ed Boyden's Synthetic Neurobiology group at MIT focused on developing novel methods for multiplex control and readout of mammalian cells. Her full first name spells Katarzyna; she goes by Kate for the benefit of friends speaking less consonant-enriched languages. Contact: kadamala@umn.edu. Mailing address: 420 Washington Ave SE, 5-128 MCB, Minneapolis, MN 55455"
+  bio: >-
+    Protobiology. Biochemist, Assistant Professor in the Department of Genetics,
+    Cell Biology and Development at the University of Minnesota.
+  longbio: >-
+    Kate received a MSc in chemistry from the University of Warsaw, Poland,
+    studying synthetic organic chemistry. In grad school, she worked with
+    professor Pier Luigi Luisi from University Roma Tre and Jack Szostak from
+    Harvard University. She studied RNA biophysics, small peptide catalysis and
+    liposome dynamics, in an effort to build a chemical system capable of
+    Darwinian evolution. Kate's postdoctoral work in Ed Boyden's Synthetic
+    Neurobiology group at MIT focused on developing novel methods for multiplex
+    control and readout of mammalian cells. Her full first name spells
+    Katarzyna; she goes by Kate for the benefit of friends speaking less
+    consonant-enriched languages. Contact: kadamala@umn.edu. Mailing address:
+    420 Washington Ave SE, 5-128 MCB, Minneapolis, MN 55455
   url: 'http://www.protobiology.org/'
   img: kate_adamala.jpg
   role: speaker
 - name: Ben Laurie
-  bio: 'Head of Security and Transparency, Google DeepMind. ‎Programmer, Protocol Designer, Cryptographer'
-  longbio: "Ben Laurie is a software engineer, protocol designer and cryptographer. He is a founding director of The Apache Software Foundation, a core team member of OpenSSL, a member of the Shmoo Group, a director of the Open Rights Group, Director of Security at The Bunker Secure Hosting, Trustee and Founder-member of FreeBMD, Visiting Fellow at Cambridge University's Computer Laboratory, a committer at FreeBSD and Advisory Board member of WikiLeaks.org. Laurie works for Google in London on various projects, currently focused on Certificate transparency. Ben wrote Apache-SSL, the basis of most SSL-enabled versions of the Apache HTTP Server and is a co-author of OpenPGP:SDK. He developed the MUD Gods, which was innovative in including online creation in its endgame. Ben also has written several articles, papers and books, many of which can be found on his home page or his blog and is interested in ideal knots and their applications."
-  url: 'http://www.businessinsider.com/google-deepmind-has-a-new-head-of-security-2016-7'
+  bio: >-
+    Head of Security and Transparency, Google DeepMind. ‎Programmer, Protocol
+    Designer, Cryptographer
+  longbio: >-
+    Ben Laurie is a software engineer, protocol designer and cryptographer. He
+    is a founding director of The Apache Software Foundation, a core team member
+    of OpenSSL, a member of the Shmoo Group, a director of the Open Rights
+    Group, Director of Security at The Bunker Secure Hosting, Trustee and
+    Founder-member of FreeBMD, Visiting Fellow at Cambridge University's
+    Computer Laboratory, a committer at FreeBSD and Advisory Board member of
+    WikiLeaks.org. Laurie works for Google in London on various projects,
+    currently focused on Certificate transparency. Ben wrote Apache-SSL, the
+    basis of most SSL-enabled versions of the Apache HTTP Server and is a
+    co-author of OpenPGP:SDK. He developed the MUD Gods, which was innovative in
+    including online creation in its endgame. Ben also has written several
+    articles, papers and books, many of which can be found on his home page or
+    his blog and is interested in ideal knots and their applications.
+  url: >-
+    http://www.businessinsider.com/google-deepmind-has-a-new-head-of-security-2016-7
   img: ben-laurie.jpg
   role: speaker
 - name: Primavera de Filippi
-  bio: 'Blockchain researcher at Berkman Center for Internet & Society - ‎Harvard University'
+  bio: >-
+    Blockchain researcher at Berkman Center for Internet & Society - ‎Harvard
+    University
   longbio:
   url: 'https://cyber.harvard.edu/people/pdefilip'
   img: primavera.jpg
   role: speaker
 - name: Jose Sanchez
   bio: 'Architect / Programmer / Game Designer, Principal at the Plethora Project'
-  longbio: "Jose Sanchez is an Architect / Programmer / Game Designer based in Los Angeles, California. He is partner at Bloom Games, start-up built upon the BLOOM project, winner of the WONDER SERIES hosted by the City of London for the London 2012 Olympics. He is the director of the Plethora Project (www.plethora-project.com), a research and learning project investing in the future of on-line open-source knowledge and the creator of Block’hood, a city simulator video game exploring notions of crowdsourced urbanism. He has taught and guest lectured in several renowned institutions across the world, including the Architectural Association in London, the University of Applied Arts (Angewandte) in Vienna, ETH Zurich, The Bartlett School of Architecture, University College London, and the Ecole Nationale Supérieure D'Architecture in Paris. Today, he is an Assistant Professor at USC School of Architecture in Los Angeles. His research ‘Gamescapes’, explores generative interfaces in the form of video games, speculating in modes of intelligence augmentation, combinatorics and open systems as a design medium."
+  longbio: >-
+    Jose Sanchez is an Architect / Programmer / Game Designer based in Los
+    Angeles, California. He is partner at Bloom Games, start-up built upon the
+    BLOOM project, winner of the WONDER SERIES hosted by the City of London for
+    the London 2012 Olympics. He is the director of the Plethora Project
+    (www.plethora-project.com), a research and learning project investing in the
+    future of on-line open-source knowledge and the creator of Block’hood, a
+    city simulator video game exploring notions of crowdsourced urbanism. He has
+    taught and guest lectured in several renowned institutions across the world,
+    including the Architectural Association in London, the University of Applied
+    Arts (Angewandte) in Vienna, ETH Zurich, The Bartlett School of
+    Architecture, University College London, and the Ecole Nationale Supérieure
+    D'Architecture in Paris. Today, he is an Assistant Professor at USC School
+    of Architecture in Los Angeles. His research ‘Gamescapes’, explores
+    generative interfaces in the form of video games, speculating in modes of
+    intelligence augmentation, combinatorics and open systems as a design
+    medium.
   url: 'https://www.plethora-project.com/'
   img: jose.jpg
   role: speaker
 - name: Alastair Parvin
-  bio: 'Co-founder at WikiHouse Foundation, Architectural & strategic designer with 00 London.'
+  bio: >-
+    Co-founder at WikiHouse Foundation, Architectural & strategic designer with
+    00 London.
   longbio:
   url: 'https://wikihouse.cc/'
   img: alastair_parvin.jpg
   role: speaker
-- name: Gonzalo Rey
-  bio: 'Chief Technology Officer, Moog Inc.'
+- name: Jake Read
+  bio: MIT
   longbio:
   url: 'http://www.moog.com/'
-  img: gonzalo-rey.jpg
+  img: JAKE.jpg
   role: speaker
 - name: Tomás Vivanco
-  bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation | Assistant Professor Design School Pontifical Catholic University of Chile'
+  bio: >-
+    Co-Director Fab Lab Santiago | Director Distributed Design Foundation |
+    Assistant Professor Design School Pontifical Catholic University of Chile
   longbio:
   url: 'http://diseno.uc.cl/persona/tomas-vivanco/'
   img: tomasvv.jpg
   role: moderator
 - name: Sherry Lassiter
   bio: 'President & CEO, The Fab Foundation'
-  longbio: 'Sherry Lassiter is one of the architects of the MIT global Fab Lab program.  As President of the Fab Foundation Lassiter works at the intellectual boundary where transfer of enabling, empowering, technical knowledge allows an idea to come into physical being–where bits become atoms.  It’s an interdisciplinary landscape that requires a commitment to creating educational tools and exploring intellectual and economic frontiers. After a two decade career in science journalism as producer, writer and director for television series such as Scientific American Frontiers, Discover the World of Science, and The Science Times, she became a protagonist in science and technology, becoming part of the story, rather that just telling the story.  As Program Manager  for the NSF-funded Center for Bits & Atoms at MIT she has seen and enabled the personal fabrication movement as it has grown and evolved.  In her time at MIT, Lassiter has become a passionate fab labber and firm believer in the idea of personal fabrication and the empowerment that comes from making things for yourself.  To make powerful, useful things in the world you have to learn deep content in science, mathematics and engineering – fab labs provide new inspiration for STEM education, motivation for much of Lassiter’s current work. Lassiter is Director of The Fab Foundation, engaged in the deployment and growth of Fab Labs around the world, enabling grassroots technology development by, for and of the community.'
+  longbio: >-
+    Sherry Lassiter is one of the architects of the MIT global Fab Lab program. 
+    As President of the Fab Foundation Lassiter works at the intellectual
+    boundary where transfer of enabling, empowering, technical knowledge allows
+    an idea to come into physical being–where bits become atoms.  It’s an
+    interdisciplinary landscape that requires a commitment to creating
+    educational tools and exploring intellectual and economic frontiers. After a
+    two decade career in science journalism as producer, writer and director for
+    television series such as Scientific American Frontiers, Discover the World
+    of Science, and The Science Times, she became a protagonist in science and
+    technology, becoming part of the story, rather that just telling the story. 
+    As Program Manager  for the NSF-funded Center for Bits & Atoms at MIT she
+    has seen and enabled the personal fabrication movement as it has grown and
+    evolved.  In her time at MIT, Lassiter has become a passionate fab labber
+    and firm believer in the idea of personal fabrication and the empowerment
+    that comes from making things for yourself.  To make powerful, useful things
+    in the world you have to learn deep content in science, mathematics and
+    engineering – fab labs provide new inspiration for STEM education,
+    motivation for much of Lassiter’s current work. Lassiter is Director of The
+    Fab Foundation, engaged in the deployment and growth of Fab Labs around the
+    world, enabling grassroots technology development by, for and of the
+    community.
   url: 'http://www.fabfoundation.org/'
   img: sherry.png
   role: moderator
 - name: Andrés Briceño
-  bio: 'Co-Director Fab Lab Santiago | Director Distributed Design Foundation'
+  bio: Co-Director Fab Lab Santiago | Director Distributed Design Foundation
   longbio:
   url: 'http://fablabsantiago.org/'
   img: andres.jpg
@@ -66,7 +159,13 @@
   role: speaker
 - name: James Tooze
   bio: Tutor at ‎Royal College of Arts
-  longbio: 'James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College of Art. He is a designer and researcher, with his research, both commercial and academic, focusing on three interwoven areas: open design, open fabrication and digital manufacturing. A graduate of the Design Products programme, he also trained as a furniture designer and cabinetmaker, and continues to practice.'
+  longbio: >-
+    James Tooze (FRSA) is Senior Tutor in Design Products at the Royal College
+    of Art. He is a designer and researcher, with his research, both commercial
+    and academic, focusing on three interwoven areas: open design, open
+    fabrication and digital manufacturing. A graduate of the Design Products
+    programme, he also trained as a furniture designer and cabinetmaker, and
+    continues to practice.
   url: 'https://www.rca.ac.uk/more/staff/james-tooze/'
   img: james.jpg
   role: panelist
@@ -77,7 +176,9 @@
   img: tomas-diez.png
   role: moderator
 - name: Jens Dyvik
-  bio: Co-founder of Fellesverkstedet Fab Lab. Former Fab Lab Nomad. Makes machines that make machines
+  bio: >-
+    Co-founder of Fellesverkstedet Fab Lab. Former Fab Lab Nomad. Makes machines
+    that make machines
   longbio:
   url: 'http://www.dyvikdesign.com/site/jens-dyvik'
   img: jens.jpg
@@ -101,13 +202,17 @@
   img: alan.jpg
   role: moderator
 - name: Sofia Lobos
-  bio: Executive Secretary of the Intergovernmental Creative Economy Committee at CNCA Chile
+  bio: >-
+    Executive Secretary of the Intergovernmental Creative Economy Committee at
+    CNCA Chile
   longbio:
   url: 'https://cl.linkedin.com/in/sofia-lobos-804a5326'
   img: sofia1.jpg
   role: panelist
 - name: Jean-Michel Molenaar
-  bio: 'Academany, Bioacademy and Fab Connections, Professor at Tufts University, Department of Biomedical Engineering'
+  bio: >-
+    Academany, Bioacademy and Fab Connections, Professor at Tufts University,
+    Department of Biomedical Engineering
   longbio:
   url: 'http://engineering.tufts.edu/bme/people/molenaar/index.htm'
   img: jean.jpg
@@ -119,44 +224,87 @@
   img: felipe-arteaga.jpg
   role: panelist
 - name: Joel Cutcher-Gershenfeld
-  bio: 'Professor at the Heller School for Social Policy and Management, Brandeis University'
+  bio: >-
+    Professor at the Heller School for Social Policy and Management, Brandeis
+    University
   longbio:
-  url: 'http://www.brandeis.edu/facultyguide/person.html?emplid=39367aa9b387b4d46a95956f614c8a82139d774d'
+  url: >-
+    http://www.brandeis.edu/facultyguide/person.html?emplid=39367aa9b387b4d46a95956f614c8a82139d774d
   img: joel.jpg
   role: moderator
 - name: Mara Balestrini
-  bio: 'Researcher at Fab City | Director of Making Sense'
-  longbio: 'Mara is a Human Computer Interaction (HCI) researcher and a technology strategist. She leads the Research Lab at Ideas for Change, a think tank and consultancy firm advising cities, businesses and institutions on innovation, open and collaborative strategies, civic tech, and exponential growth (see our frameworks @pentagrowth and @The Bristol approach). She is also a project manager at the Fab Lab Barcelona where she coordinates Making Sense, a European project that seeks to empower citizens through personal digital manufacturing applied to the design of environmental sensors.'
+  bio: Researcher at Fab City | Director of Making Sense
+  longbio: >-
+    Mara is a Human Computer Interaction (HCI) researcher and a technology
+    strategist. She leads the Research Lab at Ideas for Change, a think tank and
+    consultancy firm advising cities, businesses and institutions on innovation,
+    open and collaborative strategies, civic tech, and exponential growth (see
+    our frameworks @pentagrowth and @The Bristol approach). She is also a
+    project manager at the Fab Lab Barcelona where she coordinates Making Sense,
+    a European project that seeks to empower citizens through personal digital
+    manufacturing applied to the design of environmental sensors.
   url: 'https://marabales.com/contact/'
   img: marabb.png
   role: panelist
 - name: John N. Randall
-  bio: 'Atomically Precise Manufacturing  | President of Zyvex Labs'
-  longbio: "John Randall has over twenty years of experience in micro- and nanofabrication. He is a key contributor to Zyvex Labs, having defined the company's Atomically Precise Manufacturing program, which he serves as Program Manager and Principal Investigator. He originally joined Zyvex Corporation in March of 2001 after fifteen years at Texas Instruments where he worked in high resolution processing for integrated circuits, MEMS, and quantum effect devices. Prior to working at TI, John worked at MIT’s Lincoln Laboratory on ion beam and x-ray lithography."
+  bio: Atomically Precise Manufacturing  | President of Zyvex Labs
+  longbio: >-
+    John Randall has over twenty years of experience in micro- and
+    nanofabrication. He is a key contributor to Zyvex Labs, having defined the
+    company's Atomically Precise Manufacturing program, which he serves as
+    Program Manager and Principal Investigator. He originally joined Zyvex
+    Corporation in March of 2001 after fifteen years at Texas Instruments where
+    he worked in high resolution processing for integrated circuits, MEMS, and
+    quantum effect devices. Prior to working at TI, John worked at MIT’s Lincoln
+    Laboratory on ion beam and x-ray lithography.
   url: 'http://www.zyvexlabs.com/About2012/RandallBio.html'
   img: johnr.png
   role: speaker
 - name: Puneet Ahira
   bio: Co-founder and Chief Architect @ shift7
-  longbio: "The scope of Puneet's role at the White House includes leveraging science & technology to: address connectivity deserts across America and abroad, counter violent extremism, expand opportunity for refugees and other marginalized communities, and scale the work of heroic women and men driving forward systems solutions. In her previous life in the private sector, Puneet was the Program Director for Solve for X at Google[x] - Google's stealth moonshot laboratory focused on developing technologies that could positively impact billions of people. Prior to her time at Google, she worked as a Portfolio Analyst at Goldman Sachs, where she was part of the founding team that introduced a framework to identify structurally-advantaged companies poised to disrupt their industries over the next 15-20 years. She served on the Board of Directors for Colin Powell's non-profit - America's Promise, co-founded an NGO called Freedom's Answer, and co-authored a book on civic activism under the same title. Puneet received her BSc and MSc from Oxford University."
+  longbio: >-
+    The scope of Puneet's role at the White House includes leveraging science &
+    technology to: address connectivity deserts across America and abroad,
+    counter violent extremism, expand opportunity for refugees and other
+    marginalized communities, and scale the work of heroic women and men driving
+    forward systems solutions. In her previous life in the private sector,
+    Puneet was the Program Director for Solve for X at Google[x] - Google's
+    stealth moonshot laboratory focused on developing technologies that could
+    positively impact billions of people. Prior to her time at Google, she
+    worked as a Portfolio Analyst at Goldman Sachs, where she was part of the
+    founding team that introduced a framework to identify
+    structurally-advantaged companies poised to disrupt their industries over
+    the next 15-20 years. She served on the Board of Directors for Colin
+    Powell's non-profit - America's Promise, co-founded an NGO called Freedom's
+    Answer, and co-authored a book on civic activism under the same title.
+    Puneet received her BSc and MSc from Oxford University.
   url: 'https://www.linkedin.com/in/puneetahira/'
   img: puneet.png
   role: speaker
 - name: Alberto Gonzalez
-  bio: 'Design Director, Freshwater Chile | Associate Professor Design School Pontifical Catholic University of Chile'
+  bio: >-
+    Design Director, Freshwater Chile | Associate Professor Design School
+    Pontifical Catholic University of Chile
   longbio:
   url: 'http://www.freshwatersolutions.org/'
   img: alberto.PNG
   role: panelist
 - name: Beno Juarez
-  bio: 'Director  Floating Fab Lab Amazon | Fab Lab Lima'
+  bio: Director  Floating Fab Lab Amazon | Fab Lab Lima
   longbio:
   url: 'https://www.linkedin.com/in/benojuarez/?ppe=1'
   img: beno.png
   role: speaker
 - name: Lito Ibarra
   bio: ICANN Board Member
-  longbio: "Better known as Lito, Rafael Ibarra was born in San Salvador, El Salvador, in 1957. He holds professional degrees in Electrical Engineering and Business Administration, as well as a graduate degree in New Information and Communication Technologies.  Lito's work and expertise in the field of Information and Communication Technologies, more particularly the Internet, include private, academic and government companies and institutions, both in El Salvador as well as in the region of Central and Latin America."
+  longbio: >-
+    Better known as Lito, Rafael Ibarra was born in San Salvador, El Salvador,
+    in 1957. He holds professional degrees in Electrical Engineering and
+    Business Administration, as well as a graduate degree in New Information and
+    Communication Technologies.  Lito's work and expertise in the field of
+    Information and Communication Technologies, more particularly the Internet,
+    include private, academic and government companies and institutions, both in
+    El Salvador as well as in the region of Central and Latin America.
   url: 'https://fab13.sched.com/speaker/lito_ibarra.1wvdetoa'
   img: lito.png
   role: speaker
@@ -168,19 +316,41 @@
   role: panelist
 - name: Liz Corbin
   bio: 'Researcher at the Institute of Making UCL, London'
-  longbio: 'Liz is a doctoral researcher at the Institute of Making. Corbin’s research explores the emergence of open workshops in Britain; investigating the materials, processes and cultures of practice indicative of this ever-fluid sector, particularly in relation to systems of production. Corbin holds a BA in Design and an MA in Material Culture. She is a contributor to the Fab City Global Initiative, collaborator of the Future Makespaces in Redistributed Manufacturing RCA project, and strategic partner to the Hello Shenzhen British Council programme. Her work has included founding the Open Workshop Network as well as co-founding Maker Assembly, and has helped to shape the debate around makerspaces and maker culture in Britain.'
+  longbio: >-
+    Liz is a doctoral researcher at the Institute of Making. Corbin’s research
+    explores the emergence of open workshops in Britain; investigating the
+    materials, processes and cultures of practice indicative of this ever-fluid
+    sector, particularly in relation to systems of production. Corbin holds a BA
+    in Design and an MA in Material Culture. She is a contributor to the Fab
+    City Global Initiative, collaborator of the Future Makespaces in
+    Redistributed Manufacturing RCA project, and strategic partner to the Hello
+    Shenzhen British Council programme. Her work has included founding the Open
+    Workshop Network as well as co-founding Maker Assembly, and has helped to
+    shape the debate around makerspaces and maker culture in Britain.
   url: 'http://www.instituteofmaking.org.uk/about/people'
   img: lizc.png
   role: panelist
 - name: Patrick Colgan
   bio: Senior Adviser - Government of Ireland
-  longbio: "Seconded by the Government of Ireland to work in Bogota, Colombia to share the experiences of the Northern Ireland / Ireland PEACE Programmes as part of Ireland's contribution to the peace process in Colombia. Assigned also to represent Ireland at meetings of the EU Trust Fund for Colombia and the United Nations Multi-Donor Fund for Colombia under the aegis of the Embassy of Ireland in Mexico, accredited to the Colombian Government. Working closely with the Ministry for Post Conflict in Bogota, I am involved in developing close working relations with Government agencies responsible for the implementation of the peace agreements and with Civic Society organisations engaged in peace building."
+  longbio: >-
+    Seconded by the Government of Ireland to work in Bogota, Colombia to share
+    the experiences of the Northern Ireland / Ireland PEACE Programmes as part
+    of Ireland's contribution to the peace process in Colombia. Assigned also to
+    represent Ireland at meetings of the EU Trust Fund for Colombia and the
+    United Nations Multi-Donor Fund for Colombia under the aegis of the Embassy
+    of Ireland in Mexico, accredited to the Colombian Government. Working
+    closely with the Ministry for Post Conflict in Bogota, I am involved in
+    developing close working relations with Government agencies responsible for
+    the implementation of the peace agreements and with Civic Society
+    organisations engaged in peace building.
   url: 'https://www.linkedin.com/in/patrick-colgan-37272b109/?ppe=1'
   img: pat.png
   role: speaker
 - name: Nadya Peek
-  bio: 'Researcher at MIT, Center for Bits and Atoms working | Machines that Make Machines'
-  longbio: 'CBA MIT  | Machines That Make Machines'
+  bio: >-
+    Researcher at MIT, Center for Bits and Atoms working | Machines that Make
+    Machines
+  longbio: CBA MIT  | Machines That Make Machines
   url: 'http://mtm.cba.mit.edu/machines/science/'
   img: nadya.jpg
   role: speaker
@@ -191,8 +361,12 @@
   img: ott.png
   role: panelist
 - name: Patricia Manns
-  bio: 'Designer project MAFA | Associate Professor Design School Pontifical Catholic University of Chile'
-  longbio: 'Licenciada en Diseño de la Pontificia Universidad Católica de Chile y máster en Tecnologías Educativas de el Instituto Tecnológico de Monterrey, México.'
+  bio: >-
+    Designer project MAFA | Associate Professor Design School Pontifical
+    Catholic University of Chile
+  longbio: >-
+    Licenciada en Diseño de la Pontificia Universidad Católica de Chile y máster
+    en Tecnologías Educativas de el Instituto Tecnológico de Monterrey, México.
   url: 'https://www.mafa.cl/'
   img: patricia-manns.webp
   role: panelist
@@ -204,49 +378,134 @@
   role: panelist
 - name: Skylar Tibbits
   bio: Director Self-Assembly Lab - MIT
-  longbio: "Skylar Tibbits is a co-director and founder of the Self-Assembly Lab housed at MIT’s International Design Center. The Self-Assembly Lab focuses on self-assembly and programmable material technologies for novel manufacturing, products and construction processes.  Skylar is an Assistant Professor of Design Research in the Department of Architecture where he teaches graduate and undergraduate design studios and How to Make (Almost) Anything, a seminar at MIT's Media Lab with Neil Gershenfeld. Skylar was recently named R&D Magazine's 2015 Innovator of the Year, 2015 National Geographic Emerging Explorer, 2014 Inaugural WIRED Fellow, 2014 Gifted Citizen, 2013 Fast Company Innovation by Design Award, 2013 Architectural League Prize, The Next Idea Award at Ars Electronica 2013, Visionary Innovation Award at the Manufacturing Leadership Summit, 2012 TED Senior Fellow and was named a Revolutionary Mind in SEED Magazine’s 2008 Design Issue."
+  longbio: >-
+    Skylar Tibbits is a co-director and founder of the Self-Assembly Lab housed
+    at MIT’s International Design Center. The Self-Assembly Lab focuses on
+    self-assembly and programmable material technologies for novel
+    manufacturing, products and construction processes.  Skylar is an Assistant
+    Professor of Design Research in the Department of Architecture where he
+    teaches graduate and undergraduate design studios and How to Make (Almost)
+    Anything, a seminar at MIT's Media Lab with Neil Gershenfeld. Skylar was
+    recently named R&D Magazine's 2015 Innovator of the Year, 2015 National
+    Geographic Emerging Explorer, 2014 Inaugural WIRED Fellow, 2014 Gifted
+    Citizen, 2013 Fast Company Innovation by Design Award, 2013 Architectural
+    League Prize, The Next Idea Award at Ars Electronica 2013, Visionary
+    Innovation Award at the Manufacturing Leadership Summit, 2012 TED Senior
+    Fellow and was named a Revolutionary Mind in SEED Magazine’s 2008 Design
+    Issue.
   url: 'https://architecture.mit.edu/faculty/skylar-tibbits'
   img: sky.jpg
   role: speaker
 - name: Elizabeth Hennaff
   bio: Postdoctoral Associate at Weill Cornell Medical College
-  longbio: 'Elizabeth Hénaff was born of French/American parents in Austin in 1981, grew up in France, and has since lived in the US, Japan and Spain. She received a BS in Computer Science, an MS in Plant Biology (both from UT Austin) and a PhD in Bioinformatics from the University of Barcelona. The impetus behind her research is a fascination with the way living beings interact with their environment. She has made contributions to understanding how plants respond to the force of gravity, how plant genome structure changes in response to stress, and most recently has turned her attention to the ubiquitous and invisible microbial component of our environment. She has consistently made the tools - software, wetware, hardware - needed to answer her research questions, and enjoys both this process and the goal equally. Her interests in biological interactions and data visualization have inspired her to create interactive installations, and she has collaborated with artists and musicians in Barcelona, Paris and New York designing custom interactive visuals for their events. She currently works as a postdoc at the Weill Cornell Medical College in New York City.'
+  longbio: >-
+    Elizabeth Hénaff was born of French/American parents in Austin in 1981, grew
+    up in France, and has since lived in the US, Japan and Spain. She received a
+    BS in Computer Science, an MS in Plant Biology (both from UT Austin) and a
+    PhD in Bioinformatics from the University of Barcelona. The impetus behind
+    her research is a fascination with the way living beings interact with their
+    environment. She has made contributions to understanding how plants respond
+    to the force of gravity, how plant genome structure changes in response to
+    stress, and most recently has turned her attention to the ubiquitous and
+    invisible microbial component of our environment. She has consistently made
+    the tools - software, wetware, hardware - needed to answer her research
+    questions, and enjoys both this process and the goal equally. Her interests
+    in biological interactions and data visualization have inspired her to
+    create interactive installations, and she has collaborated with artists and
+    musicians in Barcelona, Paris and New York designing custom interactive
+    visuals for their events. She currently works as a postdoc at the Weill
+    Cornell Medical College in New York City.
   url: 'http://elizabeth-henaff.net/'
   img: eli.png
   role: panelist
 - name: Martin Tironi
-  bio: 'Sociologist | Researcher at The Smart Citizen Project | Assistant Professor  Design School Pontifical Catholic University of Chile'
-  longbio: 'Martín Tironi es sociólogo de la Pontificia Universidad Católica de Chile, Magíster en Sociología en Université Paris-Sorbonne V y Ph.D en el Centre de Sociologie de l’Innovation (CSI), Ecole des Mines de Paris, y Post-Doctorado de este mismo centro de investigación. Actualmente es investigador y profesor de la Escuela de Diseño de la Pontificia Universidad Católica de Chile, participando de la cátedra de Investigación Etnográfica y Diseño y Diseño de Interacción. Actualmente desarrolla un proyecto de investigación (Fondecyt) sobre circulación del concepto de Smart Cities, conceptualizándolo en términos de experimentaciones y prototipos sociales.'
+  bio: >-
+    Sociologist | Researcher at The Smart Citizen Project | Assistant Professor 
+    Design School Pontifical Catholic University of Chile
+  longbio: >-
+    Martín Tironi es sociólogo de la Pontificia Universidad Católica de Chile,
+    Magíster en Sociología en Université Paris-Sorbonne V y Ph.D en el Centre de
+    Sociologie de l’Innovation (CSI), Ecole des Mines de Paris, y Post-Doctorado
+    de este mismo centro de investigación. Actualmente es investigador y
+    profesor de la Escuela de Diseño de la Pontificia Universidad Católica de
+    Chile, participando de la cátedra de Investigación Etnográfica y Diseño y
+    Diseño de Interacción. Actualmente desarrolla un proyecto de investigación
+    (Fondecyt) sobre circulación del concepto de Smart Cities,
+    conceptualizándolo en términos de experimentaciones y prototipos sociales.
   url: 'http://diseno.uc.cl/persona/martin-tironi/'
   img: martin.jpg
   role: panelist
 - name: Alexandre Dubor
-  bio: 'Researcher in Digital Fabrication for Architecture | Institute for Advanced Architecture of Catalonia'
-  longbio: 'From internet to 6axis Robot, Alexandre Dubor is an architectural researcher hacking new technologies in an attempt to reinvent how we build and live in our cities. He is currently instructor in Digital Fabrication class for a post-graduate master at the Institute for Advanced Architecture of Catalunya (IAAC), meanwhile working at Fab Lab Barcelona & Appareil. His current research inlcudes MagneticArchitecture.org and SmartCitizen.me.'
+  bio: >-
+    Researcher in Digital Fabrication for Architecture | Institute for Advanced
+    Architecture of Catalonia
+  longbio: >-
+    From internet to 6axis Robot, Alexandre Dubor is an architectural researcher
+    hacking new technologies in an attempt to reinvent how we build and live in
+    our cities. He is currently instructor in Digital Fabrication class for a
+    post-graduate master at the Institute for Advanced Architecture of Catalunya
+    (IAAC), meanwhile working at Fab Lab Barcelona & Appareil. His current
+    research inlcudes MagneticArchitecture.org and SmartCitizen.me.
   url: 'http://iaac.net/'
   img: alex.png
   role: panelist
 - name: David Basulto
   bio: 'Founder and Editor in Chief, ArchDaily'
-  longbio: 'Architect ArchDaily Founder Endeavor Entrepreneur Specialties: Architecture, New Media, Entrepreneurship,'
+  longbio: >-
+    Architect ArchDaily Founder Endeavor Entrepreneur Specialties: Architecture,
+    New Media, Entrepreneurship,
   url: 'https://www.linkedin.com/in/dbasulto/?ppe=1'
   img: david.jpeg
   role: panelist
 - name: Lauren Slowik
   bio: 'Director of Education and Designer Evangelism, Shapeways'
-  longbio: 'Lauren is the Design Evangelist for Education at Shapeways and one of the founding members of the Lady Tech Guild, a group started to connect and inspire women working in the 3D industries. She is occasionally a part-time professor at Parsons School of Design where she also received her MFA in Design+Technology. Lauren has contributed to organizations such as Apple, MoMA, the Ms. Foundation, Eyebeam Art+Technology Center, the Museum of Arts and Design and Etsy.com. Her research is focused on 3D design and 3D printing and the future of creativity in education with a focus on storytelling and user experience/interaction design. She lives in Brooklyn.'
+  longbio: >-
+    Lauren is the Design Evangelist for Education at Shapeways and one of the
+    founding members of the Lady Tech Guild, a group started to connect and
+    inspire women working in the 3D industries. She is occasionally a part-time
+    professor at Parsons School of Design where she also received her MFA in
+    Design+Technology. Lauren has contributed to organizations such as Apple,
+    MoMA, the Ms. Foundation, Eyebeam Art+Technology Center, the Museum of Arts
+    and Design and Etsy.com. Her research is focused on 3D design and 3D
+    printing and the future of creativity in education with a focus on
+    storytelling and user experience/interaction design. She lives in Brooklyn.
   url: 'https://www.linkedin.com/in/laurenslowik/'
   img: lau.jpeg
   role: panelist
 - name: Gian-Paolo Bassi
   bio: CEO Dassault/ Solidworks
-  longbio: 'Gian Paolo Bassi brings more than 25 years of experience in 3D, CAD, and PLM industries to Dassault Systèmes SolidWorks Corp. As CEO, Gian Paolo spearheads the development of SOLIDWORKS future product and technology strategies designed for the desktop and the cloud, and collaboration with the strong user community. He most recently served as the vice president of research and development, where he was responsible for charting future product and technology strategies, including the development of the SOLIDWORKS cloud applications. Prior to SOLIDWORKS, Gian Paolo was the founder and CTO of RIWEBB where he oversaw the development of new technologies for the Mechanical and Architectural Design Automation industry, collaborating with companies like Dassault Systèmes. Prior to RIWEBB, Gian Paolo served as vice president and CTO of ImpactXoft, where he led the team developing functional modeling and collaboration applications which are now part of CATIA. In this position, he co-invented three of his five patents in functional modeling. He also served in the R&D organizations of companies like Computervision and think3. Gian Paolo holds a degree in Mechanical Engineering from the University of Bologna.'
+  longbio: >-
+    Gian Paolo Bassi brings more than 25 years of experience in 3D, CAD, and PLM
+    industries to Dassault Systèmes SolidWorks Corp. As CEO, Gian Paolo
+    spearheads the development of SOLIDWORKS future product and technology
+    strategies designed for the desktop and the cloud, and collaboration with
+    the strong user community. He most recently served as the vice president of
+    research and development, where he was responsible for charting future
+    product and technology strategies, including the development of the
+    SOLIDWORKS cloud applications. Prior to SOLIDWORKS, Gian Paolo was the
+    founder and CTO of RIWEBB where he oversaw the development of new
+    technologies for the Mechanical and Architectural Design Automation
+    industry, collaborating with companies like Dassault Systèmes. Prior to
+    RIWEBB, Gian Paolo served as vice president and CTO of ImpactXoft, where he
+    led the team developing functional modeling and collaboration applications
+    which are now part of CATIA. In this position, he co-invented three of his
+    five patents in functional modeling. He also served in the R&D organizations
+    of companies like Computervision and think3. Gian Paolo holds a degree in
+    Mechanical Engineering from the University of Bologna.
   url: 'http://www.solidworks.com/sw/executive-management/gian-paolo-bassi.htm'
   img: gian.jpg
   role: speaker
 - name: Yogesh Kulkarni
   bio: 'Executive Director of Vigyan Ashram, Pabal in India'
-  longbio: "Executive Director of Vigyan Ashram, Pabal in India. He is engaged in the development of appropriate technology solutions for poor communities. He is training rural youth and helping them to start the technology-based enterprise in villages. He runs a Fab Lab in village Pabal since 2002. He is also heading the design innovation center at Vigyan Ashram in association with Saviribai Phule Pune University. Yogesh is credited with scaling up of work Centered Education program 'Introduction to Basic Technology'in 122+ schools in four states benefiting 8000 students every year."
+  longbio: >-
+    Executive Director of Vigyan Ashram, Pabal in India. He is engaged in the
+    development of appropriate technology solutions for poor communities. He is
+    training rural youth and helping them to start the technology-based
+    enterprise in villages. He runs a Fab Lab in village Pabal since 2002. He is
+    also heading the design innovation center at Vigyan Ashram in association
+    with Saviribai Phule Pune University. Yogesh is credited with scaling up of
+    work Centered Education program 'Introduction to Basic Technology'in 122+
+    schools in four states benefiting 8000 students every year.
   url: 'http://vigyanashram.com/'
   img: yog.jpg
   role: speaker
@@ -258,7 +517,15 @@
   role: panelist
 - name: Anastasia Pistofidou
   bio: Director FabTextile Research Lab and Fabricademy
-  longbio: 'Anastasia Pistofidou is a Greek architect specialized in digital fabrication technologies, design and education. She has a Master degree from the Institute for Advanced Architecture of Catalonia 2010-2011 in Digital tectonics and a Bachelor Degree from the Aristotle University of Thessaloniki, department of Architecture in 2008. She currently works as the director of the FabTextile research lab and the Fabricademy, A new Textile and Technology Academy. She combines the analog and the digital towards applied research focused on new materials, art and textiles.'
+  longbio: >-
+    Anastasia Pistofidou is a Greek architect specialized in digital fabrication
+    technologies, design and education. She has a Master degree from the
+    Institute for Advanced Architecture of Catalonia 2010-2011 in Digital
+    tectonics and a Bachelor Degree from the Aristotle University of
+    Thessaloniki, department of Architecture in 2008. She currently works as the
+    director of the FabTextile research lab and the Fabricademy, A new Textile
+    and Technology Academy. She combines the analog and the digital towards
+    applied research focused on new materials, art and textiles.
   url: 'http://fabtextiles.org/'
   img: we.jpg
   role: panelist
@@ -282,37 +549,90 @@
   role: panelist
 - name: Tony Fish
   bio: Co-founder at FabLab London
-  longbio: 'Tony has 20 years of C-level exec and board experience, having founded, funded and sold businesses over the past 25 years. He remains passionate about innovation and highly disruptive technology which is at an early stage and capable of scaling.  His style is based on fast iteration, trust, deep involvement, clear decision making, robust financials, transparency and strong open governance controls.    Tony is the one of the two founders of Fab Lab London and has personally helped establish 9 other labs in the UK and supported over 20 in their early stages across the globe.  He is very proud of his engineering roots, is based in London but will be checking out the snowboarding in Valle Nevado this week.'
+  longbio: >-
+    Tony has 20 years of C-level exec and board experience, having founded,
+    funded and sold businesses over the past 25 years. He remains passionate
+    about innovation and highly disruptive technology which is at an early stage
+    and capable of scaling.  His style is based on fast iteration, trust, deep
+    involvement, clear decision making, robust financials, transparency and
+    strong open governance controls.    Tony is the one of the two founders of
+    Fab Lab London and has personally helped establish 9 other labs in the UK
+    and supported over 20 in their early stages across the globe.  He is very
+    proud of his engineering roots, is based in London but will be checking out
+    the snowboarding in Valle Nevado this week.
   url: 'https://www.linkedin.com/in/tonyfish/?ppe=1'
   img: tony.PNG
   role: panelist
 - name: Sergio Araya
   bio: UAI DesignLab Dean
-  longbio: 'Ph.D. in Architecture, Massachusetts Institute of Technology, Visiting Scientist, School of Engineering MIT. Holds a Master of Science in Architecture form MIT and a Master in Architecture from Catholic University in Chile.He is a Visiting Scientist at the MIT and conducts research in architecture, digital fabrication and materials at the Architecture and Materials Center (CAM) of Design Lab UAI. He has been lecturer in the Faculty of Architecture, Design and Urban Studies of the Pontifical Catholic University and professor of the Faculty of Architecture, Art and Design of the Diego Portales University, and has given courses and talks in the USA, England, Japan, Colombia, Peru and Chile, exhibiting and publishing their work internationally.'
+  longbio: >-
+    Ph.D. in Architecture, Massachusetts Institute of Technology, Visiting
+    Scientist, School of Engineering MIT. Holds a Master of Science in
+    Architecture form MIT and a Master in Architecture from Catholic University
+    in Chile.He is a Visiting Scientist at the MIT and conducts research in
+    architecture, digital fabrication and materials at the Architecture and
+    Materials Center (CAM) of Design Lab UAI. He has been lecturer in the
+    Faculty of Architecture, Design and Urban Studies of the Pontifical Catholic
+    University and professor of the Faculty of Architecture, Art and Design of
+    the Diego Portales University, and has given courses and talks in the USA,
+    England, Japan, Colombia, Peru and Chile, exhibiting and publishing their
+    work internationally.
   url: 'https://www.linkedin.com/in/sergioaraya/?ppe=1'
   img: sergio.JPG
   role: panelist
 - name: Benjamin Tincq
   bio: Co-founder of OuiShare
-  longbio: "French social entrepreneur and strategist focused on open source and decentralized technologies for new economies. Co-founder of OuiShare: a global network of projects and people exploring the edge and intersections of collaborative economies, emerging communities and digital transformations ; and POC21: a global community of eco-hackers developing open source solutions for sustainable living. Currently building a new-generation Investment Fund for social entrepreneurs aiming to solve the world's biggest challenges with open and decentralized technologies."
+  longbio: >-
+    French social entrepreneur and strategist focused on open source and
+    decentralized technologies for new economies. Co-founder of OuiShare: a
+    global network of projects and people exploring the edge and intersections
+    of collaborative economies, emerging communities and digital transformations
+    ; and POC21: a global community of eco-hackers developing open source
+    solutions for sustainable living. Currently building a new-generation
+    Investment Fund for social entrepreneurs aiming to solve the world's biggest
+    challenges with open and decentralized technologies.
   url: 'http://poc21.cc/'
   img: ben.jpg
   role: panelist
 - name: Brandon Prentice
   bio: Fab Lab Manager for the IU1 Fab Lab
-  longbio: 'Brandon Prentice is a technology educator, mentor, and manager for the IU1 Fab Lab program. He’s a hands-on generalist when it comes to construction technology, engineering, manufacturing, and graphic design. You can find him on Twitter talking about Fab Lab conventions, community events, student projects, and other lab experiences'
+  longbio: >-
+    Brandon Prentice is a technology educator, mentor, and manager for the IU1
+    Fab Lab program. He’s a hands-on generalist when it comes to construction
+    technology, engineering, manufacturing, and graphic design. You can find him
+    on Twitter talking about Fab Lab conventions, community events, student
+    projects, and other lab experiences
   url: 'https://www.iu1.org/fablab/blog/author/brandon.prentice'
   img: bran.jpg
   role: panelist
 - name: Cecilia Raspanti
   bio: Fablab Amsterdam
-  longbio: 'Cecilia Raspanti works as designer at Fablab Amsterdam. She is involved in the Fablab public events, workshops and programs, like FabSchool Kids.  Cecilia Raspanti is a fashion/textile designer and digital fabrication expert, born in the Netherlands, who grew up in Italy. There she studied fashion design and knitwear at the Polimoda fashion Institute in Florence.  At the beginning of 2013 she started visiting the Fablab Amsterdam where she got in contact with digital fabrication and started investigating in the appliance of technology and digital fabrication to textile manipulation. Since she started her research project in Fablab Amsterdam in 2013, she started her own label, Ceciilya, and her main interest consists in creating digital translations of old craft techniques to create new fashionable and innovative materials.  Experienced in fashion production and prototyping, she is now researching and translating small production processes into digital fabrication innovative options. Always inspired by nature, her latest collection was based on invertebrates and small living organisms, in which decorative patterns become structural elements of the garments.'
+  longbio: >-
+    Cecilia Raspanti works as designer at Fablab Amsterdam. She is involved in
+    the Fablab public events, workshops and programs, like FabSchool Kids. 
+    Cecilia Raspanti is a fashion/textile designer and digital fabrication
+    expert, born in the Netherlands, who grew up in Italy. There she studied
+    fashion design and knitwear at the Polimoda fashion Institute in Florence. 
+    At the beginning of 2013 she started visiting the Fablab Amsterdam where she
+    got in contact with digital fabrication and started investigating in the
+    appliance of technology and digital fabrication to textile manipulation.
+    Since she started her research project in Fablab Amsterdam in 2013, she
+    started her own label, Ceciilya, and her main interest consists in creating
+    digital translations of old craft techniques to create new fashionable and
+    innovative materials.  Experienced in fashion production and prototyping,
+    she is now researching and translating small production processes into
+    digital fabrication innovative options. Always inspired by nature, her
+    latest collection was based on invertebrates and small living organisms, in
+    which decorative patterns become structural elements of the garments.
   url: 'https://waag.org/en/users/cecilia-raspanti'
   img: cecilia.jpg
   role: panelist
 - name: David Li
   bio: Founder Fab Lab Szoil- Shenzhen
-  longbio: 'As the pioneer who pays close attention to the maker movem, David Li has been committed to promoting the development of Chinese makers and the transformation of innovative products since 2010.'
+  longbio: >-
+    As the pioneer who pays close attention to the maker movem, David Li has
+    been committed to promoting the development of Chinese makers and the
+    transformation of innovative products since 2010.
   url: 'http://szoil.org/wp/author/david/'
   img: szoil.jpg
   role: panelist
@@ -346,3 +666,27 @@
   url: 'http://fablatkids.org/'
   img: aled.jpg
   role: panelist
+- name: Patricia Diaz
+  bio: Founder @Musintec
+  longbio:
+  url: 'https://www.linkedin.com/in/patdiaz/'
+  img: patd.jpg
+  role: speaker
+- name: Dina El-Zanfaly
+  bio: Fab Lab Egypt Co-Founder and Co-Director
+  longbio:
+  url: 'https://www.linkedin.com/in/dina-el-zanfaly-8b581416/'
+  img: dinae.jpg
+  role: speaker
+- name: Léna Kernoa
+  bio: 'Chargée de projets digitaux et innovation, Maker Tour'
+  longbio:
+  url: 'https://www.linkedin.com/in/lenakernoa/?ppe=1'
+  img: lena.jpg
+  role: speaker
+- name: Anna Lowe
+  bio: 'Co-Founder, Kumasi Hive and MakerNet'
+  longbio:
+  url: 'https://www.linkedin.com/in/annalowe/?ppe=1'
+  img: anna.jpg
+  role: speaker
