@@ -3,7 +3,7 @@ fallback: mountain.png
 imgs:
   - file: conf.jpg
     url: '/#venues'
-  - file: tom.jpg
+  - file: tom1.png
     url: '/#venues'
   - file: symp.png
     url: '/#about'
