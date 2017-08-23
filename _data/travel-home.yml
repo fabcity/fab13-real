@@ -2,7 +2,9 @@ img: "/img/backgrounds/santiago1.jpg"
 img-license: "Photo by Jean-michel Molenaar"
 
 eng:
-  description: "Each year the Hosts find a way to make your stay as gratifying as possible. Establishing partnerships with local hotels, transportation services and agreements with the Foreign Offices of the hosting place; are the key for all visitors to have the greatest trip ever during the Fab Event. This Year FAB13 Team has all the information so that you can plan your trip to Santiago! Take into consideration that you may need a letter of invitation for coming to Santiago, so if you need it, please ask with time. We also help with Hotel options near the Venue places, the different and simplest way of transportation inside and outside Santiago, and many more information you can find it here:"
+  description: "Each year the Hosts find a way to make your stay as gratifying as possible. Establishing partnerships with local hotels, transportation services and agreements with the Foreign Offices of the hosting place; are the key for all visitors to have the greatest trip ever during the Fab Event." 
+  
+      "This Year FAB13 Team has all the information so that you can plan your trip to Santiago! Take into consideration that you may need a letter of invitation for coming to Santiago, so if you need it, please ask with time. We also help with Hotel options near the Venue places, the different and simplest way of transportation inside and outside Santiago, and many more information you can find it here:"
   button: "See all travel info"
 
 cast:
@@ -11,7 +13,6 @@ cast:
 
 links:
   - eng: Hotels
-    description: "Hotels in Barrio Lastarria are our selection for you"
     cast: Hoteles
     url: '/travel#travel-hotels'
     url-cast: '/viaje/#travel-hotels'
