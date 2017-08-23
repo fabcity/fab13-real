@@ -2,15 +2,11 @@
   short: Fab Events (FAB13) are a way to integrate all the knowledge acquired during the year of over more than 1.100 Fab Labs in the world. The participation for content is based on the active participation of those members or others, that see this space as a showroom for their projects, workshops, labs, and acknowledge that all the work will be seen and appreciated by all the people in the network. The key is basically the networking tutors and volunteers can make in this new world of digital fabrication.
   url:
   placement: right
-- name: Workshop selection
-  short: 'Workshops are selected through an open call for all Fabber (Fab Lab Network), Maker (Maker Network), Hacker (Hacke Space Network), Diyer (Do it yourself Network), or the general public who are interested in making their workshop during the conference days. Applications are reviewed by experts in digital fabrication and selected workshops are announced a month before the event starts.'
-  url: 
-  placement: right
-- name: Working Group Selection
-  short: 'Check out if your workshop was selected to be held at Fab13!'
+- name: Workshop and Working Groups selection
+  short: 'Workshops and Working Groups are selected through an open call for all Fabber (Fab Lab Network), Maker (Maker Network), Hacker (Hacke Space Network), Diyer (Do it yourself Network), or the general public who are interested in making their workshop during the conference days. Applications are reviewed by experts in digital fabrication and selected workshops are announced a month before the event starts.'
   url: 
   placement: right
 - name: Volunteers Selection
   short: 'Check out if your workshop was selected to be held at Fab13!'
   url: 
-  placement: right  
+  placement: right
