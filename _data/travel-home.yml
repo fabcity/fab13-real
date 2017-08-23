@@ -11,6 +11,7 @@ cast:
 
 links:
   - eng: Hotels
+    description: "Hotels in Barrio Lastarria are our selection for you"
     cast: Hoteles
     url: '/travel#travel-hotels'
     url-cast: '/viaje/#travel-hotels'
