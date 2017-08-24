@@ -11,7 +11,5 @@ imgs:
     url: '/#venues'
   - file: symp.png
     url: '/#about'
-  - file: lat.jpg
-    url: '/#venues'
   - file: fest.jpg
     url: '/#venues'
