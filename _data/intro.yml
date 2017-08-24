@@ -1,13 +1,36 @@
-logo: "/img/logos/header-logo.svg"
-
+logo: /img/logos/header-logo.svg
 eng:
-  button: "Get Tickets"
-  title: "#Fabricating Society"
-  highlight: "Each year members of the more than 1,000 worldwide Fab Labs gather to share, discuss, collaborate and create communities around the different local and global interests regarding digital manufacturing, innovation and technology."
-  description: "This year, The 13th International Fab Lab Meeting will be held in Santiago de Chile, and &#34;Fabricating Society&#34; will be its central topic. Chile has been classified as a prosperous country in development, but there are still many gaps in strategic dimensions that make the process of constructing a developed society challenging. Fab 13 Santiago 2017 has established three objectives&#58; present successful projects that create high social impact, position Chile as a Global Hub for innovation and entrepreneurship, and reinforce Latin America as a region focused on social development."
-
+  button: Photos Here
+  title: '#Fabricating Society'
+  highlight: >-
+    Each year members of the more than 1,000 worldwide Fab Labs gather to share,
+    discuss, collaborate and create communities around the different local and
+    global interests regarding digital manufacturing, innovation and technology.
+  description: >-
+    This year, The 13th International Fab Lab Meeting will be held in Santiago
+    de Chile, and &#34;Fabricating Society&#34; will be its central topic. Chile
+    has been classified as a prosperous country in development, but there are
+    still many gaps in strategic dimensions that make the process of
+    constructing a developed society challenging. Fab 13 Santiago 2017 has
+    established three objectives&#58; present successful projects that create
+    high social impact, position Chile as a Global Hub for innovation and
+    entrepreneurship, and reinforce Latin America as a region focused on social
+    development.
 cast:
-  button: "Comprar Entradas"
-  title: "#Fabricating Society"
-  highlight: "Cada año miembros de más de 1.000 Fab Labs de todo el mundo se reúnen para compartir, discutir, colaborar y crear comunidades alrededor de intereses locales y globales en torno a la fabricación digital, la innovación y la tecnología."
-  description: "Este año, el 13 Encuentro Internacional de Fab Labs se llevará a cabo en Santiago de Chile, y su tema central será &#34;Fabricating Society&#34; o &#34;Fabricando la Sociedad&#34;. Chile ha sido clasificado como un país próspero en desarrollo, pero aún existen muchos vacíos en dimensiones estratégicas que hacen del proceso de construir una sociedad desarrollada un reto dificil. Fab13 Santiago 2017 ha establecido tres objetivos&#58; presentar proyectos exitosos que crean alto impacto social, posicionar Chile como un Hub Global de innovación y emprendimiento, y reforzar a América Latina como una región enfocada en el desarrollo social."
+  button: Comprar Entradas
+  title: '#Fabricating Society'
+  highlight: >-
+    Cada año miembros de más de 1.000 Fab Labs de todo el mundo se reúnen para
+    compartir, discutir, colaborar y crear comunidades alrededor de intereses
+    locales y globales en torno a la fabricación digital, la innovación y la
+    tecnología.
+  description: >-
+    Este año, el 13 Encuentro Internacional de Fab Labs se llevará a cabo en
+    Santiago de Chile, y su tema central será &#34;Fabricating Society&#34; o
+    &#34;Fabricando la Sociedad&#34;. Chile ha sido clasificado como un país
+    próspero en desarrollo, pero aún existen muchos vacíos en dimensiones
+    estratégicas que hacen del proceso de construir una sociedad desarrollada un
+    reto dificil. Fab13 Santiago 2017 ha establecido tres objetivos&#58;
+    presentar proyectos exitosos que crean alto impacto social, posicionar Chile
+    como un Hub Global de innovación y emprendimiento, y reforzar a América
+    Latina como una región enfocada en el desarrollo social.
