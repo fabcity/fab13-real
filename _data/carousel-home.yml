@@ -5,7 +5,11 @@ imgs:
     url: '/#venues'
   - file: tom1.png
     url: '/#venues'
+  - file: symp1.jpg
+    url: '/#venues'
   - file: symp.png
     url: '/#about'
-  - file: show.jpg
+  - file: lat.jpg
+    url: '/#venues'
+  - file: fest.jpg
     url: '/#venues'
