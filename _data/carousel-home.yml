@@ -7,6 +7,8 @@ imgs:
     url: '/#venues'
   - file: symp1.jpg
     url: '/#venues'
+  - file: pic.jpg
+    url: '/#venues'
   - file: symp.png
     url: '/#about'
   - file: lat.jpg
