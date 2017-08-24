@@ -1,10 +1,12 @@
-- name: Aplica para ser voluntario
-  short: "Apply to volunteer at the biggest Digital Fabrication event in the world!"
-  url: "https://docs.google.com/a/fab.city/forms/d/e/1FAIpQLSeKWl31p9fOxAetyjoDfe1p7Aejb3E_hTNgj3GYaiDz7AsMzQ/viewform"
+- name: 'Como participar'
+  short: Fab Events (FAB13) son una forma de integrar todos los conocimientos adquiridos durante el año de más de 1.100 Fab Labs en el mundo. La participación para el contenido se basa en los miembros activos, que ven este espacio como un showroom para sus proyectos, talleres, laboratorios, y reconocen que todo el trabajo será visto y apreciado por todos. La clave es básicamente que tutores y los voluntarios pueden generar redes en este nuevo mundo de la fabricación digital.
+  url:
   placement: right
-
-- name: Resultado de la selección de workshops
-  short: Revisa si tu workshop fue elegido para llevarse a cabo en Fab13!
-  url: "https://docs.google.com/spreadsheets/d/1KQksuiCkClyh7W7QdOw83xGTWTL7HJNn8jjvYITokmI/edit#gid=0"
+- name: Selección Workshop y Working Groups
+  short: 'Los talleres son seleccionados a través de una llamada abierta para todos Fabber (Fab Lab Network), Maker (Red Maker), Hacker (Hacke Space Network), o el público en general que está interesado en hacer cosas durante los días de la conferencia. Por otro lado, los Grupos de Trabajo son una fusión de temas de la misma línea de ideas que crean un ambiente para crear en los retos para la red y el mundo. Las solicitudes son revisadas por expertos en fabricación digital. Los talleres seleccionados y la fusión de temas para un Grupo de Trabajo se anuncian un mes antes del inicio del evento.'
+  url: 
   placement: right
-
+- name: Selección de Voluntarios
+  short: 'Los voluntarios son seleccionados a través de una llamada abierta para todos los que estén interesados en ayudar durante los días del evento. Los voluntarios pueden ser parte del equipo de pre-producción o en el sitio. Es una manera de pagar su entrada al evento con algún trabajo.'
+  url: 
+  placement: right
