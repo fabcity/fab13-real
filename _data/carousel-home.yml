@@ -1,7 +1,7 @@
 cover: mountain.svg
 fallback: mountain.png
 imgs:
-  - file: conf.jpg
+  - file: conf1.jpg
     url: '/#venues'
   - file: tom1.png
     url: '/#venues'
